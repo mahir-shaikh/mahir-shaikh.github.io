@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<workbook>
+<r n="exportParamOptimize" s="global" ts="Control" ta="$C$3"></r>
+<r n="xxGENxx.AddSlot" s="global" ts="tx_General" ta="$C$120"></r>
+<r n="xxGENxx.AssortementAnalysis" s="global" ts="tx_General" ta="$C$102"></r>
+<r n="xxGENxx.AssortementReportChartTitle1" s="global" ts="tx_General" ta="$C$234"></r>
+<r n="xxGENxx.AssortementReportChartTitle2" s="global" ts="tx_General" ta="$C$235"></r>
+<r n="xxGENxx.AssortmentPriceVolume" s="global" ts="tx_General" ta="$C$238"></r>
+<r n="xxGENxx.Available" s="global" ts="tx_General" ta="$C$156"></r>
+<r n="xxGENxx.AvgPromotionPrice" s="global" ts="tx_General" ta="$C$117"></r>
+<r n="xxGENxx.AvgSellingPrice" s="global" ts="tx_General" ta="$C$118"></r>
+<r n="xxGENxx.BrandMarketing" s="global" ts="tx_General" ta="$C$183"></r>
+<r n="xxGENxx.BrandMix" s="global" ts="tx_General" ta="$C$257"></r>
+<r n="xxGENxx.BTSMeny" s="global" ts="tx_General" ta="$C$201"></r>
+<r n="xxGENxx.BuyReport" s="global" ts="tx_General" ta="$C$103"></r>
+<r n="xxGENxx.BuyReportConfirmMessage" s="global" ts="tx_General" ta="$C$261"></r>
+<r n="xxGENxx.BuyReportConfirmMsg" s="global" ts="tx_General" ta="$C$197"></r>
+<r n="xxGENxx.CelebratingFun" s="global" ts="tx_General" ta="$C$207"></r>
+<r n="xxGENxx.Ch1" s="global" ts="tx_General" ta="$C$13"></r>
+<r n="xxGENxx.Ch2" s="global" ts="tx_General" ta="$C$14"></r>
+<r n="xxGENxx.Ch3" s="global" ts="tx_General" ta="$C$15"></r>
+<r n="xxGENxx.Ch4" s="global" ts="tx_General" ta="$C$16"></r>
+<r n="xxGENxx.ChannelMix" s="global" ts="tx_General" ta="$C$258"></r>
+<r n="xxGENxx.ChannelSubtitle" s="global" ts="tx_General" ta="$C$139"></r>
+<r n="xxGENxx.Cogs" s="global" ts="tx_General" ta="$C$140"></r>
+<r n="xxGENxx.Company" s="global" ts="tx_General" ta="$C$174"></r>
+<r n="xxGENxx.Conditionality" s="global" ts="tx_General" ta="$C$135"></r>
+<r n="xxGENxx.ConditionalTradeInv" s="global" ts="tx_General" ta="$C$157"></r>
+<r n="xxGENxx.ConfirmMessage" s="global" ts="tx_General" ta="$C$262"></r>
+<r n="xxGENxx.ConnectingBonding" s="global" ts="tx_General" ta="$C$209"></r>
+<r n="xxGENxx.Continue" s="global" ts="tx_General" ta="$C$278"></r>
+<r n="xxGENxx.CoolSpace" s="global" ts="tx_General" ta="$C$133"></r>
+<r n="xxGENxx.CorporateDecisions" s="global" ts="tx_General" ta="$C$141"></r>
+<r n="xxGENxx.CostOfGoodsSold" s="global" ts="tx_General" ta="$C$177"></r>
+<r n="xxGENxx.CP" s="global" ts="tx_General" ta="$C$161"></r>
+<r n="xxGENxx.CPMillion" s="global" ts="tx_General" ta="$C$243"></r>
+<r n="xxGENxx.CustomerMargin" s="global" ts="tx_General" ta="$C$111"></r>
+<r n="xxGENxx.CustomerPrice" s="global" ts="tx_General" ta="$C$110"></r>
+<r n="xxGENxx.CustomerProfit" s="global" ts="tx_General" ta="$C$99"></r>
+<r n="xxGENxx.CustomerProfitReport" s="global" ts="tx_General" ta="$C$170"></r>
+<r n="xxGENxx.CustomerReport" s="global" ts="tx_General" ta="$C$251"></r>
+<r n="xxGENxx.CustomerUplift" s="global" ts="tx_General" ta="$C$239"></r>
+<r n="xxGENxx.DashboardChannel1" s="global" ts="tx_General" ta="$C$162"></r>
+<r n="xxGENxx.DashboardChannel2" s="global" ts="tx_General" ta="$C$164"></r>
+<r n="xxGENxx.DashboardChannel3" s="global" ts="tx_General" ta="$C$165"></r>
+<r n="xxGENxx.DashboardChannel4" s="global" ts="tx_General" ta="$C$159"></r>
+<r n="xxGENxx.DecisionSummary" s="global" ts="tx_General" ta="$C$270"></r>
+<r n="xxGENxx.Depriciation" s="global" ts="tx_General" ta="$C$181"></r>
+<r n="xxGENxx.Discounts" s="global" ts="tx_General" ta="$C$91"></r>
+<r n="xxGENxx.Distribution" s="global" ts="tx_General" ta="$C$130"></r>
+<r n="xxGENxx.Ebit" s="global" ts="tx_General" ta="$C$160"></r>
+<r n="xxGENxx.EbitMillion" s="global" ts="tx_General" ta="$C$248"></r>
+<r n="xxGENxx.EBT" s="global" ts="tx_General" ta="$C$188"></r>
+<r n="xxGENxx.EnterPassword" s="global" ts="tx_General" ta="$C$282"></r>
+<r n="xxGENxx.Excise" s="global" ts="tx_General" ta="$C$89"></r>
+<r n="xxGENxx.Exit" s="global" ts="tx_General" ta="$C$204"></r>
+<r n="xxGENxx.ExitConfirmationMsg" s="global" ts="tx_General" ta="$C$273"></r>
+<r n="xxGENxx.ExitMsg" s="global" ts="tx_General" ta="$C$272"></r>
+<r n="xxGENxx.ExpectedPriceRange" s="global" ts="tx_General" ta="$C$196"></r>
+<r n="xxGENxx.ExpectedPromotionShare" s="global" ts="tx_General" ta="$C$115"></r>
+<r n="xxGENxx.Expense" s="global" ts="tx_General" ta="$C$107"></r>
+<r n="xxGENxx.Export" s="global" ts="tx_General" ta="$C$202"></r>
+<r n="xxGENxx.FinancialNet" s="global" ts="tx_General" ta="$C$187"></r>
+<r n="xxGENxx.FloorSpace" s="global" ts="tx_General" ta="$C$132"></r>
+<r n="xxGENxx.ForcastedShare" s="global" ts="tx_General" ta="$C$127"></r>
+<r n="xxGENxx.ForecastedGPal" s="global" ts="tx_General" ta="$C$259"></r>
+<r n="xxGENxx.Forecasting" s="global" ts="tx_General" ta="$C$122"></r>
+<r n="xxGENxx.Gbc" s="global" ts="tx_General" ta="$C$195"></r>
+<r n="xxGENxx.Gcc" s="global" ts="tx_General" ta="$C$163"></r>
+<r n="xxGENxx.GccMillion" s="global" ts="tx_General" ta="$C$241"></r>
+<r n="xxGENxx.GeneralAdministration" s="global" ts="tx_General" ta="$C$185"></r>
+<r n="xxGENxx.Gpal" s="global" ts="tx_General" ta="$C$96"></r>
+<r n="xxGENxx.GpalMillion" s="global" ts="tx_General" ta="$C$242"></r>
+<r n="xxGENxx.GPalperBrand" s="global" ts="tx_General" ta="$C$232"></r>
+<r n="xxGENxx.GpalPerc" s="global" ts="tx_General" ta="$C$194"></r>
+<r n="xxGENxx.GpalUplift" s="global" ts="tx_General" ta="$C$279"></r>
+<r n="xxGENxx.GrossMargin" s="global" ts="tx_General" ta="$C$193"></r>
+<r n="xxGENxx.GrossProfit" s="global" ts="tx_General" ta="$C$94"></r>
+<r n="xxGENxx.GrossSales" s="global" ts="tx_General" ta="$C$90"></r>
+<r n="xxGENxx.ID" s="global" ts="tx_General" ta="$C$2"></r>
+<r n="xxGENxx.Import" s="global" ts="tx_General" ta="$C$203"></r>
+<r n="xxGENxx.ImportSuccessConfirmMessage" s="global" ts="tx_General" ta="$C$277"></r>
+<r n="xxGENxx.IncomeStatement" s="global" ts="tx_General" ta="$C$173"></r>
+<r n="xxGENxx.IncomeStatementBrand" s="global" ts="tx_General" ta="$C$250"></r>
+<r n="xxGENxx.IncomeStatementBrands" s="global" ts="tx_General" ta="$C$191"></r>
+<r n="xxGENxx.IncomeStatementChannel" s="global" ts="tx_General" ta="$C$249"></r>
+<r n="xxGENxx.IncomeStatementChannels" s="global" ts="tx_General" ta="$C$192"></r>
+<r n="xxGENxx.IncorrectPasswordMsg" s="global" ts="tx_General" ta="$C$283"></r>
+<r n="xxGENxx.Initiative1" s="global" ts="tx_General" ta="$C$151"></r>
+<r n="xxGENxx.Initiative2" s="global" ts="tx_General" ta="$C$152"></r>
+<r n="xxGENxx.Initiative3" s="global" ts="tx_General" ta="$C$153"></r>
+<r n="xxGENxx.InMillion" s="global" ts="tx_General" ta="$C$269"></r>
+<r n="xxGENxx.InThousands" s="global" ts="tx_General" ta="$C$284"></r>
+<r n="xxGENxx.InvestementLevel" s="global" ts="tx_General" ta="$C$136"></r>
+<r n="xxGENxx.Labor" s="global" ts="tx_General" ta="$C$179"></r>
+<r n="xxGENxx.LastYearsGPaL" s="global" ts="tx_General" ta="$C$254"></r>
+<r n="xxGENxx.Level1" s="global" ts="tx_General" ta="$C$71"></r>
+<r n="xxGENxx.Level2" s="global" ts="tx_General" ta="$C$72"></r>
+<r n="xxGENxx.Level3" s="global" ts="tx_General" ta="$C$73"></r>
+<r n="xxGENxx.Level4" s="global" ts="tx_General" ta="$C$74"></r>
+<r n="xxGENxx.Level5" s="global" ts="tx_General" ta="$C$75"></r>
+<r n="xxGENxx.Logistics" s="global" ts="tx_General" ta="$C$95"></r>
+<r n="xxGENxx.Machinery" s="global" ts="tx_General" ta="$C$180"></r>
+<r n="xxGENxx.Mainstream" s="global" ts="tx_General" ta="$C$123"></r>
+<r n="xxGENxx.MakingStatement" s="global" ts="tx_General" ta="$C$206"></r>
+<r n="xxGENxx.MarketDemand" s="global" ts="tx_General" ta="$C$126"></r>
+<r n="xxGENxx.MarketReportHeading" s="global" ts="tx_General" ta="$C$260"></r>
+<r n="xxGENxx.MarketResearch" s="global" ts="tx_General" ta="$C$253"></r>
+<r n="xxGENxx.Materials" s="global" ts="tx_General" ta="$C$178"></r>
+<r n="xxGENxx.MtuAllocation" s="global" ts="tx_General" ta="$C$143"></r>
+<r n="xxGENxx.MTUAvailable" s="global" ts="tx_General" ta="$C$167"></r>
+<r n="xxGENxx.MtuRequired" s="global" ts="tx_General" ta="$C$106"></r>
+<r n="xxGENxx.Name" s="global" ts="tx_General" ta="$C$150"></r>
+<r n="xxGENxx.NetIncome" s="global" ts="tx_General" ta="$C$190"></r>
+<r n="xxGENxx.NetSales" s="global" ts="tx_General" ta="$C$92"></r>
+<r n="xxGENxx.NewSlots" s="global" ts="tx_General" ta="$C$252"></r>
+<r n="xxGENxx.No" s="global" ts="tx_General" ta="$C$199"></r>
+<r n="xxGENxx.Number" s="global" ts="tx_General" ta="$C$149"></r>
+<r n="xxGENxx.NumberOfWeeks" s="global" ts="tx_General" ta="$C$114"></r>
+<r n="xxGENxx.OnTradeRev" s="global" ts="tx_General" ta="$C$166"></r>
+<r n="xxGENxx.OurShare" s="global" ts="tx_General" ta="$C$211"></r>
+<r n="xxGENxx.Overhead" s="global" ts="tx_General" ta="$C$182"></r>
+<r n="xxGENxx.Pack" s="global" ts="tx_General" ta="$C$109"></r>
+<r n="xxGENxx.Pack0" s="global" ts="tx_General" ta="$C$17"></r>
+<r n="xxGENxx.Pack1" s="global" ts="tx_General" ta="$C$18"></r>
+<r n="xxGENxx.Pack10" s="global" ts="tx_General" ta="$C$27"></r>
+<r n="xxGENxx.Pack11" s="global" ts="tx_General" ta="$C$28"></r>
+<r n="xxGENxx.Pack12" s="global" ts="tx_General" ta="$C$29"></r>
+<r n="xxGENxx.Pack13" s="global" ts="tx_General" ta="$C$30"></r>
+<r n="xxGENxx.Pack14" s="global" ts="tx_General" ta="$C$31"></r>
+<r n="xxGENxx.Pack15" s="global" ts="tx_General" ta="$C$32"></r>
+<r n="xxGENxx.Pack16" s="global" ts="tx_General" ta="$C$33"></r>
+<r n="xxGENxx.Pack17" s="global" ts="tx_General" ta="$C$34"></r>
+<r n="xxGENxx.Pack18" s="global" ts="tx_General" ta="$C$35"></r>
+<r n="xxGENxx.Pack19" s="global" ts="tx_General" ta="$C$36"></r>
+<r n="xxGENxx.Pack2" s="global" ts="tx_General" ta="$C$19"></r>
+<r n="xxGENxx.Pack20" s="global" ts="tx_General" ta="$C$37"></r>
+<r n="xxGENxx.Pack21" s="global" ts="tx_General" ta="$C$38"></r>
+<r n="xxGENxx.Pack22" s="global" ts="tx_General" ta="$C$39"></r>
+<r n="xxGENxx.Pack23" s="global" ts="tx_General" ta="$C$40"></r>
+<r n="xxGENxx.Pack24" s="global" ts="tx_General" ta="$C$41"></r>
+<r n="xxGENxx.Pack25" s="global" ts="tx_General" ta="$C$42"></r>
+<r n="xxGENxx.Pack3" s="global" ts="tx_General" ta="$C$20"></r>
+<r n="xxGENxx.Pack4" s="global" ts="tx_General" ta="$C$21"></r>
+<r n="xxGENxx.Pack5" s="global" ts="tx_General" ta="$C$22"></r>
+<r n="xxGENxx.Pack6" s="global" ts="tx_General" ta="$C$23"></r>
+<r n="xxGENxx.Pack7" s="global" ts="tx_General" ta="$C$24"></r>
+<r n="xxGENxx.Pack8" s="global" ts="tx_General" ta="$C$25"></r>
+<r n="xxGENxx.Pack9" s="global" ts="tx_General" ta="$C$26"></r>
+<r n="xxGENxx.PackageInnovation" s="global" ts="tx_General" ta="$C$142"></r>
+<r n="xxGENxx.PercNetSales" s="global" ts="tx_General" ta="$C$175"></r>
+<r n="xxGENxx.PerLitre" s="global" ts="tx_General" ta="$C$87"></r>
+<r n="xxGENxx.Plan0" s="global" ts="tx_General" ta="$C$62"></r>
+<r n="xxGENxx.Plan1" s="global" ts="tx_General" ta="$C$63"></r>
+<r n="xxGENxx.Plan2" s="global" ts="tx_General" ta="$C$64"></r>
+<r n="xxGENxx.Plan3" s="global" ts="tx_General" ta="$C$65"></r>
+<r n="xxGENxx.Plan4" s="global" ts="tx_General" ta="$C$66"></r>
+<r n="xxGENxx.Plan5" s="global" ts="tx_General" ta="$C$67"></r>
+<r n="xxGENxx.Plan6" s="global" ts="tx_General" ta="$C$68"></r>
+<r n="xxGENxx.Plan7" s="global" ts="tx_General" ta="$C$69"></r>
+<r n="xxGENxx.Plan8" s="global" ts="tx_General" ta="$C$70"></r>
+<r n="xxGENxx.Premium" s="global" ts="tx_General" ta="$C$124"></r>
+<r n="xxGENxx.PrevInitiatives" s="global" ts="tx_General" ta="$C$145"></r>
+<r n="xxGENxx.Price" s="global" ts="tx_General" ta="$C$256"></r>
+<r n="xxGENxx.PricePerLiter" s="global" ts="tx_General" ta="$C$236"></r>
+<r n="xxGENxx.Prod1" s="global" ts="tx_General" ta="$C$9"></r>
+<r n="xxGENxx.Prod1Million" s="global" ts="tx_General" ta="$C$244"></r>
+<r n="xxGENxx.Prod2" s="global" ts="tx_General" ta="$C$10"></r>
+<r n="xxGENxx.Prod2Million" s="global" ts="tx_General" ta="$C$245"></r>
+<r n="xxGENxx.Prod3" s="global" ts="tx_General" ta="$C$11"></r>
+<r n="xxGENxx.Prod3Million" s="global" ts="tx_General" ta="$C$246"></r>
+<r n="xxGENxx.Prod4" s="global" ts="tx_General" ta="$C$12"></r>
+<r n="xxGENxx.Prod4Million" s="global" ts="tx_General" ta="$C$247"></r>
+<r n="xxGENxx.ProgramSubtitle" s="global" ts="tx_General" ta="$C$5"></r>
+<r n="xxGENxx.ProgramTitle" s="global" ts="tx_General" ta="$C$4"></r>
+<r n="xxGENxx.Project0" s="global" ts="tx_General" ta="$C$43"></r>
+<r n="xxGENxx.Project1" s="global" ts="tx_General" ta="$C$44"></r>
+<r n="xxGENxx.Project10" s="global" ts="tx_General" ta="$C$53"></r>
+<r n="xxGENxx.Project11" s="global" ts="tx_General" ta="$C$54"></r>
+<r n="xxGENxx.Project12" s="global" ts="tx_General" ta="$C$55"></r>
+<r n="xxGENxx.Project13" s="global" ts="tx_General" ta="$C$56"></r>
+<r n="xxGENxx.Project14" s="global" ts="tx_General" ta="$C$57"></r>
+<r n="xxGENxx.Project15" s="global" ts="tx_General" ta="$C$58"></r>
+<r n="xxGENxx.Project16" s="global" ts="tx_General" ta="$C$59"></r>
+<r n="xxGENxx.Project17" s="global" ts="tx_General" ta="$C$60"></r>
+<r n="xxGENxx.Project18" s="global" ts="tx_General" ta="$C$61"></r>
+<r n="xxGENxx.Project2" s="global" ts="tx_General" ta="$C$45"></r>
+<r n="xxGENxx.Project3" s="global" ts="tx_General" ta="$C$46"></r>
+<r n="xxGENxx.Project4" s="global" ts="tx_General" ta="$C$47"></r>
+<r n="xxGENxx.Project5" s="global" ts="tx_General" ta="$C$48"></r>
+<r n="xxGENxx.Project6" s="global" ts="tx_General" ta="$C$49"></r>
+<r n="xxGENxx.Project7" s="global" ts="tx_General" ta="$C$50"></r>
+<r n="xxGENxx.Project8" s="global" ts="tx_General" ta="$C$51"></r>
+<r n="xxGENxx.Project9" s="global" ts="tx_General" ta="$C$52"></r>
+<r n="xxGENxx.Promotion0" s="global" ts="tx_General" ta="$C$76"></r>
+<r n="xxGENxx.Promotion1" s="global" ts="tx_General" ta="$C$77"></r>
+<r n="xxGENxx.Promotion1Type" s="global" ts="tx_General" ta="$C$113"></r>
+<r n="xxGENxx.Promotion2" s="global" ts="tx_General" ta="$C$78"></r>
+<r n="xxGENxx.Promotion2Type" s="global" ts="tx_General" ta="$C$116"></r>
+<r n="xxGENxx.Promotion3" s="global" ts="tx_General" ta="$C$79"></r>
+<r n="xxGENxx.Promotion4" s="global" ts="tx_General" ta="$C$80"></r>
+<r n="xxGENxx.Promotion5" s="global" ts="tx_General" ta="$C$81"></r>
+<r n="xxGENxx.PromotionAvailable" s="global" ts="tx_General" ta="$C$169"></r>
+<r n="xxGENxx.PromotionEfficiency" s="global" ts="tx_General" ta="$C$271"></r>
+<r n="xxGENxx.PromotionPlan" s="global" ts="tx_General" ta="$C$119"></r>
+<r n="xxGENxx.Promotions" s="global" ts="tx_General" ta="$C$154"></r>
+<r n="xxGENxx.PromotionsAnalysis" s="global" ts="tx_General" ta="$C$105"></r>
+<r n="xxGENxx.PromotionShare" s="global" ts="tx_General" ta="$C$237"></r>
+<r n="xxGENxx.ReadReport" s="global" ts="tx_General" ta="$C$104"></r>
+<r n="xxGENxx.Region" s="global" ts="tx_General" ta="$C$205"></r>
+<r n="xxGENxx.RelaxUnwind" s="global" ts="tx_General" ta="$C$208"></r>
+<r n="xxGENxx.RemoveSlot" s="global" ts="tx_General" ta="$C$121"></r>
+<r n="xxGENxx.Report1" s="global" ts="tx_General" ta="$C$263"></r>
+<r n="xxGENxx.Report2" s="global" ts="tx_General" ta="$C$264"></r>
+<r n="xxGENxx.Report3" s="global" ts="tx_General" ta="$C$265"></r>
+<r n="xxGENxx.Report4" s="global" ts="tx_General" ta="$C$266"></r>
+<r n="xxGENxx.Report5" s="global" ts="tx_General" ta="$C$267"></r>
+<r n="xxGENxx.Report6" s="global" ts="tx_General" ta="$C$268"></r>
+<r n="xxGENxx.Reports" s="global" ts="tx_General" ta="$C$101"></r>
+<r n="xxGENxx.ResearchDevelopment" s="global" ts="tx_General" ta="$C$184"></r>
+<r n="xxGENxx.ResetConfirmationMsg" s="global" ts="tx_General" ta="$C$275"></r>
+<r n="xxGENxx.ResetMsg" s="global" ts="tx_General" ta="$C$274"></r>
+<r n="xxGENxx.ResetPassword" s="global" ts="tx_General" ta="$C$281"></r>
+<r n="xxGENxx.Rev" s="global" ts="tx_General" ta="$C$200"></r>
+<r n="xxGENxx.RevMillion" s="global" ts="tx_General" ta="$C$240"></r>
+<r n="xxGENxx.Round" s="global" ts="tx_General" ta="$C$8"></r>
+<r n="xxGENxx.Sales" s="global" ts="tx_General" ta="$C$176"></r>
+<r n="xxGENxx.SalesForecast" s="global" ts="tx_General" ta="$C$108"></r>
+<r n="xxGENxx.selectPlan" s="global" ts="tx_General" ta="$C$138"></r>
+<r n="xxGENxx.ShelfPrice" s="global" ts="tx_General" ta="$C$112"></r>
+<r n="xxGENxx.ShelfSpace" s="global" ts="tx_General" ta="$C$131"></r>
+<r n="xxGENxx.SkuDecision" s="global" ts="tx_General" ta="$C$85"></r>
+<r n="xxGENxx.Slot1" s="global" ts="tx_General" ta="$C$82"></r>
+<r n="xxGENxx.Slot2" s="global" ts="tx_General" ta="$C$83"></r>
+<r n="xxGENxx.Slot3" s="global" ts="tx_General" ta="$C$84"></r>
+<r n="xxGENxx.SLotsAvailable" s="global" ts="tx_General" ta="$C$168"></r>
+<r n="xxGENxx.StratergicInnitiatives" s="global" ts="tx_General" ta="$C$144"></r>
+<r n="xxGENxx.Success" s="global" ts="tx_General" ta="$C$276"></r>
+<r n="xxGENxx.SuperPremium" s="global" ts="tx_General" ta="$C$125"></r>
+<r n="xxGENxx.Taxes" s="global" ts="tx_General" ta="$C$189"></r>
+<r n="xxGENxx.TeamName" s="global" ts="tx_General" ta="$C$6"></r>
+<r n="xxGENxx.TeamNumber" s="global" ts="tx_General" ta="$C$7"></r>
+<r n="xxGENxx.Title" s="global" ts="tx_General" ta="$C$3"></r>
+<r n="xxGENxx.ToolTipAddSlot" s="global" ts="tx_General" ta="$C$230"></r>
+<r n="xxGENxx.ToolTipAssortementAnalysis" s="global" ts="tx_General" ta="$C$222"></r>
+<r n="xxGENxx.ToolTipAveragePromotionPrice" s="global" ts="tx_General" ta="$C$286"></r>
+<r n="xxGENxx.ToolTipAverageSellingPrice" s="global" ts="tx_General" ta="$C$287"></r>
+<r n="xxGENxx.ToolTipConditionality" s="global" ts="tx_General" ta="$C$220"></r>
+<r n="xxGENxx.ToolTipCoolSpace" s="global" ts="tx_General" ta="$C$218"></r>
+<r n="xxGENxx.ToolTipCustomerPrice" s="global" ts="tx_General" ta="$C$226"></r>
+<r n="xxGENxx.ToolTipDistribution" s="global" ts="tx_General" ta="$C$215"></r>
+<r n="xxGENxx.ToolTipExpectedPromotionShare" s="global" ts="tx_General" ta="$C$229"></r>
+<r n="xxGENxx.ToolTipFloorSpace" s="global" ts="tx_General" ta="$C$217"></r>
+<r n="xxGENxx.ToolTipForcastedShare" s="global" ts="tx_General" ta="$C$214"></r>
+<r n="xxGENxx.ToolTipNumberOfWeeks" s="global" ts="tx_General" ta="$C$228"></r>
+<r n="xxGENxx.ToolTipPack" s="global" ts="tx_General" ta="$C$225"></r>
+<r n="xxGENxx.ToolTipPackageInnovation" s="global" ts="tx_General" ta="$C$212"></r>
+<r n="xxGENxx.ToolTipPromotionsAnalysis" s="global" ts="tx_General" ta="$C$223"></r>
+<r n="xxGENxx.ToolTipPromotionType" s="global" ts="tx_General" ta="$C$227"></r>
+<r n="xxGENxx.ToolTipRemoveSlot" s="global" ts="tx_General" ta="$C$231"></r>
+<r n="xxGENxx.ToolTipSalesForecast" s="global" ts="tx_General" ta="$C$224"></r>
+<r n="xxGENxx.ToolTipShelfSpace" s="global" ts="tx_General" ta="$C$216"></r>
+<r n="xxGENxx.ToolTipStratergicInnitiatives" s="global" ts="tx_General" ta="$C$213"></r>
+<r n="xxGENxx.ToolTipTradeMarketingPlan" s="global" ts="tx_General" ta="$C$221"></r>
+<r n="xxGENxx.ToolTipVisibility" s="global" ts="tx_General" ta="$C$219"></r>
+<r n="xxGENxx.Total" s="global" ts="tx_General" ta="$C$86"></r>
+<r n="xxGENxx.TotalCogs" s="global" ts="tx_General" ta="$C$93"></r>
+<r n="xxGENxx.TotalCustomerProfit" s="global" ts="tx_General" ta="$C$172"></r>
+<r n="xxGENxx.TotalOverhead" s="global" ts="tx_General" ta="$C$186"></r>
+<r n="xxGENxx.TotalSize" s="global" ts="tx_General" ta="$C$210"></r>
+<r n="xxGENxx.TradeInvestments" s="global" ts="tx_General" ta="$C$171"></r>
+<r n="xxGENxx.TradeMarketing" s="global" ts="tx_General" ta="$C$155"></r>
+<r n="xxGENxx.TradeMarketingPlan" s="global" ts="tx_General" ta="$C$137"></r>
+<r n="xxGENxx.TradeTermsConditionality" s="global" ts="tx_General" ta="$C$233"></r>
+<r n="xxGENxx.Turnover" s="global" ts="tx_General" ta="$C$88"></r>
+<r n="xxGENxx.UnconditionalTradeInv" s="global" ts="tx_General" ta="$C$158"></r>
+<r n="xxGENxx.UnitsSold" s="global" ts="tx_General" ta="$C$98"></r>
+<r n="xxGENxx.ValueDrivers" s="global" ts="tx_General" ta="$C$129"></r>
+<r n="xxGENxx.ValuesInThousand" s="global" ts="tx_General" ta="$C$285"></r>
+<r n="xxGENxx.Visibility" s="global" ts="tx_General" ta="$C$134"></r>
+<r n="xxGENxx.Volume" s="global" ts="tx_General" ta="$C$255"></r>
+<r n="xxGENxx.VolumeForecast" s="global" ts="tx_General" ta="$C$128"></r>
+<r n="xxGENxx.VolumeSold" s="global" ts="tx_General" ta="$C$97"></r>
+<r n="xxGENxx.VolumeUplift" s="global" ts="tx_General" ta="$C$280"></r>
+<r n="xxGENxx.WeightedDistribution" s="global" ts="tx_General" ta="$C$100"></r>
+<r n="xxGENxx.Year1" s="global" ts="tx_General" ta="$C$146"></r>
+<r n="xxGENxx.Year2" s="global" ts="tx_General" ta="$C$147"></r>
+<r n="xxGENxx.Year3" s="global" ts="tx_General" ta="$C$148"></r>
+<r n="xxGENxx.Yes" s="global" ts="tx_General" ta="$C$198"></r>
+<r n="xxSim0Tool1" s="global" ts="Control" ta="$C$2"></r>
+<c f="Add Slot" a="$C$120" r="120" c="3" w="tx_General" v="Add Slot" fmt="General">
+</c>
+<c f="VM Assortment Analysis" a="$C$102" r="102" c="3" w="tx_General" v="VM Assortment Analysis" fmt="General">
+</c>
+<c f="Assortment - GPaL ROS vs WD" a="$C$234" r="234" c="3" w="tx_General" v="Assortment - GPaL ROS vs WD" fmt="General">
+</c>
+<c f="Assortment - Price/Volume" a="$C$235" r="235" c="3" w="tx_General" v="Assortment - Price/Volume" fmt="General">
+</c>
+<c f="Assortment Price/Volume" a="$C$238" r="238" c="3" w="tx_General" v="Assortment Price/Volume" fmt="General">
+</c>
+<c f="Available" a="$C$156" r="156" c="3" w="tx_General" v="Available" fmt="General">
+</c>
+<c f="Average Promotion Price" a="$C$117" r="117" c="3" w="tx_General" v="Average Promotion Price" fmt="General">
+</c>
+<c f="Average Selling Price" a="$C$118" r="118" c="3" w="tx_General" v="Average Selling Price" fmt="General">
+</c>
+<c f="Brand Marketing" a="$C$183" r="183" c="3" w="tx_General" v="Brand Marketing" fmt="General">
+</c>
+<c f="Brand Mix" a="$C$257" r="257" c="3" w="tx_General" v="Brand Mix" fmt="General">
+</c>
+<c f="BTS Menu" a="$C$201" r="201" c="3" w="tx_General" v="BTS Menu" fmt="General">
+</c>
+<c f="Buy Report" a="$C$103" r="103" c="3" w="tx_General" v="Buy Report" fmt="General">
+</c>
+<c f="If once checked csn&apos;t be unchecked." a="$C$261" r="261" c="3" w="tx_General" v="If once checked csn&apos;t be unchecked." fmt="General">
+</c>
+<c f="Are you sure you want to buy this Report? You can&apos;t undo this decision" a="$C$197" r="197" c="3" w="tx_General" v="Are you sure you want to buy this Report? You can&apos;t undo this decision" fmt="General">
+</c>
+<c f="Celebrating &amp; Fun" a="$C$207" r="207" c="3" w="tx_General" v="Celebrating &amp; Fun" fmt="General">
+</c>
+<c f="Hypermarkets" a="$C$13" r="13" c="3" w="tx_General" v="Hypermarkets" fmt="General">
+</c>
+<c f="Discounters" a="$C$14" r="14" c="3" w="tx_General" v="Discounters" fmt="General">
+</c>
+<c f="Convenience" a="$C$15" r="15" c="3" w="tx_General" v="Convenience" fmt="General">
+</c>
+<c f="On-Trade" a="$C$16" r="16" c="3" w="tx_General" v="On-Trade" fmt="General">
+</c>
+<c f="Channel Mix" a="$C$258" r="258" c="3" w="tx_General" v="Channel Mix" fmt="General">
+</c>
+<c f="Forecasting &amp; Trade Terms" a="$C$139" r="139" c="3" w="tx_General" v="Forecasting &amp; Trade Terms" fmt="General">
+</c>
+<c f="COGS" a="$C$140" r="140" c="3" w="tx_General" v="COGS" fmt="General">
+</c>
+<c f="Company" a="$C$174" r="174" c="3" w="tx_General" v="Company" fmt="General">
+</c>
+<c f="Conditionality" a="$C$135" r="135" c="3" w="tx_General" v="Conditionality" fmt="General">
+</c>
+<c f="Conditional Trade Inv." a="$C$157" r="157" c="3" w="tx_General" v="Conditional Trade Inv." fmt="General">
+</c>
+<c f="Are you sure you want to buy this Report? You can&apos;t undo this decision." a="$C$262" r="262" c="3" w="tx_General" v="Are you sure you want to buy this Report? You can&apos;t undo this decision." fmt="General">
+</c>
+<c f="Connecting &amp; Bonding" a="$C$209" r="209" c="3" w="tx_General" v="Connecting &amp; Bonding" fmt="General">
+</c>
+<c f="Continue" a="$C$278" r="278" c="3" w="tx_General" v="Continue" fmt="General">
+</c>
+<c f="Cool Space" a="$C$133" r="133" c="3" w="tx_General" v="Cool Space" fmt="General">
+</c>
+<c f="Corporate Decisions" a="$C$141" r="141" c="3" w="tx_General" v="Corporate Decisions" fmt="General">
+</c>
+<c f="Cost of Goods Sold" a="$C$177" r="177" c="3" w="tx_General" v="Cost of Goods Sold" fmt="General">
+</c>
+<c f="CP" a="$C$161" r="161" c="3" w="tx_General" v="CP" fmt="General">
+</c>
+<c f="CP :" a="$C$243" r="243" c="3" w="tx_General" v="CP :" fmt="General">
+</c>
+<c f="Customer Margin" a="$C$111" r="111" c="3" w="tx_General" v="Customer Margin" fmt="General">
+</c>
+<c f="Customer Price" a="$C$110" r="110" c="3" w="tx_General" v="Customer Price" fmt="General">
+</c>
+<c f="Customer Profit" a="$C$99" r="99" c="3" w="tx_General" v="Customer Profit" fmt="General">
+</c>
+<c f="Customer Profit Report" a="$C$170" r="170" c="3" w="tx_General" v="Customer Profit Report" fmt="General">
+</c>
+<c f="Customer Report" a="$C$251" r="251" c="3" w="tx_General" v="Customer Report" fmt="General">
+</c>
+<c f="Customer Uplift" a="$C$239" r="239" c="3" w="tx_General" v="Customer Uplift" fmt="General">
+</c>
+<c f="Hypermarket" a="$C$162" r="162" c="3" w="tx_General" v="Hypermarket" fmt="General">
+</c>
+<c f="Discounters" a="$C$164" r="164" c="3" w="tx_General" v="Discounters" fmt="General">
+</c>
+<c f="Convenience" a="$C$165" r="165" c="3" w="tx_General" v="Convenience" fmt="General">
+</c>
+<c f="On-Trade" a="$C$159" r="159" c="3" w="tx_General" v="On-Trade" fmt="General">
+</c>
+<c f="Decision Summary" a="$C$270" r="270" c="3" w="tx_General" v="Decision Summary" fmt="General">
+</c>
+<c f="Depriciation" a="$C$181" r="181" c="3" w="tx_General" v="Depriciation" fmt="General">
+</c>
+<c f="Discounts" a="$C$91" r="91" c="3" w="tx_General" v="Discounts" fmt="General">
+</c>
+<c f="Distribution" a="$C$130" r="130" c="3" w="tx_General" v="Distribution" fmt="General">
+</c>
+<c f="EBIT" a="$C$160" r="160" c="3" w="tx_General" v="EBIT" fmt="General">
+</c>
+<c f="Ebit :" a="$C$248" r="248" c="3" w="tx_General" v="Ebit :" fmt="General">
+</c>
+<c f="EBT" a="$C$188" r="188" c="3" w="tx_General" v="EBT" fmt="General">
+</c>
+<c f="Enter Password" a="$C$282" r="282" c="3" w="tx_General" v="Enter Password" fmt="General">
+</c>
+<c f="Excise" a="$C$89" r="89" c="3" w="tx_General" v="Excise" fmt="General">
+</c>
+<c f="Exit" a="$C$204" r="204" c="3" w="tx_General" v="Exit" fmt="General">
+</c>
+<c f="Are you sure you want to exit?" a="$C$273" r="273" c="3" w="tx_General" v="Are you sure you want to exit?" fmt="General">
+</c>
+<c f="Exit" a="$C$272" r="272" c="3" w="tx_General" v="Exit" fmt="General">
+</c>
+<c f="Expected Price Range" a="$C$196" r="196" c="3" w="tx_General" v="Expected Price Range" fmt="General">
+</c>
+<c f="Expected Promotion Share" a="$C$115" r="115" c="3" w="tx_General" v="Expected Promotion Share" fmt="General">
+</c>
+<c f="Expense" a="$C$107" r="107" c="3" w="tx_General" v="Expense" fmt="General">
+</c>
+<c f="Export" a="$C$202" r="202" c="3" w="tx_General" v="Export" fmt="General">
+</c>
+<c f="Financial Net" a="$C$187" r="187" c="3" w="tx_General" v="Financial Net" fmt="General">
+</c>
+<c f="Floor Space" a="$C$132" r="132" c="3" w="tx_General" v="Floor Space" fmt="General">
+</c>
+<c f="Forcasted Share" a="$C$127" r="127" c="3" w="tx_General" v="Forcasted Share" fmt="General">
+</c>
+<c f="Forecasted GPal" a="$C$259" r="259" c="3" w="tx_General" v="Forecasted GPal" fmt="General">
+</c>
+<c f="Forecasting" a="$C$122" r="122" c="3" w="tx_General" v="Forecasting" fmt="General">
+</c>
+<c f="GBC" a="$C$195" r="195" c="3" w="tx_General" v="GBC" fmt="General">
+</c>
+<c f="GCC" a="$C$163" r="163" c="3" w="tx_General" v="GCC" fmt="General">
+</c>
+<c f="GCC :" a="$C$241" r="241" c="3" w="tx_General" v="GCC :" fmt="General">
+</c>
+<c f="General and Administration" a="$C$185" r="185" c="3" w="tx_General" v="General and Administration" fmt="General">
+</c>
+<c f="GPaL" a="$C$96" r="96" c="3" w="tx_General" v="GPaL" fmt="General">
+</c>
+<c f="GPaL :" a="$C$242" r="242" c="3" w="tx_General" v="GPaL :" fmt="General">
+</c>
+<c f="GPaL per Brand" a="$C$232" r="232" c="3" w="tx_General" v="GPaL per Brand" fmt="General">
+</c>
+<c f="GPaL %" a="$C$194" r="194" c="3" w="tx_General" v="GPaL %" fmt="General">
+</c>
+<c f="GPaL Uplift" a="$C$279" r="279" c="3" w="tx_General" v="GPaL Uplift" fmt="General">
+</c>
+<c f="Gross Margin" a="$C$193" r="193" c="3" w="tx_General" v="Gross Margin" fmt="General">
+</c>
+<c f="Gross Profit" a="$C$94" r="94" c="3" w="tx_General" v="Gross Profit" fmt="General">
+</c>
+<c f="Gross Sales" a="$C$90" r="90" c="3" w="tx_General" v="Gross Sales" fmt="General">
+</c>
+<c f="GEN" a="$C$2" r="2" c="3" w="tx_General" v="GEN" fmt="General">
+</c>
+<c f="Import" a="$C$203" r="203" c="3" w="tx_General" v="Import" fmt="General">
+</c>
+<c f="Balances have been imported successfully!" a="$C$277" r="277" c="3" w="tx_General" v="Balances have been imported successfully!" fmt="General">
+</c>
+<c f="Income Statement" a="$C$173" r="173" c="3" w="tx_General" v="Income Statement" fmt="General">
+</c>
+<c f="Income Statement - Brands" a="$C$250" r="250" c="3" w="tx_General" v="Income Statement - Brands" fmt="General">
+</c>
+<c f="Income Statement - Brands" a="$C$191" r="191" c="3" w="tx_General" v="Income Statement - Brands" fmt="General">
+</c>
+<c f="Income Statement - Channels" a="$C$249" r="249" c="3" w="tx_General" v="Income Statement - Channels" fmt="General">
+</c>
+<c f="Income Statement - Channels" a="$C$192" r="192" c="3" w="tx_General" v="Income Statement - Channels" fmt="General">
+</c>
+<c f="Incorrect Password.Please try again." a="$C$283" r="283" c="3" w="tx_General" v="Incorrect Password.Please try again." fmt="General">
+</c>
+<c f="Initiative 1" a="$C$151" r="151" c="3" w="tx_General" v="Initiative 1" fmt="General">
+</c>
+<c f="Initiative 2" a="$C$152" r="152" c="3" w="tx_General" v="Initiative 2" fmt="General">
+</c>
+<c f="Initiative 3" a="$C$153" r="153" c="3" w="tx_General" v="Initiative 3" fmt="General">
+</c>
+<c f="(M)" a="$C$269" r="269" c="3" w="tx_General" v="(M)" fmt="General">
+</c>
+<c f="(000s)" a="$C$284" r="284" c="3" w="tx_General" v="(000s)" fmt="General">
+</c>
+<c f="Investment Level" a="$C$136" r="136" c="3" w="tx_General" v="Investment Level" fmt="General">
+</c>
+<c f="Labour" a="$C$179" r="179" c="3" w="tx_General" v="Labour" fmt="General">
+</c>
+<c f="Last years GPaL" a="$C$254" r="254" c="3" w="tx_General" v="Last years GPaL" fmt="General">
+</c>
+<c f="Level 1" a="$C$71" r="71" c="3" w="tx_General" v="Level 1" fmt="General">
+</c>
+<c f="Level 2" a="$C$72" r="72" c="3" w="tx_General" v="Level 2" fmt="General">
+</c>
+<c f="Level 3" a="$C$73" r="73" c="3" w="tx_General" v="Level 3" fmt="General">
+</c>
+<c f="Level 4" a="$C$74" r="74" c="3" w="tx_General" v="Level 4" fmt="General">
+</c>
+<c f="Level 5" a="$C$75" r="75" c="3" w="tx_General" v="Level 5" fmt="General">
+</c>
+<c f="Logistics" a="$C$95" r="95" c="3" w="tx_General" v="Logistics" fmt="General">
+</c>
+<c f="Machinery" a="$C$180" r="180" c="3" w="tx_General" v="Machinery" fmt="General">
+</c>
+<c f="Mainstream" a="$C$123" r="123" c="3" w="tx_General" v="Mainstream" fmt="General">
+</c>
+<c f="Making a Statement" a="$C$206" r="206" c="3" w="tx_General" v="Making a Statement" fmt="General">
+</c>
+<c f="Market Demand (Vol)" a="$C$126" r="126" c="3" w="tx_General" v="Market Demand (Vol)" fmt="General">
+</c>
+<c f="Market Size and Sales Report" a="$C$260" r="260" c="3" w="tx_General" v="Market Size and Sales Report" fmt="General">
+</c>
+<c f="Market Research" a="$C$253" r="253" c="3" w="tx_General" v="Market Research" fmt="General">
+</c>
+<c f="Materials" a="$C$178" r="178" c="3" w="tx_General" v="Materials" fmt="General">
+</c>
+<c f="MTUs Allocation" a="$C$143" r="143" c="3" w="tx_General" v="MTUs Allocation" fmt="General">
+</c>
+<c f="MTUs Available" a="$C$167" r="167" c="3" w="tx_General" v="MTUs Available" fmt="General">
+</c>
+<c f="MTUs Required" a="$C$106" r="106" c="3" w="tx_General" v="MTUs Required" fmt="General">
+</c>
+<c f="Name" a="$C$150" r="150" c="3" w="tx_General" v="Name" fmt="General">
+</c>
+<c f="Net Income" a="$C$190" r="190" c="3" w="tx_General" v="Net Income" fmt="General">
+</c>
+<c f="Net Sales" a="$C$92" r="92" c="3" w="tx_General" v="Net Sales" fmt="General">
+</c>
+<c f="New Slots" a="$C$252" r="252" c="3" w="tx_General" v="New Slots" fmt="General">
+</c>
+<c f="No" a="$C$199" r="199" c="3" w="tx_General" v="No" fmt="General">
+</c>
+<c f="Number" a="$C$149" r="149" c="3" w="tx_General" v="Number" fmt="General">
+</c>
+<c f="Number Of Weeks" a="$C$114" r="114" c="3" w="tx_General" v="Number Of Weeks" fmt="General">
+</c>
+<c f="On-Trade Rev" a="$C$166" r="166" c="3" w="tx_General" v="On-Trade Rev" fmt="General">
+</c>
+<c f="Our Share" a="$C$211" r="211" c="3" w="tx_General" v="Our Share" fmt="General">
+</c>
+<c f="Overhead" a="$C$182" r="182" c="3" w="tx_General" v="Overhead" fmt="General">
+</c>
+<c f="Pack" a="$C$109" r="109" c="3" w="tx_General" v="Pack" fmt="General">
+</c>
+<c f="Select Pack" a="$C$17" r="17" c="3" w="tx_General" v="Select Pack" fmt="General">
+</c>
+<c f="25cl Can" a="$C$18" r="18" c="3" w="tx_General" v="25cl Can" fmt="General">
+</c>
+<c f="25Ltr Keg" a="$C$27" r="27" c="3" w="tx_General" v="25Ltr Keg" fmt="General">
+</c>
+<c f="4 x 33cl Can" a="$C$28" r="28" c="3" w="tx_General" v="4 x 33cl Can" fmt="General">
+</c>
+<c f="6 x 50cl Can" a="$C$29" r="29" c="3" w="tx_General" v="6 x 50cl Can" fmt="General">
+</c>
+<c f="6 x 33cl Can" a="$C$30" r="30" c="3" w="tx_General" v="6 x 33cl Can" fmt="General">
+</c>
+<c f="8 x 25cl Can" a="$C$31" r="31" c="3" w="tx_General" v="8 x 25cl Can" fmt="General">
+</c>
+<c f="10 x 33cl Can" a="$C$32" r="32" c="3" w="tx_General" v="10 x 33cl Can" fmt="General">
+</c>
+<c f="12 x 33cl Can" a="$C$33" r="33" c="3" w="tx_General" v="12 x 33cl Can" fmt="General">
+</c>
+<c f="24 x 33cl Can" a="$C$34" r="34" c="3" w="tx_General" v="24 x 33cl Can" fmt="General">
+</c>
+<c f="6 x 33cl Btl" a="$C$35" r="35" c="3" w="tx_General" v="6 x 33cl Btl" fmt="General">
+</c>
+<c f="24 x 33cl Btl" a="$C$36" r="36" c="3" w="tx_General" v="24 x 33cl Btl" fmt="General">
+</c>
+<c f="33cl Can" a="$C$19" r="19" c="3" w="tx_General" v="33cl Can" fmt="General">
+</c>
+<c f="6 x 50cl Btl" a="$C$37" r="37" c="3" w="tx_General" v="6 x 50cl Btl" fmt="General">
+</c>
+<c f="30 x 50cl Btl" a="$C$38" r="38" c="3" w="tx_General" v="30 x 50cl Btl" fmt="General">
+</c>
+<c f="6 x 66cl Btl" a="$C$39" r="39" c="3" w="tx_General" v="6 x 66cl Btl" fmt="General">
+</c>
+<c f="30 x 66cl Btl" a="$C$40" r="40" c="3" w="tx_General" v="30 x 66cl Btl" fmt="General">
+</c>
+<c f="4 x 50cl PET" a="$C$41" r="41" c="3" w="tx_General" v="4 x 50cl PET" fmt="General">
+</c>
+<c f="4 x 1.5Ltr PET" a="$C$42" r="42" c="3" w="tx_General" v="4 x 1.5Ltr PET" fmt="General">
+</c>
+<c f="50cl Can" a="$C$20" r="20" c="3" w="tx_General" v="50cl Can" fmt="General">
+</c>
+<c f="33cl Btl" a="$C$21" r="21" c="3" w="tx_General" v="33cl Btl" fmt="General">
+</c>
+<c f="50cl Btl" a="$C$22" r="22" c="3" w="tx_General" v="50cl Btl" fmt="General">
+</c>
+<c f="66cl Btl" a="$C$23" r="23" c="3" w="tx_General" v="66cl Btl" fmt="General">
+</c>
+<c f="50cl PET" a="$C$24" r="24" c="3" w="tx_General" v="50cl PET" fmt="General">
+</c>
+<c f="1.5Ltr PET" a="$C$25" r="25" c="3" w="tx_General" v="1.5Ltr PET" fmt="General">
+</c>
+<c f="4Ltr Keg" a="$C$26" r="26" c="3" w="tx_General" v="4Ltr Keg" fmt="General">
+</c>
+<c f="Package Innovation" a="$C$142" r="142" c="3" w="tx_General" v="Package Innovation" fmt="General">
+</c>
+<c f="% of Net Sales" a="$C$175" r="175" c="3" w="tx_General" v="% of Net Sales" fmt="General">
+</c>
+<c f="Per Litre" a="$C$87" r="87" c="3" w="tx_General" v="Per Litre" fmt="General">
+</c>
+<c f="Select Plan" a="$C$62" r="62" c="3" w="tx_General" v="Select Plan" fmt="General">
+</c>
+<c f="Plan 1" a="$C$63" r="63" c="3" w="tx_General" v="Plan 1" fmt="General">
+</c>
+<c f="Plan 2" a="$C$64" r="64" c="3" w="tx_General" v="Plan 2" fmt="General">
+</c>
+<c f="Plan 3" a="$C$65" r="65" c="3" w="tx_General" v="Plan 3" fmt="General">
+</c>
+<c f="Plan 4" a="$C$66" r="66" c="3" w="tx_General" v="Plan 4" fmt="General">
+</c>
+<c f="Plan 5" a="$C$67" r="67" c="3" w="tx_General" v="Plan 5" fmt="General">
+</c>
+<c f="Plan 6" a="$C$68" r="68" c="3" w="tx_General" v="Plan 6" fmt="General">
+</c>
+<c f="Plan 7" a="$C$69" r="69" c="3" w="tx_General" v="Plan 7" fmt="General">
+</c>
+<c f="No Plan" a="$C$70" r="70" c="3" w="tx_General" v="No Plan" fmt="General">
+</c>
+<c f="Premium" a="$C$124" r="124" c="3" w="tx_General" v="Premium" fmt="General">
+</c>
+<c f="Initiatives Selected in Previous Years" a="$C$145" r="145" c="3" w="tx_General" v="Initiatives Selected in Previous Years" fmt="General">
+</c>
+<c f="Price" a="$C$256" r="256" c="3" w="tx_General" v="Price" fmt="General">
+</c>
+<c f="Price Per Litre" a="$C$236" r="236" c="3" w="tx_General" v="Price Per Litre" fmt="General">
+</c>
+<c f="Greenborg" a="$C$9" r="9" c="3" w="tx_General" v="Greenborg" fmt="General">
+</c>
+<c f="Greenborg:" a="$C$244" r="244" c="3" w="tx_General" v="Greenborg:" fmt="General">
+</c>
+<c f="Harken" a="$C$10" r="10" c="3" w="tx_General" v="Harken" fmt="General">
+</c>
+<c f="Harken:" a="$C$245" r="245" c="3" w="tx_General" v="Harken:" fmt="General">
+</c>
+<c f="Kara" a="$C$11" r="11" c="3" w="tx_General" v="Kara" fmt="General">
+</c>
+<c f="Kara:" a="$C$246" r="246" c="3" w="tx_General" v="Kara:" fmt="General">
+</c>
+<c f="Brew Master" a="$C$12" r="12" c="3" w="tx_General" v="Brew Master" fmt="General">
+</c>
+<c f="B.M.:" a="$C$247" r="247" c="3" w="tx_General" v="B.M.:" fmt="General">
+</c>
+<c f="Value Management Accelerator" a="$C$5" r="5" c="3" w="tx_General" v="Value Management Accelerator" fmt="General">
+</c>
+<c f="Greensberg" a="$C$4" r="4" c="3" w="tx_General" v="Greensberg" fmt="General">
+</c>
+<c f="Select Initiative" a="$C$43" r="43" c="3" w="tx_General" v="Select Initiative" fmt="General">
+</c>
+<c f="Category Management - Hypermarkets" a="$C$44" r="44" c="3" w="tx_General" v="Category Management - Hypermarkets" fmt="General">
+</c>
+<c f="Mystery Shopper Hypermarkets" a="$C$53" r="53" c="3" w="tx_General" v="Mystery Shopper Hypermarkets" fmt="General">
+</c>
+<c f="Mystery Shopper Discounters" a="$C$54" r="54" c="3" w="tx_General" v="Mystery Shopper Discounters" fmt="General">
+</c>
+<c f="Mystery Shopper Convenience" a="$C$55" r="55" c="3" w="tx_General" v="Mystery Shopper Convenience" fmt="General">
+</c>
+<c f="Mystery Shopper On-trade" a="$C$56" r="56" c="3" w="tx_General" v="Mystery Shopper On-trade" fmt="General">
+</c>
+<c f="Communicating Value" a="$C$57" r="57" c="3" w="tx_General" v="Communicating Value" fmt="General">
+</c>
+<c f="Optimising Packaging Materials" a="$C$58" r="58" c="3" w="tx_General" v="Optimising Packaging Materials" fmt="General">
+</c>
+<c f="Sales and Operations Planning" a="$C$59" r="59" c="3" w="tx_General" v="Sales and Operations Planning" fmt="General">
+</c>
+<c f="Next Generation Packaging" a="$C$60" r="60" c="3" w="tx_General" v="Next Generation Packaging" fmt="General">
+</c>
+<c f="Not used" a="$C$61" r="61" c="3" w="tx_General" v="Not used" fmt="General">
+</c>
+<c f="Category Management - Discounters" a="$C$45" r="45" c="3" w="tx_General" v="Category Management - Discounters" fmt="General">
+</c>
+<c f="Category Management - Convenience" a="$C$46" r="46" c="3" w="tx_General" v="Category Management - Convenience" fmt="General">
+</c>
+<c f="Category Management - On-Trade" a="$C$47" r="47" c="3" w="tx_General" v="Category Management - On-Trade" fmt="General">
+</c>
+<c f="Customer Wall" a="$C$48" r="48" c="3" w="tx_General" v="Customer Wall" fmt="General">
+</c>
+<c f="Relationship building in On-Trade" a="$C$49" r="49" c="3" w="tx_General" v="Relationship building in On-Trade" fmt="General">
+</c>
+<c f="Hypermarkets Salesforce Development" a="$C$50" r="50" c="3" w="tx_General" v="Hypermarkets Salesforce Development" fmt="General">
+</c>
+<c f="Trade Marketing Analysis" a="$C$51" r="51" c="3" w="tx_General" v="Trade Marketing Analysis" fmt="General">
+</c>
+<c f="Improve Promotion Effectiveness" a="$C$52" r="52" c="3" w="tx_General" v="Improve Promotion Effectiveness" fmt="General">
+</c>
+<c f="No Promotion" a="$C$76" r="76" c="3" w="tx_General" v="No Promotion" fmt="General">
+</c>
+<c f="TPR 20%" a="$C$77" r="77" c="3" w="tx_General" v="TPR 20%" fmt="General">
+</c>
+<c f="Promotion 1 Mechanic" a="$C$113" r="113" c="3" w="tx_General" v="Promotion 1 Mechanic" fmt="General">
+</c>
+<c f="TPR 33%" a="$C$78" r="78" c="3" w="tx_General" v="TPR 33%" fmt="General">
+</c>
+<c f="Promotion 2 Mechanic" a="$C$116" r="116" c="3" w="tx_General" v="Promotion 2 Mechanic" fmt="General">
+</c>
+<c f="TPR 50%" a="$C$79" r="79" c="3" w="tx_General" v="TPR 50%" fmt="General">
+</c>
+<c f="3f2" a="$C$80" r="80" c="3" w="tx_General" v="3f2" fmt="d-mmm">
+</c>
+<c f="2f1" a="$C$81" r="81" c="3" w="tx_General" v="2f1" fmt="General">
+</c>
+<c f="Promo Weeks Available" a="$C$169" r="169" c="3" w="tx_General" v="Promo Weeks Available" fmt="General">
+</c>
+<c f="Promotion Efficiency" a="$C$271" r="271" c="3" w="tx_General" v="Promotion Efficiency" fmt="General">
+</c>
+<c f="Promotion Plan" a="$C$119" r="119" c="3" w="tx_General" v="Promotion Plan" fmt="General">
+</c>
+<c f="Promotions" a="$C$154" r="154" c="3" w="tx_General" v="Promotions" fmt="General">
+</c>
+<c f="VM Promotions Analysis" a="$C$105" r="105" c="3" w="tx_General" v="VM Promotions Analysis" fmt="General">
+</c>
+<c f="Promotion Share" a="$C$237" r="237" c="3" w="tx_General" v="Promotion Share" fmt="General">
+</c>
+<c f="Read Report" a="$C$104" r="104" c="3" w="tx_General" v="Read Report" fmt="General">
+</c>
+<c f="Region" a="$C$205" r="205" c="3" w="tx_General" v="Region" fmt="General">
+</c>
+<c f="Relax &amp; Unwind" a="$C$208" r="208" c="3" w="tx_General" v="Relax &amp; Unwind" fmt="General">
+</c>
+<c f="Remove Slot" a="$C$121" r="121" c="3" w="tx_General" v="Remove Slot" fmt="General">
+</c>
+<c f="Brand Report" a="$C$263" r="263" c="3" w="tx_General" v="Brand Report" fmt="General">
+</c>
+<c f="Channel Report" a="$C$264" r="264" c="3" w="tx_General" v="Channel Report" fmt="General">
+</c>
+<c f="Shopping Mission Report" a="$C$265" r="265" c="3" w="tx_General" v="Shopping Mission Report" fmt="General">
+</c>
+<c f="Demand Space Report" a="$C$266" r="266" c="3" w="tx_General" v="Demand Space Report" fmt="General">
+</c>
+<c f="Pack Pricing Report" a="$C$267" r="267" c="3" w="tx_General" v="Pack Pricing Report" fmt="General">
+</c>
+<c f="Adv. Brand Report" a="$C$268" r="268" c="3" w="tx_General" v="Adv. Brand Report" fmt="General">
+</c>
+<c f="Reports" a="$C$101" r="101" c="3" w="tx_General" v="Reports" fmt="General">
+</c>
+<c f="Research and Development" a="$C$184" r="184" c="3" w="tx_General" v="Research and Development" fmt="General">
+</c>
+<c f="Please ask the facilitator to enter password." a="$C$275" r="275" c="3" w="tx_General" v="Please ask the facilitator to enter password." fmt="General">
+</c>
+<c f="Reset" a="$C$274" r="274" c="3" w="tx_General" v="Reset" fmt="General">
+</c>
+<c f="bts287" a="$C$281" r="281" c="3" w="tx_General" v="bts287" fmt="General">
+</c>
+<c f="NS" a="$C$200" r="200" c="3" w="tx_General" v="NS" fmt="General">
+</c>
+<c f="NS :" a="$C$240" r="240" c="3" w="tx_General" v="NS :" fmt="General">
+</c>
+<c f="Round" a="$C$8" r="8" c="3" w="tx_General" v="Round" fmt="General">
+</c>
+<c f="Sales" a="$C$176" r="176" c="3" w="tx_General" v="Sales" fmt="General">
+</c>
+<c f="Sales Forecast" a="$C$108" r="108" c="3" w="tx_General" v="Sales Forecast" fmt="General">
+</c>
+<c f="Select Plan" a="$C$138" r="138" c="3" w="tx_General" v="Select Plan" fmt="General">
+</c>
+<c f="Shelf Price" a="$C$112" r="112" c="3" w="tx_General" v="Shelf Price" fmt="General">
+</c>
+<c f="Shelf Space" a="$C$131" r="131" c="3" w="tx_General" v="Shelf Space" fmt="General">
+</c>
+<c f="SKU Decisions" a="$C$85" r="85" c="3" w="tx_General" v="SKU Decisions" fmt="General">
+</c>
+<c f="Slot 1" a="$C$82" r="82" c="3" w="tx_General" v="Slot 1" fmt="General">
+</c>
+<c f="Slot 2" a="$C$83" r="83" c="3" w="tx_General" v="Slot 2" fmt="General">
+</c>
+<c f="Slot 3" a="$C$84" r="84" c="3" w="tx_General" v="Slot 3" fmt="General">
+</c>
+<c f="Slots Available" a="$C$168" r="168" c="3" w="tx_General" v="Slots Available" fmt="General">
+</c>
+<c f="Strategic Initiatives" a="$C$144" r="144" c="3" w="tx_General" v="Strategic Initiatives" fmt="General">
+</c>
+<c f="Success" a="$C$276" r="276" c="3" w="tx_General" v="Success" fmt="General">
+</c>
+<c f="Super Premium" a="$C$125" r="125" c="3" w="tx_General" v="Super Premium" fmt="General">
+</c>
+<c f="Taxes" a="$C$189" r="189" c="3" w="tx_General" v="Taxes" fmt="General">
+</c>
+<c f="Team Name" a="$C$6" r="6" c="3" w="tx_General" v="Team Name" fmt="General">
+</c>
+<c f="Team Number" a="$C$7" r="7" c="3" w="tx_General" v="Team Number" fmt="General">
+</c>
+<c f="Resourcing for Results" a="$C$3" r="3" c="3" w="tx_General" v="Resourcing for Results" fmt="General">
+</c>
+<c f="Adding a new slot allows you to sell another SKU of this brand in this channel available immediately" a="$C$230" r="230" c="3" w="tx_General" v="Adding a new slot allows you to sell another SKU of this brand in this channel available immediately" fmt="General">
+</c>
+<c f="Investments in assortment analytics provide you with consumer/customer insights to help you optimise your assortment" a="$C$222" r="222" c="3" w="tx_General" v="Investments in assortment analytics provide you with consumer/customer insights to help you optimise your assortment" fmt="General">
+</c>
+<c f="The Average Promotion Price is the per litre price that you will charge your customers for volume sold during promotion" a="$C$286" r="286" c="3" w="tx_General" v="The Average Promotion Price is the per litre price that you will charge your customers for volume sold during promotion" fmt="General">
+</c>
+<c f="The Average Selling Price is the per litre price that you will  on average charge your customers for volume sold during the year. Including both promotion and non-promo." a="$C$287" r="287" c="3" w="tx_General" v="The Average Selling Price is the per litre price that you will  on average charge your customers for volume sold during the year. Including both promotion and non-promo." fmt="General">
+</c>
+<c f="Investments in conditionality increases the percentage of conditional to non-conditional value driver investments" a="$C$220" r="220" c="3" w="tx_General" v="Investments in conditionality increases the percentage of conditional to non-conditional value driver investments" fmt="General">
+</c>
+<c f="Investments in fridges and coolers will increase appeal and demand for your products, and is a way to drive sales" a="$C$218" r="218" c="3" w="tx_General" v="Investments in fridges and coolers will increase appeal and demand for your products, and is a way to drive sales" fmt="General">
+</c>
+<c f="The customer price is the per litre price that you will charge your customers" a="$C$226" r="226" c="3" w="tx_General" v="The customer price is the per litre price that you will charge your customers" fmt="General">
+</c>
+<c f="Investments in distribution increases the number of locations that sell your beer measured as weighted distribution" a="$C$215" r="215" c="3" w="tx_General" v="Investments in distribution increases the number of locations that sell your beer measured as weighted distribution" fmt="General">
+</c>
+<c f="Estimate how much of the total sales in this slot listing will be sold on promotion" a="$C$229" r="229" c="3" w="tx_General" v="Estimate how much of the total sales in this slot listing will be sold on promotion" fmt="General">
+</c>
+<c f="Investments in floor space will increase the impact and effectiveness of your promotions, as well as your promotion weeks available in the coming years" a="$C$217" r="217" c="3" w="tx_General" v="Investments in floor space will increase the impact and effectiveness of your promotions, as well as your promotion weeks available in the coming years" fmt="General">
+</c>
+<c f="Estimate the market demand in % that each brand will capture per channel and price segment" a="$C$214" r="214" c="3" w="tx_General" v="Estimate the market demand in % that each brand will capture per channel and price segment" fmt="General">
+</c>
+<c f="The length the promotion will remain active. Weeks are distributed evenly across the year." a="$C$228" r="228" c="3" w="tx_General" v="The length the promotion will remain active. Weeks are distributed evenly across the year." fmt="General">
+</c>
+<c f="Choose a pack type that is suitable for the brand, channel, and your targeted demand space(s)" a="$C$225" r="225" c="3" w="tx_General" v="Choose a pack type that is suitable for the brand, channel, and your targeted demand space(s)" fmt="General">
+</c>
+<c f="The investment allows you to select and offer a previously unavailable package for all your brands and channels in the same year as the investment is made" a="$C$212" r="212" c="3" w="tx_General" v="The investment allows you to select and offer a previously unavailable package for all your brands and channels in the same year as the investment is made" fmt="General">
+</c>
+<c f="Investments in promotion analytics provides you with consumer insights to help you optimise your promotions" a="$C$223" r="223" c="3" w="tx_General" v="Investments in promotion analytics provides you with consumer insights to help you optimise your promotions" fmt="General">
+</c>
+<c f="Choose the promotion mechanic you wish to use in order to drive sales" a="$C$227" r="227" c="3" w="tx_General" v="Choose the promotion mechanic you wish to use in order to drive sales" fmt="General">
+</c>
+<c f="Reducing a slot reduces the number of SKUs that you can sell of this brand in this channel" a="$C$231" r="231" c="3" w="tx_General" v="Reducing a slot reduces the number of SKUs that you can sell of this brand in this channel" fmt="General">
+</c>
+<c f="Estimate the sales of the brand in this channel that will come from each slot listing. The sum of all slot listings should always be 100%" a="$C$224" r="224" c="3" w="tx_General" v="Estimate the sales of the brand in this channel that will come from each slot listing. The sum of all slot listings should always be 100%" fmt="General">
+</c>
+<c f="Investments in shelf space increases the SKU slots available for your products the coming years" a="$C$216" r="216" c="3" w="tx_General" v="Investments in shelf space increases the SKU slots available for your products the coming years" fmt="General">
+</c>
+<c f="Select a strategic initiative that supports your overall strategy " a="$C$213" r="213" c="3" w="tx_General" v="Select a strategic initiative that supports your overall strategy " fmt="General">
+</c>
+<c f="Select a trade marketing plan that is best suited for the channel and aligns with your strategy" a="$C$221" r="221" c="3" w="tx_General" v="Select a trade marketing plan that is best suited for the channel and aligns with your strategy" fmt="General">
+</c>
+<c f="Investments in visibility increases the support to your customers in finding the optimal way of offering your products to the consumer, and is a way to drive sales" a="$C$219" r="219" c="3" w="tx_General" v="Investments in visibility increases the support to your customers in finding the optimal way of offering your products to the consumer, and is a way to drive sales" fmt="General">
+</c>
+<c f="Total" a="$C$86" r="86" c="3" w="tx_General" v="Total" fmt="General">
+</c>
+<c f="Total COGS" a="$C$93" r="93" c="3" w="tx_General" v="Total COGS" fmt="General">
+</c>
+<c f="Total Customer Profit" a="$C$172" r="172" c="3" w="tx_General" v="Total Customer Profit" fmt="General">
+</c>
+<c f="Total Overhead" a="$C$186" r="186" c="3" w="tx_General" v="Total Overhead" fmt="General">
+</c>
+<c f="Total Size" a="$C$210" r="210" c="3" w="tx_General" v="Total Size" fmt="General">
+</c>
+<c f="Trade Investments" a="$C$171" r="171" c="3" w="tx_General" v="Trade Investments" fmt="General">
+</c>
+<c f="Trade Marketing Plans" a="$C$155" r="155" c="3" w="tx_General" v="Trade Marketing Plans" fmt="General">
+</c>
+<c f="Trade Marketing Plan" a="$C$137" r="137" c="3" w="tx_General" v="Trade Marketing Plan" fmt="General">
+</c>
+<c f="Trade Terms Conditionality" a="$C$233" r="233" c="3" w="tx_General" v="Trade Terms Conditionality" fmt="General">
+</c>
+<c f="Turnover" a="$C$88" r="88" c="3" w="tx_General" v="Turnover" fmt="General">
+</c>
+<c f="Un-Conditional Trade Inv." a="$C$158" r="158" c="3" w="tx_General" v="Un-Conditional Trade Inv." fmt="General">
+</c>
+<c f="Units Sold" a="$C$98" r="98" c="3" w="tx_General" v="Units Sold" fmt="General">
+</c>
+<c f="Value Drivers" a="$C$129" r="129" c="3" w="tx_General" v="Value Drivers" fmt="General">
+</c>
+<c f="Values are in (000s)" a="$C$285" r="285" c="3" w="tx_General" v="Values are in (000s)" fmt="General">
+</c>
+<c f="Visibility" a="$C$134" r="134" c="3" w="tx_General" v="Visibility" fmt="General">
+</c>
+<c f="Volume" a="$C$255" r="255" c="3" w="tx_General" v="Volume" fmt="General">
+</c>
+<c f="Volume Forecast" a="$C$128" r="128" c="3" w="tx_General" v="Volume Forecast" fmt="General">
+</c>
+<c f="Volume Sold" a="$C$97" r="97" c="3" w="tx_General" v="Volume Sold" fmt="General">
+</c>
+<c f="Volume Uplift" a="$C$280" r="280" c="3" w="tx_General" v="Volume Uplift" fmt="General">
+</c>
+<c f="Weighted Distribution" a="$C$100" r="100" c="3" w="tx_General" v="Weighted Distribution" fmt="General">
+</c>
+<c f="Year 1" a="$C$146" r="146" c="3" w="tx_General" v="Year 1" fmt="General">
+</c>
+<c f="Year 2" a="$C$147" r="147" c="3" w="tx_General" v="Year 2" fmt="General">
+</c>
+<c f="Year 3" a="$C$148" r="148" c="3" w="tx_General" v="Year 3" fmt="General">
+</c>
+<c f="Yes" a="$C$198" r="198" c="3" w="tx_General" v="Yes" fmt="General">
+</c>
+<c f="1" a="$C$2" r="2" c="3" w="Control" v="1" fmt="General">
+</c>
+</workbook>
