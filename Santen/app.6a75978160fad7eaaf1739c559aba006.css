@@ -1,76 +1,76 @@
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-Regular.a35546eef3ea0de0d4735f23b0a0873b.eot) format('truetype');
-  src: url(/assets/OpenSans-Regular.a35546eef3ea0de0d4735f23b0a0873b.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-Regular.629a55a7e793da068dc580d184cc0e31.ttf) format('truetype');
+  src: url(./assets/OpenSans-Regular.a35546eef3ea0de0d4735f23b0a0873b.eot) format('truetype');
+  src: url(./assets/OpenSans-Regular.a35546eef3ea0de0d4735f23b0a0873b.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-Regular.629a55a7e793da068dc580d184cc0e31.ttf) format('truetype');
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-Bold.7ae9b8ba7886341831bf7c85a0da40d0.eot) format('truetype');
-  src: url(/assets/OpenSans-Bold.7ae9b8ba7886341831bf7c85a0da40d0.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-Bold.50145685042b4df07a1fd19957275b81.ttf) format('truetype');
+  src: url(./assets/OpenSans-Bold.7ae9b8ba7886341831bf7c85a0da40d0.eot) format('truetype');
+  src: url(./assets/OpenSans-Bold.7ae9b8ba7886341831bf7c85a0da40d0.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-Bold.50145685042b4df07a1fd19957275b81.ttf) format('truetype');
   font-weight: bold;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-BoldItalic.4c11ba9344d853e3ac040ea20a2676b8.eot) format('truetype');
-  src: url(/assets/OpenSans-BoldItalic.4c11ba9344d853e3ac040ea20a2676b8.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-BoldItalic.78b08a68d05d5fabb0b8effd51bf6ade.ttf) format('truetype');
+  src: url(./assets/OpenSans-BoldItalic.4c11ba9344d853e3ac040ea20a2676b8.eot) format('truetype');
+  src: url(./assets/OpenSans-BoldItalic.4c11ba9344d853e3ac040ea20a2676b8.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-BoldItalic.78b08a68d05d5fabb0b8effd51bf6ade.ttf) format('truetype');
   font-weight: bold;
   font-style: italic;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-ExtraBold.408632dab51ebe0e63f8918ef7b64736.eot) format('truetype');
-  src: url(/assets/OpenSans-ExtraBold.408632dab51ebe0e63f8918ef7b64736.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-ExtraBold.8bac22ed4fd7c8a30536be18e2984f84.ttf) format('truetype');
+  src: url(./assets/OpenSans-ExtraBold.408632dab51ebe0e63f8918ef7b64736.eot) format('truetype');
+  src: url(./assets/OpenSans-ExtraBold.408632dab51ebe0e63f8918ef7b64736.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-ExtraBold.8bac22ed4fd7c8a30536be18e2984f84.ttf) format('truetype');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-ExtraBoldItalic.2e989b13714f74afeefa2505df5a9422.eot) format('truetype');
-  src: url(/assets/OpenSans-ExtraBoldItalic.2e989b13714f74afeefa2505df5a9422.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-ExtraBoldItalic.73d6bb0d4f596a91992e6be32e82e3bc.ttf) format('truetype');
+  src: url(./assets/OpenSans-ExtraBoldItalic.2e989b13714f74afeefa2505df5a9422.eot) format('truetype');
+  src: url(./assets/OpenSans-ExtraBoldItalic.2e989b13714f74afeefa2505df5a9422.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-ExtraBoldItalic.73d6bb0d4f596a91992e6be32e82e3bc.ttf) format('truetype');
   font-weight: 700;
   font-style: italic;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-Italic.03abc0956c1a37b84a5c69479de1b802.eot) format('truetype');
-  src: url(/assets/OpenSans-Italic.03abc0956c1a37b84a5c69479de1b802.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-Italic.c7dcce084c445260a266f92db56f5517.ttf) format('truetype');
+  src: url(./assets/OpenSans-Italic.03abc0956c1a37b84a5c69479de1b802.eot) format('truetype');
+  src: url(./assets/OpenSans-Italic.03abc0956c1a37b84a5c69479de1b802.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-Italic.c7dcce084c445260a266f92db56f5517.ttf) format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-Light.804037562eabaa5dbefa4a435206d017.eot) format('truetype');
-  src: url(/assets/OpenSans-Light.804037562eabaa5dbefa4a435206d017.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-Light.1bf71be111189e76987a4bb9b3115cb7.ttf) format('truetype');
+  src: url(./assets/OpenSans-Light.804037562eabaa5dbefa4a435206d017.eot) format('truetype');
+  src: url(./assets/OpenSans-Light.804037562eabaa5dbefa4a435206d017.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-Light.1bf71be111189e76987a4bb9b3115cb7.ttf) format('truetype');
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-LightItalic.8c6398b61fcd794cbbe0ecfef81cc983.eot) format('truetype');
-  src: url(/assets/OpenSans-LightItalic.8c6398b61fcd794cbbe0ecfef81cc983.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-LightItalic.6943fb6fd4200f3d073469325c6acdc9.ttf) format('truetype');
+  src: url(./assets/OpenSans-LightItalic.8c6398b61fcd794cbbe0ecfef81cc983.eot) format('truetype');
+  src: url(./assets/OpenSans-LightItalic.8c6398b61fcd794cbbe0ecfef81cc983.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-LightItalic.6943fb6fd4200f3d073469325c6acdc9.ttf) format('truetype');
   font-weight: 100;
   font-style: italic;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-Semibold.0ea04502930623aa3de110aac9f9e4fd.eot) format('truetype');
-  src: url(/assets/OpenSans-Semibold.0ea04502930623aa3de110aac9f9e4fd.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-Semibold.33f225b8f5f7d6b34a0926f58f96c1e9.ttf) format('truetype');
+  src: url(./assets/OpenSans-Semibold.0ea04502930623aa3de110aac9f9e4fd.eot) format('truetype');
+  src: url(./assets/OpenSans-Semibold.0ea04502930623aa3de110aac9f9e4fd.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-Semibold.33f225b8f5f7d6b34a0926f58f96c1e9.ttf) format('truetype');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'OpenSans';
-  src: url(/assets/OpenSans-SemiboldItalic.f82be728a8a914c366d53f9c0f04c76d.eot) format('truetype');
-  src: url(/assets/OpenSans-SemiboldItalic.f82be728a8a914c366d53f9c0f04c76d.eot?#iefix) format('embedded-opentype'), url(/assets/OpenSans-SemiboldItalic.73f7301a9cd7a086295401eefe0c998f.ttf) format('truetype');
+  src: url(./assets/OpenSans-SemiboldItalic.f82be728a8a914c366d53f9c0f04c76d.eot) format('truetype');
+  src: url(./assets/OpenSans-SemiboldItalic.f82be728a8a914c366d53f9c0f04c76d.eot?#iefix) format('embedded-opentype'), url(./assets/OpenSans-SemiboldItalic.73f7301a9cd7a086295401eefe0c998f.ttf) format('truetype');
   font-weight: 500;
   font-style: italic;
 }
 @font-face {
   font-family: 'wib-icomoon';
-  src: url(/assets/wib-icomoon.e8f33253b3388d362fec22106079f82e.eot);
-  src: url(/assets/wib-icomoon.e8f33253b3388d362fec22106079f82e.eot#iefix) format('embedded-opentype'), url(/assets/wib-icomoon.875fc2a7c73ba51dbebd5e27858c8e6b.ttf) format('truetype'), url(/assets/wib-icomoon.c1ea752835c234373c8657b1139be4c7.woff) format('woff'), url(/assets/wib-icomoon.735db192a44ae3024408249e482c06c5.svg#icomoon) format('svg');
+  src: url(./assets/wib-icomoon.e8f33253b3388d362fec22106079f82e.eot);
+  src: url(./assets/wib-icomoon.e8f33253b3388d362fec22106079f82e.eot#iefix) format('embedded-opentype'), url(./assets/wib-icomoon.875fc2a7c73ba51dbebd5e27858c8e6b.ttf) format('truetype'), url(./assets/wib-icomoon.c1ea752835c234373c8657b1139be4c7.woff) format('woff'), url(./assets/wib-icomoon.735db192a44ae3024408249e482c06c5.svg#icomoon) format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -768,7 +768,7 @@ body {
   min-height: 100%;
 }
 body {
-  background: url(/assets/landing-background.43269ecfee5f6fef9fff5a5bb358e7bb.jpg) no-repeat;
+  background: url(./assets/landing-background.43269ecfee5f6fef9fff5a5bb358e7bb.jpg) no-repeat;
   color: #6d6e70;
   overflow-x: hidden;
   background-size: cover;
