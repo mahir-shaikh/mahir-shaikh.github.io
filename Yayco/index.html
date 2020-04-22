@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <base href="./">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>YayCo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+</head>
+
+<body>
+  <div class="sim-app">
+    <div class="fullscreen-bg">
+      <!-- <video loop muted autoplay poster="assets/images/sim-background.jpg" class="fullscreen-bg__video"> -->
+      <!-- </video> -->
+      <div class="bg-white-layer"></div>
+    </div>
+    <isma-root></isma-root>
+  </div>
+  <script>
+    if (global === undefined) {
+        var global = window;
+    }
+    if (window.hasOwnProperty('orientation')) {
+      /**
+       * we are locking mobile devices orientation to landscape mode only
+       */
+      var devWidth, devHeight;
+      window.addEventListener('load', function () {
+        devWidth = screen.width;
+        devHeight = screen.height;
+      });
+      window.addEventListener('orientationchange', function () {
+        devWidth = screen.width;
+        devHeight = screen.height;
+        if (devWidth < 1024 && (window.orientation === 180 || window.orientation == 0)) {
+          document.body.style.width = devHeight + 'px';
+          document.body.style.height = devWidth + 'px';
+          document.body.style.transform = 'rotate(90deg)';
+          document.body.style.transformOrigin = '' + (devWidth / 2) + 'px ' + (devWidth / 2) + 'px';
+        } else {
+          document.body.removeAttribute('style');
+        }
+      }, true);
+    }
+    // nwjs maximize window on load
+    if (typeof nw !== 'undefined') {
+      const win = typeof nw === 'undefined' ? window : nw.Window.get();
+      win.maximize();
+    }
+  </script>
+<script src="runtime.js"></script><script src="polyfills-es5.js" nomodule></script><script src="polyfills.js"></script><script src="styles.js"></script><script src="scripts.js"></script><script src="vendor.js"></script><script src="main.js"></script></body>
+
+</html>
