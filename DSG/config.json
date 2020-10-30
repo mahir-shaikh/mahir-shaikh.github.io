@@ -1,0 +1,121 @@
+{
+    "logging": false,
+    "connectToPulse": false,
+    "hostName": "https://dsgmlc.btspulse.com",
+    "serviceUrl": "https://dsgmlc.btspulse.com/PulseServices/",
+    "eventTitle": "DSG_SBA_BA2",
+    "questionsToSend": [
+        { "questionName": "tlInputTeamName", "rangeName": "tlInputTeamName" },
+        { "questionName": "tlInputTeamNumber", "rangeName": "tlInputTeamNumber" },
+        { "questionName": "tlInputWorldNumber", "rangeName": "tlInputWorldNumber" },
+        { "questionName": "tlInputIdeaHuntQ1", "rangeName": "tlInputIdeaHuntQ1" },
+        { "questionName": "tlInputIdeaHuntQ2", "rangeName": "tlInputIdeaHuntQ2" },
+        { "questionName": "tlInputIdeaHuntQ3", "rangeName": "tlInputIdeaHuntQ3" },
+        { "questionName": "tlInputMoment1", "rangeName": "tlInputMoment1" },
+        { "questionName": "tlInputMoment2", "rangeName": "tlInputMoment2" },
+        { "questionName": "tlInputMoment3", "rangeName": "tlInputMoment3" },
+        { "questionName": "tlInputMoment4", "rangeName": "tlInputMoment4" },
+        { "questionName": "tlInputMoment5", "rangeName": "tlInputMoment5" },
+        { "questionName": "tlInput_READ_Moment1", "rangeName": "tlInput_READ_Moment1" },
+        { "questionName": "tlInput_READ_Moment2", "rangeName": "tlInput_READ_Moment2" },
+        { "questionName": "tlInput_READ_Moment3", "rangeName": "tlInput_READ_Moment3" },
+
+        
+        { "questionName": "tlInputScenario1", "rangeName": "tlInputScenario1" },
+        { "questionName": "tlInputScenario2", "rangeName": "tlInputScenario2" },
+        { "questionName": "tlInputScenario3", "rangeName": "tlInputScenario3" },
+        { "questionName": "tlInputScenario4", "rangeName": "tlInputScenario4" },
+        { "questionName": "tlInputScenario5", "rangeName": "tlInputScenario5" },
+        { "questionName": "tlInput_READ_Scenario1", "rangeName": "tlInput_READ_Scenario1" },
+        { "questionName": "tlInput_READ_Scenario2", "rangeName": "tlInput_READ_Scenario2" },        
+        { "questionName": "tlInput_READ_Scenario3", "rangeName": "tlInput_READ_Scenario3" },
+        { "questionName": "tlInput_READ_Scenario4", "rangeName": "tlInput_READ_Scenario4" },
+        { "questionName": "tlInput_READ_Scenario5", "rangeName": "tlInput_READ_Scenario5" },
+        
+        { "questionName": "tlInputPnLTraffic", "rangeName": "tlInputPnLTraffic" },
+        { "questionName": "tlInputPnLConversion", "rangeName": "tlInputPnLConversion" },
+        { "questionName": "tlInputPnLUTP", "rangeName": "tlInputPnLUTP" },
+        { "questionName": "tlInputPnLAUR", "rangeName": "tlInputPnLAUR" },
+
+        
+        { "questionName": "tlInputMerchandiseCost", "rangeName": "tlInputMerchandiseCost" },
+        { "questionName": "tlInputShrink", "rangeName": "tlInputShrink" },
+        { "questionName": "tlInputDiscount", "rangeName": "tlInputDiscount" },
+        { "questionName": "tlInputOccupancy", "rangeName": "tlInputOccupancy" },
+        { "questionName": "tlInputFreight", "rangeName": "tlInputFreight" },
+        { "questionName": "tlInputDistribution", "rangeName": "tlInputDistribution" },
+        { "questionName": "tlInputPayrollOther", "rangeName": "tlInputPayrollOther" },
+
+        { "questionName": "tlInputBankCardCharges", "rangeName": "tlInputBankCardCharges" },
+        { "questionName": "tlInputOtherStoreExp", "rangeName": "tlInputOtherStoreExp" },
+        { "questionName": "tlInputPayrollPTLabor", "rangeName": "tlInputPayrollPTLabor" },
+        { "questionName": "tlInputPayrollPTHours", "rangeName": "tlInputPayrollPTHours" },
+        { "questionName": "tlInputPayrollPTRate", "rangeName": "tlInputPayrollPTRate" },
+        { "questionName": "tlInputPayrollFTLabor", "rangeName": "tlInputPayrollFTLabor" },
+        { "questionName": "tlInputPayrollFTHours", "rangeName": "tlInputPayrollFTHours" },
+
+        { "questionName": "tlInputPayrollFTRate", "rangeName": "tlInputPayrollFTRate" },
+        { "questionName": "tlInputReportNotesScenario", "rangeName": "tlInputReportNotesScenario" },
+        { "questionName": "tlInputSaveScenario1", "rangeName": "tlInputSaveScenario1" },
+        { "questionName": "tlInputSaveScenario2", "rangeName": "tlInputSaveScenario2" },
+        { "questionName": "tlInputSaveScenario3", "rangeName": "tlInputSaveScenario3" },
+
+        { "questionName": "tlInputIdeaHuntCompleted", "rangeName": "tlInputIdeaHuntCompleted" },
+        { "questionName": "tlInputMomentsCompleted", "rangeName": "tlInputMomentsCompleted" },
+        { "questionName": "tlInputInfoScenariosCompleted", "rangeName": "tlInputInfoScenariosCompleted" },
+        { "questionName": "tlInputScenariosCompleted", "rangeName": "tlInputScenariosCompleted" }        
+    ],
+    "questionsToReceive": [
+        { "questionName": "tlInputTeamNumber", "rangeName": "tlInputTeamNumber" },
+        { "questionName": "tlInputWorldNumber", "rangeName": "tlInputWorldNumber" },
+
+        { "questionName": "tlInputIdeaHuntQ1", "rangeName": "tlInputIdeaHuntQ1" },
+        { "questionName": "tlInputIdeaHuntQ2", "rangeName": "tlInputIdeaHuntQ2" },
+        { "questionName": "tlInputIdeaHuntQ3", "rangeName": "tlInputIdeaHuntQ3" },
+
+        { "questionName": "tlInputMoment1", "rangeName": "tlInputMoment1" },
+        { "questionName": "tlInputMoment2", "rangeName": "tlInputMoment2" },
+        { "questionName": "tlInputMoment3", "rangeName": "tlInputMoment3" },
+        { "questionName": "tlInputMoment4", "rangeName": "tlInputMoment4" },
+        { "questionName": "tlInputMoment5", "rangeName": "tlInputMoment5" },
+        { "questionName": "tlInput_READ_Moment1", "rangeName": "tlInput_READ_Moment1" },
+        { "questionName": "tlInput_READ_Moment2", "rangeName": "tlInput_READ_Moment2" },
+        { "questionName": "tlInput_READ_Moment3", "rangeName": "tlInput_READ_Moment3" },
+
+        { "questionName": "tlInputScenario1", "rangeName": "tlInputScenario1" },
+        { "questionName": "tlInputScenario2", "rangeName": "tlInputScenario2" },
+        { "questionName": "tlInputScenario3", "rangeName": "tlInputScenario3" },
+        { "questionName": "tlInputScenario4", "rangeName": "tlInputScenario4" },
+        { "questionName": "tlInputScenario5", "rangeName": "tlInputScenario5" },
+        { "questionName": "tlInput_READ_Scenario1", "rangeName": "tlInput_READ_Scenario1" },
+        { "questionName": "tlInput_READ_Scenario2", "rangeName": "tlInput_READ_Scenario2" },        
+        { "questionName": "tlInput_READ_Scenario3", "rangeName": "tlInput_READ_Scenario3" },
+        { "questionName": "tlInput_READ_Scenario4", "rangeName": "tlInput_READ_Scenario4" },
+        { "questionName": "tlInput_READ_Scenario5", "rangeName": "tlInput_READ_Scenario5" }
+        
+    ],
+    "foremanquestionsToRecieve": [],
+    "trackQuestion": null,
+    "nodejsUrl": "https://psqv.btpulse.com/pulsexapi/",
+    "enableTracking": false,
+    "platform": "BA1",
+    "activityType": "isomer",
+    "defaultEmail": "pulse.api@bts.com",
+    "lrsUrl": "https://pulse.bts.com/",
+    "statusCompletionQuestions": [
+        { "questionName": "tlInputSI4", "rangeName": "tlInputSI4" },
+        { "questionName": "tlInputSI3", "rangeName": "tlInputSI3" },
+        { "questionName": "tlInputSI2", "rangeName": "tlInputSI2" },
+        { "questionName": "tlInputSI1", "rangeName": "tlInputSI1" }
+    ],
+    "rangeRefTags": [
+        { "tags": ["test1", "test2"], "rangeName": "tlInputSI1" },
+        { "tags": ["test3", "test4"], "rangeName": "tlInputSI2" }
+
+    ],
+    "enableEmailEncryption": true,
+    "enableLoadLevelTracking": true,
+    "logoutUrl": "/Wizer/CloudFront/Logout",
+    "redirectAfterlogoutUrl": "?eraseCache=true/"
+}
+
