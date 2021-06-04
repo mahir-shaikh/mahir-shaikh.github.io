@@ -1,0 +1,181 @@
+@import './colors.styl';
+
+$font-family = 'Open Sans'
+$font-weight = 400
+
+$title-font-color = $grey
+$title-font-size = 14px  
+
+$data-label-color = $grey70
+$data-label-font-size = 14px
+
+$axis-labels-color = $grey70
+$axis-labels-font-size = 12px
+
+$legend-font-color = $grey70
+$legend-font-size = 12px
+
+.highcharts-column-series rect.highcharts-point
+.highcharts-pie-series .highcharts-point
+  stroke $white
+  @media screen and (-ms-high-contrast: active)
+    stroke $black
+  @media screen and (-ms-high-contrast: white-on-black)
+    stroke $white
+
+.highcharts-color-0
+  fill $infographic-1
+  stroke $infographic-1
+  @media screen and (-ms-high-contrast: active)  
+    fill url(#diamond)
+
+.highcharts-color-1
+  fill $infographic-2
+  stroke $infographic-2
+  @media screen and (-ms-high-contrast: active)
+    fill url(#down-left)
+
+.highcharts-color-2
+  fill $infographic-3
+  stroke $infographic-3
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#checker)
+
+.highcharts-color-3
+  fill $infographic-4
+  stroke $infographic-4
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#rows)
+
+.highcharts-color-4
+  fill $infographic-5
+  stroke $infographic-5
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#dots)
+
+.highcharts-color-5
+  fill $infographic-6
+  stroke $infographic-6
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#zebra)
+
+.highcharts-color-6
+  fill $infographic-7
+  stroke $infographic-7
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#waves)
+
+.highcharts-color-7
+  fill $infographic-8
+  stroke $infographic-8
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#down-right)
+
+.highcharts-color-8
+  fill $chart-color8
+  stroke $chart-color8
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#columns)
+
+.highcharts-color-9
+  fill $chart-color9
+  stroke $chart-color9
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#disc)
+
+.highcharts-container
+    font-family $font-family
+    font-size 12px
+    text-align center
+    width 100%
+    svg 
+      width 100%
+
+.highcharts-background
+	fill transparent
+	stroke none
+
+.highcharts-title
+    fill $title-font-color
+    font-size $title-font-size
+    font-weight $font-weight
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.highcharts-data-label
+    font-size $data-label-font-size
+    font-weight $font-weight
+    @media (max-width: 1024px)
+      font-size 0.9em
+.highcharts-data-label-box
+  fill: rgba(255,255,255,0.5);
+  stroke-width: 0;
+
+feedbacktextandchart 
+  heatmap
+    .highcharts-data-label-box
+      fill none
+
+  
+.highcharts-data-label text, text.highcharts-data-label
+    fill $data-label-color
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.highcharts-axis-labels
+    fill $axis-labels-color
+    font-size $axis-labels-font-size
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.highcharts-legend-item text
+    fill $legend-font-color
+    font-weight $font-weight
+    font-size $legend-font-size
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.darkBgChart
+  .highcharts-background
+    fill transparent
+    stroke transparent
+  .highcharts-axis-labels
+    fill $white
+  .highcharts-legend-item text
+    fill $white
+  .highcharts-data-label text
+    fill $white
+
+.heatMapChart
+  .highcharts-data-label
+    font-size 1.5em
+  .highcharts-data-label text
+    fill $gray4
+  .highcharts-color-0
+    fill #B0CDEA
+    stroke #B0CDEA
+  .highcharts-color-1
+    fill #D9E7F5
+    stroke #D9E7F5
+
+.analysisChart
+  .highcharts-background
+    fill transparent
+    stroke transparent
+
+.chart-add-grid
+  .highcharts-xaxis-grid .highcharts-grid-line
+    stroke-width: 1px;
+
+.utilization-chart
+  .highcharts-line-series
+    .highcharts-graph
+      stroke-width: 0px;

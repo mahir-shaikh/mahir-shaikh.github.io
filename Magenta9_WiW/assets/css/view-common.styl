@@ -1,0 +1,120 @@
+.row
+    margin 0
+
+.page-header
+    border-bottom 4px solid $grey10
+    height 76px
+    padding 20px 250px 20px 40px
+    margin 0
+    background-color $white
+    display flex
+    align-content center
+    h1
+        font-size 32px
+        color $grey
+        font-weight bold
+        line-height 1
+        padding 0
+        margin 0
+        
+.page-wrapper
+    padding 8px 40px 32px
+    height calc(100% - 76px)
+    overflow hidden
+    overflow-y auto
+    .content-holder
+        display table
+        width 100%
+        background-color $white
+        padding 16px 0 32px
+        border-radius 0 8px 8px 8px
+        .content-col
+            padding 0 10px
+
+.section-header
+    font-size: 24px;
+    color: $secondary;
+    font-weight: 600;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15px;
+
+.data
+    &-section
+        border-bottom: 1px solid;
+        margin-bottom: 2rem
+        &:last-child
+            border-bottom: none
+            margin-bottom: none
+    &-row
+        border-bottom 1px solid $grey10
+        padding: 5px 0;
+        align-items: center;
+        &:last-child
+            border-bottom none
+    &-cell
+        text-align: center
+    &-title
+        font-weight bold
+
+
+
+
+.table-header
+    font-weight: 600
+    text-align: left
+    font-size: 18px;
+.table-row-header
+    text-align: left
+
+.report-table
+    table
+        &.table
+        &.table-striped
+            margin-bottom 0
+            font-size 1rem
+            >tbody>tr
+                &:nth-of-type(odd)
+                    background-color $grey05
+            th,.header-row
+                background-color $grey
+                color $white
+                overflow hidden
+                border none
+                font-weight 400
+                vertical-align middle
+            td.non-header, th.non-header
+                text-align right
+                border none
+                font-weight 400
+                font-style normal
+            td
+                border none
+                vertical-align middle
+                padding: 0.5rem;
+            >tbody>tr
+                &.title-row
+                    background-color $infographic-9
+                    color $black
+                    font-weight 600
+                    td.non-header
+                        font-weight 400
+                    &.bordertop-row
+                        border-color $white
+                &.reportSubTitle
+                    font-weight 600
+                    color $grey
+                    font-style italic
+                &.reportSubTitle2
+                    td
+                        padding-left 24px
+                &.bordertop-row
+                    border-top 1px solid $grey70
+                &.borderbottom-row
+                    border-bottom 1px solid $grey70
+                &.bordered-row
+                    border-top 1px solid $grey70
+                    border-bottom 1px solid $grey70
+
+.info-text
+    font-style: italic
