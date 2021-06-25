@@ -1,0 +1,1898 @@
+@import 'config'
+@import 'fonts'
+@import 'icons'
+@import 'charts'
+@import "~@mondal/org-chart/_theming.scss";    
+
+
+/* helpers */
+/*input+label
+    padding 0 5px
+input[type=range]
+    -webkit-appearance none
+    height 6px
+    outline none
+    background-color $background
+
+input[type="range"]::-webkit-slider-thumb 
+    -webkit-appearance none
+    position relative
+    top 0px
+    z-index 1
+    width 16px
+    height 16px
+    cursor pointer
+    border-radius 40px
+    background limegreen*/
+
+*
+    box-sizing border-box
+
+label
+    cursor pointer
+
+.float
+    &-left 
+        float left
+    &-right
+        float right
+
+.hidden 
+    display none
+
+.row
+    margin 0 !important
+
+.modal-rtb
+    margin 0 auto
+    float none
+    background-color $white
+    padding 0
+    border-radius 8px
+.modal-open .modal
+    // overflow hidden
+    // background rgba(0,0,0,.5)
+.nopadding
+    padding 0
+/* rules */
+html, body
+    height 100%
+    overflow auto
+    @media only screen and (max-width 560px)
+        height initial
+        
+body
+    font-size $bodyFontSize
+    font-family $corefont
+    background-size cover
+    background-color #d7d8de
+    color $gray100
+    @media only screen and (max-width 560px)
+       font-size $bodyMobileFontSize
+    .wib-sim-app
+        width 100%
+        height 100%
+        margin auto
+        clear both
+        max-width 100%
+        min-height 100%
+
+
+h1
+    font-size 2em
+h2 
+    font-size 1.75em
+h3
+    font-size 1.35em
+b, strong
+    font-weight 600
+
+.choice-desc
+    p
+        max-width 100%
+
+a
+    color $primary
+    &:hover
+        color darken($primary,10)
+
+/* standard buttons */
+
+.btn
+    &-primary
+        border-width 0px
+        background $accent01
+        border none
+        border-radius 0
+        -moz-box-shadow 0px 5px 8px rgba(darken($primary, 10),0.3)
+        -webkit-box-shadow 0px 5px 8px rgba(darken($primary, 10),0.3)
+        box-shadow 0px 5px 8px rgba(darken($primary, 10),0.3)
+        color #fff
+        cursor pointer
+        padding 10px 20px
+        font-weight 500
+        position relative
+        display inline-block
+        @media screen and (-ms-high-contrast: black-on-white) 
+            border 3px solid #000
+        @media screen and (-ms-high-contrast: white-on-black) 
+            border 3px solid white
+        &.dropdown-toggle
+            background $primary
+            &:hover
+                background $alt-color
+        &:hover
+            background darken($primary,10)
+            @media screen and (-ms-high-contrast: black-on-white) 
+                border 6px solid #000
+            @media screen and (-ms-high-contrast: white-on-black) 
+                border 6px solid white
+        &.right-arrow
+            padding 10px 50px 10px 20px
+            &::after
+                content ''
+                font-family 'icomoon'
+                position absolute
+                right 20px
+                top 10px
+
+.btn
+    &.disabled, &:disabled, &[disabled]
+        opacity .3
+    .caret
+        margin-left .5em
+
+.btn-primary.control-button
+        background $white
+        border 2px solid $primary
+        color $primary
+        &:hover
+            border 4px solid darken($primary,20)
+            color darken($primary,20)
+        &:focus
+            outline 6px dashed $secondary
+
+.ms-icons 
+    font-family FabricMDL2Icons
+    font-style normal
+.ms-check-circle
+    font-family FabricMDL2Icons
+    font-style normal
+    &:before
+        content ''
+.ms-close
+    font-family FabricMDL2Icons
+    font-style normal
+    &:before
+        content ''
+/* standard elements */
+
+swot
+    .main-header
+        @media only screen and (max-width 1280px)
+            height 80px !important
+            display block
+
+.impact-heading
+        font-weight 600
+.main
+    &-title
+        font-size $fontSize21
+        line-height 1.2em
+        background none
+        color $accent02
+        font-weight 600
+        align-items center
+        /*flex 1*/
+        display flex
+        width 100%
+        h4
+            font-size $fontSize21
+        &.info-update-header
+            margin-bottom .5em
+        @media only screen and (max-width 560px)
+            position relative
+            font-size $fontSize18
+            line-height 1.2em
+            //height 40px
+            width 100%
+            padding 0 8px 0 0
+        h1 
+            font-size $fontSize24
+            margin-top 0
+    &-image
+        display block
+        height 256px
+        overflow hidden
+        @media screen and (max-width 560px)
+            height initial
+        img
+            width 100%
+            height auto
+            flex 1 0 100%
+    &-header
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        flex-wrap wrap
+
+.content
+    &-el
+        padding 20px
+        max-width 700px
+        margin 0 auto
+        height calc(100% - 55px)
+        border-bottom-right-radius 10px
+        border-bottom-left-radius 10px
+        @media only screen and (max-width 560px)
+            // height calc(100% - 40px)
+            height initial
+            padding 8px 16px
+        &.white-gradient
+            background $white
+
+.header-icon
+    font-family 'icomoon'
+    font-size 30px
+    color $primary
+    top -5px
+    left -5px
+    @media only screen and (max-width 560px)
+        top initial 
+        left initial
+
+.stepper
+    &.field
+        color $secondary
+input
+    &:focus,
+    &:active
+        border 2px solid $secondary !important
+/* ------ end of standard elements ------- */
+
+
+/* ----     standard modals     ----------- */
+
+.modal
+    background rgba(255,255,255,0)
+    transition background .4s ease-out
+    &-header
+        padding 20px
+    @media screen and (max-width 560px)
+        padding 10px 0
+    &.in
+        background rgba(255,255,255,.9)
+        display flex !important
+        height 100%
+        align-items center
+    .close
+        font-family 'icomoon'
+
+.modal-dialog
+    margin 0 auto
+    overflow hidden
+    @media only screen and (max-width 960px), screen and (max-height: 540px)
+        max-height calc(100vh - 2em)
+        margin 1em auto
+        overflow-y auto
+
+.pin
+    &-modal
+        margin 0
+        left 20vw
+        overflow-x hidden
+        overflow-y hidden
+        max-height 100vh
+        border-radius 0
+        width 70vw
+        max-width calc(100vw - 420px)
+        position relative
+        box-shadow: 0px 12px 20px 0px rgba($gray100, .15)
+        @media only screen and (max-width 1280px)
+            max-width calc(100vw - 320px)
+            left 18vw
+        @media only screen and (max-width 960px), screen and (max-height: 540px)
+            max-width initial
+            max-height initial
+            width calc(100% - 5em)
+            margin .5em 0 0 .5em
+            left 0
+            top 0
+        &_content
+            max-height 100vh
+            height 100vh
+            overflow-y auto
+            position relative      
+            display flex
+            flex-direction column
+            justify-content space-between
+            background url(../images/mainBG-circles.svg)
+            background-size 20%
+            background-position right top
+            background-repeat no-repeat
+            @media only screen and (max-width 960px), screen and (max-height: 540px)
+                height 100%
+                max-height initial
+                overflow hidden
+        &__footer
+            padding 0 0 32px 0
+            left 0
+            bottom 0
+            width 100%
+            .submit
+                &-btn
+                    display flex
+                    margin-left auto
+                    padding 0
+                    font-size 1.1em
+                    border-radius 0
+                    background $primary
+                    font-weight 400
+                    transition background .2s ease-in
+                    @media screen and (-ms-high-contrast: black-on-white) 
+                        border solid 3px $gray100
+                    @media screen and (-ms-high-contrast: white-on-black) 
+                        border solid 3px white
+                    &:disabled
+                        opacity 1
+                        background $gray10 !important
+                        color $gray10
+                        .submit-btn__icon
+                           background-color $gray10 
+                    &__text
+                        flex 1
+                        padding 1em 1.5em 1em 1.5em
+                    &__icon
+                        padding 1em 1.2em
+                        background-color $alt-color
+                        span.digital-ico
+                            font-size 0.8em
+                    &:hover
+                        background $accent06
+    &-heading
+        padding 4em 2em
+        background-color $gray80
+        color $white
+        &_title
+            margin 0
+            font-weight 100
+    &-content
+        position relative
+        padding 3em 3em 0 3em
+        p, ul, ol
+            max-width 100%
+
+    label.disabled:before
+        pointer-events none
+        &:before
+            background $gray30
+            border-color $gray30
+    
+
+.modal-content
+    max-width 800px
+    border-radius 0
+
+.modal-dialog.confirmation
+    text-align center
+    justify-content center
+    overflow visible
+    // top calc(50% - 160px)
+    @media only screen and (max-width 560px)
+        width initial
+    .submit-popup-content
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        flex-direction column
+        background $white
+        background #fff
+        border 5px solid $gray30
+        border-radius 16px
+        box-shadow 0 7px 35px rgba(0,0,0,.2)
+        animation .4s ease-out .3s flipSimple
+        animation-fill-mode forwards
+        opacity 0
+        @media screen and (max-width 560px)
+            margin 0 10px
+            width calc(100% - 20px)
+        .modal-header
+            background none
+            border none
+            .modal-title
+                background none
+                color $primary
+                text-transform uppercase
+                justify-content center
+                font-size 16px
+                margin-bottom .2em
+                margin-right 16px
+                .digital-ico 
+                    margin-right .3em
+                    
+        .modal-body
+            color $gray100
+            text-align left
+            .confirmBody
+                margin 0 20px
+                overflow auto
+                @media screen and (max-width 560px)
+                    margin 0 10px
+        .button-container
+            display flex
+            width 100%
+            .btn 
+                flex 1
+                height 60px
+                border none
+                .digital-ico 
+                    margin-left .3em
+            .btn-danger
+                border none
+                box-shadow none
+                border-top-left-radius 0
+                border-top-right-radius 0
+                border-bottom-left-radius 0
+                border-bottom-right-radius 10px
+                background $primary
+                transition background .3s ease-out
+                &:hover
+                    background darken($primary,10)
+            .btn-primary
+                background $accent01
+                border none
+                box-shadow none
+                border-top-left-radius 0
+                border-top-right-radius 0
+                border-bottom-right-radius 0
+                border-bottom-left-radius 10px
+                transition background .3s ease-out
+                &:hover
+                    background $alt-color
+
+/* digital font calls */
+
+.df-angle-down:before
+    content  ''  
+
+.df-angle-up:before
+    content  ''  
+
+/* ----- end of digital font calls -------*/
+
+
+
+.rightSide
+    float right
+
+.footer
+    overflow hidden
+    margin auto
+    float none
+    background-color $white
+    padding 2rem
+    text-align center
+    .btn-primary
+        padding 10px 
+        background-color $blue
+        border-radius 0
+        box-shadow none
+
+.dashboard
+    &__main-metric
+        text-align center
+        .gauge-container
+            height auto
+            width 150px
+            margin 0 auto
+            @media only screen and (max-width 1280px)
+                width inherit
+            .highcharts-container
+                width 100% !important
+                text-align center !important
+                overflow visible !important
+                svg
+                    overflow visible
+                    g.highcharts-axis > text
+                        font-size 1.3rem !important
+                        text-transform none !important
+                        transform translateY(-3.5rem)
+                        fill $black !important
+.highcharts-container
+    margin 0 auto       
+.gauge--solid
+    margin-right 10px
+.solid-gauge-title
+    margin-right 10px
+    line-height 1.1em
+    position relative
+    color $lightblue
+    top -20px
+    width calc(100% - 20px)
+    left 10px
+
+.metric
+    &-holder
+        .highcharts-container
+            height 100px !important
+            >svg
+                height 100px
+    &__heatmap
+        .highcharts-container
+            height auto !important
+            >svg
+                height auto
+    &-balloon
+        color white
+        border-radius 13px !important
+        padding 0 8px
+        font-size 1em
+        margin-left 8px
+        white-space nowrap
+        position absolute
+        right 0
+        @media only screen and (max-width 1280px)
+            margin-left 0
+            font-size 1.6rem
+        @media only screen and (max-width 960px)
+            position relative
+            margin-right .25em
+            font-size 1em
+    &-balloon.currentYearBalloon
+        font-size 1.25em
+        height 32px
+        padding 0 16px
+        line-height 32px
+        @media only screen and (max-width 1280px) and (orientation landscape)
+            text-align left
+            font-size 0.875em
+            height initial
+            line-height 1em
+            padding 0
+            margin 0
+            &.increment
+                background none
+                box-shadow none
+                color $successColor
+            &.decrement
+                background none
+                box-shadow none
+                color $dangerColor
+    &-balloon.increment
+        background $successColor
+        box-shadow: 0px 8px 6px 4px rgba(darken($successColor,2),0.2);
+        // &:before
+        //     content '+ '
+        @media screen and (-ms-high-contrast: black-on-white)
+            border 1px solid black
+        @media screen and (-ms-high-contrast: white-on-black)
+            border 1px solid white
+    &-balloon.decrement
+        background $dangerColor
+        box-shadow: 0px 8px 16px 4px rgba(darken($dangerColor,2),0.2);
+        &:before
+            content ' '
+        @media screen and (-ms-high-contrast: black-on-white)
+            border 1px solid black
+        @media screen and (-ms-high-contrast: white-on-black)
+            border 1px solid white
+
+.feedback-container 
+    .scenarioText
+        h1
+            display none
+
+.end-of-round-feedback
+    h3
+        margin-top 0
+        text-align center
+    .highcharts-container
+        margin auto
+    .eor-feedback-content
+        .gauge-container 
+            .highcharts-container
+                margin auto
+                width 100% !important
+                text-align center !important
+                overflow visible !important
+                svg
+                    overflow visible
+                    g.highcharts-axis > text
+                        font-size 1.3rem !important
+                        text-transform none !important
+                        transform translateY(-3.5rem)
+                        fill $black !important
+    .metric__value
+        text-align center
+        margin-bottom 2rem
+        @media screen and (max-width 560px)
+            line-height 1.2em
+        display flex
+        data-metric
+            flex 1
+            margin-right 20px
+            &:last-child
+                margin-right 0
+        .metric-cont
+            width 80px
+            margin auto
+            font-weight bold
+            .metric-values
+                float none
+    .client
+        .client-heading
+            position relative !important
+            background none !important
+            padding 1rem !important
+            color $blue4 !important
+            font-size 2rem !important
+        .metric__values
+            width 100%
+            .metric__value--label
+                float left
+            .metric__value--data
+                float right
+        .metric__gauge
+            margin auto
+            float none
+            width 100%
+
+
+.header-initiativeText
+    p
+        margin 0
+
+app-help 
+    .carousel-container
+        padding-bottom 1em
+.carousel
+    &-container
+        padding-bottom 40px
+    &-indicators
+        bottom -45px
+        li
+            border 1px solid $primary
+            position relative
+            text-indent initial
+            &.active
+                background-color $primary
+            &.selected-indicator
+                &:before
+                    content ''
+                    font-family 'icomoon'
+                    font-size 6px
+                    color $primary
+                    position: absolute
+                    z-index: 100
+                    top: 0
+                    left: 0
+                    width: 10px
+                    height: 10px
+                &.active
+                    &:before
+                        content ''
+                        color $white
+            &.previous-selected
+                background #888
+    &-control
+        background-repeat no-repeat
+        background-size 40px
+        height 40px
+        bottom -40px
+        top auto
+        opacity 1
+        width 40px
+        cursor pointer
+        font-size 0.875em
+        &.left
+            background $gray70
+            &:after
+                content ''
+                font-family 'icomoon'
+                line-height 40px
+        &.right
+            background $gray70
+            &:after
+                content ''
+                font-family 'icomoon'
+                line-height 40px
+        .icon-next,.icon-prev
+            display none
+// .nav
+//     &-tabs
+//         border-bottom none
+//         background-color #3296fb
+//         margin-left -1px
+//     li  a
+//         color $white
+//         font-weight bold
+//         border none
+//         border-radius 0
+//         text-decoration none
+//         margin-bottom 10px
+//         &:hover
+//             border-bottom 2px solid $white
+//             background none
+//         &.active, &.active:focus, &.active:hover
+//             border none
+//             border-bottom 3px solid $white
+//             background none
+//             color $white
+
+
+
+/*  modal windows */
+
+.content-holder
+    height $modalHeightIntroMobile
+    overflow auto
+    display -webkit-box
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+    &.intro-registration
+        height calc(100% - 40px)
+
+intro-component
+    .content-holder
+        height $modalHeightIntroMobile
+        overflow auto
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        padding 1rem
+        justify-content center
+        @media only screen and (max-width 560px)
+            height calc(100% - 20px)
+        @media only screen and (max-width 1280px) and (orientation landscape)
+            height calc(100% - 60px)
+        &.intro-registration
+            height calc(100% - 35px)
+
+swot
+    @media only screen and (max-width 770px)
+        height calc(100% - 110px)
+
+registration
+intro-text1
+intro-overview
+intro-casestudy
+swot
+objective-overview
+infoupdatepage
+    height $modalHeightIntro
+    display -webkit-box
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+    flex-direction column
+    align-items center
+    justify-content center
+    @media only screen and (max-width 560px)
+        height calc(100% - 45px);
+        margin 0 auto
+        overflow hidden
+        .main-content
+            padding 0 10px
+    .modal-dialog
+        max-width $largeWindow
+        overflow hidden
+        background none
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        -webkit-box-orient vertical
+        -webkit-box-direction normal
+        -ms-flex-direction column
+        flex-direction column
+        @media only screen and (max-width 560px)
+            width $mobileWindow
+            margin-bottom 5px
+        .content-holder
+            z-index 2
+            display -webkit-box
+            display -webkit-flex
+            display -ms-flexbox
+            display flex
+            align-items center
+        .content
+            overflow-y auto
+            overflow-x hidden
+            margin 0
+            background $white
+ registration
+    @media only screen and (max-width 560px)
+        justify-content flex-start
+
+.company-id
+    margin 1em auto
+    text-align center
+    img
+        max-width 350px
+        max-height 150px
+        margin 0 auto
+
+.show-data-modal,
+.reports
+    width $largeWindow
+    height 100%
+    display -webkit-box
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+    -webkit-box-orient vertical
+    -webkit-box-direction normal
+    -ms-flex-direction column
+    flex-direction column
+    align-items center
+    justify-content center
+    margin 0 auto
+    @media only screen and (max-width 560px)
+        width $mobileWindow
+        overflow-y auto
+        overflow-x hidden
+        top 20px
+    .modal-dialog
+        border-bottom-right-radius 0
+        border-bottom-left-radius 0
+    .data-modal-close
+        display none 
+        @media only screen and (max-width 560px)
+            position fixed
+            font-size 1rem
+            top 2px
+            left 5px
+            padding 5px 10px
+            background $gray70
+            display none
+            color $white
+            border-radius 10px
+    .button-container
+        position relative
+        height 45px
+        width 100%
+        padding 0
+        margin 0 auto
+        text-align center
+        line-height 45px
+        .btn-primary
+            background $primary
+            border none
+            border-radius 0
+            border-top-right-radius 8px
+            border-top-left-radius 8px
+            border-bottom-right-radius 8px
+            border-bottom-left-radius 8px
+            height 45px
+            text-align center
+            margin 0 auto
+            padding 0 16px
+            &:hover
+                background darken($primary,10)
+        @media only screen and (max-width 560px)
+            height 47px
+            top 0
+            width 90%
+            margin auto
+            // display block
+        .yes-button
+            border-radius 0
+            border-bottom-left-radius 10px
+            border-bottom-right-radius 10px
+
+.swot-modal
+    swot
+        height 100%
+        background #fff
+        height 100%
+        background #fff
+        display inherit
+        flex-direction inherit
+        align-items inherit
+        justify-content inherit
+        .modal-dialog
+            height 100%
+
+.pin-infoupdatepage
+    infoupdatepage
+        height 100%
+
+planningtool
+chooser
+    height $modalHeightMetrics
+    @media only screen and (max-width 1280px)
+        height calc(100% - 40px)
+    @media only screen and (max-width 560px)
+        height 100%
+        position relative
+        margin 0 auto
+        overflow hidden
+    .modal-dialog
+        max-width $largeWindow
+        height 100%
+        overflow hidden
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        -webkit-box-orient vertical
+        -webkit-box-direction normal
+        -ms-flex-direction column
+        flex-direction column
+        @media only screen and (max-width 560px)
+            width $mobileWindow
+            margin-bottom 5px
+        .content-holder
+            z-index 2
+            display -webkit-box
+            display -webkit-flex
+            display -ms-flexbox
+            display flex
+            align-items center
+        .content
+            overflow-y auto
+            overflow-x hidden
+            margin 0
+    // .tab-content
+    //     @media only screen and (max-width: 560px)
+    //         background-color: #09B6ED;
+    .carousel-container
+        padding-bottom 10px
+        carousel
+            div.item
+                width 80%
+                margin auto
+            .initiative
+                border-top-left-radius 10px
+                border-top-right-radius 10px
+                height 60px
+                .multiSelectText
+                    background-color white
+                    height 100%
+                    display -webkit-box
+                    display -webkit-flex
+                    display -ms-flexbox
+                    display flex
+                    align-items center
+                    color $gray70
+                    font-size 1.125em
+                    @media only screen and (max-width: 560px)
+                        font-size 13px
+                    .checkbox-container
+                        padding-left 20px
+                        padding-right 10px
+                        text-align center
+                        .handCursormultiSelect
+                            border solid 2px $secondary
+                            border-radius 8px
+                            height 35px
+                            width 35px
+                            &.multiSelectChecked
+                                background $secondary
+                                font-size 29px
+                                display block
+                            &.fa-check::before
+                                color $white 
+                .carousel-header-text
+                    padding-left 0
+                    font-weight 600
+                    color $accent02
+            .investmentspage-initiative-desc-cont
+                margin 0
+                border-bottom-left-radius 10px
+                border-bottom-right-radius 10px
+                border 0
+                padding-top 10px
+                height 230px
+        .carousel-control
+            top 50%
+            width 20px
+            background-position-x -9px
+        .header-selectedInitCount
+            display -webkit-box
+            display -webkit-flex
+            display -ms-flexbox
+            display flex
+            padding-left 0
+            padding-top 10px
+        .carousel-indicators
+            position: initial;
+            margin-left: -12%;
+            margin-bottom: 20px;
+            li
+                border-radius 2px
+                border-color $primary  
+.pin-chooser
+    display none
+    &.active
+        height 100%
+        position relative
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex        
+        flex-direction column
+        align-items center
+        justify-content center
+
+@media screen and (max-width 560px)
+    .alert-popup
+        width calc(100% - 20px)
+        margin 0 auto
+        position absolute
+        bottom 0
+        left 10px
+
+.forcastIS-wrapper
+    padding 16px
+    @media only screen and (max-width 560px)
+        padding 4px
+
+.main-header
+    display -webkit-box
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+    flex-wrap nowrap
+    @media only screen and (max-width 560px)
+        position relative
+        flex 1 0
+    .modal-title
+        display -webkit-box
+        display -webkit-flex
+        display -ms-flexbox
+        display flex
+        flex 1
+        align-items center
+        @media only screen and (max-width 560px)
+            font-size $fontSize14
+            line-height 1.2em
+        &.eventTitle 
+            padding 16px 0 0 16px
+.tabs
+    display -webkit-box
+    display -webkit-flex
+    display -ms-flexbox
+    display flex
+    margin-top 10px
+    @media screen and (max-width 560px)
+        margin-top 5px
+    .header-tab
+        background none
+        border none
+        border-bottom 2px solid $gray30
+        font-size 1.5em
+        padding 8px 16px
+        cursor pointer
+        color $gray70
+        font-weight 400
+        box-shadow none
+        @media screen and (max-width 560px)
+            padding 0 8px
+        /* @media only screen and (max-width 1240px) and (orientation landscape)
+            font-size 16px */
+        &:last-child
+            margin-right 0
+        &.active, &:focus, &:hover
+            border-bottom 4px solid $secondary
+            color $gray100
+            font-weight 500
+
+.animated
+    &.flipReverse
+        -webkit-backface-visibility visible
+        backface-visibility visible
+        -webkit-animation-name flipReverse
+        animation-name flipReverse
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+    &.flipSimple
+        animation-name flipSimple !important
+        -webkit-animation-duration: .5s;
+        animation-duration: .5s;
+
+
+@keyframes flipReverse {
+  from {
+    top 50px
+    opacity: 0
+  }
+  10% {
+    opacity: 1
+  }
+  to {
+    top 0
+  }
+}
+
+
+@keyframes flipSimple {
+  0% {
+    opacity: 0
+  }
+  10% {
+    opacity 1
+  }
+  100% {
+    opacity 1
+  }
+}
+
+/*.strategy-sim-app
+    .header
+        &__bar
+            // background $black
+            height $headerBarHeight
+            color $white
+            padding 0 10px
+        &__title
+            font-size 1.2em
+            text-align center
+        &__instructions
+            font-size 1em
+            line-height $headerBarHeight
+            text-align right
+        &__client__logo
+            display inline-block
+            background url("../images/EYLogo.png")
+            background-repeat no-repeat
+            width 110px
+            height 50px
+            margin-top 10px*/
+.decisionAccordion
+    .panel
+        background-color #eee
+        margin-top 5px
+        &-heading
+            outline none
+        &-title
+            outline none
+            a
+                outline none
+                &:hover
+                    outline none
+                label
+                    font-weight normal
+
+.choice
+    &-label
+        font-size 1.25em
+        font-weight bold
+        padding 5px
+    &-header
+        font-size 1.25em
+        font-weight normal
+        padding 5px
+        color $alt-color
+    &-desc
+        font-weight 400
+.GaugeballoonValue
+    .metric-balloon
+        left 63% !important
+.WHIballoonValue
+    display inline-block
+    .metric-balloon
+        position relative !important
+        top auto !important
+        left 10px !important
+        float right
+        margin-bottom -8px
+.summary-btn-animation
+    animation fadeIn 1.5s 
+    -webkit-animation fadeIn 1.5s
+    margin-left auto
+    margin-right auto
+    margin-bottom 16px
+.instructionsBtnText
+    a
+        color red
+
+
+@keyframes fadeInOut 
+    0%
+        opacity 0
+        top 15px
+    30% 
+        opacity 1
+        top 0
+    70% 
+        opacity 1
+        top 0
+    100%
+        opacity 0
+        top 15px
+
+@keyframes fadeIn 
+    0%
+        opacity 0
+    30%
+        opacity 0
+    60%
+        opacity 0
+    100% 
+        opacity 1
+
+.fadeUp
+    animation-name fadeUp 
+    animation-duration 2.6s
+
+.fadeUp60
+    animation-name fadeUp60 
+    animation-duration 2.6s
+
+.metricComeIn
+    animation-name metricComeIn 
+    animation-duration 1.8s
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+    &:nth-child(2)
+        animation-delay: 2.2s;
+    &:nth-child(3)
+        animation-delay: 2.4s;
+    &:nth-child(4)
+        animation-delay: 2.6s;
+    &:nth-child(5)
+        animation-delay: 2.8s;
+    &:nth-child(6)
+        animation-delay: 3s;
+    &:nth-child(7)
+        animation-delay: 3.2s;
+
+@keyframes fadeUp 
+    0%
+        opacity 0
+        top 60%
+    30% 
+        opacity 1
+        top 50%
+    100% 
+        opacity 1
+        top 50%
+
+@keyframes fadeUp60 
+    0%
+        opacity 0
+        top 60px
+    30% 
+        top 0
+    100% 
+        opacity 1
+        top 0
+
+@keyframes metricComeIn 
+    0%
+        opacity 0
+        left 32px
+    30% 
+        opacity 1
+        left 0
+    100% 
+        opacity 1
+        left 0
+
+
+
+.digital-ico
+    font-family 'icomoon'
+
+.fullscreen-bg 
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 100%
+    overflow hidden
+    z-index 10
+    &:after 
+        content ' '
+        position absolute
+        width 100%
+        height 100%
+        top 0
+        left 0
+        background: rgb(255,255,255)
+        background: linear-gradient(135deg, $white 33%,darken($white,20) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    video
+        object-fit cover
+        width 100vw
+.fullscreen-bg__video 
+    position absolute
+    top 0
+    left 0
+    width auto
+    height 100%
+   
+
+/*slider toggle */
+.toggle-slider-control
+    margin-top 40px
+    position relative
+    display block
+    .no
+        float left
+        width 40px
+        line-height 40px
+        text-align left
+    .yes
+        float right
+        width 40px
+        line-height 40px
+        text-align right
+    .toggle-slider
+        .noUi-base
+            position relative
+            height 100%
+    .noUi-target
+        height 40px
+        background #f2f2f2
+        border-radius 20px
+        box-shadow 0px 7px 12px 2px rgba(0,0,0,0.2)
+        width calc(100% - 80px)
+        float left
+        position relative
+    .noUi-horizontal .noUi-handle
+        width 38px
+        height 38px
+        top 0
+        border-radius 50%
+        background #6D747E
+        color #fff
+        box-shadow none
+        text-transform translate(-50%, 0)
+        transform rotateY(0deg)
+        transition background .3s ease-out, border .3s ease-out, transform .3s ease-out, color .3s ease-out
+    .noUi-handle:before
+        content ''
+        display none
+    .noUi-handle:after
+        content 'or'
+        display block
+        position absolute
+        top 0
+        left 0
+        background none
+        text-align center
+        width 38px
+        height 38px
+        line-height 38px
+    &.toggle
+        &-yes
+            .noUi-target
+                background #00B6DD
+            .noUi
+                &-handle
+                    background #fff
+                    border 3px solid #00B6DD
+                    color #00B6DD
+                    transform rotateY(180deg)
+                    font-family 'icomoon'
+                &-origin
+                    left calc(100% - 19px)!important
+                &-handle:after
+                    content ''
+        &-no
+            .noUi-target
+                background #23569D
+            .noUi
+                &-handle
+                    background #fff
+                    border 3px solid #23569D
+                    color #23569D
+                    transform rotateY(-180deg)
+                    font-family 'icomoon'
+                &-origin
+                    left 19px!important
+                &-handle:after
+                    content ''
+    .noUi-origin
+        left 50% !important
+
+
+
+
+::-webkit-scrollbar 
+    width 10px
+    -webkit-overflow-scrolling: touch;
+
+::-webkit-scrollbar-track 
+    -webkit-box-shadow inset 0 0 6px rgba(0,0,0,0.15)
+    -webkit-border-radius 5px
+    border-radius 5px
+    
+::-webkit-scrollbar-thumb 
+    -webkit-border-radius 5px
+    border-radius 5px
+    background rgba(0,0,0,0.3)
+
+::-webkit-scrollbar-thumb:window-inactive 
+	background rgba(0,0,0,0.15)
+
+/*modal hack to override modal-backdrop position: fixed*/
+.modal-backdrop
+    position relative
+
+.swot-accordian, .forcastIS-accordian, .summaryAccordion
+    .panel.panel-default
+        .panel-heading
+            color $white
+            .accordion-toggle
+                &:hover, &:active, &:focus
+                    outline none 
+                    text-decoration none
+
+        .panel-collapse
+            background $white
+
+.swot-accordian, .forcastIS-accordian
+    .panel.panel-default
+        .panel-heading
+            background $gray70
+            border 2px solid $gray100
+        .panel-body
+            border 2px solid $gray100
+            border-top none
+    .panel.panel-open
+        .panel-heading
+            border-bottom none
+
+.summaryAccordion
+    .email-notification-holder
+        .panel.panel-default
+            .panel-heading, .panel-collapse
+                background $emailNotificationGradient
+    .panel-body
+        @media screen and (max-width 560px)
+            padding 0 0 10px 0
+
+    .call-notification-holder
+        .panel.panel-default
+            .panel-heading, .panel-collapse
+                background $callNotificationGradient
+                color $white
+    
+    .decision-notification-holder
+        .panel.panel-default
+            .panel-heading, .panel-collapse
+                background $decisionNotificationGradient
+                color $white
+
+    .report-notification-holder
+        .panel.panel-default
+            .panel-heading, .panel-collapse
+                background $neutral3
+                color $white
+
+.tablesaw-bar
+    .tablesaw-advance
+        display none
+        @media only screen and (max-width 560px)
+            display block
+            font-size 14px
+            color $secondaryColor
+
+    .tablesaw-advance::before
+        content: "Click to view more "
+        
+body
+    &.English
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreEnglish
+    &.Espanol
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreSpanish
+    &.German
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreGerman
+    &.Portuguese
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMorePortuguese
+    &.Italian
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreItalian
+    &.French
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreFrench
+    &.Chinese
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreChinese
+    &.Japanese
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreJapanese
+    &.Russian
+        .tablesaw-bar
+            .tablesaw-advance
+                &:before
+                    content $viewMoreRussian
+            
+        
+.dashboard-tabs
+    .dropdown-menu
+        li
+            a
+                white-space normal
+                
+// .registration
+//     .dropdown-menu
+//         @media only screen and (max-width 560px)
+//             position relative
+
+.metrics
+    isma-calc-output
+        // position relative
+        display flex
+        @media only screen and (max-width 1280px) and (orientation landscape)
+            flex-direction column-reverse
+        @media only screen and (max-width 960px)
+            flex-direction row-reverse
+
+
+// For accessibility
+.dropdown-toggle.focus,
+.dropdown-toggle:focus,
+button.btnCommon.focus,
+button.btnCommon:focus,
+button.btn-primary.focus,
+button.btn-primary:focus,
+button.btn-danger.focus,
+button.btn-danger:focus,
+div.email.content.show-mail.focus,
+div.email.content.show-mail:focus,
+div.meeting.content.show-meeting.focus,
+div.meeting.content.show-meeting:focus,
+div.report-detail.focus,
+div.report-detail:focus
+    outline 6px solid $secondary
+    border-radius $radiusSmall
+
+button.button-container.focus,
+button.button-container:focus,
+button.btn-float-right.focus,
+button.btn-float-right:focus,
+a.link-dropdown.focus,
+a.link-dropdown:focus,
+span.link-dropdown > a.focus,
+span.link-dropdown > a:focus,
+.header__logout.focus,
+.header__logout:focus,
+button.multiSelect.focus,
+button.multiSelect:focus,
+div.choice.focus,
+div.choice:focus
+    outline 3px dashed $gray100
+
+.notification-popup-wrapper
+    .popup-content
+        .button-container.focus,
+        .button-container:focus
+            outline 1px dashed $gray100
+
+accordion-group.panel.focus,
+accordion-group.panel:focus
+    border 1.5px dashed $gray100
+
+button.tab-item.focus,
+button.tab-item:focus,
+button.choice-submitBtn.focus,
+button.choice-submitBtn:focus,
+div.content-next-button.focus,
+div.content-next-button:focus,
+div.content-back-button.focus,
+div.content-back-button:focus
+    border 1.5px dashed $white
+
+accordion-group.panel.panel-open,
+button.tab-item.active
+    border none
+
+div.choice.choiceHighlight
+    outline none
+
+.custom-label
+    position relative
+    label
+        display flex
+        margin 0
+        font-weight 400
+        font-size 1.1em
+        align-items center
+    input
+        height 1.875em
+        left 0
+        opacity 0
+        position absolute
+        top 0
+        width 1.875em
+        margin 0
+        margin-left 1em
+    input + label:before
+        font-family FabricMDL2Icons
+        content ""
+        font-size 1.875em
+        line-height 1
+        padding 0 1em 0 0.5em
+    input:checked + label:before
+        content ""
+
+.radio-item
+    margin 10px 0
+    color $gray70
+    position relative  
+    background: white
+    label
+        font-weight normal
+        display flex
+        align-items center
+        margin 0                
+        padding 1.5em        
+        border 1px solid $gray30
+        border-radius 0
+        &:before 
+            content "\e96b"
+            margin 0 1em 0 0
+            font-family icomoon
+            font-size 1.5em        
+        &:focus
+            outline 6px dashed $primary
+            color $primary
+            @media screen and (-ms-high-contrast: black-on-white) 
+                outline 3px dashed black
+            @media screen and (-ms-high-contrast: white-on-black) 
+                outline 3px dashed white
+        &:hover
+            border-color $gray100
+            color $gray100
+            @media screen and (-ms-high-contrast: black-on-white) 
+                outline 3px solid black
+            @media screen and (-ms-high-contrast: white-on-black) 
+                outline 3px solid white
+        &.disabled
+            pointer-events none
+            border 1px solid transparent
+            color $gray30
+
+
+    input[type='radio']
+        opacity 0
+        position absolute
+        top 50%
+        transform translateY(-50%)
+        left 0
+        margin 0
+        width 20px
+        height 20px
+        margin-left 1.7em
+        z-index -1
+        &:checked + label
+            &:before
+                content "\e96c"
+    &.radio-itemSelected
+        @media screen and (-ms-high-contrast: white-on-black) 
+            outline 3px solid white
+            border-radius $radiusMedium
+        @media screen and (-ms-high-contrast: black-on-white) 
+            outline 3px solid black
+            border-radius $radiusMedium
+
+
+.radio-itemSelected label
+    background-color $primary
+    color $white
+    @media screen and (-ms-high-contrast: black-on-white) 
+        font-weight 600
+    @media screen and (-ms-high-contrast: white-on-black) 
+        font-weight 600
+    &:focus, &.focus, &:hover
+        color $white
+    &.disabled
+        background $gray30
+        pointer-events none
+
+.actions-wrapper
+    display: flex
+    align-items: center
+    p
+        max-width: 100%
+        border: 1px solid $gray100
+        padding: 7px 15px
+        border-radius 0
+        margin-left: 0
+        margin-right: 0
+        margin-bottom: 0
+        @media screen and (-ms-high-contrast: black-on-white) 
+            border: 1px solid black
+        @media screen and (-ms-high-contrast: white-on-black) 
+            border: 1px solid white
+        @media only screen and (max-width 960px), screen and (max-height: 540px)
+            padding: .25em
+    button
+        margin-left: auto
+        background: $primary
+        border: none
+        border-radius: 5px
+        padding: 15px 30px
+        color: $white
+
+.max-option-selected
+    max-width: 100%
+    border: 2px solid $gray100
+    padding: 7px 15px
+    border-radius 0
+    margin-left: 0
+    margin-right: 0
+    margin-bottom: 0
+
+.max-option-selected.max-selected
+    background-color $gray100
+    border none
+    color $white
+
+.pages-carousal .carousal .carousel-control
+    display none
+
+.pages-carousal .carousal .carousel-indicators 
+    left 0
+    margin 0
+    width auto
+    padding-left 5px
+    li
+        width 12px
+        height 12px
+        margin 0
+        margin-right 10px
+        border-color #808080
+    li.active
+        background $accent08
+        border-color $accent08
+
+.assistive-text
+    position absolute
+    margin -1px
+    border 0
+    padding 0
+    width 1px
+    height 1px
+    overflow hidden
+    clip rect(0 0 0 0)
+
+.mui-oc
+    &-box 
+        text-align center
+        justify-content center
+        box-shadow 0px 3px 10px 0px rgba($accent01,.3)
+        max-width 170px
+        padding .5em
+        @media only screen and (max-width 1280px)
+            padding .5em
+        &:focus
+            outline 6px solid $secondary
+            border-radius $radiusSmall
+
+    &-border
+        border 1px solid $accent01
+
+    &-background
+        background-color $accent01
+        border-radius 0   
+
+    &-name
+        font-family $corefont
+        color $white
+        font-weight bolder
+        line-height 18px
+        font-size 16px
+        @media only screen and (max-width 1280px)
+            font-size 12px
+            line-height 1.2em
+
+    &-designation
+        font-family $corefont
+        // font-style italic
+        color $white
+        line-height 1em
+        font-size 0.875em
+        @media only screen and (max-width 1280px)
+            font-size .8em
+            line-height 1.2em
+
+    &-reports
+        width 100%
+
+    &-vertical
+        padding 0 0.5em
+
+.instructions-videos
+    video 
+        width 100%
+
+
+@media only screen and (max-width 960px), screen and (max-height: 540px)
+    .org-chart
+        overflow-x auto
+
+
+/* .mui-oc-reports
+    justify-content center  */
+
+.mui-oc-org-container-vertical
+    flex 1
+
+.contentTable
+    table-layout fixed
+    tr 
+        background $white
+        border-bottom 1px solid $gray70
+        &:nth-child(odd)
+            background $white
+        &:last-child
+            border-bottom none
+    
+.matrix-decision
+    table-layout auto
+    td
+        max-width 700px
+    h3
+        color $primary
+
+table
+    border 1px solid $gray30
+    table-layout fixed
+    margin-bottom 2em
+    th
+        background $gray70
+        color $white
+        padding .5em
+    td
+        padding .5em
+    tr
+        &:nth-child(odd)
+            background $gray10
+    
+
+.ccs__data
+    h3 
+        color $primary
+        font-weight 600
+        margin-top 0
+    .selection-item
+        margin 1.5em 0
+    li 
+        list-style-type disc
+        list-style-position outside
+    
+
+app-feedback-generic
+    .feedback-wrapper
+        height 95vh
+
+reviewpage
+    app-feedback-generic
+        .feedback-wrapper
+            height auto
+
+
+// Leader Follower
+body.follower
+    .pin-modal__footer, 
+    .notification-primary-popup-wrapper, 
+    .notification-popup-wrapper
+        display: none

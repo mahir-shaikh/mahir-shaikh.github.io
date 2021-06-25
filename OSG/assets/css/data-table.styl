@@ -1,0 +1,26 @@
+@import 'config'
+
+.data
+    &-table
+        display table
+        width 100%
+        table-layout fixed
+        margin 20px 0
+    &-row
+        display table-row
+        &:nth-child(2n+2)
+            background-color #f2f2f2
+        &-header
+            display table-cell
+            font-weight bold
+            text-align center
+            color $blue2
+            padding 5px
+        &-data
+            display table-cell
+            text-align center
+            padding 5px
+    &-row
+        &-header:nth-child(1)
+            text-align left
+            

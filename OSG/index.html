@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <base href="./">
+  <title>OSG Sales Onboarding</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+  <script>
+    if (global === undefined) {
+      var global = window;
+    }
+
+    window.addEventListener("message", receiveMessage, false);
+
+    function receiveMessage(event) {
+      console.log('message from Momenta', event);
+      if (event && event.data) {
+        if (event.data.isCordovaApp) {
+          window.isCordovaApp = true;
+          if (event.data.apiBuildVersion) {
+            localStorage.setItem('apiBuildVersion', event.data.apiBuildVersion)
+          }
+          if (event.data.user) {
+            localStorage.setItem('user', event.data.user)
+          }
+          if (event.data.appUserJourneyId) {
+            localStorage.setItem('appUserJourneyId', event.data.appUserJourneyId)
+          }
+        }
+      }
+    }
+  </script>
+
+  <script>
+    var urlParam = function (name, w) {
+      w = w || window;
+      var rx = new RegExp('[\&|\?]' + name + '=([^\&\#]+)'),
+        val = w.location.search.match(rx);
+      return !val ? '' : val[1];
+    }
+
+    window.roundNumber = urlParam('round');
+    window.episodeNumber = urlParam('episode');
+    console.log("Index: " + window.roundNumber + "," + window.episodeNumber);
+  </script>
+
+  <style>
+    .loader {
+      display: block;
+      position: relative;
+      left: 50%;
+      top: 50%;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px;
+      border: 3px solid transparent;
+      border-top-color: #0078D4;
+      border-radius: 50%;
+      z-index: 10;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin 2s linear infinite;
+    }
+
+    .loader-wrapper {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 11;
+    }
+
+    .loader:before,
+    .loader:after {
+      content: "";
+      position: absolute;
+      border: 3px solid transparent;
+      border-top-color: #50E5FF;
+      border-radius: 50%;
+    }
+
+    .loader:before {
+      top: 5px;
+      left: 5px;
+      right: 5px;
+      bottom: 5px;
+      -webkit-animation: spin 3s linear infinite;
+      animation: spin 3s linear infinite;
+    }
+
+    .loader:after {
+      top: 15px;
+      left: 15px;
+      right: 15px;
+      bottom: 15px;
+      border-top-color: #243A5E;
+      -webkit-animation: spin 1.5s linear infinite;
+      animation: spin 1.5s linear infinite;
+    }
+
+    @-moz-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        transform: rotate(0deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        transform: rotate(360deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+    }
+
+    @-webkit-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        transform: rotate(0deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        transform: rotate(360deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+    }
+
+    @-o-keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        transform: rotate(0deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        transform: rotate(360deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+    }
+
+    @keyframes spin {
+      0% {
+        -webkit-transform: rotate(0deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);
+        /* IE 9 */
+        transform: rotate(0deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+
+      100% {
+        -webkit-transform: rotate(360deg);
+        /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);
+        /* IE 9 */
+        transform: rotate(360deg);
+        /* Firefox 16+, IE 10+, Opera */
+      }
+    }
+  </style>
+</head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<body>
+  <!-- <my-app>Loading...</my-app> -->
+  <div class="wib-sim-app">
+    <div class="fullscreen-bg">
+      <!-- <video loop muted autoplay poster="assets/images/stage-bg1.jpg" class="fullscreen-bg__video">
+        <source src="assets/videos/manu-bg.mp4" type="video/mp4">
+      </video>  -->
+    </div>
+    <my-app>
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+      </div>
+    </my-app>
+  </div>
+  <!--  JW Player Start-->
+
+  <script src="https://content.jwplatform.com/libraries/IDzF9Zmk.js"></script>
+  <script src="assets/js/jwplayer.js" type="text/css"></script>
+  <script>jwplayer.key = "JoLOBHOz+hJ9g5XenndyRzKGsYPpub8tl3yWXNIil3w="</script>
+  <!--  JW Player End-->
+
+<script src="runtime.js" defer></script><script src="polyfills-es5.js" nomodule defer></script><script src="polyfills.js" defer></script><script src="styles.js" defer></script><script src="scripts.js" defer></script><script src="vendor.js" defer></script><script src="main.js" defer></script></body>
+
+</html>
