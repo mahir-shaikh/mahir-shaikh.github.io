@@ -1,0 +1,422 @@
+@import "mixins"
+@import "core"
+@import "nouislider"
+@import "colors"
+
+html, body
+    min-height 100%
+body
+    background url("../images/ir-hero-platong-platform.jpg") no-repeat
+    overflow auto
+    background-size cover
+    font-size 16px
+    font-family "MuseoSans", sans-serif
+    line-height 20px
+    color $secondaryColor
+    -webkit-perspective 1000px
+    @media screen and (max-width 768px)
+        font-size 14px
+    @media screen and (max-width 576px)
+        font-size 12px
+.im-app
+    height 100vh
+    padding 0
+    overflow hidden
+    font-family "MuseoSans", sans-serif
+    .main
+        height 100%
+        display flex
+        flex-direction column
+        .row
+            margin 0
+        .container
+            width calc(100% - 30px)
+            max-width 1200px
+            margin-left 15px
+            margin-right 15px
+            @media screen and (min-width 992px)
+                margin auto
+                padding 0
+    .highcharts-background
+        fill transparent
+
+bs-tooltip-container
+    &.tooltip.tooltip-right
+        -webkit-animation-duration 0.35s
+        animation-duration 0.35s
+        -webkit-animation-fill-mode both
+        animation-fill-mode both
+        -webkit-animation-name customSlideRight
+        animation-name customSlideRight
+        -webkit-transform-origin 0 0
+        transform-origin 0 0
+        .tooltip-inner
+            text-align left
+            max-width 500px
+
+.digitalICO
+    font-family 'wib-icomoon'
+
+@keyframes customSlideRight {
+    0%   {
+        -webkit-transform scaleX(0)
+        transform scaleX(0)
+    }
+    100% {
+        -webkit-transform scaleX(1)
+        transform scaleX(1)
+    }
+}
+
+isma-dashboardgraph
+    .highcharts-container
+        margin auto
+    .highcharts-data-labels
+        top -5px !important
+        
+
+.carousel-table
+    .carousel-inner
+        .carousel-item
+            .item
+                width 100%
+    .carousel-indicators
+        display none
+    .carousel-control
+        width 20px
+        cursor pointer
+        .carousel-control-next-icon
+            background-image url('../images/icons/1next.svg')
+        .carousel-control-prev-icon
+            background-image url('../images/icons/1pre.svg')
+
+.wrapper
+    background-color rgba(255,255,255,0.9)
+    margin 0 5px 20px 15px
+    padding 0 15px
+
+.text-container
+    padding-top 30px
+
+.column-row
+    text-align center
+    align-items center
+
+.title-row
+    color navy
+    border-bottom solid 1px lightgrey
+
+.table-partition
+        height 90px
+        padding 5px 0
+        .img-container
+            border-bottom solid 2px $petronasBlue
+            position relative
+            top 50%
+            .image
+                width 80px
+                height 80px
+                border solid 2px $petronasBlue
+                position absolute
+                top -40px
+                right 0
+                border-radius 50%
+
+.instruction-container
+    height 60px
+    display flex
+    align-items center
+    font-size 14px
+    color $petronasBlue
+    font-weight 500
+    .instruction-text 
+        display flex
+        align-items center
+        font-weight 600
+        img 
+            width 11px
+            margin-right 5px 
+    .button-container
+        background-color $secondaryColor
+        color white
+        width 90px
+        height 30px
+        display flex
+        align-items center
+        justify-content center
+        &:hover, &:active, &:focus
+            background $secondaryColorHoverColor
+        .fa
+            font-size 11px
+            padding-left 5px        
+        &.disabled
+            opacity 0.6
+            pointer-events none
+
+.table-container
+    .row
+        min-height 50px
+        align-items center
+        &:not(.title-row.column-row)            
+            height 49px
+    .data-row,
+    .total-row
+        border-bottom solid 1px lightgrey
+        & > div.row
+            height 50px
+    .new-table
+        margin-top 20px
+    .total-row
+        font-weight 500
+    .subject-row
+        color $quaternaryColor
+        font-weight 600
+        align-items center
+
+.button-container
+    cursor pointer
+.chart-container
+    border solid 1px #ccc
+    padding 15px
+    .chart-title
+        text-align center
+        color #000
+        font-weight 600
+
+.error-modal,.export-modal,.reset-modal,.initiative-modal, .intro-modal
+    &.modal
+        .modal-dialog
+            margin auto
+            position absolute
+            left 50%
+            top 50%
+            -webkit-transform translate(-50%, -50%)
+            -moz-transform translate(-50%, -50%)
+            -ms-transform translate(-50%, -50%)
+            transform translate(-50%, -50%)
+        &.show .modal-dialog
+            position absolute
+            left 50%
+            top 50%
+            -webkit-transform translate(-50%, -50%)
+            -moz-transform translate(-50%, -50%)
+            -ms-transform translate(-50%, -50%)
+            transform translate(-50%, -50%)
+    .modal-content
+        border 0
+        margin-left 15px
+        margin-right 15px
+        border-radius 0
+        color #000
+    .modal-header
+        padding 7px 15px
+        background-color $neutral4
+        color $white
+        font-size 1.25rem
+        font-weight 500
+        isma-calc-outlet
+            color $white
+            font-size 1.25rem
+            font-weight 500
+    .button-container
+        padding 0 15px 10px
+        justify-content center
+        .btn
+            cursor pointer
+            border-radius 0
+            isma-calc-outlet
+                color $white
+
+.submit-modal,.password-modal,.logout-modal, .confirm-modal, .help-modal
+    .modal-dialog
+        margin auto
+        position absolute
+        left 50%
+        top 50%
+        transform translate(-50%, -50%) !important
+        text-align center
+        width 555px
+        .modal-content
+            background $neutral1
+            height 250px
+            border-radius 0
+            .modal-header
+                background none
+                justify-content center
+                .modal-title
+                    color $petronasBlack
+                    text-transform uppercase
+                    .digital-ico 
+                        margin-right .3em
+            .modal-body
+                .confirmBody
+                    margin 0 20px
+                    color $neutral2
+            .password-container
+                margin-top 10px
+                .password-text
+                    padding-bottom 5px
+                input
+                    width 100%
+                    border 1px solid $black
+                    &:active,&:focus
+                        border 1px solid $black
+                        outline-color $primaryColor
+            .error-message
+                font-size 12px
+                color $metricNegative
+            .button-container
+                display flex
+                width 100%
+                position absolute
+                bottom 0
+                padding 0
+                margin 0
+                .btn 
+                    flex 1
+                    height 60px
+                    border none
+                    cursor pointer
+                    border-radius 0
+                    .digital-ico 
+                        margin-left .3em
+                .no-button, .petronas-black-btn
+                    border none
+                    background $primaryColor /* For browsers that do not support gradients */
+                    background $buttonGradient /* Standard syntax (must be last) */
+                    transition none
+                    color #fff  
+                    &:hover
+                        background $primaryColorHoverColor
+                .btn-primary
+                    background $neutral2
+                    border none
+                    transition none
+                    &:hover
+                        background $neutral3
+
+.initiative-modal,
+.intro-modal
+    .modal-dialog
+        min-width 45vw
+        max-height 80vh
+        .modal-content
+            padding 15px
+            .modal-title
+                font-weight 600
+                color $petronasBlue
+            .modal-body
+                padding-bottom 10px
+
+.intro-modal
+    .modal-dialog
+        min-width 25vw
+        max-height 80vh
+    .modal-body
+        text-align center
+    .button-container
+        padding-bottom 0
+        padding-top 10px
+        .no-button
+            background $primaryColor
+            color #fff
+            &:hover
+                background $primaryColorHoverColor
+
+.confirm-modal,
+.error-modal,
+.initiative-modal
+    .btn-primary
+        background-color $petronasBlue
+    .petronas-black-btn, .no-button
+        background-color $primaryColor
+        color #FFF
+        &:hover
+            background $primaryColorHoverColor
+
+.fileInputEl
+    display none
+
+.planning-initiatives
+    .dropdown-menu
+        width 100%
+
+.explore-wrapper
+    ism-chart
+        .highcharts-series-0:not(.highcharts-legend-item)
+            rect:nth-child(2)
+                fill url(#diagonalHatch)
+        .highcharts-series-1:not(.highcharts-legend-item)
+            rect:nth-child(2)
+                fill url(#diagonalHatch1)  
+
+.develop-wrapper
+    ism-chart
+        .highcharts-series-0:not(.highcharts-legend-item)
+            rect:nth-child(2)
+                fill url(#diagonalHatch)
+        .highcharts-series-1:not(.highcharts-legend-item)
+            rect:nth-child(2)
+                fill url(#diagonalHatch1)  
+
+.basebusiness-wrapper
+    .chart-container.space-top
+        .highcharts-series-0:not(.highcharts-legend-item)
+            rect
+                fill url(#diagonalHatch)
+
+    .graph-container
+        .highcharts-legend
+            .highcharts-series-1
+                pointer-events none
+        .dashed-chart
+            .highcharts-series-0:not(.highcharts-legend-item)
+                rect:nth-child(2)
+                    fill url(#diagonalHatch)
+                rect:nth-child(1)
+                    fill url(#diagonalHatch)
+        
+        // .chart-data:not(.dashed-chart)
+        //     rect:nth-child(1):not(.highcharts-legend-box)
+        //         fill #263238
+
+.refine-wrapper
+    .refine-result-l2
+        .chart-data
+            .highcharts-series-0:not(.highcharts-legend-item)
+                rect:nth-child(2)
+                    fill url(#diagonalHatch)
+            .highcharts-series-1:not(.highcharts-legend-item)
+                rect:nth-child(2)
+                    fill url(#diagonalHatch1)  
+    .refine-result-l1
+        .chart-data
+            .highcharts-series-0:not(.highcharts-legend-item)
+                rect:nth-child(2)
+                    fill url(#diagonalHatch)
+                // > rect:nth-child(1)
+                //     fill #263238
+
+.market-wrapper
+    .market-results
+        .chart-data
+            .highcharts-series-0:not(.highcharts-legend-item)
+                rect:nth-child(2)
+                    fill url(#diagonalHatch)
+ism-chart
+    .highcharts-color-0
+        fill #763f98
+        stroke #763f98
+    .highcharts-color-1
+        fill #fdb924
+        stroke #fdb924
+
+.footer.eventpage-footer
+    width 100%
+    display flex
+    justify-content center
+            
+
+.header-row
+    font-weight 600
+    color $primaryColor
