@@ -1,0 +1,2334 @@
+{
+    "logging": false,
+    "connectToPulse": false,
+    "CDN0LOCAL1LOCALHOST2": 0,
+    "hostName": "https://pepsico.btspulse.com/",
+    "serviceUrl": "https://pepsico.btspulse.com/PulseServices/",
+    "eventTitle": "Pepsi_Core5_WiB",
+    "questionsToSend": [
+        {
+            "questionName": "tlInputLeaderLocation",
+            "rangeName": "tlInputLeaderLocation"
+        },
+        {
+            "questionName": "tlInputCurrentRound",
+            "rangeName": "tlInputCurrentRound"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue1_R1",
+            "rangeName": "tlOutputDashboardRawValue1_R1"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue2_R1",
+            "rangeName": "tlOutputDashboardRawValue2_R1"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue3_R1",
+            "rangeName": "tlOutputDashboardRawValue3_R1"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue4_R1",
+            "rangeName": "tlOutputDashboardRawValue4_R1"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue1_R2",
+            "rangeName": "tlOutputDashboardRawValue1_R2"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue2_R2",
+            "rangeName": "tlOutputDashboardRawValue2_R2"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue3_R2",
+            "rangeName": "tlOutputDashboardRawValue3_R2"
+        },
+        {
+            "questionName": "tlOutputDashboardRawValue4_R2",
+            "rangeName": "tlOutputDashboardRawValue4_R2"
+        },
+        {
+            "questionName": "tlInputSWOT_Vision_R1",
+            "rangeName": "tlInputSWOT_Vision_R1"
+        },
+        {
+            "questionName": "tlInputSWOT_Strengths_R1",
+            "rangeName": "tlInputSWOT_Strengths_R1"
+        },
+        {
+            "questionName": "tlInputSWOT_Weaknesses_R1",
+            "rangeName": "tlInputSWOT_Weaknesses_R1"
+        },
+        {
+            "questionName": "tlInputSWOT_Opportunities_R1",
+            "rangeName": "tlInputSWOT_Opportunities_R1"
+        },
+        {
+            "questionName": "tlInputSWOT_Threats_R1",
+            "rangeName": "tlInputSWOT_Threats_R1"
+        },
+        {
+            "questionName": "tlInputPriority1_R1",
+            "rangeName": "tlInputPriority1_R1"
+        },
+        {
+            "questionName": "tlInputPriority2_R1",
+            "rangeName": "tlInputPriority2_R1"
+        },
+        {
+            "questionName": "tlInputPriority3_R1",
+            "rangeName": "tlInputPriority3_R1"
+        },
+        {
+            "questionName": "tlInputPriority1Strategy_R1",
+            "rangeName": "tlInputPriority1Strategy_R1"
+        },
+        {
+            "questionName": "tlInputPriority2Strategy_R1",
+            "rangeName": "tlInputPriority2Strategy_R1"
+        },
+        {
+            "questionName": "tlInputPriority3Strategy_R1",
+            "rangeName": "tlInputPriority3Strategy_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Activity1_TimeAlloc_R1",
+            "rangeName": "tlInput_Role1_Activity1_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Activity1_TimeAlloc_R1",
+            "rangeName": "tlInput_Role2_Activity1_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_Activity1_TimeAlloc_R1",
+            "rangeName": "tlInput_Role3_Activity1_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_Activity1_TimeAlloc_R1",
+            "rangeName": "tlInput_Role4_Activity1_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_Activity1_TimeAlloc_R1",
+            "rangeName": "tlInput_Role5_Activity1_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Activity2_TimeAlloc_R1",
+            "rangeName": "tlInput_Role1_Activity2_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Activity2_TimeAlloc_R1",
+            "rangeName": "tlInput_Role2_Activity2_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_Activity2_TimeAlloc_R1",
+            "rangeName": "tlInput_Role3_Activity2_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_Activity2_TimeAlloc_R1",
+            "rangeName": "tlInput_Role4_Activity2_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_Activity2_TimeAlloc_R1",
+            "rangeName": "tlInput_Role5_Activity2_TimeAlloc_R1"
+        },
+        {
+            "questionName": "tlInput_SWOT_Submitted_R1",
+            "rangeName": "tlInput_SWOT_Submitted_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_SI01_R1",
+            "rangeName": "tlInput_Role1_SI01_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_SI02_R1",
+            "rangeName": "tlInput_Role1_SI02_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_SI03_R1",
+            "rangeName": "tlInput_Role1_SI03_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_SI04_R1",
+            "rangeName": "tlInput_Role1_SI04_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_SI05_R1",
+            "rangeName": "tlInput_Role1_SI05_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_SI01_R1",
+            "rangeName": "tlInput_Role2_SI01_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_SI02_R1",
+            "rangeName": "tlInput_Role2_SI02_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_SI03_R1",
+            "rangeName": "tlInput_Role2_SI03_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_SI04_R1",
+            "rangeName": "tlInput_Role2_SI04_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_SI05_R1",
+            "rangeName": "tlInput_Role2_SI05_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_SI01_R1",
+            "rangeName": "tlInput_Role3_SI01_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_SI02_R1",
+            "rangeName": "tlInput_Role3_SI02_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_SI03_R1",
+            "rangeName": "tlInput_Role3_SI03_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_SI04_R1",
+            "rangeName": "tlInput_Role3_SI04_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_SI05_R1",
+            "rangeName": "tlInput_Role3_SI05_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_SI01_R1",
+            "rangeName": "tlInput_Role4_SI01_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_SI02_R1",
+            "rangeName": "tlInput_Role4_SI02_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_SI03_R1",
+            "rangeName": "tlInput_Role4_SI03_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_SI04_R1",
+            "rangeName": "tlInput_Role4_SI04_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_SI05_R1",
+            "rangeName": "tlInput_Role4_SI05_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_SI01_R1",
+            "rangeName": "tlInput_Role5_SI01_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_SI02_R1",
+            "rangeName": "tlInput_Role5_SI02_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_SI03_R1",
+            "rangeName": "tlInput_Role5_SI03_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_SI04_R1",
+            "rangeName": "tlInput_Role5_SI04_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_SI05_R1",
+            "rangeName": "tlInput_Role5_SI05_R1"
+        },
+        {
+            "questionName": "tlInput_Tasks_Submitted_R1",
+            "rangeName": "tlInput_Tasks_Submitted_R1"
+        },
+        {
+            "questionName": "tlInput_Feedback_Submitted_R1",
+            "rangeName": "tlInput_Feedback_Submitted_R1"
+        },
+        {
+            "questionName": "tlInput_Feedback_Submitted_R2",
+            "rangeName": "tlInput_Feedback_Submitted_R2"
+        },
+        {
+            "questionName": "tlInputPriority1_R2",
+            "rangeName": "tlInputPriority1_R2"
+        },
+        {
+            "questionName": "tlInputPriority2_R2",
+            "rangeName": "tlInputPriority2_R2"
+        },
+        {
+            "questionName": "tlInputPriority3_R2",
+            "rangeName": "tlInputPriority3_R2"
+        },
+        {
+            "questionName": "tlInputPriority1Strategy_R2",
+            "rangeName": "tlInputPriority1Strategy_R2"
+        },
+        {
+            "questionName": "tlInputPriority2Strategy_R2",
+            "rangeName": "tlInputPriority2Strategy_R2"
+        },
+        {
+            "questionName": "tlInputPriority3Strategy_R2",
+            "rangeName": "tlInputPriority3Strategy_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_Activity1_TimeAlloc_R2",
+            "rangeName": "tlInput_Role1_Activity1_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_Activity1_TimeAlloc_R2",
+            "rangeName": "tlInput_Role2_Activity1_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_Activity1_TimeAlloc_R2",
+            "rangeName": "tlInput_Role3_Activity1_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_Activity1_TimeAlloc_R2",
+            "rangeName": "tlInput_Role4_Activity1_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_Activity1_TimeAlloc_R2",
+            "rangeName": "tlInput_Role5_Activity1_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_Activity2_TimeAlloc_R2",
+            "rangeName": "tlInput_Role1_Activity2_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_Activity2_TimeAlloc_R2",
+            "rangeName": "tlInput_Role2_Activity2_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_Activity2_TimeAlloc_R2",
+            "rangeName": "tlInput_Role3_Activity2_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_Activity2_TimeAlloc_R2",
+            "rangeName": "tlInput_Role4_Activity2_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_Activity2_TimeAlloc_R2",
+            "rangeName": "tlInput_Role5_Activity2_TimeAlloc_R2"
+        },
+        {
+            "questionName": "tlInput_SWOT_Submitted_R2",
+            "rangeName": "tlInput_SWOT_Submitted_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_SI01_R2",
+            "rangeName": "tlInput_Role1_SI01_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_SI02_R2",
+            "rangeName": "tlInput_Role1_SI02_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_SI03_R2",
+            "rangeName": "tlInput_Role1_SI03_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_SI04_R2",
+            "rangeName": "tlInput_Role1_SI04_R2"
+        },
+        {
+            "questionName": "tlInput_Role1_SI05_R2",
+            "rangeName": "tlInput_Role1_SI05_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_SI01_R2",
+            "rangeName": "tlInput_Role2_SI01_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_SI02_R2",
+            "rangeName": "tlInput_Role2_SI02_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_SI03_R2",
+            "rangeName": "tlInput_Role2_SI03_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_SI04_R2",
+            "rangeName": "tlInput_Role2_SI04_R2"
+        },
+        {
+            "questionName": "tlInput_Role2_SI05_R2",
+            "rangeName": "tlInput_Role2_SI05_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_SI01_R2",
+            "rangeName": "tlInput_Role3_SI01_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_SI02_R2",
+            "rangeName": "tlInput_Role3_SI02_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_SI03_R2",
+            "rangeName": "tlInput_Role3_SI03_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_SI04_R2",
+            "rangeName": "tlInput_Role3_SI04_R2"
+        },
+        {
+            "questionName": "tlInput_Role3_SI05_R2",
+            "rangeName": "tlInput_Role3_SI05_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_SI01_R2",
+            "rangeName": "tlInput_Role4_SI01_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_SI02_R2",
+            "rangeName": "tlInput_Role4_SI02_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_SI03_R2",
+            "rangeName": "tlInput_Role4_SI03_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_SI04_R2",
+            "rangeName": "tlInput_Role4_SI04_R2"
+        },
+        {
+            "questionName": "tlInput_Role4_SI05_R2",
+            "rangeName": "tlInput_Role4_SI05_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_SI01_R2",
+            "rangeName": "tlInput_Role5_SI01_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_SI02_R2",
+            "rangeName": "tlInput_Role5_SI02_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_SI03_R2",
+            "rangeName": "tlInput_Role5_SI03_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_SI04_R2",
+            "rangeName": "tlInput_Role5_SI04_R2"
+        },
+        {
+            "questionName": "tlInput_Role5_SI05_R2",
+            "rangeName": "tlInput_Role5_SI05_R2"
+        },
+        {
+            "questionName": "tlInput_Tasks_Submitted_R2",
+            "rangeName": "tlInput_Tasks_Submitted_R2"
+        },
+        {
+            "questionName": "tlInput_Seg1ProductMix_R2",
+            "rangeName": "tlInput_Seg1ProductMix_R2"
+        },
+        {
+            "questionName": "tlInput_Seg2ProductMix_R2",
+            "rangeName": "tlInput_Seg2ProductMix_R2"
+        },
+        {
+            "questionName": "tlInput_Role2ForecastLaborHC_R2",
+            "rangeName": "tlInput_Role2ForecastLaborHC_R2"
+        },
+        {
+            "questionName": "tlInput_Role2ForecastLaborHrs_R2",
+            "rangeName": "tlInput_Role2ForecastLaborHrs_R2"
+        },
+        {
+            "questionName": "tlInput_Role3ForecastLaborHC_R2",
+            "rangeName": "tlInput_Role3ForecastLaborHC_R2"
+        },
+        {
+            "questionName": "tlInput_Role3ForecastLaborHrs_R2",
+            "rangeName": "tlInput_Role3ForecastLaborHrs_R2"
+        },
+        {
+            "questionName": "tlInput_Role4ForecastLaborHC_R2",
+            "rangeName": "tlInput_Role4ForecastLaborHC_R2"
+        },
+        {
+            "questionName": "tlInput_Role4ForecastLaborHrs_R2",
+            "rangeName": "tlInput_Role4ForecastLaborHrs_R2"
+        },
+        {
+            "questionName": "tlInput_Role5ForecastLaborHC_R2",
+            "rangeName": "tlInput_Role5ForecastLaborHC_R2"
+        },
+        {
+            "questionName": "tlInput_Role5ForecastLaborHrs_R2",
+            "rangeName": "tlInput_Role5ForecastLaborHrs_R2"
+        },
+        {
+            "questionName": "tlInput_Forecast_Submitted_R2",
+            "rangeName": "tlInput_Forecast_Submitted_R2"
+        },
+        {
+            "questionName": "tlInput_OpsCapability2_R2",
+            "rangeName": "tlInput_OpsCapability2_R2"
+        },
+        {
+            "questionName": "tlInput_OpsCapability3_R2",
+            "rangeName": "tlInput_OpsCapability3_R2"
+        },
+        {
+            "questionName": "tlOutput_OpsCapability1_R2",
+            "rangeName": "tlOutput_OpsCapability1_R2"
+        },
+        {
+            "questionName": "tlInput_OpsCapability4_R2",
+            "rangeName": "tlInput_OpsCapability4_R2"
+        },
+        {
+            "questionName": "tlInput_Ops_Submitted_R2",
+            "rangeName": "tlInput_Ops_Submitted_R2"
+        },
+        {
+            "questionName": "tlInput_Coaching_Event1_R1",
+            "rangeName": "tlInput_Coaching_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Coaching_Event2_R1",
+            "rangeName": "tlInput_Coaching_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event1_R1",
+            "rangeName": "tlInput_Role1_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event1A_R1",
+            "rangeName": "tlInput_Role1_Event1A_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event1B_R1",
+            "rangeName": "tlInput_Role1_Event1B_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event1C_R1",
+            "rangeName": "tlInput_Role1_Event1C_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event1D_R1",
+            "rangeName": "tlInput_Role1_Event1D_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event1E_R1",
+            "rangeName": "tlInput_Role1_Event1E_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event2_R1",
+            "rangeName": "tlInput_Role1_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event2A_R1",
+            "rangeName": "tlInput_Role1_Event2A_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event2B_R1",
+            "rangeName": "tlInput_Role1_Event2B_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event2C_R1",
+            "rangeName": "tlInput_Role1_Event2C_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event2D_R1",
+            "rangeName": "tlInput_Role1_Event2D_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event2E_R1",
+            "rangeName": "tlInput_Role1_Event2E_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event3_R1",
+            "rangeName": "tlInput_Role1_Event3_R1"
+        },
+        {
+            "questionName": "tlInput_Role1_Event4_R1",
+            "rangeName": "tlInput_Role1_Event4_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event1_R1",
+            "rangeName": "tlInput_Role2_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2A_R1",
+            "rangeName": "tlInput_Role2_Event2A_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2B_R1",
+            "rangeName": "tlInput_Role2_Event2B_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2C_R1",
+            "rangeName": "tlInput_Role2_Event2C_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2D_R1",
+            "rangeName": "tlInput_Role2_Event2D_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2E_R1",
+            "rangeName": "tlInput_Role2_Event2E_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2F_R1",
+            "rangeName": "tlInput_Role2_Event2F_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2G_R1",
+            "rangeName": "tlInput_Role2_Event2G_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2H_R1",
+            "rangeName": "tlInput_Role2_Event2H_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event2_R1",
+            "rangeName": "tlInput_Role2_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Role2_Event3_R1",
+            "rangeName": "tlInput_Role2_Event3_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_Event1_R1",
+            "rangeName": "tlInput_Role3_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Role3_Event2_R1",
+            "rangeName": "tlInput_Role3_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_Event1_R1",
+            "rangeName": "tlInput_Role4_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Role4_Event2_R1",
+            "rangeName": "tlInput_Role4_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_Event1_R1",
+            "rangeName": "tlInput_Role5_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_Event2_R1",
+            "rangeName": "tlInput_Role5_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Role5_Event3_R1",
+            "rangeName": "tlInput_Role5_Event3_R1"
+        },
+        {
+            "questionName": "tlInput_Event1_R2",
+            "rangeName": "tlInput_Event1_R2"
+        },
+        {
+            "questionName": "tlInput_Event2_R2",
+            "rangeName": "tlInput_Event2_R2"
+        },
+        {
+            "questionName": "tlInput_Event3_R2",
+            "rangeName": "tlInput_Event3_R2"
+        },
+        {
+            "questionName": "tlInput_Event4_R2",
+            "rangeName": "tlInput_Event4_R2"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Coaching_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Coaching_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Coaching_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Coaching_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event3_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event3_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event4_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event4_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role2_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role2_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role2_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role2_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role2_Event3_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role2_Event3_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role3_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role3_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role3_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role3_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role4_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role4_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role4_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role4_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role5_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role5_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role5_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role5_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role5_Event3_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role5_Event3_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Event1_R2",
+            "rangeName": "tlOutput_WobblerTrigger_Event1_R2"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Event2_R2",
+            "rangeName": "tlOutput_WobblerTrigger_Event2_R2"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Event3_R2",
+            "rangeName": "tlOutput_WobblerTrigger_Event3_R2"
+        },
+        {
+            "questionName": "tlInput_Read_Coaching_Event1_R1",
+            "rangeName": "tlInput_Read_Coaching_Event1_R1"
+        },
+        {
+            "questionName": "tlInput_Read_Coaching_Event2_R1",
+            "rangeName": "tlInput_Read_Coaching_Event2_R1"
+        },
+        {
+            "questionName": "tlInput_Read_Event1_R2",
+            "rangeName": "tlInput_Read_Event1_R2"
+        },
+        {
+            "questionName": "tlInput_Read_Event2_R2",
+            "rangeName": "tlInput_Read_Event2_R2"
+        },
+        {
+            "questionName": "tlInput_Read_Event3_R2",
+            "rangeName": "tlInput_Read_Event3_R2"
+        },
+        {
+            "questionName": "tlOutput_E78_DebriefExport",
+            "rangeName": "tlOutput_E78_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E79_DebriefExport",
+            "rangeName": "tlOutput_E79_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E80_DebriefExport",
+            "rangeName": "tlOutput_E80_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E81_DebriefExport",
+            "rangeName": "tlOutput_E81_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E82_DebriefExport",
+            "rangeName": "tlOutput_E82_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E83_DebriefExport",
+            "rangeName": "tlOutput_E83_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E84_DebriefExport",
+            "rangeName": "tlOutput_E84_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E85_DebriefExport",
+            "rangeName": "tlOutput_E85_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E88_DebriefExport",
+            "rangeName": "tlOutput_E88_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E89_DebriefExport",
+            "rangeName": "tlOutput_E89_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E90_DebriefExport",
+            "rangeName": "tlOutput_E90_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E94_DebriefExport",
+            "rangeName": "tlOutput_E94_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E95_DebriefExport",
+            "rangeName": "tlOutput_E95_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E96_DebriefExport",
+            "rangeName": "tlOutput_E96_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E97_DebriefExport",
+            "rangeName": "tlOutput_E97_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E100_DebriefExport",
+            "rangeName": "tlOutput_E100_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E101_DebriefExport",
+            "rangeName": "tlOutput_E101_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E102_DebriefExport",
+            "rangeName": "tlOutput_E102_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E103_DebriefExport",
+            "rangeName": "tlOutput_E103_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E112_DebriefExport",
+            "rangeName": "tlOutput_E112_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E113_DebriefExport",
+            "rangeName": "tlOutput_E113_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E114_DebriefExport",
+            "rangeName": "tlOutput_E114_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E115_DebriefExport",
+            "rangeName": "tlOutput_E115_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E116_DebriefExport",
+            "rangeName": "tlOutput_E116_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E118_DebriefExport",
+            "rangeName": "tlOutput_E118_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E119_DebriefExport",
+            "rangeName": "tlOutput_E119_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E120_DebriefExport",
+            "rangeName": "tlOutput_E120_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E121_DebriefExport",
+            "rangeName": "tlOutput_E121_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E122_DebriefExport",
+            "rangeName": "tlOutput_E122_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E125_DebriefExport",
+            "rangeName": "tlOutput_E125_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E126_DebriefExport",
+            "rangeName": "tlOutput_E126_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E127_DebriefExport",
+            "rangeName": "tlOutput_E127_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E128_DebriefExport",
+            "rangeName": "tlOutput_E128_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E131_DebriefExport",
+            "rangeName": "tlOutput_E131_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E132_DebriefExport",
+            "rangeName": "tlOutput_E132_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E133_DebriefExport",
+            "rangeName": "tlOutput_E133_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E134_DebriefExport",
+            "rangeName": "tlOutput_E134_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E137_DebriefExport",
+            "rangeName": "tlOutput_E137_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E138_DebriefExport",
+            "rangeName": "tlOutput_E138_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E139_DebriefExport",
+            "rangeName": "tlOutput_E139_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E140_DebriefExport",
+            "rangeName": "tlOutput_E140_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E141_DebriefExport",
+            "rangeName": "tlOutput_E141_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E183_DebriefExport",
+            "rangeName": "tlOutput_E183_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E184_DebriefExport",
+            "rangeName": "tlOutput_E184_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E185_DebriefExport",
+            "rangeName": "tlOutput_E185_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E143_DebriefExport",
+            "rangeName": "tlOutput_E143_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E144_DebriefExport",
+            "rangeName": "tlOutput_E144_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E145_DebriefExport",
+            "rangeName": "tlOutput_E145_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E146_DebriefExport",
+            "rangeName": "tlOutput_E146_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E149_DebriefExport",
+            "rangeName": "tlOutput_E149_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E150_DebriefExport",
+            "rangeName": "tlOutput_E150_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E151_DebriefExport",
+            "rangeName": "tlOutput_E151_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E152_DebriefExport",
+            "rangeName": "tlOutput_E152_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E155_DebriefExport",
+            "rangeName": "tlOutput_E155_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E156_DebriefExport",
+            "rangeName": "tlOutput_E156_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E157_DebriefExport",
+            "rangeName": "tlOutput_E157_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E158_DebriefExport",
+            "rangeName": "tlOutput_E158_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E161_DebriefExport",
+            "rangeName": "tlOutput_E161_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E162_DebriefExport",
+            "rangeName": "tlOutput_E162_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E163_DebriefExport",
+            "rangeName": "tlOutput_E163_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E164_DebriefExport",
+            "rangeName": "tlOutput_E164_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E165_DebriefExport",
+            "rangeName": "tlOutput_E165_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E167_DebriefExport",
+            "rangeName": "tlOutput_E167_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E168_DebriefExport",
+            "rangeName": "tlOutput_E168_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E169_DebriefExport",
+            "rangeName": "tlOutput_E169_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E170_DebriefExport",
+            "rangeName": "tlOutput_E170_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E173_DebriefExport",
+            "rangeName": "tlOutput_E173_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E174_DebriefExport",
+            "rangeName": "tlOutput_E174_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E175_DebriefExport",
+            "rangeName": "tlOutput_E175_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E176_DebriefExport",
+            "rangeName": "tlOutput_E176_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E254_DebriefExport",
+            "rangeName": "tlOutput_E254_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E255_DebriefExport",
+            "rangeName": "tlOutput_E255_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E256_DebriefExport",
+            "rangeName": "tlOutput_E256_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E257_DebriefExport",
+            "rangeName": "tlOutput_E257_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E258_DebriefExport",
+            "rangeName": "tlOutput_E258_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E259_DebriefExport",
+            "rangeName": "tlOutput_E259_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E261_DebriefExport",
+            "rangeName": "tlOutput_E261_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E262_DebriefExport",
+            "rangeName": "tlOutput_E262_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E264_DebriefExport",
+            "rangeName": "tlOutput_E264_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E265_DebriefExport",
+            "rangeName": "tlOutput_E265_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E267_DebriefExport",
+            "rangeName": "tlOutput_E267_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E268_DebriefExport",
+            "rangeName": "tlOutput_E268_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E270_DebriefExport",
+            "rangeName": "tlOutput_E270_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E271_DebriefExport",
+            "rangeName": "tlOutput_E271_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E273_DebriefExport",
+            "rangeName": "tlOutput_E273_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E274_DebriefExport",
+            "rangeName": "tlOutput_E274_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E276_DebriefExport",
+            "rangeName": "tlOutput_E276_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E277_DebriefExport",
+            "rangeName": "tlOutput_E277_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E279_DebriefExport",
+            "rangeName": "tlOutput_E279_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E280_DebriefExport",
+            "rangeName": "tlOutput_E280_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E282_DebriefExport",
+            "rangeName": "tlOutput_E282_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E283_DebriefExport",
+            "rangeName": "tlOutput_E283_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E284_DebriefExport",
+            "rangeName": "tlOutput_E284_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E285_DebriefExport",
+            "rangeName": "tlOutput_E285_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E288_DebriefExport",
+            "rangeName": "tlOutput_E288_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E290_DebriefExport",
+            "rangeName": "tlOutput_E290_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E293_DebriefExport",
+            "rangeName": "tlOutput_E293_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E294_DebriefExport",
+            "rangeName": "tlOutput_E294_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E295_DebriefExport",
+            "rangeName": "tlOutput_E295_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E296_DebriefExport",
+            "rangeName": "tlOutput_E296_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E299_DebriefExport",
+            "rangeName": "tlOutput_E299_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E300_DebriefExport",
+            "rangeName": "tlOutput_E300_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E301_DebriefExport",
+            "rangeName": "tlOutput_E301_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E305_DebriefExport",
+            "rangeName": "tlOutput_E305_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E306_DebriefExport",
+            "rangeName": "tlOutput_E306_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E307_DebriefExport",
+            "rangeName": "tlOutput_E307_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E308_DebriefExport",
+            "rangeName": "tlOutput_E308_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E311_DebriefExport",
+            "rangeName": "tlOutput_E311_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E312_DebriefExport",
+            "rangeName": "tlOutput_E312_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E313_DebriefExport",
+            "rangeName": "tlOutput_E313_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E314_DebriefExport",
+            "rangeName": "tlOutput_E314_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E317_DebriefExport",
+            "rangeName": "tlOutput_E317_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E318_DebriefExport",
+            "rangeName": "tlOutput_E318_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E319_DebriefExport",
+            "rangeName": "tlOutput_E319_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E320_DebriefExport",
+            "rangeName": "tlOutput_E320_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E323_DebriefExport",
+            "rangeName": "tlOutput_E323_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E324_DebriefExport",
+            "rangeName": "tlOutput_E324_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E325_DebriefExport",
+            "rangeName": "tlOutput_E325_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E326_DebriefExport",
+            "rangeName": "tlOutput_E326_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E329_DebriefExport",
+            "rangeName": "tlOutput_E329_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E330_DebriefExport",
+            "rangeName": "tlOutput_E330_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E331_DebriefExport",
+            "rangeName": "tlOutput_E331_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E332_DebriefExport",
+            "rangeName": "tlOutput_E332_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E335_DebriefExport",
+            "rangeName": "tlOutput_E335_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E336_DebriefExport",
+            "rangeName": "tlOutput_E336_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E337_DebriefExport",
+            "rangeName": "tlOutput_E337_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E338_DebriefExport",
+            "rangeName": "tlOutput_E338_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E339_DebriefExport",
+            "rangeName": "tlOutput_E339_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E340_DebriefExport",
+            "rangeName": "tlOutput_E340_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E341_DebriefExport",
+            "rangeName": "tlOutput_E341_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E347_DebriefExport",
+            "rangeName": "tlOutput_E347_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E348_DebriefExport",
+            "rangeName": "tlOutput_E348_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E349_DebriefExport",
+            "rangeName": "tlOutput_E349_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E353_DebriefExport",
+            "rangeName": "tlOutput_E353_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E354_DebriefExport",
+            "rangeName": "tlOutput_E354_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E355_DebriefExport",
+            "rangeName": "tlOutput_E355_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E356_DebriefExport",
+            "rangeName": "tlOutput_E356_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E360_DebriefExport",
+            "rangeName": "tlOutput_E360_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E361_DebriefExport",
+            "rangeName": "tlOutput_E361_DebriefExport"
+        },
+        {
+            "questionName": "tlOutput_E362_DebriefExport",
+            "rangeName": "tlOutput_E362_DebriefExport"
+        }
+    ],
+    "questionsToReceive": [
+        {
+            "questionName": "tlInputTeamNumber_R1",
+            "rangeName": "tlInputTeamNumber_R1"
+        },
+        {
+            "questionName": "LEADER_TRACK_FOREMAN",
+            "rangeName": "LEADER_TRACK_FOREMAN"
+        },
+        {
+            "questionName": "LEADER_TRACK",
+            "rangeName": "LEADER_TRACK"
+        },
+        {
+            "questionName": "WOBBLER_INDEX",
+            "rangeName": "WOBBLER_INDEX"
+        },
+        {
+            "questionName": "FOLLOWER1_TRACK_FOREMAN",
+            "rangeName": "FOLLOWER1_TRACK_FOREMAN"
+        },
+        {
+            "questionName": "FOLLOWER2_TRACK_FOREMAN",
+            "rangeName": "FOLLOWER2_TRACK_FOREMAN"
+        },
+        {
+            "questionName": "FOLLOWER3_TRACK_FOREMAN",
+            "rangeName": "FOLLOWER3_TRACK_FOREMAN"
+        },
+        {
+            "questionName": "FOLLOWER4_TRACK_FOREMAN",
+            "rangeName": "FOLLOWER4_TRACK_FOREMAN"
+        },
+        {
+            "questionName": "FOLLOWER5_TRACK_FOREMAN",
+            "rangeName": "FOLLOWER5_TRACK_FOREMAN"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event3_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event3_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role1_Event4_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role1_Event4_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role2_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role2_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role2_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role2_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role2_Event3_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role2_Event3_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role3_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role3_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role3_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role3_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role4_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role4_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role4_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role4_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role5_Event1_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role5_Event1_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role5_Event2_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role5_Event2_R1"
+        },
+        {
+            "questionName": "tlOutput_WobblerTrigger_Role5_Event3_R1",
+            "rangeName": "tlOutput_WobblerTrigger_Role5_Event3_R1"
+        }
+    ],
+    "tracks": [
+        {
+            "foremanquestionsToRecieve": [
+                {
+                    "questionName": "tlInputLeaderLocation",
+                    "rangeName": "tlInputLeaderLocation"
+                },
+                {
+                    "questionName": "tlInputCurrentRound",
+                    "rangeName": "tlInputCurrentRound"
+                },
+                {
+                    "questionName": "tlInputSWOT_Vision_R1",
+                    "rangeName": "tlInputSWOT_Vision_R1"
+                },
+                {
+                    "questionName": "tlInputSWOT_Strengths_R1",
+                    "rangeName": "tlInputSWOT_Strengths_R1"
+                },
+                {
+                    "questionName": "tlInputSWOT_Weaknesses_R1",
+                    "rangeName": "tlInputSWOT_Weaknesses_R1"
+                },
+                {
+                    "questionName": "tlInputSWOT_Opportunities_R1",
+                    "rangeName": "tlInputSWOT_Opportunities_R1"
+                },
+                {
+                    "questionName": "tlInputSWOT_Threats_R1",
+                    "rangeName": "tlInputSWOT_Threats_R1"
+                },
+                {
+                    "questionName": "tlInputPriority1_R1",
+                    "rangeName": "tlInputPriority1_R1"
+                },
+                {
+                    "questionName": "tlInputPriority2_R1",
+                    "rangeName": "tlInputPriority2_R1"
+                },
+                {
+                    "questionName": "tlInputPriority3_R1",
+                    "rangeName": "tlInputPriority3_R1"
+                },
+                {
+                    "questionName": "tlInputPriority1Strategy_R1",
+                    "rangeName": "tlInputPriority1Strategy_R1"
+                },
+                {
+                    "questionName": "tlInputPriority2Strategy_R1",
+                    "rangeName": "tlInputPriority2Strategy_R1"
+                },
+                {
+                    "questionName": "tlInputPriority3Strategy_R1",
+                    "rangeName": "tlInputPriority3Strategy_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Activity1_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role1_Activity1_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Activity1_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role2_Activity1_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_Activity1_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role3_Activity1_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_Activity1_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role4_Activity1_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_Activity1_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role5_Activity1_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Activity2_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role1_Activity2_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Activity2_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role2_Activity2_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_Activity2_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role3_Activity2_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_Activity2_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role4_Activity2_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_Activity2_TimeAlloc_R1",
+                    "rangeName": "tlInput_Role5_Activity2_TimeAlloc_R1"
+                },
+                {
+                    "questionName": "tlInput_SWOT_Submitted_R1",
+                    "rangeName": "tlInput_SWOT_Submitted_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI01_R1",
+                    "rangeName": "tlInput_Role1_SI01_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI02_R1",
+                    "rangeName": "tlInput_Role1_SI02_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI03_R1",
+                    "rangeName": "tlInput_Role1_SI03_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI04_R1",
+                    "rangeName": "tlInput_Role1_SI04_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI05_R1",
+                    "rangeName": "tlInput_Role1_SI05_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI01_R1",
+                    "rangeName": "tlInput_Role2_SI01_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI02_R1",
+                    "rangeName": "tlInput_Role2_SI02_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI03_R1",
+                    "rangeName": "tlInput_Role2_SI03_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI04_R1",
+                    "rangeName": "tlInput_Role2_SI04_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI05_R1",
+                    "rangeName": "tlInput_Role2_SI05_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI01_R1",
+                    "rangeName": "tlInput_Role3_SI01_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI02_R1",
+                    "rangeName": "tlInput_Role3_SI02_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI03_R1",
+                    "rangeName": "tlInput_Role3_SI03_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI04_R1",
+                    "rangeName": "tlInput_Role3_SI04_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI05_R1",
+                    "rangeName": "tlInput_Role3_SI05_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI01_R1",
+                    "rangeName": "tlInput_Role4_SI01_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI02_R1",
+                    "rangeName": "tlInput_Role4_SI02_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI03_R1",
+                    "rangeName": "tlInput_Role4_SI03_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI04_R1",
+                    "rangeName": "tlInput_Role4_SI04_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI05_R1",
+                    "rangeName": "tlInput_Role4_SI05_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI01_R1",
+                    "rangeName": "tlInput_Role5_SI01_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI02_R1",
+                    "rangeName": "tlInput_Role5_SI02_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI03_R1",
+                    "rangeName": "tlInput_Role5_SI03_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI04_R1",
+                    "rangeName": "tlInput_Role5_SI04_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI05_R1",
+                    "rangeName": "tlInput_Role5_SI05_R1"
+                },
+                {
+                    "questionName": "tlInput_Tasks_Submitted_R1",
+                    "rangeName": "tlInput_Tasks_Submitted_R1"
+                },
+                {
+                    "questionName": "tlInput_Feedback_Submitted_R1",
+                    "rangeName": "tlInput_Feedback_Submitted_R1"
+                },
+                {
+                    "questionName": "tlInput_Feedback_Submitted_R2",
+                    "rangeName": "tlInput_Feedback_Submitted_R2"
+                },
+                {
+                    "questionName": "tlInputPriority1_R2",
+                    "rangeName": "tlInputPriority1_R2"
+                },
+                {
+                    "questionName": "tlInputPriority2_R2",
+                    "rangeName": "tlInputPriority2_R2"
+                },
+                {
+                    "questionName": "tlInputPriority3_R2",
+                    "rangeName": "tlInputPriority3_R2"
+                },
+                {
+                    "questionName": "tlInputPriority1Strategy_R2",
+                    "rangeName": "tlInputPriority1Strategy_R2"
+                },
+                {
+                    "questionName": "tlInputPriority2Strategy_R2",
+                    "rangeName": "tlInputPriority2Strategy_R2"
+                },
+                {
+                    "questionName": "tlInputPriority3Strategy_R2",
+                    "rangeName": "tlInputPriority3Strategy_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_Activity1_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role1_Activity1_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_Activity1_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role2_Activity1_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_Activity1_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role3_Activity1_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_Activity1_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role4_Activity1_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_Activity1_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role5_Activity1_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_Activity2_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role1_Activity2_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_Activity2_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role2_Activity2_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_Activity2_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role3_Activity2_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_Activity2_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role4_Activity2_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_Activity2_TimeAlloc_R2",
+                    "rangeName": "tlInput_Role5_Activity2_TimeAlloc_R2"
+                },
+                {
+                    "questionName": "tlInput_SWOT_Submitted_R2",
+                    "rangeName": "tlInput_SWOT_Submitted_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI01_R2",
+                    "rangeName": "tlInput_Role1_SI01_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI02_R2",
+                    "rangeName": "tlInput_Role1_SI02_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI03_R2",
+                    "rangeName": "tlInput_Role1_SI03_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI04_R2",
+                    "rangeName": "tlInput_Role1_SI04_R2"
+                },
+                {
+                    "questionName": "tlInput_Role1_SI05_R2",
+                    "rangeName": "tlInput_Role1_SI05_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI01_R2",
+                    "rangeName": "tlInput_Role2_SI01_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI02_R2",
+                    "rangeName": "tlInput_Role2_SI02_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI03_R2",
+                    "rangeName": "tlInput_Role2_SI03_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI04_R2",
+                    "rangeName": "tlInput_Role2_SI04_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2_SI05_R2",
+                    "rangeName": "tlInput_Role2_SI05_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI01_R2",
+                    "rangeName": "tlInput_Role3_SI01_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI02_R2",
+                    "rangeName": "tlInput_Role3_SI02_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI03_R2",
+                    "rangeName": "tlInput_Role3_SI03_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI04_R2",
+                    "rangeName": "tlInput_Role3_SI04_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3_SI05_R2",
+                    "rangeName": "tlInput_Role3_SI05_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI01_R2",
+                    "rangeName": "tlInput_Role4_SI01_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI02_R2",
+                    "rangeName": "tlInput_Role4_SI02_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI03_R2",
+                    "rangeName": "tlInput_Role4_SI03_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI04_R2",
+                    "rangeName": "tlInput_Role4_SI04_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4_SI05_R2",
+                    "rangeName": "tlInput_Role4_SI05_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI01_R2",
+                    "rangeName": "tlInput_Role5_SI01_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI02_R2",
+                    "rangeName": "tlInput_Role5_SI02_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI03_R2",
+                    "rangeName": "tlInput_Role5_SI03_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI04_R2",
+                    "rangeName": "tlInput_Role5_SI04_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5_SI05_R2",
+                    "rangeName": "tlInput_Role5_SI05_R2"
+                },
+                {
+                    "questionName": "tlInput_Tasks_Submitted_R2",
+                    "rangeName": "tlInput_Tasks_Submitted_R2"
+                },
+                {
+                    "questionName": "tlInput_Seg1ProductMix_R2",
+                    "rangeName": "tlInput_Seg1ProductMix_R2"
+                },
+                {
+                    "questionName": "tlInput_Seg2ProductMix_R2",
+                    "rangeName": "tlInput_Seg2ProductMix_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2ForecastLaborHC_R2",
+                    "rangeName": "tlInput_Role2ForecastLaborHC_R2"
+                },
+                {
+                    "questionName": "tlInput_Role2ForecastLaborHrs_R2",
+                    "rangeName": "tlInput_Role2ForecastLaborHrs_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3ForecastLaborHC_R2",
+                    "rangeName": "tlInput_Role3ForecastLaborHC_R2"
+                },
+                {
+                    "questionName": "tlInput_Role3ForecastLaborHrs_R2",
+                    "rangeName": "tlInput_Role3ForecastLaborHrs_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4ForecastLaborHC_R2",
+                    "rangeName": "tlInput_Role4ForecastLaborHC_R2"
+                },
+                {
+                    "questionName": "tlInput_Role4ForecastLaborHrs_R2",
+                    "rangeName": "tlInput_Role4ForecastLaborHrs_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5ForecastLaborHC_R2",
+                    "rangeName": "tlInput_Role5ForecastLaborHC_R2"
+                },
+                {
+                    "questionName": "tlInput_Role5ForecastLaborHrs_R2",
+                    "rangeName": "tlInput_Role5ForecastLaborHrs_R2"
+                },
+                {
+                    "questionName": "tlInput_Forecast_Submitted_R2",
+                    "rangeName": "tlInput_Forecast_Submitted_R2"
+                },
+                {
+                    "questionName": "tlInput_OpsCapability2_R2",
+                    "rangeName": "tlInput_OpsCapability2_R2"
+                },
+                {
+                    "questionName": "tlInput_OpsCapability3_R2",
+                    "rangeName": "tlInput_OpsCapability3_R2"
+                },
+                {
+                    "questionName": "tlOutput_OpsCapability1_R2",
+                    "rangeName": "tlOutput_OpsCapability1_R2"
+                },
+                {
+                    "questionName": "tlInput_OpsCapability4_R2",
+                    "rangeName": "tlInput_OpsCapability4_R2"
+                },
+                {
+                    "questionName": "tlInput_Ops_Submitted_R2",
+                    "rangeName": "tlInput_Ops_Submitted_R2"
+                },
+                {
+                    "questionName": "tlOutput_WobblerTrigger_Coaching_Event1_R1",
+                    "rangeName": "tlOutput_WobblerTrigger_Coaching_Event1_R1"
+                },
+                {
+                    "questionName": "tlOutput_WobblerTrigger_Coaching_Event2_R1",
+                    "rangeName": "tlOutput_WobblerTrigger_Coaching_Event2_R1"
+                },
+                {
+                    "questionName": "tlOutput_WobblerTrigger_Event1_R2",
+                    "rangeName": "tlOutput_WobblerTrigger_Event1_R2"
+                },
+                {
+                    "questionName": "tlOutput_WobblerTrigger_Event2_R2",
+                    "rangeName": "tlOutput_WobblerTrigger_Event2_R2"
+                },
+                {
+                    "questionName": "tlOutput_WobblerTrigger_Event3_R2",
+                    "rangeName": "tlOutput_WobblerTrigger_Event3_R2"
+                },
+                {
+                    "questionName": "tlInput_Read_Coaching_Event1_R1",
+                    "rangeName": "tlInput_Read_Coaching_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Read_Coaching_Event2_R1",
+                    "rangeName": "tlInput_Read_Coaching_Event2_R1"
+                },
+                {
+                    "questionName": "tlInput_Read_Event1_R2",
+                    "rangeName": "tlInput_Read_Event1_R2"
+                },
+                {
+                    "questionName": "tlInput_Read_Event2_R2",
+                    "rangeName": "tlInput_Read_Event2_R2"
+                },
+                {
+                    "questionName": "tlInput_Read_Event3_R2",
+                    "rangeName": "tlInput_Read_Event3_R2"
+                },
+                {
+                    "questionName": "tlInput_Coaching_Event1_R1",
+                    "rangeName": "tlInput_Coaching_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Coaching_Event2_R1",
+                    "rangeName": "tlInput_Coaching_Event2_R1"
+                },
+                {
+                    "questionName": "tlInput_Event1_R2",
+                    "rangeName": "tlInput_Event1_R2"
+                },
+                {
+                    "questionName": "tlInput_Event2_R2",
+                    "rangeName": "tlInput_Event2_R2"
+                },
+                {
+                    "questionName": "tlInput_Event3_R2",
+                    "rangeName": "tlInput_Event3_R2"
+                },
+                {
+                    "questionName": "tlInput_Event4_R2",
+                    "rangeName": "tlInput_Event4_R2"
+                }
+            ],
+            "trackQuestion": {
+                "questionName": "LEADER_TRACK",
+                "rangeName": "LEADER_TRACK"
+            }
+        },
+        {
+            "foremanquestionsToRecieve": [
+                {
+                    "questionName": "tlInput_Role1_Event1_R1",
+                    "rangeName": "tlInput_Role1_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event1A_R1",
+                    "rangeName": "tlInput_Role1_Event1A_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event1B_R1",
+                    "rangeName": "tlInput_Role1_Event1B_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event1C_R1",
+                    "rangeName": "tlInput_Role1_Event1C_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event1D_R1",
+                    "rangeName": "tlInput_Role1_Event1D_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event1E_R1",
+                    "rangeName": "tlInput_Role1_Event1E_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event2_R1",
+                    "rangeName": "tlInput_Role1_Event2_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event2A_R1",
+                    "rangeName": "tlInput_Role1_Event2A_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event2B_R1",
+                    "rangeName": "tlInput_Role1_Event2B_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event2C_R1",
+                    "rangeName": "tlInput_Role1_Event2C_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event2D_R1",
+                    "rangeName": "tlInput_Role1_Event2D_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event2E_R1",
+                    "rangeName": "tlInput_Role1_Event2E_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event3_R1",
+                    "rangeName": "tlInput_Role1_Event3_R1"
+                },
+                {
+                    "questionName": "tlInput_Role1_Event4_R1",
+                    "rangeName": "tlInput_Role1_Event4_R1"
+                },
+                {
+                    "questionName": "tlOutput_E112_DebriefExport",
+                    "rangeName": "tlOutput_E112_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E113_DebriefExport",
+                    "rangeName": "tlOutput_E113_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E114_DebriefExport",
+                    "rangeName": "tlOutput_E114_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E115_DebriefExport",
+                    "rangeName": "tlOutput_E115_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E116_DebriefExport",
+                    "rangeName": "tlOutput_E116_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E118_DebriefExport",
+                    "rangeName": "tlOutput_E118_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E119_DebriefExport",
+                    "rangeName": "tlOutput_E119_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E120_DebriefExport",
+                    "rangeName": "tlOutput_E120_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E121_DebriefExport",
+                    "rangeName": "tlOutput_E121_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E122_DebriefExport",
+                    "rangeName": "tlOutput_E122_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E125_DebriefExport",
+                    "rangeName": "tlOutput_E125_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E126_DebriefExport",
+                    "rangeName": "tlOutput_E126_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E127_DebriefExport",
+                    "rangeName": "tlOutput_E127_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E128_DebriefExport",
+                    "rangeName": "tlOutput_E128_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E161_DebriefExport",
+                    "rangeName": "tlOutput_E161_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E162_DebriefExport",
+                    "rangeName": "tlOutput_E162_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E163_DebriefExport",
+                    "rangeName": "tlOutput_E163_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E164_DebriefExport",
+                    "rangeName": "tlOutput_E164_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E165_DebriefExport",
+                    "rangeName": "tlOutput_E165_DebriefExport"
+                }
+            ],
+            "trackQuestion": {
+                "questionName": "FOLLOWER1_TRACK",
+                "rangeName": "FOLLOWER1_TRACK"
+            }
+        },
+        {
+            "foremanquestionsToRecieve": [
+                {
+                    "questionName": "tlInput_Role2_Event1_R1",
+                    "rangeName": "tlInput_Role2_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2A_R1",
+                    "rangeName": "tlInput_Role2_Event2A_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2B_R1",
+                    "rangeName": "tlInput_Role2_Event2B_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2C_R1",
+                    "rangeName": "tlInput_Role2_Event2C_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2D_R1",
+                    "rangeName": "tlInput_Role2_Event2D_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2E_R1",
+                    "rangeName": "tlInput_Role2_Event2E_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2F_R1",
+                    "rangeName": "tlInput_Role2_Event2F_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2G_R1",
+                    "rangeName": "tlInput_Role2_Event2G_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2H_R1",
+                    "rangeName": "tlInput_Role2_Event2H_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event2_R1",
+                    "rangeName": "tlInput_Role2_Event2_R1"
+                },
+                {
+                    "questionName": "tlInput_Role2_Event3_R1",
+                    "rangeName": "tlInput_Role2_Event3_R1"
+                },
+                {
+                    "questionName": "tlOutput_E131_DebriefExport",
+                    "rangeName": "tlOutput_E131_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E132_DebriefExport",
+                    "rangeName": "tlOutput_E132_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E133_DebriefExport",
+                    "rangeName": "tlOutput_E133_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E134_DebriefExport",
+                    "rangeName": "tlOutput_E134_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E137_DebriefExport",
+                    "rangeName": "tlOutput_E137_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E138_DebriefExport",
+                    "rangeName": "tlOutput_E138_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E139_DebriefExport",
+                    "rangeName": "tlOutput_E139_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E140_DebriefExport",
+                    "rangeName": "tlOutput_E140_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E141_DebriefExport",
+                    "rangeName": "tlOutput_E141_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E183_DebriefExport",
+                    "rangeName": "tlOutput_E183_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E184_DebriefExport",
+                    "rangeName": "tlOutput_E184_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E185_DebriefExport",
+                    "rangeName": "tlOutput_E185_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E143_DebriefExport",
+                    "rangeName": "tlOutput_E143_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E144_DebriefExport",
+                    "rangeName": "tlOutput_E144_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E145_DebriefExport",
+                    "rangeName": "tlOutput_E145_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E146_DebriefExport",
+                    "rangeName": "tlOutput_E146_DebriefExport"
+                }
+            ],
+            "trackQuestion": {
+                "questionName": "FOLLOWER2_TRACK",
+                "rangeName": "FOLLOWER2_TRACK"
+            }
+        },
+        {
+            "foremanquestionsToRecieve": [
+                {
+                    "questionName": "tlInput_Role3_Event1_R1",
+                    "rangeName": "tlInput_Role3_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Role3_Event2_R1",
+                    "rangeName": "tlInput_Role3_Event2_R1"
+                },
+                {
+                    "questionName": "tlOutput_E149_DebriefExport",
+                    "rangeName": "tlOutput_E149_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E150_DebriefExport",
+                    "rangeName": "tlOutput_E150_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E151_DebriefExport",
+                    "rangeName": "tlOutput_E151_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E152_DebriefExport",
+                    "rangeName": "tlOutput_E152_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E155_DebriefExport",
+                    "rangeName": "tlOutput_E155_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E156_DebriefExport",
+                    "rangeName": "tlOutput_E156_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E157_DebriefExport",
+                    "rangeName": "tlOutput_E157_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E158_DebriefExport",
+                    "rangeName": "tlOutput_E158_DebriefExport"
+                }
+            ],
+            "trackQuestion": {
+                "questionName": "FOLLOWER3_TRACK",
+                "rangeName": "FOLLOWER3_TRACK"
+            }
+        },
+        {
+            "foremanquestionsToRecieve": [
+                {
+                    "questionName": "tlInput_Role4_Event1_R1",
+                    "rangeName": "tlInput_Role4_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Role4_Event2_R1",
+                    "rangeName": "tlInput_Role4_Event2_R1"
+                },
+                {
+                    "questionName": "tlOutput_E167_DebriefExport",
+                    "rangeName": "tlOutput_E167_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E168_DebriefExport",
+                    "rangeName": "tlOutput_E168_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E169_DebriefExport",
+                    "rangeName": "tlOutput_E169_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E170_DebriefExport",
+                    "rangeName": "tlOutput_E170_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E173_DebriefExport",
+                    "rangeName": "tlOutput_E173_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E174_DebriefExport",
+                    "rangeName": "tlOutput_E174_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E175_DebriefExport",
+                    "rangeName": "tlOutput_E175_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E176_DebriefExport",
+                    "rangeName": "tlOutput_E176_DebriefExport"
+                }
+            ],
+            "trackQuestion": {
+                "questionName": "FOLLOWER4_TRACK",
+                "rangeName": "FOLLOWER4_TRACK"
+            }
+        },
+        {
+            "foremanquestionsToRecieve": [
+                {
+                    "questionName": "tlInput_Role5_Event1_R1",
+                    "rangeName": "tlInput_Role5_Event1_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_Event2_R1",
+                    "rangeName": "tlInput_Role5_Event2_R1"
+                },
+                {
+                    "questionName": "tlInput_Role5_Event3_R1",
+                    "rangeName": "tlInput_Role5_Event3_R1"
+                },
+                {
+                    "questionName": "tlOutput_E347_DebriefExport",
+                    "rangeName": "tlOutput_E347_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E348_DebriefExport",
+                    "rangeName": "tlOutput_E348_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E349_DebriefExport",
+                    "rangeName": "tlOutput_E349_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E353_DebriefExport",
+                    "rangeName": "tlOutput_E353_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E354_DebriefExport",
+                    "rangeName": "tlOutput_E354_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E355_DebriefExport",
+                    "rangeName": "tlOutput_E355_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E356_DebriefExport",
+                    "rangeName": "tlOutput_E356_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E360_DebriefExport",
+                    "rangeName": "tlOutput_E360_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E361_DebriefExport",
+                    "rangeName": "tlOutput_E361_DebriefExport"
+                },
+                {
+                    "questionName": "tlOutput_E362_DebriefExport",
+                    "rangeName": "tlOutput_E362_DebriefExport"
+                }
+            ],
+            "trackQuestion": {
+                "questionName": "FOLLOWER5_TRACK",
+                "rangeName": "FOLLOWER5_TRACK"
+            }
+        }
+    ],
+    "enableMultiTries": false,
+    "roundText": "_R",
+    "kafkaUrl": "https://momentaglobaltest.btspulse.com/analytics/",
+    "nodejsUrl": "https://psqv.btspulse.com/pulsexapi/",
+    "enableTracking": false,
+    "platform": "WiB_Starter",
+    "activityType": "isomer",
+    "defaultEmail": "pulse.api@bts.com",
+    "lrsUrl": "https://pulse.bts.com/",
+    "statusCompletionQuestions": [],
+    "rangeRefTags": [],
+    "enableEmailEncryption": true,
+    "enableLoadLevelTracking": true,
+    "applicationName": "Winning_In_Business",
+    "logoutUrl": "/Wizer/CloudFront/Logout",
+    "redirectAfterlogoutUrl": "?eraseCache=true/"
+}
