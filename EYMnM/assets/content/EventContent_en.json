@@ -1,0 +1,318 @@
+{"scenes": [
+{
+    "ID": "GEN",
+    "Round2Password": "bts2019",
+    "SubTitlePart1": "Sub Title",
+    "TeamName": "Team Name",
+    "TeamNumber": "Team Number",
+    "Title": "Demo App",
+    "YearTitle": "Year",
+    "HoldScreenWaitText": "Hold Screen"
+}, {
+    "BUIndex": "0",
+    "ID": "SI01",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "1",
+    "SIMTUs": "5 MTUs",
+    "SIText": "The use of data in making decisions is key to improving productivity and efficiency across the mining value chain. You invest in creating a centralized operations centre to collect and consolidate the data from across your mines, processing and distribution operations. This increased visibility should help you make more informed decisions without simply relying on legacy ways of working.",
+    "SITitle": "Centralized data centre monitoring"
+}, {
+    "BUIndex": "0",
+    "ID": "SI02",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "2",
+    "SIMTUs": "3 MTUs",
+    "SIText": "Safety is a key priority for Phoenix Mines and the company aims to drive annual incidents to zero and innovations in data analytics could help achieve this objective. By leveraging internal databases recording types and circumstances of previous accidents, Phoenix Mines could move a step forward towards prevention of future cases.",
+    "SITitle": "Data analytics in safety"
+}, {
+    "BUIndex": "0",
+    "ID": "SI03",
+    "PageType": "Initiative",
+    "SICosts": "$50M",
+    "SIIndex": "3",
+    "SIMTUs": "4 MTUs",
+    "SIText": "The fundamental lack of infrastructure represents an obstacle for operating sustainably and efficiently in Emergia. By implementing this initiative, Phoenix Mines commits to aid in the construction of Emergian infrastructure such as roads, railway lines and refurbishing the main port. Besides securing future reductions in operating costs, the company positively reinforces its reputation with the Emergian government and local communities where it operates.",
+    "SITitle": "Infrastructure investment program in Emergia"
+}, {
+    "BUIndex": "0",
+    "ID": "SI04",
+    "PageType": "Initiative",
+    "SICosts": "0",
+    "SIIndex": "4",
+    "SIMTUs": "5 MTUs",
+    "SIText": "Building relationships with trade unions is necessary to ensure the smooth running of the business. Trade unions in the industry have high bargaining power and in the past, there have been strikes that paralyzed production for months. By implementing this initiative, Phoenix Mines works closely with the unions to understand their perspective with the aim of reducing the number of future worker disputes.",
+    "SITitle": "Increased collaboration with governments"
+}, {
+    "BUIndex": "0",
+    "ID": "SI05",
+    "PageType": "Initiative",
+    "SICosts": "$3M",
+    "SIIndex": "5",
+    "SIMTUs": "2 MTUs",
+    "SIText": "One of the key challenges of operating a mine in Emergia is the difficulty of attracting skilled labor from outside Emergia, where many important mining schools are located.  One way to solve this hurdle is to promote education in the country and recruit skilled labor locally. By investing in this initiative, the company engages with the Emergian government to support and partially finance the establishment of the Emergia School of Mining. The long-term benefits of this initiative also include improvements in relations with the local government and community.",
+    "SITitle": "Mining school partnership in Emergia"
+}, {
+    "BUIndex": "0",
+    "ID": "SI06",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "6",
+    "SIMTUs": "5 MTUs",
+    "SIText": "Due to the recent increase in commodity prices, several mining companies including Phoenix Mines has started to grow significantly. As sites grow in number, new procurement offices are being set up in each location. This initiative aims to optimize the procurement function, centralizing activities where possible with the objective of achieving economies of scale and obtaining price discounts from suppliers. ",
+    "SITitle": "Procurement centralization"
+}, {
+    "BUIndex": "0",
+    "ID": "SI07",
+    "PageType": "Initiative",
+    "SICosts": "$20M",
+    "SIIndex": "7",
+    "SIMTUs": "4 MTUs",
+    "SIText": "The size and complexity of mining equipment and infrastructure can lead to substantial maintenance costs. Traditionally, Phoenix Mines has followed a policy of conducting maintenance either on a periodic basis or as and when tools and equipment break down. By implementing this initiative, the company proactively prevents machinery breakage and deterioration of infrastructure through the use of data analytics for all Emergian mine sites.",
+    "SITitle": "Predictive maintenance"
+}, {
+    "BUIndex": "0",
+    "ID": "SI08",
+    "PageType": "Initiative",
+    "SICosts": "$25M",
+    "SIIndex": "8",
+    "SIMTUs": "3 MTUs",
+    "SIText": "Aware that you do not have all the capabilities internally, you decide to partner with key technology and automation companies in order to improve your operations through initiatives such as data analytics, machine automation and maintenance. You expect these partnerships to increase productivity and lead to a more optimized value chain.",
+    "SITitle": "Partnership with 3rd parties"
+}, {
+    "BUIndex": "0",
+    "ID": "SI09",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "9",
+    "SIMTUs": "2 MTUs",
+    "SIText": "By implementing this initiative, Phoenix Mines commits to shift its fuel consumption from diesel to natural gas. Besides the positive environmental impact of this decision, Phoenix Mines is also able to reduce its energy costs during the production phase.",
+    "SITitle": "Greener fuels"
+}, {
+    "BUIndex": "0",
+    "ID": "SI10",
+    "PageType": "Initiative",
+    "SICosts": "$20M",
+    "SIIndex": "10",
+    "SIMTUs": "3 MTUs",
+    "SIText": "Phoenix Mines launches the first fully electrified mine in its portfolio. The use of electric motors enables cost savings through reduced energy consumption and reduces the need for ventilation systems in underground mines. Full transition to electric motors benefits workforce health and thus reinforces relationships with trade unions.",
+    "SITitle": "Mine electrification"
+}, {
+    "BUIndex": "0",
+    "ID": "SI11",
+    "PageType": "Initiative",
+    "SICosts": "0",
+    "SIIndex": "11",
+    "SIMTUs": "3 MTUs",
+    "SIText": "One of the ways to improve the environmental impact of the company�s operations is to implement a clear governance system guiding Phoenix Mines� policies. By implementing this initiative all sites in environmentally sensitive locations will be given the expertise and resources to develop an Environmental Governance Framework, which will guide site-based investment decisions.",
+    "SITitle": "Governance systems for environmentally sensitive sites"
+}, {
+    "BUIndex": "0",
+    "ID": "SI12",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "12",
+    "SIMTUs": "4 MTUs",
+    "SIText": "You engage with a professional services organization to implement robotic process automation (RPA) for many of the repetitive tasks and processes across your tax function. This should improve efficiency and increase cost savings in back-office operations while bringing improved accuracy and reliability to these tasks. ",
+    "SITitle": "RPA tax assistance"
+}, {
+    "BUIndex": "0",
+    "ID": "SI13",
+    "PageType": "Initiative",
+    "SICosts": "$2.5M",
+    "SIIndex": "13",
+    "SIMTUs": "4 MTUs",
+    "SIText": "Phoenix Mines regularly relocates senior employees around the globe, utilizing existing expertise to inspect and operate its mining assets. In order to reduce tax liabilities and to ensure regulatory compliance across all your employees, you engage with an external tax consultancy firm to assess your mobility related tax requirements.",
+    "SITitle": "Global mobility tax compliance"
+}, {
+    "BUIndex": "1",
+    "ID": "SI14",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "14",
+    "SIMTUs": "1 MTUs",
+    "SIText": "Inaccurate maps of underground mines pose serious threats to the safety of mine workers. You decide to deploy many small, remotely controlled, mobile robots throughout the mine which scan to generate a full interactive 3D map of the mine. This gives you complete visibility of the mine and helps you identify any high-risk areas.",
+    "SITitle": "Robotic mapping of mines"
+}, {
+    "BUIndex": "1",
+    "ID": "SI15",
+    "PageType": "Initiative",
+    "SICosts": "$15M",
+    "SIIndex": "15",
+    "SIMTUs": "1 MTUs",
+    "SIText": "The flow of material through a mine is critical in identifying inefficiencies and bottlenecks. Synthetic rocks embedded with a GPS emitter are inserted into the ore to track the movement of rock through the mine.",
+    "SITitle": "Smart rock"
+}, {
+    "BUIndex": "1",
+    "ID": "SI16",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "16",
+    "SIMTUs": "2 MTUs",
+    "SIText": "Poor road conditions around mining sites cause inefficiencies and can be unsafe for truck drivers. You deploy a system of sensors mounted on trucks which measures the road conditions in real time and alerts the truck driver when to slow down. These sensors can be used to map out problem areas and alert general managers to necessary road repairs. The truck's physical condition can also be measured as a result.",
+    "SITitle": "Road analysis control (RAC)"
+}, {
+    "BUIndex": "1",
+    "ID": "SI17",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "17",
+    "SIMTUs": "2 MTUs",
+    "SIText": "Haul trucks generate the majority of dust emissions on mine sites and can cause respirable and visual safety hazards. Much of this dust dispersion is caused by uncovered material in the back of trucks. In order to avoid dust and rock fragments flying out of trucks, you initiate the use of a new liquid sealant which is applied over the load�s surface to keep it in place.",
+    "SITitle": "Truck sealant"
+}, {
+    "BUIndex": "0",
+    "ID": "SI18",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "18",
+    "SIMTUs": "3 MTUs",
+    "SIText": "You install a new ventilation system that uses thermodynamic modelling to simulate optimal airflows in the underground mine. The system continuously monitors the movement of particles emitted from diesel engines, air pressure and temperature conditions, while automatically adjusting the airflow. This not only improves the ventilation of the mines but does so efficiently, thus reducing energy consumption.",
+    "SITitle": "Smart ventilation"
+}, {
+    "BUIndex": "1",
+    "ID": "SI19",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "19",
+    "SIMTUs": "2 MTUs",
+    "SIText": "It is optimal for your fleet of ships to be filled as quickly as possible and to have shortest possible route from port to customer and back. You embed every ship with sensors to monitor the position and hold capacity in order to optimize the routes of all your ships. More efficient routes will result in reduced fuel consumption and coal deliveries arriving to the customer on time.",
+    "SITitle": "Ship tracking optimization"
+}, {
+    "BUIndex": "1",
+    "ID": "SI20",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "20",
+    "SIMTUs": "3 MTUs",
+    "SIText": "Phoenix Mines launches the first fully electrified mine in its portfolio. The use of electric motors enables cost savings through reduced energy consumption and reduces the need for ventilation systems in underground mines. Full transition to electric motors benefits workforce health and thus reinforces relationships with trade unions.",
+    "SITitle": "Reduced water consumption"
+}, {
+    "BUIndex": "2",
+    "ID": "SI21",
+    "PageType": "Initiative",
+    "SICosts": "$15M",
+    "SIIndex": "21",
+    "SIMTUs": "2 MTUs",
+    "SIText": "Installing autonomous trains throughout your railway fleet will reduce the need for train drivers and allow for the trains to run optimally at any time of the day or night. You integrate and install the technology, AutoRail, which will allow your trains to make the long journey from the mines to the port without any human interaction.",
+    "SITitle": "Autonomous trains"
+}, {
+    "BUIndex": "2",
+    "ID": "SI22",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "22",
+    "SIMTUs": "2 MTUs",
+    "SIText": "Sensors in shovels help to detect and separate the mineral ore from waste material after the blasting stage has been completed.  The technology has only been developed recently but has already been implemented by industry leaders. This means waste can be transported away earlier and processing can be completed more efficiently. ",
+    "SITitle": "Shovel sensors"
+}, {
+    "BUIndex": "2",
+    "ID": "SI23",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "23",
+    "SIMTUs": "1 MTUs",
+    "SIText": "Predominantly used for open pit mines, these maps give a holistic view of the mine and are continuously updated to identify dangerous versus safe areas. Simple color coding is used to clearly identify high and low risk areas, which encourages discussion amongst site managers, truck drivers and workers.",
+    "SITitle": "Risk area heat maps (open-pit)"
+}, {
+    "BUIndex": "2",
+    "ID": "SI24",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "24",
+    "SIMTUs": "1 MTUs",
+    "SIText": "In order to reduce bottlenecks in the production process, Phoenix Mines can introduce an innovative technique for refueling trucks and machines while they are running. Implementing this initiative boosts productivity during the extraction process and thus increases the quantity of material extracted.",
+    "SITitle": "Improved truck refuelling"
+}, {
+    "BUIndex": "2",
+    "ID": "SI25",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "25",
+    "SIMTUs": "1 MTUs",
+    "SIText": "Performing maintenance can be a dangerous job but the safety risk is magnified when maintenance is being performed underground. Using virtual reality headsets allow engineers the ability to call up manuals in real time, as well as receive warnings or other useful data while working. You trial a number of these VR headsets in an effort to improve the safety and efficiency of routine machine maintenance.",
+    "SITitle": "VR maintenance assist"
+}, {
+    "BUIndex": "2",
+    "ID": "SI26",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "26",
+    "SIMTUs": "1 MTUs",
+    "SIText": "Many poisonous gases as well as slag are just some of the by-products produced by extracting, transporting and processing the iron ore. Despite not all of these occurring on-mine, you engage in an effort to scrub and recycle the gas emitted during the process while you mandate that all slag should be securely stored by any steel manufacturer who uses your iron ore.",
+    "SITitle": "Safe disposal of by-products"
+}, {
+    "BUIndex": "2",
+    "ID": "SI27",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "27",
+    "SIMTUs": "2 MTUs",
+    "SIText": "You invest in an additional advertising and marketing efforts to better match iron ore to the right buyer and achieve a price premium for your high-quality ore. Steel manufacturers require high quality iron ore for their smelters and you feel you can charge customers more for your iron ore given its quality and your reliability in delivery.",
+    "SITitle": "Marketing push"
+}, {
+    "BUIndex": "3",
+    "ID": "SI28",
+    "PageType": "Initiative",
+    "SICosts": "$5M",
+    "SIIndex": "28",
+    "SIMTUs": "1 MTUs",
+    "SIText": "You embed a host of sensors across your fleet of haul trucks to track everything from the eye movements of the truck drivers through to the tyre pressure and road conditions. This should improve the efficiency and safety environment of your haul truck fleet.",
+    "SITitle": "Truck driver sensory analysis"
+}, {
+    "BUIndex": "3",
+    "ID": "SI29",
+    "PageType": "Initiative",
+    "SICosts": "$15M",
+    "SIIndex": "29",
+    "SIMTUs": "2 MTUs",
+    "SIText": "The structural safety of tailings dams is of high importance given past environmental disasters. Embedding fibre optic sensing technology into the walls of tailings dams provides very precise measurements of the soil. The technology has advanced to measure very small changes in soil parameters such as temperature or strain under static or dynamic conditions. This system will provide advanced warning of any structural issues in your tailings dams.",
+    "SITitle": "Fibre optic cable monitoring of tailings dam"
+}, {
+    "BUIndex": "3",
+    "ID": "SI30",
+    "PageType": "Initiative",
+    "SICosts": "0",
+    "SIIndex": "30",
+    "SIMTUs": "3 MTUs",
+    "SIText": "Building relationships with trade unions is necessary to ensure the smooth running of the business. Trade unions in the industry have high bargaining power and in the past, there have been strikes that paralyzed production for months. By implementing this initiative, Phoenix Mines works closely with the unions to understand their perspective with the aim of reducing the number of future worker disputes.",
+    "SITitle": "Increased engagement with trade unions"
+}, {
+    "BUIndex": "3",
+    "ID": "SI31",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "31",
+    "SIMTUs": "2 MTUs",
+    "SIText": "Scarcity of water in Emergia represents a significant risk to local communities and is a significant cost driver for mining operations in the region. Water plays a vital role across the copper value chain but particularly during metal separation (froth flotation) phase before the smelting stage. You thus decide to develop a dry tailings dam. By implementing this initiative, you will be able to reduce your water consumption and negate the current high costs of getting access to scarce water sources. Additionally, consuming less water should improve relations with local communities and limit any environmental risks associated with traditional tailings dams.",
+    "SITitle": "Dry tailings dam drive"
+}, {
+    "BUIndex": "3",
+    "ID": "SI32",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "32",
+    "SIMTUs": "3 MTUs",
+    "SIText": "Traditionally, mining operations in Emergia have been characterized by less advanced techniques and generally poor automation in production. This initiative will reduce the number of manual jobs through the automation and mechanization of production processes in the region. While this can generate significant cost efficiencies and reduce accidents for manual workers, trade unions might not support the strategy as it compromises the employment level in the area.",
+    "SITitle": "Mechanization increase in Emergia"
+}, {
+    "BUIndex": "3",
+    "ID": "SI33",
+    "PageType": "Initiative",
+    "SICosts": "$15M",
+    "SIIndex": "33",
+    "SIMTUs": "2 MTUs",
+    "SIText": "As increasing amounts of copper ore needs to be processed, recovery levels need to be maintained to avoid unnecessary losses. You invest in new smelters and a more precise refinery to ensure copper losses are at a minimum as material throughput is increased.",
+    "SITitle": "Increased recovery initiative"
+}, {
+    "BUIndex": "3",
+    "ID": "SI34",
+    "PageType": "Initiative",
+    "SICosts": "$10M",
+    "SIIndex": "34",
+    "SIMTUs": "1 MTUs",
+    "SIText": "Processing and refining copper is an incredibly energy intensive process. This initiative will improve the energy efficiency across this stage of the value chain by thermally insulating furnaces and limiting unnecessary running of machines. Aging machinery will be given more regular maintenance to ensure optimal performance. ",
+    "SITitle": "Energy efficiency drive"
+}
+]}

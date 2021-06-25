@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<workbook>
+<r n="exportParamOptimize" s="global" ts="Control" ta="$C$3"></r>
+<r n="xxGENxx.ID" s="global" ts="tx_General" ta="$C$2"></r>
+<r n="xxGENxx.Round2Password" s="global" ts="tx_General" ta="$C$9"></r>
+<r n="xxGENxx.SubTitlePart1" s="global" ts="tx_General" ta="$C$4"></r>
+<r n="xxGENxx.SubTitlePart2" s="global" ts="tx_General" ta="$C$5"></r>
+<r n="xxGENxx.TeamName" s="global" ts="tx_General" ta="$C$6"></r>
+<r n="xxGENxx.TeamNumber" s="global" ts="tx_General" ta="$C$7"></r>
+<r n="xxGENxx.Title" s="global" ts="tx_General" ta="$C$3"></r>
+<r n="xxGENxx.YearTitle" s="global" ts="tx_General" ta="$C$8"></r>
+<r n="xxSI01xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$4"></r>
+<r n="xxSI01xx.Content" s="global" ts="tx_Initiatives" ta="$C$6"></r>
+<r n="xxSI01xx.ID" s="global" ts="tx_Initiatives" ta="$C$2"></r>
+<r n="xxSI01xx.PageType" s="global" ts="tx_Initiatives" ta="$C$3"></r>
+<r n="xxSI01xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$10"></r>
+<r n="xxSI01xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$5"></r>
+<r n="xxSI01xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$9"></r>
+<r n="xxSI01xx.SIText" s="global" ts="tx_Initiatives" ta="$C$8"></r>
+<r n="xxSI01xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$7"></r>
+<r n="xxSI02xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$15"></r>
+<r n="xxSI02xx.Content" s="global" ts="tx_Initiatives" ta="$C$17"></r>
+<r n="xxSI02xx.ID" s="global" ts="tx_Initiatives" ta="$C$13"></r>
+<r n="xxSI02xx.PageType" s="global" ts="tx_Initiatives" ta="$C$14"></r>
+<r n="xxSI02xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$21"></r>
+<r n="xxSI02xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$16"></r>
+<r n="xxSI02xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$20"></r>
+<r n="xxSI02xx.SIText" s="global" ts="tx_Initiatives" ta="$C$19"></r>
+<r n="xxSI02xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$18"></r>
+<r n="xxSI03xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$26"></r>
+<r n="xxSI03xx.Content" s="global" ts="tx_Initiatives" ta="$C$28"></r>
+<r n="xxSI03xx.ID" s="global" ts="tx_Initiatives" ta="$C$24"></r>
+<r n="xxSI03xx.PageType" s="global" ts="tx_Initiatives" ta="$C$25"></r>
+<r n="xxSI03xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$32"></r>
+<r n="xxSI03xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$27"></r>
+<r n="xxSI03xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$31"></r>
+<r n="xxSI03xx.SIText" s="global" ts="tx_Initiatives" ta="$C$30"></r>
+<r n="xxSI03xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$29"></r>
+<r n="xxSI04xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$37"></r>
+<r n="xxSI04xx.Content" s="global" ts="tx_Initiatives" ta="$C$39"></r>
+<r n="xxSI04xx.ID" s="global" ts="tx_Initiatives" ta="$C$35"></r>
+<r n="xxSI04xx.PageType" s="global" ts="tx_Initiatives" ta="$C$36"></r>
+<r n="xxSI04xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$43"></r>
+<r n="xxSI04xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$38"></r>
+<r n="xxSI04xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$42"></r>
+<r n="xxSI04xx.SIText" s="global" ts="tx_Initiatives" ta="$C$41"></r>
+<r n="xxSI04xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$40"></r>
+<r n="xxSI05xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$48"></r>
+<r n="xxSI05xx.Content" s="global" ts="tx_Initiatives" ta="$C$50"></r>
+<r n="xxSI05xx.ID" s="global" ts="tx_Initiatives" ta="$C$46"></r>
+<r n="xxSI05xx.PageType" s="global" ts="tx_Initiatives" ta="$C$47"></r>
+<r n="xxSI05xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$54"></r>
+<r n="xxSI05xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$49"></r>
+<r n="xxSI05xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$53"></r>
+<r n="xxSI05xx.SIText" s="global" ts="tx_Initiatives" ta="$C$52"></r>
+<r n="xxSI05xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$51"></r>
+<r n="xxSI06xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$59"></r>
+<r n="xxSI06xx.Content" s="global" ts="tx_Initiatives" ta="$C$61"></r>
+<r n="xxSI06xx.ID" s="global" ts="tx_Initiatives" ta="$C$57"></r>
+<r n="xxSI06xx.PageType" s="global" ts="tx_Initiatives" ta="$C$58"></r>
+<r n="xxSI06xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$65"></r>
+<r n="xxSI06xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$60"></r>
+<r n="xxSI06xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$64"></r>
+<r n="xxSI06xx.SIText" s="global" ts="tx_Initiatives" ta="$C$63"></r>
+<r n="xxSI06xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$62"></r>
+<r n="xxSI07xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$70"></r>
+<r n="xxSI07xx.Content" s="global" ts="tx_Initiatives" ta="$C$72"></r>
+<r n="xxSI07xx.ID" s="global" ts="tx_Initiatives" ta="$C$68"></r>
+<r n="xxSI07xx.PageType" s="global" ts="tx_Initiatives" ta="$C$69"></r>
+<r n="xxSI07xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$76"></r>
+<r n="xxSI07xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$71"></r>
+<r n="xxSI07xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$75"></r>
+<r n="xxSI07xx.SIText" s="global" ts="tx_Initiatives" ta="$C$74"></r>
+<r n="xxSI07xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$73"></r>
+<r n="xxSI08xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$81"></r>
+<r n="xxSI08xx.Content" s="global" ts="tx_Initiatives" ta="$C$83"></r>
+<r n="xxSI08xx.ID" s="global" ts="tx_Initiatives" ta="$C$79"></r>
+<r n="xxSI08xx.PageType" s="global" ts="tx_Initiatives" ta="$C$80"></r>
+<r n="xxSI08xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$87"></r>
+<r n="xxSI08xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$82"></r>
+<r n="xxSI08xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$86"></r>
+<r n="xxSI08xx.SIText" s="global" ts="tx_Initiatives" ta="$C$85"></r>
+<r n="xxSI08xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$84"></r>
+<r n="xxSI09xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$92"></r>
+<r n="xxSI09xx.Content" s="global" ts="tx_Initiatives" ta="$C$94"></r>
+<r n="xxSI09xx.ID" s="global" ts="tx_Initiatives" ta="$C$90"></r>
+<r n="xxSI09xx.PageType" s="global" ts="tx_Initiatives" ta="$C$91"></r>
+<r n="xxSI09xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$98"></r>
+<r n="xxSI09xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$93"></r>
+<r n="xxSI09xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$97"></r>
+<r n="xxSI09xx.SIText" s="global" ts="tx_Initiatives" ta="$C$96"></r>
+<r n="xxSI09xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$95"></r>
+<r n="xxSI10xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$103"></r>
+<r n="xxSI10xx.Content" s="global" ts="tx_Initiatives" ta="$C$105"></r>
+<r n="xxSI10xx.ID" s="global" ts="tx_Initiatives" ta="$C$101"></r>
+<r n="xxSI10xx.PageType" s="global" ts="tx_Initiatives" ta="$C$102"></r>
+<r n="xxSI10xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$109"></r>
+<r n="xxSI10xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$104"></r>
+<r n="xxSI10xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$108"></r>
+<r n="xxSI10xx.SIText" s="global" ts="tx_Initiatives" ta="$C$107"></r>
+<r n="xxSI10xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$106"></r>
+<r n="xxSI11xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$114"></r>
+<r n="xxSI11xx.Content" s="global" ts="tx_Initiatives" ta="$C$116"></r>
+<r n="xxSI11xx.ID" s="global" ts="tx_Initiatives" ta="$C$112"></r>
+<r n="xxSI11xx.PageType" s="global" ts="tx_Initiatives" ta="$C$113"></r>
+<r n="xxSI11xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$120"></r>
+<r n="xxSI11xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$115"></r>
+<r n="xxSI11xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$119"></r>
+<r n="xxSI11xx.SIText" s="global" ts="tx_Initiatives" ta="$C$118"></r>
+<r n="xxSI11xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$117"></r>
+<r n="xxSI12xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$125"></r>
+<r n="xxSI12xx.Content" s="global" ts="tx_Initiatives" ta="$C$127"></r>
+<r n="xxSI12xx.ID" s="global" ts="tx_Initiatives" ta="$C$123"></r>
+<r n="xxSI12xx.PageType" s="global" ts="tx_Initiatives" ta="$C$124"></r>
+<r n="xxSI12xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$131"></r>
+<r n="xxSI12xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$126"></r>
+<r n="xxSI12xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$130"></r>
+<r n="xxSI12xx.SIText" s="global" ts="tx_Initiatives" ta="$C$129"></r>
+<r n="xxSI12xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$128"></r>
+<r n="xxSI13xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$136"></r>
+<r n="xxSI13xx.Content" s="global" ts="tx_Initiatives" ta="$C$138"></r>
+<r n="xxSI13xx.ID" s="global" ts="tx_Initiatives" ta="$C$134"></r>
+<r n="xxSI13xx.PageType" s="global" ts="tx_Initiatives" ta="$C$135"></r>
+<r n="xxSI13xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$142"></r>
+<r n="xxSI13xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$137"></r>
+<r n="xxSI13xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$141"></r>
+<r n="xxSI13xx.SIText" s="global" ts="tx_Initiatives" ta="$C$140"></r>
+<r n="xxSI13xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$139"></r>
+<r n="xxSI14xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$151"></r>
+<r n="xxSI14xx.Content" s="global" ts="tx_Initiatives" ta="$C$153"></r>
+<r n="xxSI14xx.ID" s="global" ts="tx_Initiatives" ta="$C$149"></r>
+<r n="xxSI14xx.PageType" s="global" ts="tx_Initiatives" ta="$C$150"></r>
+<r n="xxSI14xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$157"></r>
+<r n="xxSI14xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$152"></r>
+<r n="xxSI14xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$156"></r>
+<r n="xxSI14xx.SIText" s="global" ts="tx_Initiatives" ta="$C$155"></r>
+<r n="xxSI14xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$154"></r>
+<r n="xxSI15xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$162"></r>
+<r n="xxSI15xx.Content" s="global" ts="tx_Initiatives" ta="$C$164"></r>
+<r n="xxSI15xx.ID" s="global" ts="tx_Initiatives" ta="$C$160"></r>
+<r n="xxSI15xx.PageType" s="global" ts="tx_Initiatives" ta="$C$161"></r>
+<r n="xxSI15xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$168"></r>
+<r n="xxSI15xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$163"></r>
+<r n="xxSI15xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$167"></r>
+<r n="xxSI15xx.SIText" s="global" ts="tx_Initiatives" ta="$C$166"></r>
+<r n="xxSI15xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$165"></r>
+<r n="xxSI16xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$173"></r>
+<r n="xxSI16xx.Content" s="global" ts="tx_Initiatives" ta="$C$175"></r>
+<r n="xxSI16xx.ID" s="global" ts="tx_Initiatives" ta="$C$171"></r>
+<r n="xxSI16xx.PageType" s="global" ts="tx_Initiatives" ta="$C$172"></r>
+<r n="xxSI16xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$179"></r>
+<r n="xxSI16xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$174"></r>
+<r n="xxSI16xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$178"></r>
+<r n="xxSI16xx.SIText" s="global" ts="tx_Initiatives" ta="$C$177"></r>
+<r n="xxSI16xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$176"></r>
+<r n="xxSI17xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$184"></r>
+<r n="xxSI17xx.Content" s="global" ts="tx_Initiatives" ta="$C$186"></r>
+<r n="xxSI17xx.ID" s="global" ts="tx_Initiatives" ta="$C$182"></r>
+<r n="xxSI17xx.PageType" s="global" ts="tx_Initiatives" ta="$C$183"></r>
+<r n="xxSI17xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$190"></r>
+<r n="xxSI17xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$185"></r>
+<r n="xxSI17xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$189"></r>
+<r n="xxSI17xx.SIText" s="global" ts="tx_Initiatives" ta="$C$188"></r>
+<r n="xxSI17xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$187"></r>
+<r n="xxSI18xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$195"></r>
+<r n="xxSI18xx.Content" s="global" ts="tx_Initiatives" ta="$C$197"></r>
+<r n="xxSI18xx.ID" s="global" ts="tx_Initiatives" ta="$C$193"></r>
+<r n="xxSI18xx.PageType" s="global" ts="tx_Initiatives" ta="$C$194"></r>
+<r n="xxSI18xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$201"></r>
+<r n="xxSI18xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$196"></r>
+<r n="xxSI18xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$200"></r>
+<r n="xxSI18xx.SIText" s="global" ts="tx_Initiatives" ta="$C$199"></r>
+<r n="xxSI18xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$198"></r>
+<r n="xxSI19xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$206"></r>
+<r n="xxSI19xx.Content" s="global" ts="tx_Initiatives" ta="$C$208"></r>
+<r n="xxSI19xx.ID" s="global" ts="tx_Initiatives" ta="$C$204"></r>
+<r n="xxSI19xx.PageType" s="global" ts="tx_Initiatives" ta="$C$205"></r>
+<r n="xxSI19xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$212"></r>
+<r n="xxSI19xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$207"></r>
+<r n="xxSI19xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$211"></r>
+<r n="xxSI19xx.SIText" s="global" ts="tx_Initiatives" ta="$C$210"></r>
+<r n="xxSI19xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$209"></r>
+<r n="xxSI20xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$217"></r>
+<r n="xxSI20xx.Content" s="global" ts="tx_Initiatives" ta="$C$219"></r>
+<r n="xxSI20xx.ID" s="global" ts="tx_Initiatives" ta="$C$215"></r>
+<r n="xxSI20xx.PageType" s="global" ts="tx_Initiatives" ta="$C$216"></r>
+<r n="xxSI20xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$223"></r>
+<r n="xxSI20xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$218"></r>
+<r n="xxSI20xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$222"></r>
+<r n="xxSI20xx.SIText" s="global" ts="tx_Initiatives" ta="$C$221"></r>
+<r n="xxSI20xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$220"></r>
+<r n="xxSI21xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$231"></r>
+<r n="xxSI21xx.Content" s="global" ts="tx_Initiatives" ta="$C$233"></r>
+<r n="xxSI21xx.ID" s="global" ts="tx_Initiatives" ta="$C$229"></r>
+<r n="xxSI21xx.PageType" s="global" ts="tx_Initiatives" ta="$C$230"></r>
+<r n="xxSI21xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$237"></r>
+<r n="xxSI21xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$232"></r>
+<r n="xxSI21xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$236"></r>
+<r n="xxSI21xx.SIText" s="global" ts="tx_Initiatives" ta="$C$235"></r>
+<r n="xxSI21xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$234"></r>
+<r n="xxSI22xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$242"></r>
+<r n="xxSI22xx.Content" s="global" ts="tx_Initiatives" ta="$C$244"></r>
+<r n="xxSI22xx.ID" s="global" ts="tx_Initiatives" ta="$C$240"></r>
+<r n="xxSI22xx.PageType" s="global" ts="tx_Initiatives" ta="$C$241"></r>
+<r n="xxSI22xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$248"></r>
+<r n="xxSI22xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$243"></r>
+<r n="xxSI22xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$247"></r>
+<r n="xxSI22xx.SIText" s="global" ts="tx_Initiatives" ta="$C$246"></r>
+<r n="xxSI22xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$245"></r>
+<r n="xxSI23xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$253"></r>
+<r n="xxSI23xx.Content" s="global" ts="tx_Initiatives" ta="$C$255"></r>
+<r n="xxSI23xx.ID" s="global" ts="tx_Initiatives" ta="$C$251"></r>
+<r n="xxSI23xx.PageType" s="global" ts="tx_Initiatives" ta="$C$252"></r>
+<r n="xxSI23xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$259"></r>
+<r n="xxSI23xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$254"></r>
+<r n="xxSI23xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$258"></r>
+<r n="xxSI23xx.SIText" s="global" ts="tx_Initiatives" ta="$C$257"></r>
+<r n="xxSI23xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$256"></r>
+<r n="xxSI24xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$264"></r>
+<r n="xxSI24xx.Content" s="global" ts="tx_Initiatives" ta="$C$266"></r>
+<r n="xxSI24xx.ID" s="global" ts="tx_Initiatives" ta="$C$262"></r>
+<r n="xxSI24xx.PageType" s="global" ts="tx_Initiatives" ta="$C$263"></r>
+<r n="xxSI24xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$270"></r>
+<r n="xxSI24xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$265"></r>
+<r n="xxSI24xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$269"></r>
+<r n="xxSI24xx.SIText" s="global" ts="tx_Initiatives" ta="$C$268"></r>
+<r n="xxSI24xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$267"></r>
+<r n="xxSI25xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$275"></r>
+<r n="xxSI25xx.Content" s="global" ts="tx_Initiatives" ta="$C$277"></r>
+<r n="xxSI25xx.ID" s="global" ts="tx_Initiatives" ta="$C$273"></r>
+<r n="xxSI25xx.PageType" s="global" ts="tx_Initiatives" ta="$C$274"></r>
+<r n="xxSI25xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$281"></r>
+<r n="xxSI25xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$276"></r>
+<r n="xxSI25xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$280"></r>
+<r n="xxSI25xx.SIText" s="global" ts="tx_Initiatives" ta="$C$279"></r>
+<r n="xxSI25xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$278"></r>
+<r n="xxSI26xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$286"></r>
+<r n="xxSI26xx.Content" s="global" ts="tx_Initiatives" ta="$C$288"></r>
+<r n="xxSI26xx.ID" s="global" ts="tx_Initiatives" ta="$C$284"></r>
+<r n="xxSI26xx.PageType" s="global" ts="tx_Initiatives" ta="$C$285"></r>
+<r n="xxSI26xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$292"></r>
+<r n="xxSI26xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$287"></r>
+<r n="xxSI26xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$291"></r>
+<r n="xxSI26xx.SIText" s="global" ts="tx_Initiatives" ta="$C$290"></r>
+<r n="xxSI26xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$289"></r>
+<r n="xxSI27xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$297"></r>
+<r n="xxSI27xx.Content" s="global" ts="tx_Initiatives" ta="$C$299"></r>
+<r n="xxSI27xx.ID" s="global" ts="tx_Initiatives" ta="$C$295"></r>
+<r n="xxSI27xx.PageType" s="global" ts="tx_Initiatives" ta="$C$296"></r>
+<r n="xxSI27xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$303"></r>
+<r n="xxSI27xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$298"></r>
+<r n="xxSI27xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$302"></r>
+<r n="xxSI27xx.SIText" s="global" ts="tx_Initiatives" ta="$C$301"></r>
+<r n="xxSI27xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$300"></r>
+<r n="xxSI28xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$311"></r>
+<r n="xxSI28xx.Content" s="global" ts="tx_Initiatives" ta="$C$313"></r>
+<r n="xxSI28xx.ID" s="global" ts="tx_Initiatives" ta="$C$309"></r>
+<r n="xxSI28xx.PageType" s="global" ts="tx_Initiatives" ta="$C$310"></r>
+<r n="xxSI28xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$317"></r>
+<r n="xxSI28xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$312"></r>
+<r n="xxSI28xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$316"></r>
+<r n="xxSI28xx.SIText" s="global" ts="tx_Initiatives" ta="$C$315"></r>
+<r n="xxSI28xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$314"></r>
+<r n="xxSI29xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$322"></r>
+<r n="xxSI29xx.Content" s="global" ts="tx_Initiatives" ta="$C$324"></r>
+<r n="xxSI29xx.ID" s="global" ts="tx_Initiatives" ta="$C$320"></r>
+<r n="xxSI29xx.PageType" s="global" ts="tx_Initiatives" ta="$C$321"></r>
+<r n="xxSI29xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$328"></r>
+<r n="xxSI29xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$323"></r>
+<r n="xxSI29xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$327"></r>
+<r n="xxSI29xx.SIText" s="global" ts="tx_Initiatives" ta="$C$326"></r>
+<r n="xxSI29xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$325"></r>
+<r n="xxSI30xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$333"></r>
+<r n="xxSI30xx.Content" s="global" ts="tx_Initiatives" ta="$C$335"></r>
+<r n="xxSI30xx.ID" s="global" ts="tx_Initiatives" ta="$C$331"></r>
+<r n="xxSI30xx.PageType" s="global" ts="tx_Initiatives" ta="$C$332"></r>
+<r n="xxSI30xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$339"></r>
+<r n="xxSI30xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$334"></r>
+<r n="xxSI30xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$338"></r>
+<r n="xxSI30xx.SIText" s="global" ts="tx_Initiatives" ta="$C$337"></r>
+<r n="xxSI30xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$336"></r>
+<r n="xxSI31xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$344"></r>
+<r n="xxSI31xx.Content" s="global" ts="tx_Initiatives" ta="$C$346"></r>
+<r n="xxSI31xx.ID" s="global" ts="tx_Initiatives" ta="$C$342"></r>
+<r n="xxSI31xx.PageType" s="global" ts="tx_Initiatives" ta="$C$343"></r>
+<r n="xxSI31xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$350"></r>
+<r n="xxSI31xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$345"></r>
+<r n="xxSI31xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$349"></r>
+<r n="xxSI31xx.SIText" s="global" ts="tx_Initiatives" ta="$C$348"></r>
+<r n="xxSI31xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$347"></r>
+<r n="xxSI32xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$355"></r>
+<r n="xxSI32xx.Content" s="global" ts="tx_Initiatives" ta="$C$357"></r>
+<r n="xxSI32xx.ID" s="global" ts="tx_Initiatives" ta="$C$353"></r>
+<r n="xxSI32xx.PageType" s="global" ts="tx_Initiatives" ta="$C$354"></r>
+<r n="xxSI32xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$361"></r>
+<r n="xxSI32xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$356"></r>
+<r n="xxSI32xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$360"></r>
+<r n="xxSI32xx.SIText" s="global" ts="tx_Initiatives" ta="$C$359"></r>
+<r n="xxSI32xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$358"></r>
+<r n="xxSI33xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$366"></r>
+<r n="xxSI33xx.Content" s="global" ts="tx_Initiatives" ta="$C$368"></r>
+<r n="xxSI33xx.ID" s="global" ts="tx_Initiatives" ta="$C$364"></r>
+<r n="xxSI33xx.PageType" s="global" ts="tx_Initiatives" ta="$C$365"></r>
+<r n="xxSI33xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$372"></r>
+<r n="xxSI33xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$367"></r>
+<r n="xxSI33xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$371"></r>
+<r n="xxSI33xx.SIText" s="global" ts="tx_Initiatives" ta="$C$370"></r>
+<r n="xxSI33xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$369"></r>
+<r n="xxSI34xx.BUIndex" s="global" ts="tx_Initiatives" ta="$C$377"></r>
+<r n="xxSI34xx.Content" s="global" ts="tx_Initiatives" ta="$C$379"></r>
+<r n="xxSI34xx.ID" s="global" ts="tx_Initiatives" ta="$C$375"></r>
+<r n="xxSI34xx.PageType" s="global" ts="tx_Initiatives" ta="$C$376"></r>
+<r n="xxSI34xx.SICosts" s="global" ts="tx_Initiatives" ta="$C$383"></r>
+<r n="xxSI34xx.SIIndex" s="global" ts="tx_Initiatives" ta="$C$378"></r>
+<r n="xxSI34xx.SIMTUs" s="global" ts="tx_Initiatives" ta="$C$382"></r>
+<r n="xxSI34xx.SIText" s="global" ts="tx_Initiatives" ta="$C$381"></r>
+<r n="xxSI34xx.SITitle" s="global" ts="tx_Initiatives" ta="$C$380"></r>
+<r n="xxSim0Tool1" s="global" ts="Control" ta="$C$2"></r>
+<c f="GEN" a="$C$2" r="2" c="3" w="tx_General" v="GEN" fmt="General">
+</c>
+<c f="bts2019" a="$C$9" r="9" c="3" w="tx_General" v="bts2019" fmt="General">
+</c>
+<c f="Sub Title" a="$C$4" r="4" c="3" w="tx_General" v="Sub Title" fmt="General">
+</c>
+<c f="Team Name" a="$C$6" r="6" c="3" w="tx_General" v="Team Name" fmt="General">
+</c>
+<c f="Team Number" a="$C$7" r="7" c="3" w="tx_General" v="Team Number" fmt="General">
+</c>
+<c f="Demo App" a="$C$3" r="3" c="3" w="tx_General" v="Demo App" fmt="General">
+</c>
+<c f="Year" a="$C$8" r="8" c="3" w="tx_General" v="Year" fmt="General">
+</c>
+<c f="0" a="$C$4" r="4" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI01" a="$C$2" r="2" c="3" w="tx_Initiatives" v="SI01" fmt="General">
+</c>
+<c f="Initiative" a="$C$3" r="3" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$10" r="10" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="1" a="$C$5" r="5" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="5 MTUs" a="$C$9" r="9" c="3" w="tx_Initiatives" v="5 MTUs" fmt="General">
+</c>
+<c f="The use of data in making decisions is key to improving productivity and efficiency across the mining value chain. You invest in creating a centralized operations centre to collect and consolidate the data from across your mines, processing and distribution operations. This increased visibility should help you make more informed decisions without simply relying on legacy ways of working." a="$C$8" r="8" c="3" w="tx_Initiatives" v="The use of data in making decisions is key to improving productivity and efficiency across the mining value chain. You invest in creating a centralized operations centre to collect and consolidate the data from across your mines, processing and distribution operations. This increased visibility should help you make more informed decisions without simply relying on legacy ways of working." fmt="General">
+</c>
+<c f="Centralized data centre monitoring" a="$C$7" r="7" c="3" w="tx_Initiatives" v="Centralized data centre monitoring" fmt="General">
+</c>
+<c f="0" a="$C$15" r="15" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI02" a="$C$13" r="13" c="3" w="tx_Initiatives" v="SI02" fmt="General">
+</c>
+<c f="Initiative" a="$C$14" r="14" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$21" r="21" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="2" a="$C$16" r="16" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$20" r="20" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="Safety is a key priority for Phoenix Mines and the company aims to drive annual incidents to zero and innovations in data analytics could help achieve this objective. By leveraging internal databases recording types and circumstances of previous accidents, Phoenix Mines could move a step forward towards prevention of future cases." a="$C$19" r="19" c="3" w="tx_Initiatives" v="Safety is a key priority for Phoenix Mines and the company aims to drive annual incidents to zero and innovations in data analytics could help achieve this objective. By leveraging internal databases recording types and circumstances of previous accidents, Phoenix Mines could move a step forward towards prevention of future cases." fmt="General">
+</c>
+<c f="Data analytics in safety" a="$C$18" r="18" c="3" w="tx_Initiatives" v="Data analytics in safety" fmt="General">
+</c>
+<c f="0" a="$C$26" r="26" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI03" a="$C$24" r="24" c="3" w="tx_Initiatives" v="SI03" fmt="General">
+</c>
+<c f="Initiative" a="$C$25" r="25" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$50M" a="$C$32" r="32" c="3" w="tx_Initiatives" v="$50M" fmt="General">
+</c>
+<c f="3" a="$C$27" r="27" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="4 MTUs" a="$C$31" r="31" c="3" w="tx_Initiatives" v="4 MTUs" fmt="General">
+</c>
+<c f="The fundamental lack of infrastructure represents an obstacle for operating sustainably and efficiently in Emergia. By implementing this initiative, Phoenix Mines commits to aid in the construction of Emergian infrastructure such as roads, railway lines and refurbishing the main port. Besides securing future reductions in operating costs, the company positively reinforces its reputation with the Emergian government and local communities where it operates." a="$C$30" r="30" c="3" w="tx_Initiatives" v="The fundamental lack of infrastructure represents an obstacle for operating sustainably and efficiently in Emergia. By implementing this initiative, Phoenix Mines commits to aid in the construction of Emergian infrastructure such as roads, railway lines and refurbishing the main port. Besides securing future reductions in operating costs, the company positively reinforces its reputation with the Emergian government and local communities where it operates." fmt="General">
+</c>
+<c f="Infrastructure investment program in Emergia" a="$C$29" r="29" c="3" w="tx_Initiatives" v="Infrastructure investment program in Emergia" fmt="General">
+</c>
+<c f="0" a="$C$37" r="37" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI04" a="$C$35" r="35" c="3" w="tx_Initiatives" v="SI04" fmt="General">
+</c>
+<c f="Initiative" a="$C$36" r="36" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="0" a="$C$43" r="43" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="4" a="$C$38" r="38" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="5 MTUs" a="$C$42" r="42" c="3" w="tx_Initiatives" v="5 MTUs" fmt="General">
+</c>
+<c f="Building relationships with trade unions is necessary to ensure the smooth running of the business. Trade unions in the industry have high bargaining power and in the past, there have been strikes that paralyzed production for months. By implementing this initiative, Phoenix Mines works closely with the unions to understand their perspective with the aim of reducing the number of future worker disputes." a="$C$41" r="41" c="3" w="tx_Initiatives" v="Building relationships with trade unions is necessary to ensure the smooth running of the business. Trade unions in the industry have high bargaining power and in the past, there have been strikes that paralyzed production for months. By implementing this initiative, Phoenix Mines works closely with the unions to understand their perspective with the aim of reducing the number of future worker disputes." fmt="General">
+</c>
+<c f="Increased collaboration with governments" a="$C$40" r="40" c="3" w="tx_Initiatives" v="Increased collaboration with governments" fmt="General">
+</c>
+<c f="0" a="$C$48" r="48" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI05" a="$C$46" r="46" c="3" w="tx_Initiatives" v="SI05" fmt="General">
+</c>
+<c f="Initiative" a="$C$47" r="47" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$3M" a="$C$54" r="54" c="3" w="tx_Initiatives" v="$3M" fmt="General">
+</c>
+<c f="5" a="$C$49" r="49" c="3" w="tx_Initiatives" v="5" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$53" r="53" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="One of the key challenges of operating a mine in Emergia is the difficulty of attracting skilled labor from outside Emergia, where many important mining schools are located.  One way to solve this hurdle is to promote education in the country and recruit skilled labor locally. By investing in this initiative, the company engages with the Emergian government to support and partially finance the establishment of the Emergia School of Mining. The long-term benefits of this initiative also include improvements in relations with the local government and community." a="$C$52" r="52" c="3" w="tx_Initiatives" v="One of the key challenges of operating a mine in Emergia is the difficulty of attracting skilled labor from outside Emergia, where many important mining schools are located.  One way to solve this hurdle is to promote education in the country and recruit skilled labor locally. By investing in this initiative, the company engages with the Emergian government to support and partially finance the establishment of the Emergia School of Mining. The long-term benefits of this initiative also include improvements in relations with the local government and community." fmt="General">
+</c>
+<c f="Mining school partnership in Emergia" a="$C$51" r="51" c="3" w="tx_Initiatives" v="Mining school partnership in Emergia" fmt="General">
+</c>
+<c f="0" a="$C$59" r="59" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI06" a="$C$57" r="57" c="3" w="tx_Initiatives" v="SI06" fmt="General">
+</c>
+<c f="Initiative" a="$C$58" r="58" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$65" r="65" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="6" a="$C$60" r="60" c="3" w="tx_Initiatives" v="6" fmt="General">
+</c>
+<c f="5 MTUs" a="$C$64" r="64" c="3" w="tx_Initiatives" v="5 MTUs" fmt="General">
+</c>
+<c f="Due to the recent increase in commodity prices, several mining companies including Phoenix Mines has started to grow significantly. As sites grow in number, new procurement offices are being set up in each location. This initiative aims to optimize the procurement function, centralizing activities where possible with the objective of achieving economies of scale and obtaining price discounts from suppliers. " a="$C$63" r="63" c="3" w="tx_Initiatives" v="Due to the recent increase in commodity prices, several mining companies including Phoenix Mines has started to grow significantly. As sites grow in number, new procurement offices are being set up in each location. This initiative aims to optimize the procurement function, centralizing activities where possible with the objective of achieving economies of scale and obtaining price discounts from suppliers. " fmt="General">
+</c>
+<c f="Procurement centralization" a="$C$62" r="62" c="3" w="tx_Initiatives" v="Procurement centralization" fmt="General">
+</c>
+<c f="0" a="$C$70" r="70" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI07" a="$C$68" r="68" c="3" w="tx_Initiatives" v="SI07" fmt="General">
+</c>
+<c f="Initiative" a="$C$69" r="69" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$20M" a="$C$76" r="76" c="3" w="tx_Initiatives" v="$20M" fmt="General">
+</c>
+<c f="7" a="$C$71" r="71" c="3" w="tx_Initiatives" v="7" fmt="General">
+</c>
+<c f="4 MTUs" a="$C$75" r="75" c="3" w="tx_Initiatives" v="4 MTUs" fmt="General">
+</c>
+<c f="The size and complexity of mining equipment and infrastructure can lead to substantial maintenance costs. Traditionally, Phoenix Mines has followed a policy of conducting maintenance either on a periodic basis or as and when tools and equipment break down. By implementing this initiative, the company proactively prevents machinery breakage and deterioration of infrastructure through the use of data analytics for all Emergian mine sites." a="$C$74" r="74" c="3" w="tx_Initiatives" v="The size and complexity of mining equipment and infrastructure can lead to substantial maintenance costs. Traditionally, Phoenix Mines has followed a policy of conducting maintenance either on a periodic basis or as and when tools and equipment break down. By implementing this initiative, the company proactively prevents machinery breakage and deterioration of infrastructure through the use of data analytics for all Emergian mine sites." fmt="General">
+</c>
+<c f="Predictive maintenance" a="$C$73" r="73" c="3" w="tx_Initiatives" v="Predictive maintenance" fmt="General">
+</c>
+<c f="0" a="$C$81" r="81" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI08" a="$C$79" r="79" c="3" w="tx_Initiatives" v="SI08" fmt="General">
+</c>
+<c f="Initiative" a="$C$80" r="80" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$25M" a="$C$87" r="87" c="3" w="tx_Initiatives" v="$25M" fmt="General">
+</c>
+<c f="8" a="$C$82" r="82" c="3" w="tx_Initiatives" v="8" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$86" r="86" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="Aware that you do not have all the capabilities internally, you decide to partner with key technology and automation companies in order to improve your operations through initiatives such as data analytics, machine automation and maintenance. You expect these partnerships to increase productivity and lead to a more optimized value chain." a="$C$85" r="85" c="3" w="tx_Initiatives" v="Aware that you do not have all the capabilities internally, you decide to partner with key technology and automation companies in order to improve your operations through initiatives such as data analytics, machine automation and maintenance. You expect these partnerships to increase productivity and lead to a more optimized value chain." fmt="General">
+</c>
+<c f="Partnership with 3rd parties" a="$C$84" r="84" c="3" w="tx_Initiatives" v="Partnership with 3rd parties" fmt="General">
+</c>
+<c f="0" a="$C$92" r="92" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI09" a="$C$90" r="90" c="3" w="tx_Initiatives" v="SI09" fmt="General">
+</c>
+<c f="Initiative" a="$C$91" r="91" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$98" r="98" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="9" a="$C$93" r="93" c="3" w="tx_Initiatives" v="9" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$97" r="97" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="By implementing this initiative, Phoenix Mines commits to shift its fuel consumption from diesel to natural gas. Besides the positive environmental impact of this decision, Phoenix Mines is also able to reduce its energy costs during the production phase." a="$C$96" r="96" c="3" w="tx_Initiatives" v="By implementing this initiative, Phoenix Mines commits to shift its fuel consumption from diesel to natural gas. Besides the positive environmental impact of this decision, Phoenix Mines is also able to reduce its energy costs during the production phase." fmt="General">
+</c>
+<c f="Greener fuels" a="$C$95" r="95" c="3" w="tx_Initiatives" v="Greener fuels" fmt="General">
+</c>
+<c f="0" a="$C$103" r="103" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI10" a="$C$101" r="101" c="3" w="tx_Initiatives" v="SI10" fmt="General">
+</c>
+<c f="Initiative" a="$C$102" r="102" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$20M" a="$C$109" r="109" c="3" w="tx_Initiatives" v="$20M" fmt="General">
+</c>
+<c f="10" a="$C$104" r="104" c="3" w="tx_Initiatives" v="10" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$108" r="108" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="Phoenix Mines launches the first fully electrified mine in its portfolio. The use of electric motors enables cost savings through reduced energy consumption and reduces the need for ventilation systems in underground mines. Full transition to electric motors benefits workforce health and thus reinforces relationships with trade unions." a="$C$107" r="107" c="3" w="tx_Initiatives" v="Phoenix Mines launches the first fully electrified mine in its portfolio. The use of electric motors enables cost savings through reduced energy consumption and reduces the need for ventilation systems in underground mines. Full transition to electric motors benefits workforce health and thus reinforces relationships with trade unions." fmt="General">
+</c>
+<c f="Mine electrification" a="$C$106" r="106" c="3" w="tx_Initiatives" v="Mine electrification" fmt="General">
+</c>
+<c f="0" a="$C$114" r="114" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI11" a="$C$112" r="112" c="3" w="tx_Initiatives" v="SI11" fmt="General">
+</c>
+<c f="Initiative" a="$C$113" r="113" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="0" a="$C$120" r="120" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="11" a="$C$115" r="115" c="3" w="tx_Initiatives" v="11" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$119" r="119" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="One of the ways to improve the environmental impact of the company’s operations is to implement a clear governance system guiding Phoenix Mines’ policies. By implementing this initiative all sites in environmentally sensitive locations will be given the expertise and resources to develop an Environmental Governance Framework, which will guide site-based investment decisions." a="$C$118" r="118" c="3" w="tx_Initiatives" v="One of the ways to improve the environmental impact of the company’s operations is to implement a clear governance system guiding Phoenix Mines’ policies. By implementing this initiative all sites in environmentally sensitive locations will be given the expertise and resources to develop an Environmental Governance Framework, which will guide site-based investment decisions." fmt="General">
+</c>
+<c f="Governance systems for environmentally sensitive sites" a="$C$117" r="117" c="3" w="tx_Initiatives" v="Governance systems for environmentally sensitive sites" fmt="General">
+</c>
+<c f="0" a="$C$125" r="125" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI12" a="$C$123" r="123" c="3" w="tx_Initiatives" v="SI12" fmt="General">
+</c>
+<c f="Initiative" a="$C$124" r="124" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$131" r="131" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="12" a="$C$126" r="126" c="3" w="tx_Initiatives" v="12" fmt="General">
+</c>
+<c f="4 MTUs" a="$C$130" r="130" c="3" w="tx_Initiatives" v="4 MTUs" fmt="General">
+</c>
+<c f="You engage with a professional services organization to implement robotic process automation (RPA) for many of the repetitive tasks and processes across your tax function. This should improve efficiency and increase cost savings in back-office operations while bringing improved accuracy and reliability to these tasks. " a="$C$129" r="129" c="3" w="tx_Initiatives" v="You engage with a professional services organization to implement robotic process automation (RPA) for many of the repetitive tasks and processes across your tax function. This should improve efficiency and increase cost savings in back-office operations while bringing improved accuracy and reliability to these tasks. " fmt="General">
+</c>
+<c f="RPA tax assistance" a="$C$128" r="128" c="3" w="tx_Initiatives" v="RPA tax assistance" fmt="General">
+</c>
+<c f="0" a="$C$136" r="136" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI13" a="$C$134" r="134" c="3" w="tx_Initiatives" v="SI13" fmt="General">
+</c>
+<c f="Initiative" a="$C$135" r="135" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$2.5M" a="$C$142" r="142" c="3" w="tx_Initiatives" v="$2.5M" fmt="General">
+</c>
+<c f="13" a="$C$137" r="137" c="3" w="tx_Initiatives" v="13" fmt="General">
+</c>
+<c f="4 MTUs" a="$C$141" r="141" c="3" w="tx_Initiatives" v="4 MTUs" fmt="General">
+</c>
+<c f="Phoenix Mines regularly relocates senior employees around the globe, utilizing existing expertise to inspect and operate its mining assets. In order to reduce tax liabilities and to ensure regulatory compliance across all your employees, you engage with an external tax consultancy firm to assess your mobility related tax requirements." a="$C$140" r="140" c="3" w="tx_Initiatives" v="Phoenix Mines regularly relocates senior employees around the globe, utilizing existing expertise to inspect and operate its mining assets. In order to reduce tax liabilities and to ensure regulatory compliance across all your employees, you engage with an external tax consultancy firm to assess your mobility related tax requirements." fmt="General">
+</c>
+<c f="Global mobility tax compliance" a="$C$139" r="139" c="3" w="tx_Initiatives" v="Global mobility tax compliance" fmt="General">
+</c>
+<c f="1" a="$C$151" r="151" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="SI14" a="$C$149" r="149" c="3" w="tx_Initiatives" v="SI14" fmt="General">
+</c>
+<c f="Initiative" a="$C$150" r="150" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$157" r="157" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="14" a="$C$152" r="152" c="3" w="tx_Initiatives" v="14" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$156" r="156" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="Inaccurate maps of underground mines pose serious threats to the safety of mine workers. You decide to deploy many small, remotely controlled, mobile robots throughout the mine which scan to generate a full interactive 3D map of the mine. This gives you complete visibility of the mine and helps you identify any high-risk areas." a="$C$155" r="155" c="3" w="tx_Initiatives" v="Inaccurate maps of underground mines pose serious threats to the safety of mine workers. You decide to deploy many small, remotely controlled, mobile robots throughout the mine which scan to generate a full interactive 3D map of the mine. This gives you complete visibility of the mine and helps you identify any high-risk areas." fmt="General">
+</c>
+<c f="Robotic mapping of mines" a="$C$154" r="154" c="3" w="tx_Initiatives" v="Robotic mapping of mines" fmt="General">
+</c>
+<c f="1" a="$C$162" r="162" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="SI15" a="$C$160" r="160" c="3" w="tx_Initiatives" v="SI15" fmt="General">
+</c>
+<c f="Initiative" a="$C$161" r="161" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$15M" a="$C$168" r="168" c="3" w="tx_Initiatives" v="$15M" fmt="General">
+</c>
+<c f="15" a="$C$163" r="163" c="3" w="tx_Initiatives" v="15" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$167" r="167" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="The flow of material through a mine is critical in identifying inefficiencies and bottlenecks. Synthetic rocks embedded with a GPS emitter are inserted into the ore to track the movement of rock through the mine." a="$C$166" r="166" c="3" w="tx_Initiatives" v="The flow of material through a mine is critical in identifying inefficiencies and bottlenecks. Synthetic rocks embedded with a GPS emitter are inserted into the ore to track the movement of rock through the mine." fmt="General">
+</c>
+<c f="Smart rock" a="$C$165" r="165" c="3" w="tx_Initiatives" v="Smart rock" fmt="General">
+</c>
+<c f="1" a="$C$173" r="173" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="SI16" a="$C$171" r="171" c="3" w="tx_Initiatives" v="SI16" fmt="General">
+</c>
+<c f="Initiative" a="$C$172" r="172" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$179" r="179" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="16" a="$C$174" r="174" c="3" w="tx_Initiatives" v="16" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$178" r="178" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="Poor road conditions around mining sites cause inefficiencies and can be unsafe for truck drivers. You deploy a system of sensors mounted on trucks which measures the road conditions in real time and alerts the truck driver when to slow down. These sensors can be used to map out problem areas and alert general managers to necessary road repairs. The truck&apos;s physical condition can also be measured as a result." a="$C$177" r="177" c="3" w="tx_Initiatives" v="Poor road conditions around mining sites cause inefficiencies and can be unsafe for truck drivers. You deploy a system of sensors mounted on trucks which measures the road conditions in real time and alerts the truck driver when to slow down. These sensors can be used to map out problem areas and alert general managers to necessary road repairs. The truck&apos;s physical condition can also be measured as a result." fmt="General">
+</c>
+<c f="Road analysis control (RAC)" a="$C$176" r="176" c="3" w="tx_Initiatives" v="Road analysis control (RAC)" fmt="General">
+</c>
+<c f="1" a="$C$184" r="184" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="SI17" a="$C$182" r="182" c="3" w="tx_Initiatives" v="SI17" fmt="General">
+</c>
+<c f="Initiative" a="$C$183" r="183" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$190" r="190" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="17" a="$C$185" r="185" c="3" w="tx_Initiatives" v="17" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$189" r="189" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="Haul trucks generate the majority of dust emissions on mine sites and can cause respirable and visual safety hazards. Much of this dust dispersion is caused by uncovered material in the back of trucks. In order to avoid dust and rock fragments flying out of trucks, you initiate the use of a new liquid sealant which is applied over the load’s surface to keep it in place." a="$C$188" r="188" c="3" w="tx_Initiatives" v="Haul trucks generate the majority of dust emissions on mine sites and can cause respirable and visual safety hazards. Much of this dust dispersion is caused by uncovered material in the back of trucks. In order to avoid dust and rock fragments flying out of trucks, you initiate the use of a new liquid sealant which is applied over the load’s surface to keep it in place." fmt="General">
+</c>
+<c f="Truck sealant" a="$C$187" r="187" c="3" w="tx_Initiatives" v="Truck sealant" fmt="General">
+</c>
+<c f="0" a="$C$195" r="195" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="SI18" a="$C$193" r="193" c="3" w="tx_Initiatives" v="SI18" fmt="General">
+</c>
+<c f="Initiative" a="$C$194" r="194" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$201" r="201" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="18" a="$C$196" r="196" c="3" w="tx_Initiatives" v="18" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$200" r="200" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="You install a new ventilation system that uses thermodynamic modelling to simulate optimal airflows in the underground mine. The system continuously monitors the movement of particles emitted from diesel engines, air pressure and temperature conditions, while automatically adjusting the airflow. This not only improves the ventilation of the mines but does so efficiently, thus reducing energy consumption." a="$C$199" r="199" c="3" w="tx_Initiatives" v="You install a new ventilation system that uses thermodynamic modelling to simulate optimal airflows in the underground mine. The system continuously monitors the movement of particles emitted from diesel engines, air pressure and temperature conditions, while automatically adjusting the airflow. This not only improves the ventilation of the mines but does so efficiently, thus reducing energy consumption." fmt="General">
+</c>
+<c f="Smart ventilation" a="$C$198" r="198" c="3" w="tx_Initiatives" v="Smart ventilation" fmt="General">
+</c>
+<c f="1" a="$C$206" r="206" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="SI19" a="$C$204" r="204" c="3" w="tx_Initiatives" v="SI19" fmt="General">
+</c>
+<c f="Initiative" a="$C$205" r="205" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$212" r="212" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="19" a="$C$207" r="207" c="3" w="tx_Initiatives" v="19" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$211" r="211" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="It is optimal for your fleet of ships to be filled as quickly as possible and to have shortest possible route from port to customer and back. You embed every ship with sensors to monitor the position and hold capacity in order to optimize the routes of all your ships. More efficient routes will result in reduced fuel consumption and coal deliveries arriving to the customer on time." a="$C$210" r="210" c="3" w="tx_Initiatives" v="It is optimal for your fleet of ships to be filled as quickly as possible and to have shortest possible route from port to customer and back. You embed every ship with sensors to monitor the position and hold capacity in order to optimize the routes of all your ships. More efficient routes will result in reduced fuel consumption and coal deliveries arriving to the customer on time." fmt="General">
+</c>
+<c f="Ship tracking optimization" a="$C$209" r="209" c="3" w="tx_Initiatives" v="Ship tracking optimization" fmt="General">
+</c>
+<c f="1" a="$C$217" r="217" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="SI20" a="$C$215" r="215" c="3" w="tx_Initiatives" v="SI20" fmt="General">
+</c>
+<c f="Initiative" a="$C$216" r="216" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$223" r="223" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="20" a="$C$218" r="218" c="3" w="tx_Initiatives" v="20" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$222" r="222" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="Phoenix Mines launches the first fully electrified mine in its portfolio. The use of electric motors enables cost savings through reduced energy consumption and reduces the need for ventilation systems in underground mines. Full transition to electric motors benefits workforce health and thus reinforces relationships with trade unions." a="$C$221" r="221" c="3" w="tx_Initiatives" v="Phoenix Mines launches the first fully electrified mine in its portfolio. The use of electric motors enables cost savings through reduced energy consumption and reduces the need for ventilation systems in underground mines. Full transition to electric motors benefits workforce health and thus reinforces relationships with trade unions." fmt="General">
+</c>
+<c f="Reduced water consumption" a="$C$220" r="220" c="3" w="tx_Initiatives" v="Reduced water consumption" fmt="General">
+</c>
+<c f="2" a="$C$231" r="231" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI21" a="$C$229" r="229" c="3" w="tx_Initiatives" v="SI21" fmt="General">
+</c>
+<c f="Initiative" a="$C$230" r="230" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$15M" a="$C$237" r="237" c="3" w="tx_Initiatives" v="$15M" fmt="General">
+</c>
+<c f="21" a="$C$232" r="232" c="3" w="tx_Initiatives" v="21" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$236" r="236" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="Installing autonomous trains throughout your railway fleet will reduce the need for train drivers and allow for the trains to run optimally at any time of the day or night. You integrate and install the technology, AutoRail, which will allow your trains to make the long journey from the mines to the port without any human interaction." a="$C$235" r="235" c="3" w="tx_Initiatives" v="Installing autonomous trains throughout your railway fleet will reduce the need for train drivers and allow for the trains to run optimally at any time of the day or night. You integrate and install the technology, AutoRail, which will allow your trains to make the long journey from the mines to the port without any human interaction." fmt="General">
+</c>
+<c f="Autonomous trains" a="$C$234" r="234" c="3" w="tx_Initiatives" v="Autonomous trains" fmt="General">
+</c>
+<c f="2" a="$C$242" r="242" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI22" a="$C$240" r="240" c="3" w="tx_Initiatives" v="SI22" fmt="General">
+</c>
+<c f="Initiative" a="$C$241" r="241" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$248" r="248" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="22" a="$C$243" r="243" c="3" w="tx_Initiatives" v="22" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$247" r="247" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="Sensors in shovels help to detect and separate the mineral ore from waste material after the blasting stage has been completed.  The technology has only been developed recently but has already been implemented by industry leaders. This means waste can be transported away earlier and processing can be completed more efficiently. " a="$C$246" r="246" c="3" w="tx_Initiatives" v="Sensors in shovels help to detect and separate the mineral ore from waste material after the blasting stage has been completed.  The technology has only been developed recently but has already been implemented by industry leaders. This means waste can be transported away earlier and processing can be completed more efficiently. " fmt="General">
+</c>
+<c f="Shovel sensors" a="$C$245" r="245" c="3" w="tx_Initiatives" v="Shovel sensors" fmt="General">
+</c>
+<c f="2" a="$C$253" r="253" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI23" a="$C$251" r="251" c="3" w="tx_Initiatives" v="SI23" fmt="General">
+</c>
+<c f="Initiative" a="$C$252" r="252" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$259" r="259" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="23" a="$C$254" r="254" c="3" w="tx_Initiatives" v="23" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$258" r="258" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="Predominantly used for open pit mines, these maps give a holistic view of the mine and are continuously updated to identify dangerous versus safe areas. Simple color coding is used to clearly identify high and low risk areas, which encourages discussion amongst site managers, truck drivers and workers." a="$C$257" r="257" c="3" w="tx_Initiatives" v="Predominantly used for open pit mines, these maps give a holistic view of the mine and are continuously updated to identify dangerous versus safe areas. Simple color coding is used to clearly identify high and low risk areas, which encourages discussion amongst site managers, truck drivers and workers." fmt="General">
+</c>
+<c f="Risk area heat maps (open-pit)" a="$C$256" r="256" c="3" w="tx_Initiatives" v="Risk area heat maps (open-pit)" fmt="General">
+</c>
+<c f="2" a="$C$264" r="264" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI24" a="$C$262" r="262" c="3" w="tx_Initiatives" v="SI24" fmt="General">
+</c>
+<c f="Initiative" a="$C$263" r="263" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$270" r="270" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="24" a="$C$265" r="265" c="3" w="tx_Initiatives" v="24" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$269" r="269" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="In order to reduce bottlenecks in the production process, Phoenix Mines can introduce an innovative technique for refueling trucks and machines while they are running. Implementing this initiative boosts productivity during the extraction process and thus increases the quantity of material extracted." a="$C$268" r="268" c="3" w="tx_Initiatives" v="In order to reduce bottlenecks in the production process, Phoenix Mines can introduce an innovative technique for refueling trucks and machines while they are running. Implementing this initiative boosts productivity during the extraction process and thus increases the quantity of material extracted." fmt="General">
+</c>
+<c f="Improved truck refuelling" a="$C$267" r="267" c="3" w="tx_Initiatives" v="Improved truck refuelling" fmt="General">
+</c>
+<c f="2" a="$C$275" r="275" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI25" a="$C$273" r="273" c="3" w="tx_Initiatives" v="SI25" fmt="General">
+</c>
+<c f="Initiative" a="$C$274" r="274" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$281" r="281" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="25" a="$C$276" r="276" c="3" w="tx_Initiatives" v="25" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$280" r="280" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="Performing maintenance can be a dangerous job but the safety risk is magnified when maintenance is being performed underground. Using virtual reality headsets allow engineers the ability to call up manuals in real time, as well as receive warnings or other useful data while working. You trial a number of these VR headsets in an effort to improve the safety and efficiency of routine machine maintenance." a="$C$279" r="279" c="3" w="tx_Initiatives" v="Performing maintenance can be a dangerous job but the safety risk is magnified when maintenance is being performed underground. Using virtual reality headsets allow engineers the ability to call up manuals in real time, as well as receive warnings or other useful data while working. You trial a number of these VR headsets in an effort to improve the safety and efficiency of routine machine maintenance." fmt="General">
+</c>
+<c f="VR maintenance assist" a="$C$278" r="278" c="3" w="tx_Initiatives" v="VR maintenance assist" fmt="General">
+</c>
+<c f="2" a="$C$286" r="286" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI26" a="$C$284" r="284" c="3" w="tx_Initiatives" v="SI26" fmt="General">
+</c>
+<c f="Initiative" a="$C$285" r="285" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$292" r="292" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="26" a="$C$287" r="287" c="3" w="tx_Initiatives" v="26" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$291" r="291" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="Many poisonous gases as well as slag are just some of the by-products produced by extracting, transporting and processing the iron ore. Despite not all of these occurring on-mine, you engage in an effort to scrub and recycle the gas emitted during the process while you mandate that all slag should be securely stored by any steel manufacturer who uses your iron ore." a="$C$290" r="290" c="3" w="tx_Initiatives" v="Many poisonous gases as well as slag are just some of the by-products produced by extracting, transporting and processing the iron ore. Despite not all of these occurring on-mine, you engage in an effort to scrub and recycle the gas emitted during the process while you mandate that all slag should be securely stored by any steel manufacturer who uses your iron ore." fmt="General">
+</c>
+<c f="Safe disposal of by-products" a="$C$289" r="289" c="3" w="tx_Initiatives" v="Safe disposal of by-products" fmt="General">
+</c>
+<c f="2" a="$C$297" r="297" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="SI27" a="$C$295" r="295" c="3" w="tx_Initiatives" v="SI27" fmt="General">
+</c>
+<c f="Initiative" a="$C$296" r="296" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$303" r="303" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="27" a="$C$298" r="298" c="3" w="tx_Initiatives" v="27" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$302" r="302" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="You invest in an additional advertising and marketing efforts to better match iron ore to the right buyer and achieve a price premium for your high-quality ore. Steel manufacturers require high quality iron ore for their smelters and you feel you can charge customers more for your iron ore given its quality and your reliability in delivery." a="$C$301" r="301" c="3" w="tx_Initiatives" v="You invest in an additional advertising and marketing efforts to better match iron ore to the right buyer and achieve a price premium for your high-quality ore. Steel manufacturers require high quality iron ore for their smelters and you feel you can charge customers more for your iron ore given its quality and your reliability in delivery." fmt="General">
+</c>
+<c f="Marketing push" a="$C$300" r="300" c="3" w="tx_Initiatives" v="Marketing push" fmt="General">
+</c>
+<c f="3" a="$C$311" r="311" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI28" a="$C$309" r="309" c="3" w="tx_Initiatives" v="SI28" fmt="General">
+</c>
+<c f="Initiative" a="$C$310" r="310" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$5M" a="$C$317" r="317" c="3" w="tx_Initiatives" v="$5M" fmt="General">
+</c>
+<c f="28" a="$C$312" r="312" c="3" w="tx_Initiatives" v="28" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$316" r="316" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="You embed a host of sensors across your fleet of haul trucks to track everything from the eye movements of the truck drivers through to the tyre pressure and road conditions. This should improve the efficiency and safety environment of your haul truck fleet." a="$C$315" r="315" c="3" w="tx_Initiatives" v="You embed a host of sensors across your fleet of haul trucks to track everything from the eye movements of the truck drivers through to the tyre pressure and road conditions. This should improve the efficiency and safety environment of your haul truck fleet." fmt="General">
+</c>
+<c f="Truck driver sensory analysis" a="$C$314" r="314" c="3" w="tx_Initiatives" v="Truck driver sensory analysis" fmt="General">
+</c>
+<c f="3" a="$C$322" r="322" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI29" a="$C$320" r="320" c="3" w="tx_Initiatives" v="SI29" fmt="General">
+</c>
+<c f="Initiative" a="$C$321" r="321" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$15M" a="$C$328" r="328" c="3" w="tx_Initiatives" v="$15M" fmt="General">
+</c>
+<c f="29" a="$C$323" r="323" c="3" w="tx_Initiatives" v="29" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$327" r="327" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="The structural safety of tailings dams is of high importance given past environmental disasters. Embedding fibre optic sensing technology into the walls of tailings dams provides very precise measurements of the soil. The technology has advanced to measure very small changes in soil parameters such as temperature or strain under static or dynamic conditions. This system will provide advanced warning of any structural issues in your tailings dams." a="$C$326" r="326" c="3" w="tx_Initiatives" v="The structural safety of tailings dams is of high importance given past environmental disasters. Embedding fibre optic sensing technology into the walls of tailings dams provides very precise measurements of the soil. The technology has advanced to measure very small changes in soil parameters such as temperature or strain under static or dynamic conditions. This system will provide advanced warning of any structural issues in your tailings dams." fmt="General">
+</c>
+<c f="Fibre optic cable monitoring of tailings dam" a="$C$325" r="325" c="3" w="tx_Initiatives" v="Fibre optic cable monitoring of tailings dam" fmt="General">
+</c>
+<c f="3" a="$C$333" r="333" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI30" a="$C$331" r="331" c="3" w="tx_Initiatives" v="SI30" fmt="General">
+</c>
+<c f="Initiative" a="$C$332" r="332" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="0" a="$C$339" r="339" c="3" w="tx_Initiatives" v="0" fmt="General">
+</c>
+<c f="30" a="$C$334" r="334" c="3" w="tx_Initiatives" v="30" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$338" r="338" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="Building relationships with trade unions is necessary to ensure the smooth running of the business. Trade unions in the industry have high bargaining power and in the past, there have been strikes that paralyzed production for months. By implementing this initiative, Phoenix Mines works closely with the unions to understand their perspective with the aim of reducing the number of future worker disputes." a="$C$337" r="337" c="3" w="tx_Initiatives" v="Building relationships with trade unions is necessary to ensure the smooth running of the business. Trade unions in the industry have high bargaining power and in the past, there have been strikes that paralyzed production for months. By implementing this initiative, Phoenix Mines works closely with the unions to understand their perspective with the aim of reducing the number of future worker disputes." fmt="General">
+</c>
+<c f="Increased engagement with trade unions" a="$C$336" r="336" c="3" w="tx_Initiatives" v="Increased engagement with trade unions" fmt="General">
+</c>
+<c f="3" a="$C$344" r="344" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI31" a="$C$342" r="342" c="3" w="tx_Initiatives" v="SI31" fmt="General">
+</c>
+<c f="Initiative" a="$C$343" r="343" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$350" r="350" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="31" a="$C$345" r="345" c="3" w="tx_Initiatives" v="31" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$349" r="349" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="Scarcity of water in Emergia represents a significant risk to local communities and is a significant cost driver for mining operations in the region. Water plays a vital role across the copper value chain but particularly during metal separation (froth flotation) phase before the smelting stage. You thus decide to develop a dry tailings dam. By implementing this initiative, you will be able to reduce your water consumption and negate the current high costs of getting access to scarce water sources. Additionally, consuming less water should improve relations with local communities and limit any environmental risks associated with traditional tailings dams." a="$C$348" r="348" c="3" w="tx_Initiatives" v="Scarcity of water in Emergia represents a significant risk to local communities and is a significant cost driver for mining operations in the region. Water plays a vital role across the copper value chain but particularly during metal separation (froth flotation) phase before the smelting stage. You thus decide to develop a dry tailings dam. By implementing this initiative, you will be able to reduce your water consumption and negate the current high costs of getting access to scarce water sources. Additionally, consuming less water should improve relations with local communities and limit any environmental risks associated with traditional tailings dams." fmt="General">
+</c>
+<c f="Dry tailings dam drive" a="$C$347" r="347" c="3" w="tx_Initiatives" v="Dry tailings dam drive" fmt="General">
+</c>
+<c f="3" a="$C$355" r="355" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI32" a="$C$353" r="353" c="3" w="tx_Initiatives" v="SI32" fmt="General">
+</c>
+<c f="Initiative" a="$C$354" r="354" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$361" r="361" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="32" a="$C$356" r="356" c="3" w="tx_Initiatives" v="32" fmt="General">
+</c>
+<c f="3 MTUs" a="$C$360" r="360" c="3" w="tx_Initiatives" v="3 MTUs" fmt="General">
+</c>
+<c f="Traditionally, mining operations in Emergia have been characterized by less advanced techniques and generally poor automation in production. This initiative will reduce the number of manual jobs through the automation and mechanization of production processes in the region. While this can generate significant cost efficiencies and reduce accidents for manual workers, trade unions might not support the strategy as it compromises the employment level in the area." a="$C$359" r="359" c="3" w="tx_Initiatives" v="Traditionally, mining operations in Emergia have been characterized by less advanced techniques and generally poor automation in production. This initiative will reduce the number of manual jobs through the automation and mechanization of production processes in the region. While this can generate significant cost efficiencies and reduce accidents for manual workers, trade unions might not support the strategy as it compromises the employment level in the area." fmt="General">
+</c>
+<c f="Mechanization increase in Emergia" a="$C$358" r="358" c="3" w="tx_Initiatives" v="Mechanization increase in Emergia" fmt="General">
+</c>
+<c f="3" a="$C$366" r="366" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI33" a="$C$364" r="364" c="3" w="tx_Initiatives" v="SI33" fmt="General">
+</c>
+<c f="Initiative" a="$C$365" r="365" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$15M" a="$C$372" r="372" c="3" w="tx_Initiatives" v="$15M" fmt="General">
+</c>
+<c f="33" a="$C$367" r="367" c="3" w="tx_Initiatives" v="33" fmt="General">
+</c>
+<c f="2 MTUs" a="$C$371" r="371" c="3" w="tx_Initiatives" v="2 MTUs" fmt="General">
+</c>
+<c f="As increasing amounts of copper ore needs to be processed, recovery levels need to be maintained to avoid unnecessary losses. You invest in new smelters and a more precise refinery to ensure copper losses are at a minimum as material throughput is increased." a="$C$370" r="370" c="3" w="tx_Initiatives" v="As increasing amounts of copper ore needs to be processed, recovery levels need to be maintained to avoid unnecessary losses. You invest in new smelters and a more precise refinery to ensure copper losses are at a minimum as material throughput is increased." fmt="General">
+</c>
+<c f="Increased recovery initiative" a="$C$369" r="369" c="3" w="tx_Initiatives" v="Increased recovery initiative" fmt="General">
+</c>
+<c f="3" a="$C$377" r="377" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="SI34" a="$C$375" r="375" c="3" w="tx_Initiatives" v="SI34" fmt="General">
+</c>
+<c f="Initiative" a="$C$376" r="376" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="$10M" a="$C$383" r="383" c="3" w="tx_Initiatives" v="$10M" fmt="General">
+</c>
+<c f="34" a="$C$378" r="378" c="3" w="tx_Initiatives" v="34" fmt="General">
+</c>
+<c f="1 MTUs" a="$C$382" r="382" c="3" w="tx_Initiatives" v="1 MTUs" fmt="General">
+</c>
+<c f="Processing and refining copper is an incredibly energy intensive process. This initiative will improve the energy efficiency across this stage of the value chain by thermally insulating furnaces and limiting unnecessary running of machines. Aging machinery will be given more regular maintenance to ensure optimal performance. " a="$C$381" r="381" c="3" w="tx_Initiatives" v="Processing and refining copper is an incredibly energy intensive process. This initiative will improve the energy efficiency across this stage of the value chain by thermally insulating furnaces and limiting unnecessary running of machines. Aging machinery will be given more regular maintenance to ensure optimal performance. " fmt="General">
+</c>
+<c f="Energy efficiency drive" a="$C$380" r="380" c="3" w="tx_Initiatives" v="Energy efficiency drive" fmt="General">
+</c>
+<c f="1" a="$C$2" r="2" c="3" w="Control" v="1" fmt="General">
+</c>
+</workbook>

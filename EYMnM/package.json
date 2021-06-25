@@ -1,0 +1,17 @@
+{
+  "name": "EY_BSI_PU Isomer",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "window": {
+    "title": "EY_BSI_PU Isomer",
+    "icon": "./assets/images/nuclear.jpg",
+    "toolbar": true,
+    "frame": true,
+    "fullscreen": false,
+    "resizable": true,
+    "kiosk": false,
+    "min_width": 1000,
+    "min_height": 700
+  },
+  "main": "index.html"
+}
