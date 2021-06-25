@@ -1,0 +1,658 @@
+@import "mixins"
+@import "core"
+@import "nouislider"
+@import "colors"
+@import '../../colors.styl';
+@import "buttons"
+
+html, body
+    min-height 100%
+body
+    background-image url("../images/mainBG.jpg")
+    background-repeat no-repeat
+    background-position center
+    background-size cover
+    overflow auto
+    font-size 18px
+    font-family 'AvenirLTPro-Roman', sans-serif
+    line-height 165%
+    outline none
+    -webkit-perspective 1000px
+    @media screen and (max-width 768px)
+        font-size 14px
+    @media screen and (max-width 576px)
+        font-size 12px
+.im-app
+    height 100vh
+    padding 0
+    overflow hidden
+    color $darkgrey
+    @media screen and (max-width 1025px)
+        font-size 0.8rem
+    .main
+        height 100%
+        .row
+            margin 0
+        .container
+            width calc(100% - 30px)
+            max-width 1200px
+            margin-left 15px
+            margin-right 15px
+            @media screen and (min-width 992px)
+                margin auto
+                padding 0
+        .tab-wrapper
+            background-color #fff
+            padding-bottom 50px    
+            height 100%
+            width 100%
+            max-width calc(100% - 20%) 
+            overflow auto
+            margin auto
+            box-shadow $box-shadow2
+            &.scheduler-wrapper
+                padding-bottom: 0
+            &:not(.scheduler-wrapper)
+                padding-top 30px
+            &.generation-wrapper,
+            &.acquisition-wrapper,
+            &.services-wrapper,
+            &.people-wrapper,
+            &.strategicinvestment-wrapper
+                max-width calc(100% - 2%)
+
+.digitalICO
+    font-family 'wib-icomoon'
+        
+
+.carousel-table,
+.team-data
+    .carousel-inner
+        .carousel-item
+            .item
+                width 100%
+    .carousel-indicators
+        display none
+.carousel-control
+    width 20px
+    cursor pointer
+    .carousel-control-next-icon
+        background-image url('../images/icons/1next.svg')
+    .carousel-control-prev-icon
+        background-image url('../images/icons/1pre.svg')
+
+ism-calc-slider
+    padding 15px !important
+
+/* calc slider vendor style override section */
+.calc-slider-control
+    .noUi-target.calc-slider
+        background rgba(0, 0, 0, 0.08)
+        height 7px
+        border 0
+        .noUi-handle
+            background $primaryColor !important
+            border 5px solid #cfedf9
+            width 28px
+            height 28px
+            outline none
+            -webkit-box-shadow 0px 3px 20px 0px rgba(0, 0, 0, 0.2)
+            -moz-box-shadow    0px 3px 20px 0px rgba(0, 0, 0, 0.2)
+            box-shadow         0px 3px 20px 0px rgba(0, 0, 0, 0.2)
+            &:before,
+            &:after
+                display none
+
+        .noUi-marker
+            width 15px
+            height 15px
+            background #aaa
+            border-radius 50%
+            top -11px
+            &:nth-last-child(2)
+                left 99% !important
+            &:nth-child(1)
+                left 1% !important
+
+        .noUi-horizontal .noUi-handle
+            width 28px
+            height 28px
+            border-radius 15px
+            cursor pointer
+            top -10px
+
+        .noUi-base
+            position relative
+            left 7px
+            top 3pxn
+
+        .noUi-pips-horizontal
+            padding 0
+            height initial
+            color $neutral4
+
+        .noUi-value-horizontal.noUi-value-large
+            transform none
+            left unset !important
+            right -15px !important
+            font-size 12px
+            &:nth-child(2)
+                left 0% !important
+                right inherit !important
+
+        .noUi-value-horizontal.noUi-value-sub
+            font-family "OpenSans"
+            color $neutral4
+            font-size initial
+
+.title-row
+    height 50px
+    color $primaryColor
+    font-size 1.3rem
+    font-family 'AvenirLTPro-Heavy', sans-serif
+
+.generation-wrapper
+    .chart-data
+        isma-tooltip
+            margin-right 0
+.scheduler-wrapper
+    .main-tablist
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        .tab-content
+            flex: 1;
+            overflow: auto;
+        .nav-tabs
+            .nav-link.active
+                font-weight 500
+                color $primaryColor
+                font-size 21px
+            .nav-item
+                width 50%
+                text-align center
+                .nav-link
+                    display flex
+                    justify-content center
+                    align-items center
+                    color #fff 
+                    flex-grow 1
+                    background-color $primaryColor
+                &:not(.active)
+                    font-size 1rem
+                    display flex
+                    .nav-link
+                        color #555 
+                        flex-grow 1
+                        background-color #ccc
+.acquisition-wrapper
+    .main-tablist
+        .nav-tabs
+            .nav-link.active
+                font-weight 500
+                color $primaryColor
+                font-size 21px
+            .nav-item
+                width 50%
+                text-align center
+                .nav-link
+                    display flex
+                    justify-content center
+                    align-items center
+                &:not(.active)
+                    font-size 1rem
+                    display flex
+                    .nav-link
+                        color #555 
+                        flex-grow 1
+                        background-color #ccc
+    .sub-tablist
+        margin auto
+        .tab-pane
+            border solid 1px $primaryColor
+            border-bottom-left-radius 10px
+            border-bottom-right-radius 10px
+        .nav-tabs
+            .nav-item
+                width 25%
+                text-align center
+                .nav-link.active
+                    background $primaryColor
+                    color #ffffff
+                    font-size 1rem
+                &:not(.active)
+                    padding 0 1px
+                    .nav-link
+                        background-color #A8ADB4
+    .carousel-indicators
+        display none
+    .indicator-container
+        position absolute
+        bottom unset 
+        top 30px
+        right 30px
+        margin 0
+        display flex
+        & > div
+            background-color $grey
+            cursor pointer
+            height 40px
+            width 40px
+            border-radius 50%
+            margin 0 5px
+            color $white
+            line-height normal
+            font-size 18px
+            text-align center
+            padding 8px
+            border 2px solid transparent
+            &.active
+                background-color #fff
+                border solid 2px $primaryColor
+                color $primaryColor
+                box-shadow $box-shadow2
+    .slide
+        padding-top 10px
+        outline none
+
+.policy-wrapper    
+    .honesty-div
+        padding 0 50px
+    ul
+        font-style italic
+        a
+            font-style initial
+
+.people-wrapper
+    .carousel,
+    .carousel-inner
+        outline none
+        .character-wrapper
+            outline none
+    .indicator-container
+        position absolute
+        bottom unset 
+        top 50px
+        right 50%
+        margin 0
+        display flex
+        transform: translateX(50%)
+        & > div
+            background-position center
+            background-size cover
+            border solid 2px transparent
+            filter grayscale(100%)
+            filter gray
+            cursor pointer
+            height 40px
+            width 40px
+            border-radius 50%
+            display flex
+            align-items center
+            justify-content center
+            margin 0 5px
+            &.active
+                filter none
+                border solid 2px $primaryColor
+                color $primaryColor
+                box-shadow 3px 4px 24px 2px rgba(0,0,0,0.2)
+    .team-container
+        .team-data
+            margin-top 3rem
+
+
+.im-app
+    /*slider toggle */
+    .toggle-slider-control.row
+        max-width 250px
+        margin auto
+        .no
+            width 40px
+            line-height 40px
+            text-align left
+        .yes
+            width 40px
+            line-height 40px
+            text-align right
+        .toggle-slider
+            .noUi-base
+                position relative
+                height 100%
+        .noUi-target
+            height 40px
+            background #f2f2f2
+            border-radius 20px
+            box-shadow 0px 7px 12px 2px rgba(0,0,0,0.2)
+            width calc(100% - 80px)
+            position relative
+        .noUi-horizontal .noUi-handle
+            width 38px
+            height 38px
+            top 0 !important
+            border-radius 50%
+            background #6D747E !important
+            color #fff
+            box-shadow none
+            text-transform translate(-50%, 0)
+            transform rotateY(0deg)
+        .noUi-handle:before
+            content ''
+            display none
+        .noUi-handle:after
+            content 'or'
+            display block
+            position absolute
+            top 1px !important
+            left 0
+            background none
+            text-align center
+            width 36px
+            height 36px
+            line-height 38px
+        &.toggle
+            &-yes
+                .noUi
+                    &-handle
+                        content ''
+                        background #fff
+                        border 3px solid white
+                        color $primaryColor
+                        transform rotateY(180deg)
+                        font-family 'wib-icomoon'
+                        background-color $primaryColor !important
+                    &-origin
+                        left calc(100% - 22px)!important
+                .toggle-slider
+                    background-color #6d747e
+
+            &-no
+                .noUi
+                    &-handle
+                        content ''
+                        background #fff
+                        border 3px solid white
+                        color $primaryColor
+                        transform rotateY(-180deg)
+                        font-family 'wib-icomoon'
+                        background-color $primaryColor !important
+                    &-origin
+                        left 18px !important
+                .toggle-slider
+                    background-color #6d747e
+        .noUi-origin
+            left 50% !important
+
+.radio-group
+    display flex
+    justify-content center
+    .custom-radio-button
+        border solid 2px #A8ADB4
+        border-radius 0
+        padding 10px
+        width 25%
+        background-color #ccc
+        display flex
+        align-items center
+        color #777
+        justify-content: center
+        &:hover
+            border solid 2px $primaryColor
+        &.checked
+            background $primaryColorHoverColor
+            border 0
+            color #ffffff
+            font-weight 500
+        > input
+            display none
+
+.services-wrapper
+    .radio-group
+        justify-content center
+        .custom-radio-button
+            width 33.33%
+            margin 0
+            height 2.5rem
+            border-width 1px
+            background-color $lightgrey
+            &:hover
+                background-color $primaryColor
+                color $white
+            &.checked
+                background-color $primaryColor
+                color $white
+                &:hover
+                    background-color $primaryColorHoverColor
+            @media screen and (max-width 1024px)
+                font-size 0.7rem
+
+.floating-metrics,
+.tool-container
+    isma-tooltip
+        color #fff
+        border solid 2px #fff
+        border-radius 50%
+
+@media screen and (max-width 1024px)
+    .tool-container
+        isma-tooltip
+            position relative
+            left 10px
+    isma-tooltip
+        width 15px !important
+        height 15px !important
+        .tooltip-icon
+            font-size 0.5rem !important
+            line-height 0.5rem !important
+    .navbar-contianer
+        padding 0 5px !important
+        max-width 83% !important
+
+.broadcast-wrapper,
+.strategy-wrapper,
+.peer-wrapper,
+.welcome-wrapper
+    padding 20px 0
+    .desc-container
+        border-right 1px solid #d8d8d8
+        .text-container
+            span
+                b
+                    color $secondaryColor
+        
+isma-incoming-call-strip, incoming-call-strip
+    .webrtc-incomingcall
+        position fixed
+        top 50%
+        left 50%
+        transform translate(-50%,-50%)
+        background linear-gradient(to bottom, #F2F2F2 0%,#ffffff 40%,#ffffff 100%)
+        border-top 4px solid $primaryColor
+        box-shadow 0px 7px 8px rgba(51, 102, 153, 0.2)
+        width 300px
+        padding 10px !important
+        font-size 16px !important
+        color #7b8c9d !important
+        .webrtc-incomingcall-msg
+            padding 10px 0 !important
+        .webrtc-call__buttons
+            display block
+        
+video-call-reciever
+    .webrtc-popup
+        &__body
+            margin auto !important
+            width 70% !important
+            height 39vh !important
+            .webrtc-popup__content
+                height auto !important
+                .webrtc-publisher
+                    height 290px !important
+                .webrtc-subscriber
+                    width 56% !important 
+                    height 207px !important 
+                    display flex !important 
+                    margin auto
+                    position unset !important
+            .webrtc-popup__footer
+                cursor default !important
+                .btn-danger
+                    cursor pointer !important 
+                .btn-gray
+                    pointer-events none
+            
+
+body
+    &.modal-open
+        .footer-wrapper
+            .commit-btn
+                display none
+    &.webrtc-active
+        .broadcast-wrapper, .peer-wrapper, .strategy-wrapper
+            .schedule-container
+                display none
+    .introvideo-wrapper
+        video
+            div::-webkit-media-controls-panel
+                position absolute
+                bottom -1px
+    .strategy-wrapper,
+    .broadcast-wrapper
+        .question-header
+            font-weight 500
+        .question-list
+            padding-top 15px
+            .question 
+                padding 0
+                
+
+
+
+.main:not(.isIE)    
+    ism-chart
+        svg:not(:root)
+            height 100%
+            width 100%
+    .dashboard-graphs
+        ism-chart
+            max-width 250px
+            margin: auto
+    .people-wrapper
+        ism-chart,
+        .character-graph
+            max-width 800px
+            max-height 400px
+
+.main.isIE
+    isma-dashboardgraph
+        ism-chart
+            .highcharts-container
+                display flex
+                justify-content center 
+    .dashboard-container
+        .header-container
+            .logo-text
+                font-size 0.85rem !important
+    .graph-wrapper.dashboard-graphs
+        .chart-container
+            .graph-data
+                padding-top 40px !important
+                line-height 0.8rem
+                align-items center
+    .header-container
+        padding 0 !important
+    video-call-reciever
+        .webrtc-popup__body
+            .webrtc-popup__content
+                .webrtc-subscriber
+                    position relative !important
+                    top 3px                    
+                .webrtc-publisher
+                    height 500px !important
+        
+.red-text
+    color red
+
+
+.red-dot
+    border solid 1px red
+    width 5px
+    height 5px
+    border-radius 50%
+    background-color red
+
+.green-dot
+    border solid 1px green
+    width 5px
+    height 5px
+    border-radius 50%
+    background-color green
+
+.fc-body
+    .fc-row
+        .fc-bg
+            z-index 5
+            opacity 0.7
+    td.fc-day:not(.fc-disabled-day)
+        cursor pointer
+
+.fc-toolbar
+    display flex
+    justify-content space-between
+    align-items center
+    h2
+        font-size 1.5rem
+        @media screen and (max-width 1366px)
+            font-size 1.2rem
+        @media screen and (max-width 1150px)
+            font-size 1.1rem
+    .fc-left
+        order 1
+    .fc-right
+        order 3
+    .fc-center
+        display flex !important
+        align-items center
+        order 2
+
+.fc-month-button
+    text-transform capitalize  
+    margin 0 8px !important  
+
+.fc-event-container
+    padding 2px
+
+.fc-event
+    margin 0 2px !important
+
+.zoomUrl
+    padding: 15px
+    a
+        word-break: break-all;
+        display: block;
+
+.modal
+    background-color rgba(0, 0, 0, .8)
+    &-title
+        font-family 'AvenirLTPro-Heavy', sans-serif
+    &-content
+        .button-container
+            .btn
+                &-primary
+                    background-color $tertiaryColor
+                    border none
+                    &:hover
+                        background-color darken($tertiaryColor, 20%)
+                &-success
+                    background-color $primaryColor
+                    border none
+                    &:hover
+                        background-color $primaryColorHoverColor
+
+.submit-modal
+    .modal-title
+        .fa
+            margin-right .5rem
+    .button-container
+        .btn .fa
+            margin-left .5rem
+

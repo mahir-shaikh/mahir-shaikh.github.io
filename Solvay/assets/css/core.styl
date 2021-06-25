@@ -1,0 +1,121 @@
+@import "mixins"
+@import "fonts"
+@import "icons"
+@import "animation"
+
+/* customize scrollbar */
+::-webkit-scrollbar 
+    width 5px
+    height 5px
+ 
+/* Track */
+::-webkit-scrollbar-track 
+    -webkit-box-shadow inset 0 0 6px rgba(0,0,0,0.3)
+    -webkit-border-radius 10px
+    border-radius 0px
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb 
+    border-radius 5px
+    background #6d747e
+
+::-webkit-scrollbar-thumb:window-inactive 
+    background #6d747e
+    
+
+.fa
+    font-family inherit
+    &:before
+        font-family FontAwesome
+
+for row in 0 ... 11
+    .text-indent-{row}
+        display inline-block
+        text-indent(row)
+        
+input-placeholder-color('input:focus', #fff)
+    
+@media print 
+    body
+        background transparent!important
+
+
+// ToolTip Start
+bs-tooltip-container
+    &.tooltip
+        .tooltip-inner
+            animation-duration 0.35s
+            animation-fill-mode both
+            text-align left
+            max-width 500px
+            padding 10px
+        &.tooltip-right
+            .tooltip-inner
+                animation-name customSlideHorizontal
+                transform-origin 0 0
+        &.tooltip-left
+            .tooltip-inner
+                animation-name customSlideHorizontal
+                transform-origin 100% 0
+        &.tooltip-bottom
+            .tooltip-inner
+                transform-origin 0 0
+                animation-name customSlideVertical
+        &.tooltip-top
+            .tooltip-inner
+                transform-origin 0 100%
+                animation-name customSlideVertical
+
+@keyframes customSlideHorizontal {
+    0%   {
+        -webkit-transform scaleX(0)
+        transform scaleX(0)
+    }
+    100% {
+        -webkit-transform scaleX(1)
+        transform scaleX(1)
+    }
+}
+
+@keyframes customSlideVertical {
+    0%   {
+        -webkit-transform scaleY(0)
+        transform scaleY(0)
+    }
+    100% {
+        -webkit-transform scaleY(1)
+        transform scaleY(1)
+    }
+}
+//Tooltip End
+
+
+// Sync Status Start
+.sync-container
+    ism-sync-status
+        // .sync-status
+        //     &:before
+        //         font-size 1.5rem
+        //         font-family icomoon
+        //         content '\e977'
+        //         font-weight: bold
+        //     &.status-OutOfSync
+        //         &:before
+        //             content '\e978' 
+        .sync-status
+            font-family: 'FontAwesome' !important
+            &.status-InSync:before
+                content:'\f0c1' !important //fa-link
+                color: $secondaryColor !important
+            &.status-OutOfSync:before
+                content:'\f127' !important//fa-chain-broken
+            &.status-Syncing:before
+                content:'\f0ee' !important//fa-cloud-upload 
+            &.status-SyncError:before
+                content:'\f0ee' !important//fa-cloud-upload 
+                color: #f00
+            &.status-NetworkError:before
+                color: #f00
+                content:'\f071' !important//fa-exclamation-triangle
+// Sync Status End
