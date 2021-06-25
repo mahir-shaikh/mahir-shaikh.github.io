@@ -1,0 +1,1155 @@
+{"scenes": [
+{
+    "icon": "message.svg",
+    "ID": "Event01_R1",
+    "image": "r1e1.jpg",
+    "name": "Resource Constraint",
+    "narrative": "<b>Message from your Geo Lead</b><br>Because you are in the middle of a busy period, your team is spread thin. Additionally, your Geo lead has placed special emphasis on delivery excellence and focusing on quality over quantity for the time being. In light of this, you will only be able to bid for one of two potential opportunities this round.<br><br>You will receive more details about these opportunities later but note that once you submit the RFP for a particular opportunity in the Opportunities page the other available opportunity will lock so choose carefully.",
+    "PageType": "Read Update"
+}, {
+    "alt1": "Engage a Garage SME",
+    "alt1_feedback": "While Andrea appreciates the overview she was hoping you would take a more active role in the journey; she ultimately decides to not go through a Garage experience. While you still have a chance to bid on this opportunity you have missed out on the chance to strengthen your relationship and increase your odds of winning the bid.",
+    "alt1_narrative": "You give Andrea a basic overview of Garage and let her know you will have a Garage SME reach out to discuss further. <b>(Cost: Low LTUs)</b>",
+    "alt2": "Share Past Garage Experience",
+    "alt2_feedback": "Andrea is excited by what she sees in the prior client example and lets you know she might be able to find the additional budget for an 8-12 week Garage to kick the project off. <b>(Low Increase in Collaboration Index)</b>",
+    "alt2_narrative": "You reach out to a contact within DS&iX who can walk Andrea through an actual prior client Garage experience similar to what she would go through. <b>(Cost: Medium LTUs)</b>",
+    "alt3": "Build a Representative Garage",
+    "alt3_feedback": "Andrea is very excited about what she experienced and is appreciative of you taking the time and resources to bring the experience to life. She lets you know she would like to go ahead with the Garage. This has differentiated you in the eyes of the client and increased your chances of success. <b>(Medium Decrease to Engagement Risk)</b>",
+    "alt3_narrative": "You want to show Andrea Garage instead of telling her about it. With that aim in mind you reallocate resources to actually build out a representative Garage experience for her.<b>(Cost: High LTUs, Low Decrease to B&P budget)</b>",
+    "feedbackimage": "r2e1.jpg",
+    "icon": "calendar.svg",
+    "ID": "Event01_R2",
+    "image": "r2e1.jpg",
+    "name": "Cognitive HR Garage",
+    "narrative": "Congratulations on winning the opportunity to bid on an RFP for Andrea Dalton's Cognitive Transformation. Based on a few of the discussions you had with Andrea, it seems like taking her through a TJW Garage journey could be an option. Unfortunately though your time is limited; how will you proceed?",
+    "PageType": "SingleSelect"
+}, {
+    "icon": "message.svg",
+    "ID": "Event01_R3",
+    "image": "r3e1.jpg",
+    "name": "Revenue Storm (A1)",
+    "narrative": "For all deals with TCV of $10m and above you must go through a Revenue Storm review. This qualification process provides a methodical approach to assesses the opportunity around common sales weaknesses, a point-in-time win rate score, and a possible plan of action to increase our odds of winning. Please click next to view your point-in-time win rate score.<br><br>Your win rate score is 62%. This is absolutely a deal that can sell but it does have a few potential weaknesses. You will now have the opportunity to further qualify this deal to determine how you would counteract those weaknesses",
+    "PageType": "Read Update"
+}, {
+    "alt1": "Give Jasmine a Heads Up",
+    "alt1_feedback": "Jasmine is glad you looped her in but has no additional advice to provide and lets you know you only need to include her in the future if it is critical. <b>(+1 to your Relationship with Jasmine Khan)</b>",
+    "alt1_narrative": "You want to avoid any roadblocks, but you also need Jasmine's buy in to make further inroads with CTRC. It is a balancing act, but you decide to give Jasmine a heads up that you are discussing this opportunity. <b>(Cost: Low LTUs)</b>",
+    "alt2": "Bring Jasmine to the Meeting",
+    "alt2_feedback": "Jasmine is amenable to joining the meeting and glad you included her. She helps move the conversation along but the team had prepared for a meeting with Andrea and do not speak as freely as they might have without Jasmine attending. . <b>(No Immediate Impact)</b>",
+    "alt2_narrative": "You want to avoid any roadblocks and you think Jasmine could be a valuable advocate in the meeting. You reach out to her to see if she is interested in attending. <b>(Cost: Medium LTUs)</b>",
+    "alt3": "Wait to Include Jasmine",
+    "alt3_feedback": "Jasmine finds out about the meeting and is upset that you did not at least loop her in ahead of time. She is also furious with Andrea Dalton for going behind her back and gets into a heated argument with her about professional boundaries. <b>(-1 to relationship with Jasmine Khan and increased engagement risk to Digital Reinvention opportunity)</b>",
+    "alt3_narrative": "You need Jasmine's buy in to make further inroads with CTRC, but you also want to avoid wasting her time. With that in mind you decide to wait until the opportunity discussions have progressed further to reach out to her. <b>(No Cost)</b>",
+    "delay": "0",
+    "feedbackimage": "r1e2.jpg",
+    "icon": "calendar.svg",
+    "ID": "Event02_R1",
+    "image": "r1e2.jpg",
+    "name": "Stakeholder Conflict",
+    "narrative": "As you think through your pipeline for CTRC, the company's CMO, Andrea Dalton, gives you a call. She is one of your stronger advocates within the company and wants to discuss future opportunities. You set up a meeting for next week, but start to wonder if you should consider looping in CTRC's CIO, Jasmine Khan. Jasmine is one of the main buyers at CTRC and has exhibited tight control of your relationship with other stakeholders in the past. You are concerned she might be a roadblock to pursuing this opportunity; how do you proceed?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp1Submit_R2=0;tlInputDecEvent02_R2=0;tlInputReadEvent02_R2=0",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event02_R2",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - HR Cognitive Transformation",
+    "narrative": "The GP Margin you have for <b>HR Cognitive Transformation</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Relationship Suite",
+    "alt1_feedback": "Using the relationship Suite has identified a key client stakeholder who will advocate for you when you are not in the room. After reaching out to the stakeholder and gaining a promise that they will put in a good word, your engagement risk has now decreased.",
+    "alt1_narrative": "This module objectively analyzes your client stakeholders and our relationship with them, resulting in an identification of our partner allies, supporters, neutrals and detractors. If we have an Ally or Supporter, do they advocate for TJW without you in the room? <b> (Cost: High LTUs)</b> ",
+    "alt2": "Competitive Support",
+    "alt2_feedback": "Competitive Support revealed further detail about ATTA  and Anderson Magner's competitive strategies for CTRC. It appears Anderson Magner is hoping to steal the bid by pricing it below their nomal premium; if you want to even have a chance at winning the bid you should consider pricing this at below bid metrics.",
+    "alt2_narrative": "High-level one-pagers which provide &quot;ammunition&quot; to have constructive, meaningful conversations with clients, as well as deep dive documents that go into detail on competitor strategy, market recognition, investments, recent moves, clients, etc. <b> (Cost: High LTUs) </b> ",
+    "alt3": "No Deal Coaching",
+    "alt3_feedback": "Choosing to skip Deal Coaching saves you LTUs but you have foregone the use of a powerful tool for a short term benefit. <b>(Medium Increase to Engagement Risk)</b>",
+    "alt3_narrative": "You are comfortable with how you have shaped the deal and your understanding of the competitive landscape so you choose to spend no additional LTUs on Deal Coaching. ",
+    "feedbackimage": "r3e2.jpg",
+    "icon": "message.svg",
+    "ID": "Event02_R3",
+    "image": "r3e2.jpg",
+    "name": "Deal Coaching (A2)",
+    "narrative": "Because you utilized the Pursuit Profile tool earlier you now have the option to further validate this opportunity using one of the following Deal Storm tools. Please select one tool to use.",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Bring an Expert",
+    "alt1_feedback": "Bringing Adam was a smart move. He provides an additional level of credibility around exactly how TJW can help CTRC embed cognitive and data analytics into their HR function. Hannah wants to establish more credibility before asking for the budget for a transformation exercise though; you end the call with a plan to follow up in a few months.",
+    "alt1_narrative": "You know Adam Stover of CPT has delivered in this area successfully before so you reach out to him to see if he will attend the meeting with you. <b>(Cost: Medium LTUs)</b>",
+    "alt2": "Utilize Institute for Business Value (IBV)",
+    "alt2_feedback": "The conversation goes well but it ends up being mostly theoretical as you miss out on a few of the connecting points between Hannah's needs and TJW's capabilities. It is enough to earn a follow-up call though during which Hannah tells you she wants to establish more credibility before asking for the budget for a transformation exercise. You end the call with a plan to follow up in a few months. <b>(Additional Low LTU cost)</b>",
+    "alt2_narrative": "TJW's Institute for Business Value has published white papers on this in the past; you decide to review those for key speaking points that you would like to discuss on the call <b>(Cost: Low LTUs)</b>",
+    "alt3": "Go On Your Own",
+    "alt3_feedback": "While you do have a good base of knowledge in this area, bypassing the chance to utilize another SME or a TJW tool is a missed opportunity. The conversation moves along with a promise to have a follow up call at some point but you walk out feeling like you could have done more.",
+    "alt3_narrative": "You are fairly experienced with this subject matter and your calendar makes it difficult to find the time to prepare further. You decide to forego seeking out any additional help and plan on drawing on your own knowledge at the meeting. <b>(No Cost)</b>",
+    "delay": "5",
+    "feedbackimage": "r1e3.jpg",
+    "icon": "calendar.svg",
+    "ID": "Event03_R1",
+    "image": "r1e3.jpg",
+    "name": "Meet at TJW Think",
+    "narrative": "At TJW's annual conference, Think, you are approached by Hannah Rivera, CHRO of CTRC. This is her first time attending Think since her recent promotion to CHRO and it comes at a critical time. She is facing unprecedent cost pressures, which you end up discussing for nearly an hour at a networking session. She asks for a follow up call to discuss further; how will you prepare?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp2Submit_R2=0;tlInputDecEvent03_R2=0;tlInputReadEvent03_R2=0",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event03_R2",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - Cloud Advisory",
+    "narrative": "The GP Margin you have for <b>Cloud Advisory</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Hire a Replacement",
+    "alt1_feedback": "The new hire has an impressive background but to be fully productive as a partner it takes 12-15 months of getting up to speed; this is not fast enough to provide much support on your current opportunity <b>(Low Engagement Risk Increase)</b>",
+    "alt1_narrative": "You were counting on Katrin to help close the deal with CTRC. You push your HR Business Partners to hire a replacement as soon as possible <b> (Cost: High LTUs) </b>",
+    "alt2": "Push Ahead",
+    "alt2_feedback": "{{tlInputSI01_R1}} == XXXX ? Feedback1 : Feedback2",
+    "alt2_feedbackType": "conditional",
+    "alt2_narrative": "Losing Katrin is a huge loss but you are in the middle of crunch time however, you believe you have invested in your team's capabilities enough for the team to pick up the slack. <b> No Cost </b>",
+    "alt3": "Fill Internally",
+    "alt3_feedback": "{{tlOutputIntMap4}} != 0 ? Feedback3 : Feedback4",
+    "alt3_feedbackType": "conditional",
+    "alt3_narrative": "You know of Haidy Malik, a partner within CAI who has an enhanced skillset relative to the partner you just lost. Haidy is a key member of his team but you know he has been looking to move. Additionally you think your relationships with CAI are strong enough that they would be willing to let him transfer. <b>(Cost: Medium LTUs)</b>",
+    "delay": "0",
+    "Feedback1": "The new hire has an impressive background but to be fully productive as a partner it takes 12-15 months of getting up to speed; this is not fast enough to provide much support on your current opportunity. However, because you invested in the Nurturing Talent / Mentoring Strategic Priority your team was mostly capable of picking up the slack until the new hire arrived so you have no increase in engagement risk.",
+    "Feedback2": "The new hire has an impressive background but to be fully productive as a partner it takes 12-15 months of getting up to speed; this is not fast enough to provide much support on your current opportunity. If you had invested in the Nurturing Talent / Mentoring Strategic Priority your team could have picked up most of the slack but this was not the case. <b>(Medium Engagement Risk Increase)<b>",
+    "Feedback3": "Your strong relationship with CAI makes them more open to allowing Haidy to leave. After a transition period he joins the team and is able to ramp up quickly, avoiding any additional engagement risk.",
+    "Feedback4": "Because your relationship with CAI was not high enough you were unable to convince them to allow Haidy to transfer over. Your team is now short staffed. <b> (Medium Engagement Risk Increase) <b>",
+    "feedbackimage": "r3e3.jpg",
+    "icon": "message.svg",
+    "ID": "Event03_R3",
+    "image": "r3e3.jpg",
+    "name": "Key Resource Loss",
+    "narrative": "Katrin Schmidt, a key member of your team who joined as part of the acquisition of MaroonCap, unexpectedly put in her notice. She was on the fence about joining a company as large as TJW and ultimately decided it wasn't a good fit for her. You had plans for her to be a key SME for a hybrid cloud opportunity your team was prepping and her expertise cannot be easily replicated by anyone on the team. How do you respond?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Allow It",
+    "alt1_feedback": "Danny is able to make the transfer and, after a lengthy search, you find an external replacement. While the team is stretched during this period you have created a new relationship internally and the team appreciates that you care about their personal goals too. <b>(Low Collaboration Index increase, Medium Talent Engagement increase)</b>",
+    "alt1_narrative": "Although this creates an additional headache for you, you want to ensure your team is always growing. You reach out to the Cloud team to help push forward his application and reallocate time to start looking for a backfill. <b>(Cost: High LTUs)</b>",
+    "alt2": "Postpone",
+    "alt2_feedback": "Danny isn't happy and word of what you have done leaks out to the team as well. Everybody continues to work but their opinion of you has dropped. <b>Medium Talent Engagement decrease, Low B&P Budget Decrease</b>",
+    "alt2_narrative": "You need all of the resources you can get, so you tell him now is not a good time but that you will reconsider in 6 months <b>(No cost)</b>",
+    "alt3": "Set Up a Phased Transfer",
+    "alt3_feedback": "You have to spend time with IGF getting sign-off on the phased approach but ultimately they agree. The phased approach gives you a longer timeframe to find a replacement and it creates a new internal relationship you didn't have before. <b>(Low Talent Engagement Increase, Low Collaboration Index Increase)</b>",
+    "alt3_narrative": "You don't want to stand in the way of Danny's personal goals but you have to be realistic about the workload of your team. You reach out to Cloud to negotiate a phased transfer where Danny will spend two days a week shadowing the team and the remaining three working with your team. <b>(Cost: Medium LTUs)</b>",
+    "delay": "5",
+    "feedbackimage": "r1e4.jpg",
+    "icon": "calendar.svg",
+    "ID": "Event04_R1",
+    "image": "r1e4.jpg",
+    "name": "Re-Skilling Request",
+    "narrative": "In past career discussions with Danny Robertson, a Band 10 on your team, he had brought up his interest in the work being performed by Cloud. Danny has spent most of his free time creating contacts within Cloud and is now requesting the chance to pursue an open role on that team. While you don't want to lose this resource given how high quality his work has been, you know this is something he is passionate about. How do you respond?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp3Submit_R2=0;tlInputDecEvent04_R2=0;tlInputReadEvent04_R2=0",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event04_R2",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - Cognitive Process Re-Engineering",
+    "narrative": "The GP Margin you have for <b>Cognitive Process Re-Engineering</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "feedbackimage": "r3e4.jpg",
+    "icon": "message.svg",
+    "ID": "Event04_R3",
+    "image": "r3e4.jpg",
+    "name": "Did you FutureSkill?",
+    "narrative": "{{tlOutputConditionEvent04_R3}} == 1 ? narrative1 : narrative2",
+    "narrative1": "Winning complex opportunities takes a combination of a strong account plan, effective use of TJW tools, and delivery excellence. Part of the delivery includes having the correct skill-sets on your team; By not developing these skillsets early you created increased delivery risk. While you won the contract you ultimately experienced a delivery issue and have damaged your relationship with CTRC.",
+    "narrative2": "Winning complex opportunities takes a combination of a strong account plan, effective use of TJW tools, and delivery excellence. Part of the delivery includes having the correct skill-sets on your team and by developing these skillsets early you put your team in position to succeed. Your bid will be assessed by CTRC.",
+    "narrativeType": "conditional",
+    "PageType": "Read Update"
+}, {
+    "alt1": "Provide Basic Support",
+    "alt1_feedback": "This approach helps out GTS, but sending them to smooth things over with CTRC creates the impression your teams are not working together. <b>(Low Collaboration Index Increase)</b>",
+    "alt1_narrative": "You support GTS by bringing a small team in to help identify the cause of the issue. You draw a line here though; now that the cause has been identified, it is the responsibility of GTS to smooth things over with CTRC. <b>(Cost: Medium LTUs)</b>",
+    "alt2": "Adopt a Cooperative Approach",
+    "alt2_feedback": "While this approach takes more time it is ultimately the right approach. It demonstrates a One TJW image and shows GTS that you are a willing partner to them. <b>(High Collaboration Index Increase)</b>",
+    "alt2_narrative": "You decide to collaborate with GTS on the entire issue lifecycle from root cause identification, to solutioning, to client resolution. <b>(Cost: High LTUs)</b>",
+    "alt3": "Leave it to GTS",
+    "alt3_feedback": "After some time, GTS is able to identify the cause of the issue and solve it. They present their solution to CTRC and while the presentation goes relatively smoothly they are perplexed as to why you did not attend the meeting as well. <b>(Medium Collaboration Index Decrease)</b>",
+    "alt3_narrative": "Your concern is TJW Consulting. It is unfortunate that the GTS delivery issue caused problems with the client, but it is their responsibility; you leave it to them to smooth things over. <b>(No Cost)</b>",
+    "delay": "10",
+    "feedbackimage": "r1e5.jpg",
+    "icon": "calendar.svg",
+    "ID": "Event05_R1",
+    "image": "r1e5.jpg",
+    "name": "Delivery Issue",
+    "narrative": "A recent GTS delivery issue has left CTRC furious with TJW. Although it wasn't an issue your team created you are still feeling the impacts as your client's overall NPS score dropped dramatically. This has real impacts for you as it creates the possibility that opportunities you are currently shaping might be at risk. What resources will you commit to improving this situation?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp4Submit_R2=0;tlInputDecEvent05_R2=0;tlInputReadEvent05_R2=0",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event05_R2",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - AMS Renewal",
+    "narrative": "The GP Margin you have for <b>AMS Renewal</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp1Submit_R3=0;tlInputDecEvent05_R3=0;tlInputReadEvent05_R3=0",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event05_R3",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - Move to Hybrid Cloud",
+    "narrative": "The GP Margin you have for <b>Move to Hybrid Cloud</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp1Submit_R1=0;tlInputDecEvent06_R1=0;tlInputReadEvent06_R1=0;tlInputOpp2Submit_R1=1;tlInputOpp2Pursue_R1=No;tlInputOff2SubmitDoNotPursue_R1=1",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event06_R1",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - Digital Reinvention",
+    "narrative": "The GP Margin you have for <b>Digital Reinvention</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp2Submit_R3=0;tlInputDecEvent06_R3=0;tlInputReadEvent06_R3=0",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event06_R3",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - CFO Proof of Concept",
+    "narrative": "The GP Margin you have for <b>Cognitive Process Re-Engineering</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "alt1": "Yes",
+    "alt1_feedback": "After reviewing your case, your Geo Lead approves but you took valuable time out of your day developing and presenting your business case <b>(Cost: High LTUs)</b>",
+    "alt2": "No",
+    "alt2_callback": "tlInputOpp2Submit_R1=0;tlInputDecEvent07_R1=0;tlInputReadEvent07_R1=0;tlInputOpp1Submit_R1=1;tlInputOpp2Pursue_R1=No;tlInputOff1SubmitDoNotPursue_R1=1",
+    "alt2_feedback": "<b>(No LTU Cost)</b>",
+    "feedbackimage": "GrossProfit.jpg",
+    "icon": "message.svg",
+    "ID": "Event07_R1",
+    "image": "GrossProfit.jpg",
+    "name": "GP Margin Below Threshold - S/4HANA Global Design",
+    "narrative": "The GP Margin you have for <b>S/4HANA Global Design</b> is below the acceptable threshold. In order to be able to bid on this opportunity you need to take time to present the business case to your Geo lead for sign-off or re-shape the deal. Would you like to proceed with the opportunity as it is  currently shaped?",
+    "PageType": "SingleSelect"
+}, {
+    "ID": "ExtStakeholder01",
+    "impact": "4",
+    "meeting1_feedback": "&quot;I'm sorry, I don't have time to meet right now.&quot; <br><br><i>If you would still like to meet with this stakeholder, consider another route to building a relationship.</i>",
+    "meeting1A_feedback": "&quot;Thanks for the e-mail. I am busy right now but let's set up some time to talk in 6 months.&quot;",
+    "meeting2_feedback": "&quot;We are at an important stage in the in the evolution of CTRC. Jasmine Khan and I have aligned, and we believe that migrating to a modern multi-cloud environment will a key component of our transformation effort.&quot;",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Patricia Campbell",
+    "narative": "Patricia currently serves as Chairman and Chief Executive Officer of CTRC Holdings. Campbell began her career by first serving in the United States Navy as an enlisted officer. She rose to several leadership positions, where she oversaw supply chain and logistics. She joined CTRC in 2007 as a VP of Supply Chain and just this past year, was appointed to her current role by the Board of Directors. Patricia and her husband, Tom, have three children and two German Shepherds. Patricia is a regular volunteer with Feed My Starving Children, as well as CTRC's own efforts to eliminate hunger.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Weak",
+    "role": "CEO"
+}, {
+    "ID": "ExtStakeholder02",
+    "impact": "6",
+    "meeting1_feedback": "&quot;I have been looking to optimize my Finance operations for a while; my costs are far too high. Do you have Blockchain-based solutions that can help? If so, let's set up a call to discuss.&quot;",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Ezekiel Carter",
+    "narative": "Ezekiel Carter has over 25 years of financial and senior executive management experience in the fast moving consumer goods industry. Prior to joining CTRC in February 2013 as Chief Financial Officer, he served as Chief Financial Officer and Treasurer at Jackson & Jackson. He has also held the position of Chief Financial Officer for Douglas International. He earned his BS degree in accounting from the University of Southern California and is a Certified Public Accountant. Ezekiel is an avid golfer.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Average",
+    "role": "CFO"
+}, {
+    "ID": "ExtStakeholder03",
+    "impact": "8",
+    "meeting1_feedback": "&quot;My top priorities remain building a single and personalized customer experience, leveraging big data for smarter decision-making, embracing the cloud - with caution - and using innovative tools to deliver favorable financial results.&quot;",
+    "meeting2_feedback": "&quot;I am busy right now. However our CTO,  Joe McGuire, is the leader on many of our larger initiatives right now though so he might be the best person to contact.&quot;",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Jasmine Kahn",
+    "narative": "Jasmine graduated from Middlebury College with a BA in Business and received her MBA and PhD in Technology Management from Bowling Green State University. She began her career as a consultant with Mitt & Co. and then worked at Pierpont Bank, achieving the role of EVP Technology. Jasmine joined the CTRC team in 2012 and brings extensive background in digital marketing and commerce, systems modernization, and data security. She is a triathlete and has competed in 8 triathlons.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Average",
+    "role": "CIO"
+}, {
+    "ID": "ExtStakeholder04",
+    "impact": "5",
+    "meeting1_feedback": "&quot;I'm sorry, I don't have time to meet right now.&quot; <br><br><i>If you would still like to meet with this stakeholder, consider another route to building a relationship.</i>",
+    "meeting1A_feedback": "&quot;Great working with you, I will be in touch in the future.&quot;",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Noah Morgenthau",
+    "narative": "Noah Morgenthau began his career with CTRC in 1976 in Omaha. He started as a courtesy clerk and gradually worked his way up. He served as manager in both Oklahoma and Texas and was eventually promoted to Big Sky Division President with responsibilities for operations in Montana and South Dakota. Since 2009, Noah served as Vice President of Operations for the Midwest division before being named Chief Operations Officer in March 2017. He holds Black Belt in Karate.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Non-Existent",
+    "role": "COO"
+}, {
+    "ID": "ExtStakeholder05",
+    "impact": "7",
+    "meeting1_feedback": "&quot;You are the 4th person to reach out to me this week so I will tell you what I told everyone else. I am focused on two specific areas: sourcing costs and modernization. I want to reduce sourcing costs in a way that has tangible ROI and we need to bridge the gap between the data we have and the analytics I want to perform on this data.&quot;",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Joseph McGuire",
+    "narative": "Joseph holds an MBA in Computer Science and Engineering from the Massachusetts Institute of Technology. He served as VP Technology for several startups - including BizRocket - and eventually landed at Daniel Defense where he served as the VP of Technology. Joseph joined CTRC in 2011 and leads the Information Technology group. He is an avid outdoorsman and enjoys four-wheeling.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Average",
+    "role": "CTO"
+}, {
+    "ID": "ExtStakeholder06",
+    "impact": "4",
+    "meeting1_feedback": "&quot;I'm sorry, I don't have time to meet right now.&quot;<br><br><i>If you would still like to meet with this stakeholder, consider another route to building a relationship.</i>",
+    "meeting2_feedback": "&quot;I think there's a real opportunity to leverage technology across the organization as a way to drive employee engagement and learning. I'm planning on deploying employee satisfaction surveys to gather data and insights into the organization and I anticipate this will be a hot topic. I'm eager to help develop a consistent employee experience across all geographies; I think this will help address some of the high turnover we've been experiencing recently.&quot;",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Hannah Rivera",
+    "narative": "Hannah Rivera joined the CTRC Human Resources department in 2003. Prior to that time, Hannah practiced law with a Phoenix area law firm. When she joined CTRC, she was named Junior Vice President, Human Resources, before eventually being promoted to Vice President. In 2015, Hannah was appointed Chief Human Resources Officer. Hannah enjoys auto racing and recently completed her first American Gumball Rally in her Porsche 911 GT3 RS.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Weak",
+    "role": "CHRO"
+}, {
+    "ID": "ExtStakeholder07",
+    "impact": "7",
+    "meeting1_feedback": "&quot;I am looking forward to working with you on this so please come with a point of view on specific, relevant solutions. Also, I know you have been working with Jasmine Khan; I would recommend you keep her informed. She does not like to be taken by surprise.&quot;",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Andrea Dalton",
+    "narative": "Andrea has spent over 19 years in the industry working at several well-known companies. She began her career as an analyst and quickly distinguished herself with her strong work ethic and ability to grasp complex concepts quickly. She moved up quickly through the ranks within marketing and merchandising functions. Today, Andrea leads the marketing and merchandising group at CTRC. Andrea and her husband, Karl, are avid hikers and have visited 15 countries.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Strong",
+    "role": "CMO"
+}, {
+    "ID": "ExtStakeholder08",
+    "impact": "7",
+    "meeting1_feedback": "&quot;I'm sorry, I don't have time to meet right now.&quot;<br><br><i>If you would still like to meet with this stakeholder, consider another route to building a relationship.</i>",
+    "meeting1A_feedback": "Your meeting with Thomas went as you hoped. As the Chief Procurement Officer he can function as a gatekeeper so it is important that you got his sign off on this potential deal.",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Thomas Hendrick",
+    "narative": "A graduate of Trinity University, where he majored in business before getting his MBA at Georgetown. Thomas has been with CTRC for the last 17 years, in roles of increasing responsibility and took over for the outgoing CPO, Richard Nygard, when he retired in 2016. Thomas spends most of his free time traveling with his family.",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Non-Existent",
+    "role": "CPO"
+}, {
+    "ID": "ExtStakeholder09",
+    "impact": "1",
+    "meeting1_feedback": "&quot;I'm sorry, I don't have time to meet right now.&quot;<br><br><i>If you would still like to meet with this stakeholder, consider another route to building a relationship.</i>",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "Board of Directors",
+    "narative": "CTRC's board of directors is made up of nine professionals spread across four committees: Executive, Audit, Compensation, and Nominating. Each of the directors brings extensive experience, including several former CEOs (one of whom recently retired from the role at CTRC)",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Non-Existent"
+}, {
+    "ID": "ExtStakeholder10",
+    "impact": "2",
+    "meeting1_feedback": "As a result of meeting with your 3rd Party Vendors you were better able to understand contracting risks. This will help you control future unexpected costs that might arise.",
+    "meeting2_feedback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "meeting3_feeback": "<i>This stakeholder has no information to provide at this point.</i>",
+    "name": "3rd Party Vendors",
+    "PageType": "ExtStakeholder",
+    "relDepth": "Average"
+}, {
+    "AccountPlanningTabLabel1": "Performance Overview",
+    "AccountPlanningTabLabel2": "Executive Summary",
+    "AccountPlanningTabLabel3": "Relationships",
+    "AccountPlanningTabLabel4": "Competitive Assessment",
+    "AccountPlanningTabLabel5": "Strategic Objectives",
+    "AccountPlanningTabLabel6": "TJW Consulting Alignment",
+    "AvailableCodes": "EverOnWard|BigBlue|Kasparov",
+    "Background": "Background :",
+    "BandMixText": "Band Mix",
+    "BuyPower": "Buying Power :",
+    "Cancel": "Cancel",
+    "CompetitiveAssessmentChartLabel": "Competitive Value Map",
+    "CompetitiveAssessmentSection1Data": "One of TJW's primary competitors, ATTA is a low cost provider founded and based in India. ATTA has grown rapidly in the last decade and is now a $42bn company with a strong base of on and off-shore resources.<br><br>ATTA's breadth of skills is relatively narrow and their limited experience in the digital consulting space leads them to cooperating with other tier one consultancies. They primarily support CAI and CPS deals.",
+    "CompetitiveAssessmentSection1Header": "ATTA Consulting",
+    "CompetitiveAssessmentSection2Data": "Founded in the 1950's, Andersen Magner is a global management consulting firm with over 400,000 employees. Andersen Magner has a strong account and industry focus and have meaningful relationships with many executives at their various clients.<br><br>With deep industry knowledge, a willingness to invest resources for the right opportunity, and global implementation capabilities Anderson Magner provides strong competition. They have recently renewed their focus on opportunities around Cognitive Enterprise, Cloud Migration, and Digital Transformation.",
+    "CompetitiveAssessmentSection2Header": "Andersen Magner",
+    "Confirm": "Confirm",
+    "ConfirmDecisionsAlertText": "Are you sure you want to submit these decisions? You will not be able to change them once submitted.",
+    "ConfirmMeetingMessage": "Are you sure you want to meet this person? This decision cannot be undone.",
+    "CSIInstructions": "Based on your knowledge of the CTRC's history, long-term goals, and competitive environment, prioritize the strategic imperatives below by dragging the most important strategic imperatives to the top. This prioritization exercise will not be included as part of the winning criteria but you should utilize it as a way to frame your plan for CTRC going forward.<br><br><i>Please make sure to press 'Submit' once for each tab.</i>",
+    "CSITitle": "Client Strategic Imperatives",
+    "CurrentCode": "Current Code: ",
+    "DashboardMetric1": "Revenue",
+    "DashboardMetric2": "Contract GP Margin",
+    "DashboardMetric3": "Delivery NPS",
+    "DashboardMetric4": "Talent Engagement",
+    "DashboardMetric5": "B&P Budget",
+    "DashboardMetric6": "Signings",
+    "DashboardMetric7": "Collaboration Index",
+    "DashboardMetric8": "LTUs Remaining",
+    "DecisionReview": "Decision Review",
+    "DoNotPursue": "Do Not Pursue",
+    "DoNotPursueAlertText": "Are you sure you do not want to pursue this opportunity? All the offerings selected would be cleared and the decision cannot be undone.",
+    "EndScreenText1": "Congratulations on finishing!",
+    "EndScreenText2": "Please wait for further facilitator instructions and the final results.",
+    "EnterPassword": "Enter Password",
+    "ExecutiveSummarySection1Data": "Formed in 1965 after the merger of two major FMCG companies, CTRC has grown via organic growth and acquisitions to become a global food and beverage company worth nearly $200 Bn.<br><br>Headquartered in the United States, CTRC utilizes its global network of bottling plants and distribution facilities to sell product in more than 200 countries. Operations are organized into six business units encompassing dozens of brands, which generate sales via direct store delivery (DSD), customer warehouses, and distribution networks. ",
+    "ExecutiveSummarySection1Header": "Company Overview",
+    "ExecutiveSummarySection2Data": "CTRC has leveraged its strong brand image, broad product mix, and extensive production & distribution network to become a global industry leader.<br><br>With nearly 60% of revenues deriving from North America, CTRC has room to expand, which is a difficult prospect given the competitive market the company operates in. CTRC faces aggressive competition from a number of firms ranging in size from other global food and beverage companies to smaller niche ones which have taken advantage of changing consumer tastes to provide differentiated products.",
+    "ExecutiveSummarySection2Header": "Market Position",
+    "ExecutiveSummarySection3Data": "<ul><li>Shifting consumer preferences have created increased demand for healthier foods & beverages</li><li>Integration of manufacturing and distribution department workflows with IoT devices is expected to increase by 15%</li><li>Increased regulatory pressures around product safety and labeling could increase pressure on already tight margins</li><li>The ability to connect and seamlessly automate the reliable flow across a supply chain - and across technologies - has transformed from a &quot;nice to have&quot; to an imperative</li></ul>",
+    "ExecutiveSummarySection3Header": "Industry Trends",
+    "ExternalNetworkingInstructions": "To maximize your knowledge of the client you should spend time with external stakeholders. You can meet with up to three (3) stakeholders each round. To do so, click the checkbox under the stakeholder name and press 'Confirm' in the confirmation pop-up",
+    "ExternalNetworkLabel0": "No Significant Interaction",
+    "ExternalNetworkLabel1": "Weak",
+    "ExternalNetworkLabel2": "Average",
+    "ExternalNetworkLabel3": "Strong",
+    "GoBack": "Go Back",
+    "GoToOfferrings": "Go to Offerings",
+    "ID": "GEN",
+    "InitiativesCategories": "Clients First (CF); Reinvention by Design (RBD); Cognitive to the Core (CC); Agile on the Cloud(AC); Inspire Talent (IT); Delivered with Confidence and Quality (DCQ)",
+    "InitiativesCatPrefix1": "CF",
+    "InitiativesCatPrefix2": "RBD",
+    "InitiativesCatPrefix3": "CC",
+    "InitiativesCatPrefix4": "AC",
+    "InitiativesCatPrefix5": "IT",
+    "InitiativesCatPrefix6": "DCQ",
+    "InitiativesInstructions": "Select up to four Strategic Initiatives by clicking on the checkbox. To view more information about each initiative, click the title and the description will appear below. Once you are satisfied with your selections, press Submit.",
+    "InitiativesSelected": "Initiatives Selected",
+    "InputCode": "Input Code",
+    "InputCodeErrorMessage": "The code you have entered seems to be incorrect. Please check the casing or ask the facilitator for help",
+    "InputCodeInstructions": "Please enter the code you received",
+    "InputCodeNotEnteredErrorText": "Please make sure that the Input Code displayed on the iPad has been entered in the simulation.",
+    "InternalNetworkingInstructions": "To maximize TJW solution expertise you should spend time with other internal collaborators. You can meet with every collaborator once per round but each meeting will cost you LTUs.",
+    "InternalNetworkLabel0": "Not Selected",
+    "InternalNetworkLabel1": "Selected",
+    "IntroBlogImage": "intro-blog1.jpg",
+    "IntroBlogText": "Team,<br><br>Congratulations on your success with CTRC Holdings so far! Getting to Target Premier status is a great start and I expect you will build on that to become a Premier account within the next few years. In this era of rapid change, CTRC is facing new challenges and opportunities; your ability to help them understand and navigate the Cognitive Enterprise journey will be key to positioning TJW as their partner in this growth.<br><br>You will have to present a unique value proposition to CTRC, but pairing your team's talent and tools with a focus on consistency and quality will enable you to be successful. Talent is crucial and it must be invested in early and nurtured to ensure we have the right people, in the right places, with the right skills if a transformative opportunity opens up.<br><br>You will have the chance to refresh yourself on your account plan for CTRC separately, but in the meantime I want to reiterate how I will measure your success. Our primary success metrics are: <br><b>1) Revenue<br>2) Contract GP<br>3) Delivery NPS<br>4) Talent Engagement (made up of Expertise and Capacity)</b><br><br>On a secondary basis, we will also be tracking <br><b>1) Collaboration Index<br>2) PTI<br>3) Signings</b><br><br><br>It is up to you to determine the ideal strategy but I expect you to deliver 30% Contract GP Margin.<br><br>Good Luck,<br>Charles R. Flint",
+    "IntroBlogTitle": "Message From the CEO",
+    "LACatPrefix1": "C",
+    "LACatPrefix2": "TP",
+    "LACatPrefix3": "B",
+    "LACatPrefix4": "SG",
+    "LeaderActionsCategories": "Client (C); Talent / People (TP); Business One TJW (B); Self Growth (SG)",
+    "LeaderActionsChartHeading": "Leader Action Time Allocation",
+    "LeaderActionsInstructions": "Select up to three Leader Actions by clicking on the checkbox. To view more information about each Leader Action, click the Leader Action title and the description will appear below. Once you are satisfied with your selections, press Submit.",
+    "LeaderActionsSelected": "Actions Selected",
+    "Legend": "Legend: Strength of Relationship",
+    "Logout": "Log out",
+    "LogoutConfirmationText": "Are you sure you want to log out?",
+    "Meeting": "Meeting",
+    "Meetings": "Meetings",
+    "MeetingsRemaining": "# of Meetings Remaining",
+    "MessageMeetingPlaceholderText": "Meetings and Messages will appear here",
+    "Messages": "Messages",
+    "MoveToNextRound": "Move to Next Round",
+    "Name": "Name :",
+    "NavigationLink1": "Account Planning",
+    "NavigationLink2": "Strategic Initiatives",
+    "NavigationLink3": "Leader Actions",
+    "NavigationLink4": "Offerings",
+    "NavigationLink5": "Opportunity",
+    "NavigationLink6": "Networking",
+    "NetworkingTabLabel1": "External Stakeholders",
+    "NetworkingTabLabel2": "Internal Collaborators",
+    "NewOpportunity": "New Opportunity",
+    "Next": "Next",
+    "OemText": "Work with OEM",
+    "OfferingRound1Note": "Note: In this round, you can spend time selecting offerings for both of them, but you will only be able to pursue one of them. Use your time wisely.",
+    "OfferingsInstructions": "Based on your understanding of the opportunity, please shape your bid by selecting the most applicable Offerings and pressing Submit. Your ability to win a bid is based in part on how well the suite of capabilities you are proposing matches the buyer's needs. If you need further detail about each Offering, navigate to the Pathways tool in your iPad.",
+    "OffShoreText": "OffShore CIC",
+    "OnShoreText": "OnShore CIC",
+    "OpportunityChartDataLabel1": "Very Low",
+    "OpportunityChartDataLabel2": "Low",
+    "OpportunityChartDataLabel3": "Moderate",
+    "OpportunityChartDataLabel4": "High",
+    "OpportunityChartDataLabel5": "Very High",
+    "OpportunityChartDataValue1": "0-20",
+    "OpportunityChartDataValue2": "21-40",
+    "OpportunityChartDataValue3": "41-60",
+    "OpportunityChartDataValue4": "61-80",
+    "OpportunityChartDataValue5": "81-100",
+    "OpportunityChartHeading": "Engagement Risk Index",
+    "OpportunityInstructions": "Based on your understanding of the client need and the Offerings you selected, shape the specifics of your RFP bid using the blue decision boxes. Once you feel you have maximized your chances of winning press Submit.",
+    "OpportunityLockedText": "This section has not been unlocked yet!!!",
+    "OpportunityNotPursuedText": "You decided not to pursue this opportunity.",
+    "OpportunityNotUnlockedText": "Earning the right to partner with a client requires a combination doing your homework, engaging the correct internal resources, and keying in on key client issues during the meeting. While you may have made some of the correct decisions leading up to the meeting with Noah, only teams that made all of the correct decisions earned a sole source opportunity from him.",
+    "OpportunityRound1Note": "Note: Remember, you can only pursue one of the two opportunities in this round.",
+    "OpportunityTable1RowLabel1": "Revenue (000)",
+    "OpportunityTable1RowLabel2": "Contract GP",
+    "OpportunityTable1RowLabel3": "Contract GP Margin %",
+    "OpportunityTable2ColLabel1": "Hours",
+    "OpportunityTable2ColLabel2": "Domestic CIC Cost",
+    "OpportunityTable2ColLabel3": "OffShore CIC Cost",
+    "OpportunityTable2ColLabel4": "Direct Costs",
+    "OpportunityTable2RowLabel1": "Partner",
+    "OpportunityTable2RowLabel2": "Senior Manager",
+    "OpportunityTable2RowLabel3": "Consultant",
+    "OpportunityTable2RowLabel4": "Analyst",
+    "PasswordErrorMessage": "Password entered is invalid",
+    "PasswordText": "Please enter password to move to next round.",
+    "PathwayInstructions": "Now that you have reviewed CTRC's Strategic Imperatives and the Opportunity Pipeline, use your knowledge of Pathways to prioritize the Offerings by dragging the most important Offerings to the top. If you need further education on Pathways particular Offering please navigate to the Pathways tool on the separate iPad.<br><br><i>Please make sure to press 'Submit' once for each tab.</i>",
+    "PathwayTitle": "Aligned Pathways / Offerings",
+    "PerformanceOverviewChartLabel1": "Revenue '18 Actuals / 19' Forecast",
+    "PerformanceOverviewChartLabel2": "Revenue Mix by Growth Platform",
+    "PerformanceOverviewChartLabel3": "Signings ($M): Actual & Forecast",
+    "PerformanceOverviewChartLabel4": "Contract GP and NPS",
+    "PerformanceOverviewTableData": "<table class='tableizer-table'> <thead> <tr class='tableizer-firstrow'><th>2017</th><th>2018</th><th>2019</th></tr> </thead> <tbody> <tr><td>x</td><td>y</td><td>z</td></tr> <tr><td>x</td><td>y</td><td>z</td></tr> </tbody></table>",
+    "PerformanceOverviewTableHeader": "Net Promoters Score (NPS)",
+    "PipelineInstructions": "Your conversations with CTRC have populated the pipeline of potential opportunities listed below. To help you decide when to pursue an opportunity or when to bide your time for a more impactful opportunity review the descriptions below. Once you have finished, rank the opportunities by clicking on the prioritization tab and dragging the most important opportunities to the top.<br><br><i>Please make sure to press 'Submit' once for each tab.</i>",
+    "PipelineTitle": "Pipeline",
+    "PriceActionText": "Price Action",
+    "PursueText": "Pursue (Yes/No)",
+    "RelationshipDepth": "Relationship Depth :",
+    "ReturnToDashboard": "Return to Home Screen",
+    "Role": "Role :",
+    "Round2Password": "bts287",
+    "Round3Password": "bts387",
+    "SIChartHeading": "Strategic Priority Time Allocation",
+    "StageUnlockPassword": "bts187",
+    "stageUnlockText": "Please enter password to unlock Strategic Initiatives & Leader Actions.",
+    "StartNew": "Start",
+    "StrategicObjectivesSection1Data": "<table class='tableizer-table'><thead><tr class='tableizer-firstrow'><th>Description</th></tr></thead><tbody> <tr><td>Transform siloed customer data into actionable customer insights</td></tr> <tr><td>Create more agile supply chain processes to allow quick response in the face of increased cost and time to market pressures</td></tr> <tr><td>Implement and utilize cognitive tools to drive workforce decisions</td></tr> <tr><td>Cut 20% from Shared Services Costs</td></tr></tbody></table>",
+    "StrategicObjectivesSection1Header": "Client Strategic Imperatives",
+    "StrategicObjectivesSection2Data": "<table class='tableizer-table'> <thead><tr class='tableizer-firstrow'><th>Name</th><th>Description</th></tr></thead><tbody> <tr><td>AMS Renewal</td><td>You have been enjoying a reasonably successful long-term AMS relationship where you operate over 50% of CTRC's strategic systems, with SAP as the main platform. But your contract is coming to renewal in 18 months. Engaging proactively to start shaping this conversation could give you a leg up on the competition.</td></tr> <tr><td>Finance Transformation</td><td>CTRC's CFO, Ezekiel Carter,  has been optimizing his Finance operations for many years through re-engineering, shared services and outsourcing. He is looking for the next big transformation through technology. He wants to be seen as a thought leader in his field, but he is cautious and has no appetite for large scale, all encompassing multi-year programs.</td></tr> <tr><td>S4HANA Global Design</td><td>CTRC needs to harmonize and update their SAP footprint and prepare for the eventual S/4HANA conversion. They have recently standardized on Ariba for procurement, but have yet to generate a positive return on this investment.</td></tr> <tr><td>Supply Chain Risk</td><td>As CTRC expands there is an increasing concern around the risk of a crisis in a new geography spreading across the entire CTRC supply chain. To mitigate this risk, CTRC is looking to introduce IT-based monitoring and response to disruptive events.</td></tr> <tr><td>Digital Reinvention</td><td>CTRC is looking to create a digital process from scratch. They believe there are key insights to be gained from their repository of customer data.</td></tr></tbody></table>",
+    "StrategicObjectivesSection2Header": "Opportunity Pipeline",
+    "Submit": "Submit",
+    "SubmitDecisions": "Submit Decisions",
+    "SubmitDecisionsAlertText": "Are you sure you want to submit all decisions? This will end the round.",
+    "SubmitDecisionsErrorText": "Please make sure that all the available pages are submitted!!!",
+    "TeamName": "Team Name",
+    "TeamNumber": "Team Number: ",
+    "TeamSizeText": "Team Size",
+    "ThisYear": "This Year",
+    "Title": "Space2Succeed",
+    "Total": "Total",
+    "YourName": "Your Name"
+}, {
+    "Category": "1",
+    "ID": "INIT01",
+    "impact": "<span class='impact-heading'>Impact:</span>Delivery NPS (Medium)<br>Signings (Medium)<br>Improves relationship with key client executive<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Invest in Client Relationships",
+    "narrative": "Building a long-term client relationship is based on innovation, trust, and service excellence. Invest in this relationship-building by spending time and money to set up regular touchpoints, traveling to the client to regularly walk the halls (without selling), or relocating near the client's base of operations. Doing so will increase the client's trust in you, leading to the uncovering of emerging client needs / opportunity areas and a better understanding of key client strategic initiatives.",
+    "PageType": "Initiative"
+}, {
+    "Category": "1",
+    "ID": "INIT02",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Medium)<br>Revenue (Medium) <br><br><span class='impact-heading'> Cost:</span> Medium LTUs",
+    "name": "TJW Client University",
+    "narrative": "Standing in your client's shoes is a fundamental step that must be taken to allow you to anticipate client needs. Build the TJW Client University to provide a mechanism for teams to get smart on the client's history, financials, performance, issues, and competitive environment. This education drives an enhanced understanding of client needs and creates the opportunity to pitch outcome-based propositions.",
+    "PageType": "Initiative"
+}, {
+    "Category": "1",
+    "ID": "INIT03",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Low)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Emerging Technology Awareness",
+    "narrative": "In a rapidly changing competitive environment, it is crucial that clients are aware of the latest trends in emerging technology. Invest in client growth by delivering technical awareness and emerging technology awareness session to a broad section of the clients' Senior Executive team. <br><br>Utilizing TJW Research and other resources will raise client awareness of TJW's capabilities by highlighting emerging technologies and market leading innovation, each of which could be utilized to significantly change/or transform client operations.",
+    "PageType": "Initiative"
+}, {
+    "Category": "2",
+    "ID": "INIT04",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Low)<br>Delivery NPS (Medium)<br><br><span class='impact-heading'>Cost:</span> Low LTUs",
+    "name": "Shaping the Client's Digital Strategy",
+    "narrative": "Utilize the Client Ethos, Client Value Disciplines, and Transformational Conversations modules from the TJW Way to shape the strategy of our clients' technology architecture. This will enable TJW to help frame and execute our clients' Digital Transformation programs.",
+    "PageType": "Initiative"
+}, {
+    "Category": "2",
+    "ID": "INIT05",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Medium)<br>Revenue (High)<br>Decrease Engagement Risk (Low)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Leverage 5+1+1 Offerings",
+    "narrative": "Invest in learning and development activities to educate Account Partners and teams on the 5+1+1 offerings, with an end goal of driving adoption. Adoption of 5+1+1 offerings embeds an industry-centric POV within teams and creates opportunities to deliver proven industry focused business outcomes to clients.",
+    "PageType": "Initiative"
+}, {
+    "Category": "2",
+    "ID": "INIT06",
+    "impact": "<span class='impact-heading'>Impact:</span>Revenue (Medium)<br>Delivery NPS (Medium)<br>Contract GP (Medium)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Apply Garage",
+    "narrative": "Invest in the team's capability building and education on how to sell and organize TJW Garages with our clients. Leveraging Garage capabilities brings innovation and excitement to strategy development, enhances client conversations, and creates opportunities to rapidly ideate, build, and scale new capabilities.",
+    "PageType": "Initiative"
+}, {
+    "Category": "2",
+    "ID": "INIT07",
+    "impact": "<span class='impact-heading'>Impact:</span>Revenue (Medium)<br>Contract GP (Medium)<br><br><span class='impact-heading'>Cost:</span> Medium LTUs",
+    "name": "Business By Design Builders",
+    "narrative": "Build expertise and confidence to position TJW as client &quot;Business by Design&quot; builders to elevate the conversations with our clients' C-suite. Invest in workshops and programs to upskill our partners and increase the value of our solutions by creating an overall strategy to co-operate with our clients on their Cognitive Enterprise journey.",
+    "PageType": "Initiative"
+}, {
+    "Category": "3",
+    "ID": "INIT08",
+    "impact": "<span class='impact-heading'>Impact:</span>Delivery NPS (Medium)<br>Contract GP (Medium)<br>Revenue (Medium)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Re-Engineer Client's Core Processes",
+    "narrative": "Clients view the limitations of their core processes from a more traditional lens; for example, human-driven processes must be linear. Apply a cognitive approach to core client processes by considering the impact of exponential technologies such as AI, Automation, Blockchain, and Cloud. By embedding these technologies across design, run, and build you will create significant value for TJW and the client.",
+    "PageType": "Initiative"
+}, {
+    "Category": "3",
+    "ID": "INIT09",
+    "impact": "<span class='impact-heading'>Impact:</span>Collaboration Index (High)<br>Revenue (Medium)<br>Signings (Medium)<br>Contract GP (Low)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Collaborate to Incorporate AI",
+    "narrative": "In today's competitive environment, incorporating AI into every offering with technical stack is no longer a &quot;nice to have&quot;; it is now a must. Create collaboration between a CAI representative and the service lines to incorporate AI in every offering.",
+    "PageType": "Initiative"
+}, {
+    "Category": "3",
+    "ID": "INIT10",
+    "impact": "<span class='impact-heading'>Impact:</span>Delivery NPS (High)<br>Contract GP (High)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Architect Client's Data",
+    "narrative": "To enable end to end AI capabilities, clients must have optimized data workflows: access to the right data, at the right time, allowing them to derive quality insights. Clean and consistent data will create continuous value realization by enabling AI to access the data that drives decision-making and machine learning.",
+    "PageType": "Initiative"
+}, {
+    "Category": "4",
+    "ID": "INIT11",
+    "impact": "<span class='impact-heading'>Impact:</span>Contract GP (Medium)<br>Delivery NPS (Medium)<br><br><span class='impact-heading'>Cost:</span> Medium LTUs",
+    "name": "Embed Cloud Content",
+    "narrative": "Cloud content is foundational for the Cognitive Enterprise and TJW consultants must learn this content to help champion the client journey. By learning the overall strategy and client use cases, consultants will be empowered to embed cloud content and move beyond the deliverables that are defined in the contract.",
+    "PageType": "Initiative"
+}, {
+    "Category": "4",
+    "ID": "INIT12",
+    "impact": "<span class='impact-heading'>Impact:</span>Revenue (High)<br>Delivery NPS (High)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Champion Client Cloud Journey",
+    "narrative": "TJW continues to reinforce its leadership in the world of hybrid, multi-cloud solutions. Utilizing the power of TJW Cloud solutions will help champion clients on their journey to becoming Cognitive Enterprises. Enable this action by educating teams on the 14 specific offerings that relate to the 4 key change themes of this cloud journey (Advise, Build, Move, Manage).<br><br>These offerings are independent of any TJW growth platforms, but it is important that all TJW consultants have awareness of this &quot;14+4&quot; approach to enable us to take these propositions to market.",
+    "PageType": "Initiative"
+}, {
+    "Category": "4",
+    "ID": "INIT13",
+    "impact": "<span class='impact-heading'>Impact:</span>Collaboration Index (High)<br>Revenue (Medium)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Cloud Engagement Hub",
+    "narrative": "Winning against the competition will require the communication of a consistent TJW strategic message about the end-to-end Cloud journey. To create consistent messaging, invest in the establishment of a Cloud Engagement Hub that promotes collaboration across TJW.<br><br>The Cloud Engagement Hub will bring together key TJW SMEs and Senior Leaders to develop and refine standardized client best practices. These best practices will be piloted with strategic client accounts first before being spread across all TJW accounts.",
+    "PageType": "Initiative"
+}, {
+    "Category": "5",
+    "ID": "INIT14",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (High)<br>Signings (Low)<br><br><span class='impact-heading'>Cost:</span> Medium LTUs",
+    "name": "Create a Mentoring Culture",
+    "narrative": "In order to champion HiPo identification/assessments of Bands 10 and Ds and ensure a robust and diverse account leadership pipeline, set up a culture of mentoring. Through shadowing and informal mentor relationships, this culture will seek to groom diverse High Potential (HiPo) employees for account leadership roles in the future.",
+    "PageType": "Initiative"
+}, {
+    "Category": "5",
+    "ID": "INIT15",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (High)<br>Delivery NPS (Low)<br>Signings (Low)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "High Performing Leadership Capabilities Program",
+    "narrative": "Plan and execute on a learning initiative aimed at upgrading capabilities in consulting and complex project management. Investing in this initiative and making it available to account leaders, managers and PMs will increase overall capabilities and create a high performance culture.",
+    "PageType": "Initiative"
+}, {
+    "Category": "5",
+    "Content": "5",
+    "ID": "INIT16",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (High)<br>Contract GP (Low)<br>Collaboration Index (Low)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Accelerating Upskilling/Reskilling for Future Skills",
+    "narrative": "Invest in increasing the depth of skills across our accelerated practices to differentiate TJW consultants from those of our competitors. Future Skilling for future needs will enable business growth and keep key talent engaged.",
+    "PageType": "Initiative"
+}, {
+    "Category": "5",
+    "ID": "INIT17",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (Medium)<br>Revenue (Low)<br><br><span class='impact-heading'>Cost:</span> Medium LTUs",
+    "name": "Pitching Power",
+    "narrative": "Drive a campaign of continuous learning for account partners and practitioners who are client facing. Investing in &quot;Pitching Power&quot; sessions will enhance their pitching capabilities and confidence in selling new offerings and solutions as co-creators of the client experience.",
+    "PageType": "Initiative"
+}, {
+    "Category": "6",
+    "ID": "INIT18",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (High)<br>Contract GP (Medium)<br>Delivery NPS (Medium)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Use of Solutioning Teams",
+    "narrative": "Engage Service Line accredited technical solutioning expertise early on for qualified deals. By working closely with local teams (instead of going at it alone) and leveraging 5+1+1 offerings and standard solutioning metrics / disciplines, TJW will be more equipped to design deliverable, client-centric, and profitable solutions.",
+    "PageType": "Initiative"
+}, {
+    "Category": "6",
+    "ID": "INIT19",
+    "impact": "<span class='impact-heading'>Impact:</span>Revenue (Medium)<br>Delivery NPS (Medium)<br><br><span class='impact-heading'>Cost:</span> Medium LTUs",
+    "name": "Project Delivery Methods",
+    "narrative": "Utilize Solutioning, Risk Management, and Methods expertise to execute solution hand-over and Project Launch. Doing so will ensure solutions and contracts are aligned, key roles are staffed, proposal risks are mitigated, and standard delivery methods are deployed correctly.",
+    "PageType": "Initiative"
+}, {
+    "Category": "6",
+    "ID": "INIT20",
+    "impact": "<span class='impact-heading'>Impact:</span>Revenue (High)<br>Delivery NPS (High)<br><br><span class='impact-heading'>Cost:</span> High LTUs",
+    "name": "Delivery Management Disciplines, Analytics, and Coaching",
+    "narrative": "Execute standard delivery management disciplines including: PM Methodology, Phase Gate Reviews, Client Conditions of Satisfaction (CoS), and financial management (i.e., IPPF). Doing so with the support of cognitive analytics and Quality Partners will increase the success of project deliveries, the early identification of key risks , and the ability to provide positive senior coaching and advisory when needed.",
+    "PageType": "Initiative"
+}, {
+    "ID": "IntStakeholder01",
+    "ltu": "Low",
+    "meeting1_feedback": "You discuss common issues that derail bids and your Quality Partner highlights five key issues to be aware of as you shape future opportunities.",
+    "meeting2_feedback": "During the meeting you dive deeper into common bid issues, focusing specifically on counteracting measures. You come away with a better understanding of how to manage delivery issues when they arise.",
+    "meeting3_feedback": "You spend time catching up with your Quality Partner, discussing the latest best practices. It is always helpful to be at the forefront of any quality issues and you have also continued to strengthen your relationship.",
+    "name": "Quality Partner",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder02",
+    "ltu": "Low",
+    "meeting1_feedback": "A lunch meeting with your Global Industry Managing Directors proves to be productive. You discuss broader industry trends and come away with more awareness on industry best practices.",
+    "meeting2_feedback": "You utilize the follow-up to dive deeper into specific FMCG industry challenges. Based on this, you send an e-mail to CTRC's CEO, Patricia Campbell, sharing your point of view which you believe will create a strong case to earn a meeting with her.",
+    "meeting3_feedback": "You spend time catching up with your Global Industry Managing Directors, discussing overall industry trends. This helps you to futher refine your point of view and continue to strengthen your relationship.",
+    "name": "Global Industry Managing Directors",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder03",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting with your DS&IX partners expanded your understanding of the growth platform's capabilities. You discuss TJW Garage at a high level and set up time to walk through an actual Garage at some point in the future.",
+    "meeting2_feedback": "After sitting in on an actual Garage experience, you now have a much better understanding of the value of the Garage and how to articulate that value to your clients. You start brainstorming potential opportunities where you could apply this approach effectively.",
+    "meeting3_feedback": "You spend time catching up with your contacts in DS&IX, discussing the latest best practices. It is always helpful to be at the forefront of any quality issues and you have also continued to strengthen your relationship.",
+    "name": "Service Line within DS&IX",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder04",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting with your CAI partners expanded your understanding of the growth platform's capabilities. You discussed trends in the cloud space, including the cost and productivity benefits of hybrid cloud solutions, which you know is top of mind for many CTOs.",
+    "meeting2_feedback": "At your request, your CAI partners go deeper with you on several client-specific use cases of hybrid cloud solutions. You make a note to discuss this with Joseph McGuire, CTO of CTRC.",
+    "meeting3_feedback": "You spend time catching up with your contacts in CAI, allowing you to continue to build your relationship.",
+    "name": "Service Line within CAI",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder05",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting with your CPT partners expanded your understanding of the growth platform's capabilities. You discussed how TJW can provide Cognitive solutions to accelerate your clients' enterprise process transformation.",
+    "meeting2_feedback": "You spend time discussing client-specific strategies but decide you need to educate yourself more on specific Offerings. You want to ensure that any Offerings you include match actual client needs so you block time in your calendar to review Pathways.",
+    "meeting3_feedback": "You spend time catching up with your contacts in CPT, allowing you to continue to build your relationship.",
+    "name": "Service Line within CPT",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder06",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting with your CSIC partners was productive. You discussed best practices for solutioning and planned to speak during your next bid shaping.",
+    "meeting2_feedback": "You spent time reviewing solutioning options for a live bid. CSIC provided good feedback and helped you shape your bid to better match the constraints you had around resources and cost.",
+    "meeting3_feedback": "You spend time catching up with your contacts in CSIC, allowing you to continue to build your relationship.",
+    "name": "Client Solutions Innovation Center",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder07",
+    "ltu": "Low",
+    "meeting1_feedback": "Spending time with your counterparts in GTS proves to be very beneficial. Previous collaboration efforts have been challenging as calendars are difficult to align, but you leave the meeting with a plan to hold monthly check-ins.",
+    "meeting2_feedback": "You approached this meeting more tactically by including an agenda item about specific areas of future collaboration. The discussion is productive and while you are not exactly &quot;One TJW&quot; just yet, it is a step in the right direction.",
+    "meeting3_feedback": "You spend time catching up with your contacts in GTS, allowing you to continue to build your relationship.",
+    "name": "GTS",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder08",
+    "ltu": "Low",
+    "meeting1_feedback": "Spending time to get up to speed on your various Cloud & Cognitive Solutions is extremely helpful. While you try to keep up to date on the latest trends, the industry is moving rapidly and the experts within the team are able to fill in a few gaps for you.",
+    "meeting2_feedback": "Since you know CTRC is a prime candidate to be disrupted by the market factors currently affecting the FMCG industry, you focus the discussion on how to stay ahead of this disruption. One area of particular interest is how you can help CTRC translate their massive amounts of data into actionable insights and by the end of the meeting you have come up with a potentially lucrative solution to pitch to them.",
+    "meeting3_feedback": "You spend time catching up with your contacts in Cloud and Cognitive Software, allowing you to continue to build your relationship.",
+    "name": "Cloud & Cognitive Software",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder09",
+    "ltu": "Low",
+    "meeting1_feedback": "After meeting with your IGF colleagues you gain a deeper appreciation for the various financing methods you can offer to buyers as well as the potential benefits for their project NPV. ",
+    "meeting2_feedback": "Client budget challenges are often the biggest limiting factor when it comes to signing new deals. With this in mind, you utilize a follow-up meeting with IGF to brainstorm creative financing solutions that you can possibly present to overcome this hurdle.",
+    "meeting3_feedback": "You spend time catching up with your contacts in IGF, allowing you to continue to build your relationship.",
+    "name": "IGF",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder10",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting with your various local Market Leaders gives you a sense of what is selling across the TJW client base. Based on this converation, you decide to refine your pitch to ensure that it is more tailored to actual client needs.",
+    "meeting2_feedback": "After tailoring your pitch, you meet with a key Market Leader again to discuss. He gives you several helpful tips on how to further refine the pitch, including how to identify high-value entry points, and how to more effectively articulate TJW's value to the c-suite.",
+    "meeting3_feedback": "You spend time catching up with your Market Leader contacts, allowing you to continue to build your relationship.",
+    "name": "Market Leaders",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder11",
+    "ltu": "Low",
+    "meeting1_feedback": "While checking in with the Finance and Legal departments you hear that the head of Finance was actually colleagues with Ezekiel Carter, the CFO of CTRC, back when both worked at Jackson & Jackson. This could be worth looking into once the the Head of Finance is back from vacation.",
+    "meeting2_feedback": "Stopping by the Finance department when the head of the team is there pays off. He lets you know he not only knew Ezekiel Carter from Jackson & Jackson but they were both classmates at University of Southern California as well. He promises to reach out to him to see if he can open a line of dialogue.",
+    "meeting3_feedback": "You spend time catching up with your contacts in Finance and Legal, allowing you to continue to build your relationship.",
+    "name": "Finance and Legal",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder12",
+    "ltu": "Low",
+    "meeting1_feedback": "TJW Research is known for being at the forefront of exponential technologies and the group created Watson, which is now a core part of TJW's business. By spending time with the team learning about their latest breakthroughs, you have improved your ability to position TJW as a leader for tomorrow.",
+    "meeting2_feedback": "Intrigued by what you discussed in your first meeting, you follow up with TJW Research to discuss specifics around Cloud, Cybersecurity, and Blockchain. You know these are hot topics for CTRC today, so being educated here might create future opportunities for you in the future.",
+    "meeting3_feedback": "You spend time catching up with your contacts in Research, allowing you to continue to build your relationship.",
+    "name": "TJW Research",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder13",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting with your Practice Leaders helps give you a deeper knowledge of the specific practices under each growth area. Additionally, you start to build a network of SMEs you can call upon if the need arises.",
+    "meeting2_feedback": "Spending more time with the Practice Leaders strengthens your relationships further. You decide to set up future small working groups made up of cross-practice teams to discuss potential solutions for CTRC.",
+    "meeting3_feedback": "You spend time catching up with various Practice Leaders, allowing you to continue to build your relationship",
+    "name": "Practice Leader",
+    "PageType": "IntStakeholder"
+}, {
+    "ID": "IntStakeholder14",
+    "ltu": "Low",
+    "meeting1_feedback": "Meeting to with the Offerings & Assets Team to discuss the latest available assets was a smart move. Doing so will  enable you to propose higher value solutions to CTRC, improving your Contract GP going forward.",
+    "meeting2_feedback": "The Offerings & Assets team gave you a list of what they consider to be the most effective assets to use before or during client meetings. Among the items on this list was Searchlight, which they noted can increase competitiveness by providing past client success cases by Industry.",
+    "meeting3_feedback": "You spend time catching up with the Offerings and Assets team, allowing you to continue to build your relationship.",
+    "name": "Offerings & Assets Team",
+    "PageType": "IntStakeholder"
+}, {
+    "Category": "1",
+    "ID": "LA01",
+    "impact": "<span class='impact-heading'>Impact:</span>Contract GP (Medium)<br>Signings (Medium) <br><br><span class='impact-heading'> LTUs:</span> Low",
+    "name": "Depth of Knowledge",
+    "narrative": "You set a goal of meeting two new client individuals each month to understand the client. To gain this understanding you spend one hour each week conducting in-depth client analysis, expanding your knowledge of TJW offerings, analyzing the client market, and identifying industry or operational issues to bring forward a clear point of view. This helps you better align to client-specific issues, leading to optimized offerings and communications.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "1",
+    "ID": "LA02",
+    "impact": "<span class='impact-heading'>Impact:</span>Delivery NPS (Low)<br>Talent Engagement (Low)<br>Collaboration Index (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Strategic Initiative Awareness",
+    "narrative": "Develop and conduct cross enterprise meetings with TJW account / delivery teams and the sponsoring client project to align on objectives. .<br><br>Including offshore and/or remote delivery teams in direct conversations with the client can minimize issues and create a sense of team across the project.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "1",
+    "ID": "LA03",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Medium)<br>Delivery NPS (Low)<br>Improves relationship with a key executive stakeholder <br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Unique Relationship Index",
+    "narrative": "Identify new ways to spend time with key client executives. By inviting executives to participate in educational sessions you can enhance their understanding of Cognitive Enterprise thinking and the journey to the Hybrid Multi-Cloud. Additionally, by relocating near the client, and walking the halls multiple days a week without selling you increase client trust and demonstrate your ability to bring value to the client.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "1",
+    "ID": "LA04",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Low)<br>Delivery NPS (Low)<br>Collaboration Index (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Co-Create with Clients (Across Brands)",
+    "narrative": "Work with the client to apply TJW Garage approach to co-create short and long term projects. Co-creating with the client highlights TJW Consulting's ability to work together on solutioning and how we respond to client specific needs without the normal process of bringing packaged solutions.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "2",
+    "ID": "LA05",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (Medium Increase)<br>Collaboration Index (Low Increase)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Future Skilling",
+    "narrative": "Collaborate with Practice Leadership to create and execute a systematic future skilling plan for your team. As part of this plan, you will communicate during career/feedback discussion (leveraging the Future Skilling+ Platform), and review progress on a quarterly basis.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "2",
+    "ID": "LA06",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (High Increase)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Account Talent Plan",
+    "narrative": "Ensure you have a people plan for every person on your account.  Discuss with your account partners those ready for promotion, talent that needs to move on to new experiences, and alignment to the Band Pyramid. This will create a culture of career growth, enabling the retention of top talent and creating a plan to address low performers while aligning to the Band Pyramid.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "2",
+    "ID": "LA07",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (Medium)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Team Building Events",
+    "narrative": "Focus on increasing engagement of your team on a monthly basis (through Lunch & Learns, Coaching, One on One's, Mentoring, etc.) to create a positive work environment to support your client.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "2",
+    "ID": "LA08",
+    "impact": "<span class='impact-heading'>Impact:</span>Talent Engagement (Low)<br>Collaboration Index (Low)<br>Signings (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Role Model Collaboration",
+    "narrative": "Instill a culture of collaboration within your team by role-modeling collaboration. Speak to GTS leaders in the account, bring growth platform leaders into opportunity reviews, and make efforts to work with the broader TJW business.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "3",
+    "ID": "LA09",
+    "impact": "<span class='impact-heading'>Impact: </span>Increased Contract GP (Medium)<br>Decreased Engagement Risk (Low) <br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Account Economics",
+    "narrative": "Leaders must be responsible for understanding the levers they have in enhancing financial performance and account growth specifically the financials, the people, and alignment with the client's objectives. To accomplish this, dedicate at least two hours per week to ensure complete understanding of account financial performance and adequacy of resource allocations.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "3",
+    "ID": "LA10",
+    "impact": "<span class='impact-heading'>Impact: </span>Delivery NPS (Medium)<br><br><span class='impact-heading'>LTUs:</span> Low",
+    "name": "Project Delivery Reviews",
+    "narrative": "To ensure delivery success you conduct regular project delivery reviews with project delivery leader and Quality Partner - using standard Quality and financial metrics. Leader's direct involvement ensures quality of delivery and financial performance, validates that conditions of satisfaction are achieved, and establishes basis / client trust for future growth.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "3",
+    "ID": "LA11",
+    "impact": "<span class='impact-heading'>Impact:</span>Contract GP (Low)<br>Delivery NPS (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Solutioning and Proposal Reviews",
+    "narrative": "Collaborate with broader TJW in developing and reviewing client solutions and proposals to ensure accurate, compelling, and differentiated offerings and that appropriate accelerators and methods have been used to lower risk.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "3",
+    "ID": "LA12",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Medium)<br>Collaboration Index (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Offerings & Pathways",
+    "narrative": "Focus teams on selling key offerings by leveraging successes and Pathways. To meet that goal conduct 1-2 hour account sessions with responsible practice area leaders and solution owners to ensure understanding and use of H1 offerings. Supplement this with continual innovation and brainstorming sessions focusing on the future of the account.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "4",
+    "ID": "LA13",
+    "impact": "<span class='impact-heading'>Impact:</span>Signings (Medium)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Build Skills",
+    "narrative": "Take a methodical approach to continuously build your skills in both the latest technologies and industry trends to improve your expertise. This approach includes taking accountability for building operational discipline around managing financials to drive account growth as well as a focus on building awareness of your leadership skills and team management.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "4",
+    "ID": "LA14",
+    "impact": "<span class='impact-heading'>Impact: </span>Signings (Medium)<br>Talent Engagement (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Enhance Personal Eminence",
+    "narrative": "Allocate time to developing your personal eminence and social brand. You write and publish papers, speak at conferences for industry, technology, and other areas of subject matter expertise. When asked you will now be more capable of delivering your point of view as a compelling message with confidence.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "4",
+    "ID": "LA15",
+    "impact": "<span class='impact-heading'>Impact: </span>Talent Engagement (Low)<br>Delivery NPS (Low)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Solicit Input from Others",
+    "narrative": "Develop self-awareness by seeking and gathering input from others. This will enable you to become a contemporary and collaborative leader who is willing to ask for help to improve client and team engagement and outcomes.",
+    "PageType": "LeaderAction"
+}, {
+    "Category": "4",
+    "ID": "LA16",
+    "impact": "<span class='impact-heading'>Impact: </span>Talent Engagement (Medium)<br><br><span class='impact-heading'>LTUs:</span>Low",
+    "name": "Resilience",
+    "narrative": "Creating work life integration and balance provides personal space to succeed and will enhance your and your team's ability to be successful.",
+    "PageType": "LeaderAction"
+}, {
+    "ID": "List1P01",
+    "name": "Transform siloed customer data into actionable customer insights",
+    "PageType": "CSIPrioritization"
+}, {
+    "ID": "List1P02",
+    "name": "Create more agile supply chain processes to allow quick response in the face of increased cost and time to market pressures",
+    "PageType": "CSIPrioritization"
+}, {
+    "ID": "List1P03",
+    "name": "Implement and utilize cognitive tools to drive workforce decisions",
+    "PageType": "CSIPrioritization"
+}, {
+    "ID": "List1P04",
+    "name": "Cut 20% from Shared Services Costs",
+    "PageType": "CSIPrioritization"
+}, {
+    "ID": "List2P01",
+    "name": "AMS Renewal",
+    "narative": "You have been enjoying a reasonably successful long-term AMS relationship where you operate over 50% of CTRC's strategic systems, with SAP as the main platform. However, your contract is coming to renewal in 18 months. Engaging proactively to start shaping this conversation could give you a leg up on the competition. <b>($50 million TCV)</b>",
+    "PageType": "PipelinePrioritization"
+}, {
+    "ID": "List2P02",
+    "name": "Finance Transformation",
+    "narative": "CTRC's CFO, Ezekiel Carter,  has been optimizing his Finance operations for many years through re-engineering, shared services and outsourcing. He is looking for the next big transformation through technology. He wants to be seen as a thought leader in his field, but he is cautious and has no appetite for large scale, all encompassing multi-year programs. <b>($2 million TCV)</b>",
+    "PageType": "PipelinePrioritization"
+}, {
+    "ID": "List2P03",
+    "name": "S4HANA Global Design",
+    "narative": "CTRC needs to harmonize and update their SAP footprint and prepare for the eventual S/4HANA conversion. They have recently standardized on Ariba for procurement, but have yet to generate a positive return on this investment. <b>($10 million TCV)</b>",
+    "PageType": "PipelinePrioritization"
+}, {
+    "ID": "List2P04",
+    "name": "Supply Chain Risk",
+    "narative": "As CTRC expands there is an increasing concern around the risk of a crisis in a new geography spreading across the entire supply chain. To mitigate this risk, CTRC is looking to introduce IT-based monitoring and response to disruptive events. <b>($5 million TCV)</b>",
+    "PageType": "PipelinePrioritization"
+}, {
+    "ID": "List2P05",
+    "name": "Digital Reinvention",
+    "narative": "CTRC is looking to create a digital process from scratch. They believe there are key insights to be gained from their repository of customer data. <b>($1 million TCV)</b>",
+    "PageType": "PipelinePrioritization"
+}, {
+    "ID": "List3P01",
+    "name": "Cloud Modernization",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P02",
+    "name": "Cognitive Finance Reinvention",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P03",
+    "name": "Cognitive Plant Advisor",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P04",
+    "name": "Composable Business with APIs and Microservices",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P05",
+    "name": "Connected Manufacturing",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P06",
+    "name": "Customer Experience & Design",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P07",
+    "name": "Digital Change",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P08",
+    "name": "Digital Reinvention",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P09",
+    "name": "Lead to Cash",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P10",
+    "name": "Managed Employee Services",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P11",
+    "name": "Multi-Cloud Transformation & Outcomes",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P12",
+    "name": "SAP S4HANA",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P13",
+    "name": "Sourcing Services",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P14",
+    "name": "TJW Automation Advisory Services",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P15",
+    "name": "TJW Blockchain for Accounts Payable",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "List3P16",
+    "name": "TJW Garage",
+    "PageType": "PathwayPrioritization"
+}, {
+    "ID": "Offerings01",
+    "modelIndex": "1",
+    "name": "Cloud Modernization",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings02",
+    "modelIndex": "15",
+    "name": "Cognitive Finance Reinvention",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings03",
+    "modelIndex": "2",
+    "name": "Cognitive Plant Advisor",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings04",
+    "modelIndex": "3",
+    "name": "Composable Business with APIs and Microservices",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings05",
+    "modelIndex": "4",
+    "name": "Connected Manufacturing",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings06",
+    "modelIndex": "5",
+    "name": "Customer Experience & Design",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings07",
+    "modelIndex": "6",
+    "name": "Digital Change",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings08",
+    "modelIndex": "7",
+    "name": "Digital Reinvention",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings09",
+    "modelIndex": "16",
+    "name": "Lead to Cash",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings10",
+    "modelIndex": "8",
+    "name": "Managed Employee Services",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings11",
+    "modelIndex": "12",
+    "name": "Multi-Cloud Transformation & Outcomes",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings12",
+    "modelIndex": "13",
+    "name": "SAP S4HANA",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings13",
+    "modelIndex": "14",
+    "name": "Sourcing Services",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings14",
+    "modelIndex": "9",
+    "name": "TJW Automation Advisory Services",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings15",
+    "modelIndex": "10",
+    "name": "TJW Blockchain for Accounts Payable",
+    "PageType": "Offerings"
+}, {
+    "ID": "Offerings16",
+    "modelIndex": "11",
+    "name": "TJW Garage",
+    "PageType": "Offerings"
+}, {
+    "ID": "R1Opportunity1",
+    "name": "Digital Reinvention",
+    "narative": "Because of your close relationship with Andrea Dalton, CTRC's CMO, you are invited to present your views on the broader strategic business transformation opportunities you see for your client. You know your CTRC is trying to re-think their approach to key customer channels by using data-driven insights to create personalized offers. You also know they are struggling to keep up with the industry's speed of change. <b>($1 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "1",
+    "Trigger": "Available Immediately"
+}, {
+    "ID": "R1Opportunity2",
+    "name": "S/4HANA Global Design",
+    "narative": "Having bid on an SAP roadmap for CTRC the previous year (which was ultimately not awarded due to a pending CTRC acquisition), you know that CTRC needs to harmonize and update their SAP footprint and prepare for the eventual S/4HANA conversion which must be completed by 2025.  They have recently standardized on Ariba for procurement, but have yet to generate a positive return on this investment. Jasmine Khan, (CTRC's CIO) and Joseph McGuire (CTRC's CTO), believe that moving to S/4 will help provide the foundation for the process and operational improvements they seek, however are not clear on what benefits the conversion would realistically deliver. In addition, they are wary of the amount of change that will be required for the 15,000 users across their network. <b>($10 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "1",
+    "Timing": "Available Immediately",
+    "Trigger": "None - Available at beginning of Round 1"
+}, {
+    "ID": "R2Opportunity1",
+    "name": "HR Cognitive Transformation",
+    "narative": "Your success with the Garage approach to Andrea Dalton's issues has raised your standing with CTRC. Looking to capitalize on this success, you reach out to Hannah Rivera to discuss how things have been going for her since you last saw each other at TJW Think. In the intervening few months things have worsened; Hannah is now facing additional scrutiny after a recent benchmarking exercise showed that CTRC's cost of HR was significantly higher than their competitors'. In light of this, Hannah has set several strategic goals for this year and requests for you to present her with a possible solution.<br>1. Increase their flexibility by partnering<br>2. Move to a more variable cost structure that can adjust to fluctuating business demand<br>3. Create deeper insights and more transparency as to their actual performance<br>4. Continue to attract, develop, and retain new talent to fuel growth. <b>($80 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "2",
+    "Timing": "Available Immediately",
+    "Trigger": "Won 1a  or won 1b, responded correctly to R1E2, and selected Leader Action LA03"
+}, {
+    "ID": "R2Opportunity2",
+    "name": "Cloud Advisory",
+    "narative": "On a check-in call with Jasmine Kahn, you discuss her frustration with the speed at which she can respond to business demands and the high costs / integration management issues presented by her legacy tech and multiple clouds. Jasmine is looking for advice as to how to approach this issue and  wants to start demonstrating rapid progress to the Board. <b>($2 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "2",
+    "Timing": "Available Immediately",
+    "Trigger": "Won 1b. Or won 1a and responded correctly to R1E2"
+}, {
+    "ID": "R2Opportunity3",
+    "name": "Cognitive Process Re-Engineering",
+    "narative": "After successfully turning a cold call into a productive meeting with CTRC COO Noah Morgenthau, you have been given the opportunity to help Noah bridge the gap he faces in terms of optimizing operations and manufacturing processes. Noah looks to you to propose new ideas as to how they could improve the quality of their production, while optimizing the performance of their machines to reduce down time and maintenance costs. <b>($15 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "2",
+    "Timing": "Available after the sequence of events above (10 minutes after Opportunity Page opens)",
+    "Trigger": "Made correct decisions in R2E2, R2E3, and R2E4"
+}, {
+    "ID": "R2Opportunity4",
+    "name": "AMS Renewal",
+    "narative": "You have been enjoying a reasonably successful long-term AMS relationship with CTRC and you now operate over 50% of CTRC's strategic systems, with SAP as the main platform. This represents a $50m annual revenue opportunity for TJW, but your contract is coming up for renewal in 18 months. By proactively engaging the client in the renewal discussion you have the opportunity to get ahead of the competition for a great signing this year. <b>($50 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "2",
+    "Timing": "Available Immediately",
+    "Trigger": "None - Available at beginning of Round 1"
+}, {
+    "ID": "R3Opportunity1",
+    "name": "Move to Hybrid Cloud",
+    "narative": "CTRC, and Jasmine Khan in particular, are satisfied with the cloud roadmap you designed and have seen evidence of your ability to deliver on that roadmap. Jasmine now asks you to bid for the Migration Phases 1 & 2 of her multi-phase cloud migration roadmap, which includes public and private clouds and an overlay of security from TJW. <b>($10 million TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "3",
+    "Timing": "Available Immediately",
+    "Trigger": "Won 1a and 2a/2b or 1b and 2a/2b "
+}, {
+    "ID": "R3Opportunity2",
+    "name": "CFO Proof of Concept",
+    "narative": "Ezekiel Carter, CTRC's CFO, has been optimizing his Finance operations for many years through re-engineering, shared services and outsourcing. He is looking for the next big transformation through technology. He wants to be seen as a thought leader in his field, but he is cautious and has no appetite for large scale, all encompassing multi-year programs.<br><br>He is looking for something very tangible that has a clear and rapid ROI with minimum risk of disruption. ATTA Consulting and Anderson Magner are providing Finance outsourcing services today and he is satisfied with on-going services, but he is looking for disruption. While you have been unable to win bids recently, TJW still has a good reputation at CTRC and you  see this an opportunity to spend B&P to create another potential inroad. <b>(No TCV)</b>",
+    "PageType": "Opportunity",
+    "Round": "3",
+    "Timing": "Available Immediately",
+    "Trigger": "If teams lost 2a, 2b, or both"
+}, {
+    "xxSim0Tool1": "1"
+}
+]}
