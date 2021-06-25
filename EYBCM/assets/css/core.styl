@@ -1,0 +1,45 @@
+@import "mixins"
+@import "fonts"
+@import "icons"
+@import "animation"
+
+/* customize scrollbar */
+::-webkit-scrollbar 
+    width 10px
+    height 5px
+    background #ABABAB
+ 
+/* Track */
+::-webkit-scrollbar-track 
+    -webkit-box-shadow inset 0 0 6px rgba(0,0,0,0.3)
+    -webkit-border-radius 10px
+    border-radius 0px
+
+ 
+/* Handle */
+::-webkit-scrollbar-thumb 
+    border-radius 0px
+    background #4F5253
+
+::-webkit-scrollbar-thumb:window-inactive 
+    background #4F5253
+    
+
+.fa
+    font-family inherit
+    &:before
+        font-family FontAwesome
+
+for row in 0 ... 11
+    .text-indent-{row}
+        display inline-block
+        text-indent(row)
+        
+input-placeholder-color('input:focus', #fff)
+        
+body *
+    font-family inherit
+    
+@media print 
+    body
+        background transparent!important

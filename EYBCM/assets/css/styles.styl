@@ -1,0 +1,416 @@
+@import "mixins"
+@import "core"
+@import "nouislider"
+@import "colors"
+
+html, body
+    min-height 100%
+body
+    // background url("../images/AutodeskBg.jpg") no-repeat
+    background-color $eygray
+    overflow auto
+    background-size cover
+    font-size 16px
+    font-family "OpenSans"
+    line-height 20px
+    color #000
+    -webkit-perspective 1000px
+    @media screen and (max-width 1024px)
+        font-size 14px
+    @media screen and (max-width 576px)
+        font-size 12px
+.im-app
+    height 100vh
+    padding 0
+    background-color $eygray
+    font-size 16px
+    font-family "OpenSans"
+    color #000
+    overflow hidden
+    @media screen and (max-width 1024px)
+        font-size 14px
+    .main
+        height 100%
+        .row
+            margin 0
+        .container
+            width calc(100% - 30px)
+            max-width 1200px
+            margin-left 15px
+            margin-right 15px
+            @media screen and (min-width 992px)
+                margin auto
+                padding 0
+    .highcharts-color
+        &-0
+            fill rgb(115,201,218)
+            stroke rgb(115,201,218)
+        &-1
+            fill rgb(188, 140, 191)
+            stroke rgb(188, 140, 191)
+        &-2
+            fill rgb(212, 203, 220)
+            stroke rgb(212, 203, 220)
+        &-3
+            fill rgb(249, 232, 41)
+            stroke rgb(249, 232, 41)
+        &-4
+            fill rgb(145, 40, 142)
+            stroke rgb(145, 40, 142)
+        &-5
+            fill rgb(151, 195, 146)
+            stroke rgb(151, 195, 146)
+    .highcharts-spline-series
+        .highcharts-graph
+            stroke-width 0px
+    .resource-container
+        .highcharts-spline-series
+            .highcharts-graph
+                stroke-width 1px
+        
+
+bs-tooltip-container
+    &.tooltip.tooltip-right
+        -webkit-animation-duration 0.35s
+        animation-duration 0.35s
+        -webkit-animation-fill-mode both
+        animation-fill-mode both
+        -webkit-animation-name customSlideRight
+        animation-name customSlideRight
+        -webkit-transform-origin 0 0
+        transform-origin 0 0
+        .tooltip-inner
+            text-align left
+            max-width 500px
+
+.digitalICO
+    font-family 'wib-icomoon'
+
+@keyframes customSlideRight {
+    0%   {
+        -webkit-transform scaleX(0)
+        transform scaleX(0)
+    }
+    100% {
+        -webkit-transform scaleX(1)
+        transform scaleX(1)
+    }
+}
+
+isma-dashboardgraph
+    .highcharts-container
+        margin auto
+    .highcharts-data-labels
+        top -5px !important
+        
+.fileInputEl
+    display none        
+
+.carousel-table
+    .carousel-inner
+        .carousel-item
+            .item
+                width 100%
+    .carousel-indicators
+        display none
+    .carousel-control
+        width 20px
+        cursor pointer
+        .carousel-control-next-icon
+            background-image url('../images/icons/1next.svg')
+        .carousel-control-prev-icon
+            background-image url('../images/icons/1pre.svg')
+            
+.toggle-btn-container
+    height 50px
+    text-align right
+    display none
+    @media screen and (max-width 768px)
+        display block
+    .toggle-button
+        display inline-block
+        padding 10px 15px
+        margin 10px
+        background $secondaryColor
+        color #fff
+        cursor pointer
+        
+.page-wrapper
+    height 100%
+    @media screen and (max-width 768px)
+        height calc(100% - 50px) // due to toggle button
+    .decision-wrapper
+        padding 15px
+        padding-right 7.5px
+        @media screen and (max-width 768px)
+            padding-right 15px
+        &.hidden
+            @media screen and (max-width 768px)
+                display none
+        .decision-container
+            height 100%
+            width 100%
+            overflow auto
+            background-color #F2F3F4
+            border 3px solid #1C99B4
+    .report-wrapper
+        padding 15px
+        padding-left 7.5px
+        @media screen and (max-width 768px)
+            padding-left 15px
+        &.hidden
+            @media screen and (max-width 768px)
+                display none
+        .report-container
+            height 100%
+            width 100%
+            overflow hidden
+            background-color #FFF
+            border 3px solid #7C8080
+            .carousel
+                height 100%
+                display block
+            .carousel.slide
+                height 100%
+                .carousel-indicators
+                    display none
+                .carousel-control
+                    width 40px
+                    height 40px
+                    top 50%
+                    bottom initial
+                    cursor pointer
+                    opacity 1
+                    border 2px solid #919393
+                    border-radius 50%
+                    margin 0 15px
+                    &.disabled
+                        cursor default
+                        display none
+                    @media screen and (max-width 1024px)
+                        width 25px
+                        height 25px
+                        margin 0 10px
+                    .carousel-control-next-icon
+                        background-image url('../images/icons/right-arrow.png')
+                        opacity 0.5
+                    .carousel-control-prev-icon
+                        background-image url('../images/icons/left-arrow.png')
+                        opacity 0.5
+                .carousel-inner
+                    height 100%
+                    width 100%
+                    padding 0 70px
+                    // width calc(100% - 100px)
+                    margin 0 auto
+                    overflow auto
+                    @media screen and (max-width 1024px)
+                        padding 0 40px
+                    .carousel-item
+                        height 100%
+                    .item
+                        height 100%
+
+.page-wrapper
+    .decision-wrapper
+        .decision-container
+            .data
+            &-container
+                &-row
+                    padding 5px 0px
+                    align-items center
+                    .header-label
+                        font-weight 500
+                    .header-text    
+                        text-align center
+                    .data-value
+                        text-align center
+                        color #63666a
+                &-line-right
+                    border-right 1px solid #808080
+                    height 100%
+                    position absolute
+    .report-wrapper
+        .report-container
+            .report-row
+                padding 5px 0px
+                align-items center
+                // border-bottom 1px solid #7C8080
+            .chart-container
+                // padding-left 10px
+                // background-color $primaryColor
+                // padding-top 0px
+                // padding-bottom 0px
+                .chart-title
+                    padding-left 5px
+                    background-color #000
+                    border-left 5px solid $primaryColor
+                    color white
+                .chart-data
+                    padding 15px
+            .report-title-container
+                padding 0 5px
+                background-color #000
+                border-left 5px solid $primaryColor
+                color white
+                .report-title
+                    padding-left 5px
+            .header-label
+                font-weight 500
+            .header-text
+                text-align center
+            .data-value
+                text-align center
+
+
+
+
+.header-line
+    border-bottom 3px solid #7C8080 !important
+
+.data-line
+    border-bottom 1px solid #808080
+
+.header-font
+    font-size 13px
+    
+.pnl-wrapper,.pnl-individual-wrapper,.pnl-corporate-wrapper,.balancesheet-wrapper, .comprep-wrapper
+    padding 0 15px
+    min-width 500px
+    .report-row
+        padding 5px 0px
+        align-items center
+    .chart-container
+        padding-left 10px
+        background-color $primaryColor
+        padding-top 0px
+        padding-bottom 0px
+        .chart-title
+            padding-left 5px
+            background-color #000
+            color white
+    .report-title-container
+        padding-left 10px
+        background-color $primaryColor
+        padding-top 0px
+        padding-bottom 0px
+        .report-title
+            padding-left 5px
+            background-color #000
+            color white
+    .header-label
+        font-weight 500
+    .header-text
+        text-align center
+    .data-value
+        text-align center
+
+// .chart-rightaxis1
+//     padding-top 33px
+// .chart-rightaxis2
+//     padding-top 52px
+// .chart-rightaxis3
+//     padding-top 57px
+// .chart-rightaxis4
+//     padding-top 45px
+// .chart-rightaxis5
+//     padding-top 80px
+// .chart-rightaxis6
+//     padding-top 90px
+.chart-rightaxis
+    padding-bottom 30px
+    display flex
+    flex-direction column
+    justify-content space-around
+    text-align center
+    &-label
+        font-size 12px
+
+
+.report-option-opts
+    ul
+        list-style none
+        li
+            position relative
+            &:before
+                color $primaryColor
+                content "\2022"
+                font-size 32px
+                position relative
+                top 5px
+                left -5px
+                
+.resource-wrapper
+    .bolder
+        font-weight 500
+
+
+body.follower
+    .dashboard-container
+        .header-container .metrics-container
+            display none
+    .footer-wrapper
+        justify-content flex-end
+        .data-row
+            display none
+    app-depositindividual, app-loanindividual, app-custexp, app-pcm, app-structuredfinancing, app-treasury, isma-stratergicinitiatives
+        max-width 100%
+    app-reports, app-resources, app-tutorials
+        width 100%
+    isma-navbar, isma-dashboard-metrics
+        display none
+    isma-calc-input, isma-text-slider, isma-calc-stepper
+        pointer-events none
+    .toggle-btn-container
+        display none
+    .page-wrapper
+        height 100%
+        .decision-wrapper
+            display none
+        .report-wrapper
+            margin 0 auto
+            .report-container 
+                .carousel.slide 
+                    .carousel-inner
+                        padding 0 10px
+                        height calc(100% - 50px)
+                    .carousel-control
+                        top calc(100% - 50px)
+            &.hidden
+                display block
+    .minw500
+        min-width 500px
+                    
+
+accordion
+    &.panel-group
+        width 100%
+        padding 0 30px
+        text-align center
+        accordion-group.panel
+            padding 10px 0
+            .panel.card
+                background transparent
+                .panel-heading.card-header
+                    border-radius 0
+                    border-bottom 1px dotted #FFF
+                    font-weight 500
+                    padding 10px 0
+                    cursor pointer
+                    .accordion-title
+                        display inline-block
+                    .accordion-icon
+                        border 2px solid #FFF
+                        border-radius 50%
+                        height 25px
+                        width 25px
+                        line-height 22px
+                        text-align center
+                        float right
+                .panel-collapse
+                    .panel-body.card-body
+                        padding 0
+            
+            
+.minw450
+    min-width 450px
