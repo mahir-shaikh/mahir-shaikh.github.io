@@ -1,0 +1,57 @@
+/* default colors */
+$primaryColor = rgba(10, 185, 240, 1)
+$primaryColorHoverColor = lighten($primaryColor, 20)
+$secondaryColor = #80CC28
+$tertiaryColor = #A8ADB4
+$dodgerblue3 = #1874CD
+
+$neutral1 = #F2F2F2
+$neutral2 = #A8ADB4
+$neutral3 = #6D747E
+$neutral4 = #434951
+
+$black = #000
+$white = #FFF
+
+$btsred = #FF2452
+$btsnavy = #28324B
+
+$highlight1 = #F07300
+$highlight2 = #FFC300
+
+$metricPositive = #00873C
+$metricNegative = #FF0D21
+
+$panelBG = rgba(255,255,255,.9)
+$modalBG = rgba(255,255,255,.80)
+$primaryGradient = linear-gradient(to right, $primaryColor, darken($primaryColor, 15%))
+
+/* extra colors */
+$buttonGradient = linear-gradient($primaryColor, darken($primaryColor, 20%))
+$activeGradient = linear-gradient(to right, rgba(195, 43, 61, 1), rgba(211, 0, 0, 1))
+$linkActive = darken($primaryColor, 30%)
+
+/*function for applying vendor specific css*/
+vendor(prop, args)
+    -webkit-{prop} args
+    -moz-{prop} args
+    -ms-{prop} args
+    -o-{prop} args
+    {prop} args
+
+/* Box shadow */    
+$box-shadow1 = 0 0px 2px 1px rgba(0,0,0,0.2)
+
+$main-color = #00a272
+$highlight-color1 = #005944 /* dark green */
+$highlight-color2 = #e97300 /* orange */
+$highlight-color3 = #044DA2 /* dark blue */
+$highlight-color4 = #27DAFF /* light blue */
+$highlight-color5 = #E83200 /* dark orange */
+$gray1 = #F2F2F2
+$gray2 = #A8ADB4
+$gray3 = #6D747E
+$gray4 = #434951
+$chart-color1 = #368da9
+$chart-color2 = #003da2
+$chart-color3 = #593cc9
