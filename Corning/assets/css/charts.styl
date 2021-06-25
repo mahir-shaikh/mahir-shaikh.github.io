@@ -1,0 +1,129 @@
+@import './colors.styl';
+
+$font-family = 'OpenSans'
+$font-weight = 400
+
+$title-font-color = $neutral3
+$title-font-size = 1em  
+
+$data-label-color = $neutral3
+$data-label-font-size = 1.1em
+
+$axis-labels-color = $neutral3
+$axis-labels-font-size = 1em
+
+$legend-font-color = $neutral3
+$legend-font-size = 0.9em
+
+.highcharts-color-0
+  fill $chart-color0
+  stroke $chart-color0
+
+.highcharts-color-1
+  fill $chart-color1
+  stroke $chart-color1
+
+.highcharts-color-2
+  fill $chart-color2
+  stroke $chart-color2
+
+.highcharts-color-3
+  fill $chart-color3
+  stroke $chart-color3
+
+.highcharts-color-4
+  fill $chart-color4
+  stroke $chart-color4
+
+.highcharts-color-5
+  fill $chart-color5
+  stroke $chart-color5
+
+.highcharts-color-6
+  fill $chart-color6
+  stroke $chart-color6
+
+.highcharts-color-7
+  fill $chart-color7
+  stroke $chart-color7
+
+.highcharts-color-8
+  fill $chart-color8
+  stroke $chart-color8
+
+.highcharts-color-9
+  fill $chart-color9
+  stroke $chart-color9
+
+// .highcharts-color-10
+//   fill $chart-color10
+//   stroke $chart-color10
+
+.highcharts-container
+    font-family $font-family
+    font-size 14px
+
+.highcharts-background
+	fill $white
+	stroke $white
+
+.highcharts-title
+    fill $title-font-color
+    font-size $title-font-size
+    font-weight $font-weight
+
+.highcharts-data-label
+    font-size $data-label-font-size
+    font-weight $font-weight
+    @media (max-width: 1024px)
+      font-size 0.9em
+
+.highcharts-data-label text, text.highcharts-data-label
+    fill $data-label-color
+
+.highcharts-axis-labels
+    fill $axis-labels-color
+    font-size $axis-labels-font-size
+
+.highcharts-legend-item text
+    fill $legend-font-color
+    font-weight $font-weight
+    font-size $legend-font-size
+
+.highcharts-legend-item-hidden *
+    fill: rgb(0, 0, 0) !important;
+    stroke: rgb(0, 0, 0) !important;
+    opacity 0.5
+
+.darkBgChart
+  .highcharts-background
+    fill transparent
+    stroke transparent
+  .highcharts-axis-labels
+    fill $black
+  .highcharts-legend-item text
+    fill $black
+  .highcharts-data-label text
+    fill $black
+
+.heatMapChart
+  .highcharts-data-label
+    font-size 1.5em
+  .highcharts-data-label text
+    fill $gray4
+  .highcharts-color-0
+    fill #B0CDEA
+    stroke #B0CDEA
+  .highcharts-color-1
+    fill #D9E7F5
+    stroke #D9E7F5
+
+.analysisChart
+  .highcharts-background
+    fill transparent
+    stroke transparent
+
+.diagnostic-chart-container
+  .highcharts-xaxis
+    .highcharts-axis-line
+      stroke-width 0px
