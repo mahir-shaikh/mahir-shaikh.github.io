@@ -1,0 +1,987 @@
+{"scenes": [
+{
+    "OperatingMarginBr": "Operating <br />Margin",
+    "RevenueRecognizedinQuarterTooltip": "The amount of revenue recognized over the quarter.",
+    "Annual": "Annual",
+    "AveragePaymentTerms": "Average Payment Terms",
+    "AveragePaymentTermsTooltip": "The average number of days customers are offered to pay a bill, for deals offered in the quarter.",
+    "BillingFrequency": "Billing Frequency",
+    "CashFlowfromOperations": "Cash Flow from Operations",
+    "CashFlowfromOperationsTooltip": "Cash flow generated from operating activities. Excludes cash from financing and investment activities.",
+    "CashFlowinQuarterTooltip": "Actual cash collected over the quarter.",
+    "CashFlowinQuater": "Cash Flow in Quarter",
+    "ClosingDealsEarly": "Closing Deals Early",
+    "Cloud": "Cloud",
+    "CompanyWide": "Company Wide",
+    "ContractLength": "Contract Length (years)",
+    "CostReductionDecisions": "Cost Reduction Decisions",
+    "cRPOTooltip": "Calculated by adding the quarter-over-quarter change in deferred revenue to the total revenue amount for the given period. Current ",
+    "DealStructure": "Deal Structure",
+    "DownloadReport": "Download Report",
+    "EmergingCloud": "Emerging Cloud",
+    "EndingDeferredRevenue": "Ending Deferred Revenue",
+    "EndingUnearnedRevenueTooltip": "Billed but unrecognized revenue held on the books at the end of the quarter.",
+    "ExitScenario": "Exit Scenario",
+    "Expenses": "Expenses",
+    "ExpensesTooltip": "All operating expenses recognized over the quarter, including cost to serve and AE compensation.",
+    "FreezeHiring": "Freeze Hiring",
+    "FreezeTravel": "Freeze Travel",
+    "FutureDating": "Future Dating",
+    "FY1": "FY1",
+    "FY2": "FY2",
+    "Glossary": "Glossary",
+    "GrowthCloud": "Growth Cloud ",
+    "ID": "GEN",
+    "Impliedbilling": "Implied billing",
+    "Introduction": "Introduction",
+    "InvalidDealMessage": "Invalid Deal: Number of users should not decrease between years",
+    "KeyMetrics": "Key Metrics",
+    "KnowledgeTest": "Knowledge Test",
+    "Leaderboard": "Leaderboard",
+    "MatureCloud": "Mature Cloud ",
+    "Month1": "Month 1",
+    "Month1Tooltip": "Represents the percentage of Q1 deals that are closed in a given month.",
+    "Month2": "Month 2",
+    "Month3": "Month 3",
+    "NumberofUsers": "Number of Users",
+    "OfferEarlyPaymentDiscount": "Offer Early Payment Discount",
+    "OfferEarlyPaymentDiscountTooltip": "Offer customers who have bills due in Q2 a 2% discount to move cash into Q1",
+    "OpeningDeferredRevenue": "Opening Deferred Revenue",
+    "OpeningUnbuildDR": "Opening Unbuilled DR",
+    "OpeningUnearnedRevenue": "Opening Unearned Revenue",
+    "OpeningUnearnedRevenueTooltip": "The balance sheet value of revenue that has been billed, but that has not yet been recognized",
+    "OperatingMargin": "Operating Margin",
+    "ACVTooltip": "The annual value of the contract. In future quarters, only incremental changes are recognized.",
+    "OperatingMarginTooltip": "Ratio of revenue to the companies operating expenses.",
+    "OpProfit": "Op. Profit",
+    "PaymentTerms": "Payment Terms",
+    "PricePerUser": "Price Per User",
+    "PriceperUsers": "Price per Users",
+    "ProbabilityofCustomersDealAcceptance": "Probability of Customers Deal Acceptance",
+    "Q1": "Q1",
+    "Q1BillingFrequency": "Q1 Billing Frequency",
+    "Q1CashCollectionDecisions": "Q1 Cash Collection Decisions",
+    "Q1DealClosingMonth": "Q1 Deal Closing Month",
+    "Q1PaymentTerms": "Q1 Payment Terms",
+    "Q2": "Q2",
+    "Q3": "Q3",
+    "Q4": "Q4",
+    "Quarterly": "Quarterly",
+    "QuarterlyTooltip": "Represents the percentage of deals closed in Q1 that offer quarterly billing",
+    "ResetDeal": "Reset Deal",
+    "Revenue": "Revenue",
+    "RevenueCAGR": "Revenue CAGR",
+    "ACVRecognized": "ACV Recognized",
+    "RevenueRecognizedinQuater": "Revenue Recognized in Quarter",
+    "RevenueTootlip": "Total revenue recognized over the quarter.",
+    "RPOTooltip": "Net contract-based metric we shifted to from billing based unearned revenue metric previously to measure our backlog; represents billed unearned revenue in the next 12 months.",
+    "Scenario": "Scenario",
+    "SubmitKnowledgeTest": "Submit Knowledge Test",
+    "SubscriptionModel": "Subscription Model",
+    "TCVRecognized": "TCV Recognized",
+    "TeamName": "Team Name",
+    "TeamNumber": "Team Number",
+    "Title": "Subscription Economics Tool",
+    "Topic1": "Topic 1",
+    "Topic2": "Topic 2",
+    "Topic3": "Topic 3",
+    "TotalScore": "Total Score",
+    "TVCTooltip": "The total value received over the lifetime of the contract",
+    "VisitScenario": "Visit Scenario",
+    "Y1": "Y1",
+    "Y10": "Y10",
+    "Y10Attrition": "Y10 Attrition",
+    "Y10CTB": "Y10 CTB",
+    "Y10CTS": "Y10 CTS",
+    "Y1Attrition": "Y1 Attrition",
+    "Y1CTB": "Y1 CTB",
+    "Y1CTS": "Y1 CTS",
+    "Year1": "Year 1",
+    "Year10Forecast": "Year 10 Forecast",
+    "Year2": "Year 2",
+    "Year3": "Year 3",
+    "10YRACVCAGR": "10YR ACV CAGR",
+    "ACV2Tooltip": "The total annual value of all booked contracts.",
+    "ACV": "ACV"
+}, {
+    "Text8": "the total cost to book $1 of ACV; calculated by adding the sales and marketing costs per dollar of ACV",
+    "Text7": "overall length of contract",
+    "Text6": "a measure of the money a company generates from its core operations per dollar of revenue; calculated by dividing cash flow by total revenue",
+    "Text5": "the total amount of money being transferred into and out of a business",
+    "Text4": "number of months invoiced in advance",
+    "Text3": "the expected lifetime revenue from $1 of ACV; calculated by dividing $1 ACV by attrition rate; current attrition rate is ~10%",
+    "total": "19",
+    "Text2": "sum of all provisioned contracts; 'book of business'",
+    "Text19": "advanced payments or unearned revenue, recorded as a liability on the balance sheet until the services have been rendered; recorded at invoice date, then amortized over invoice period",
+    "Text18": "balance of business that is contracted but not billed; also called Backlog",
+    "Text17": "the contractual value of the deal over its entire term",
+    "Text16": "current remaining performance obligations. Net contract-based metric we shifted to from billing based unearned revenue metric previously to measure our backlog; represents billed unearned revenue in the next 12 months.",
+    "Text15": "remaining performance obligations. The aggregate of unearned revenue and unearned unbilled revenue.",
+    "Text14": "the amount of money a company receives during a specified period of time; recognized daily from contract start date",
+    "Text13": "an advisory role that helps Salesforce clients get the most from their Salesforce investment. Aids in product implementation and client education.",
+    "Text12": "the period of time in which the customer is required to pay his/her bill; typically net 30 (within 30 days of receiving the bill), net 45, or net 60",
+    "Text11": "a ratio used to measure a company's operating efficiency; calculated by subtracting all variable costs from total revenue (operating income) and dividing by total revenue",
+    "Text10": "signing a contract to be executed at a mutually agreed upon future date. This option is available to sellers under specific circumstances but can help a customer overcome hesitancy due to cash flow or budgeting concerns. This is <b>not</b> meant for customers who are still unsure of a potential purchase at signing or those who need the ability to opt out before the contract execution date; these are still fully binding contracts.",
+    "Text1": "incremental value of annual recurring revenue stream",
+    "PageType": "modal",
+    "ID": "Glossary",
+    "Heading9": "Cost to Serve",
+    "Heading8": "Cost to Book",
+    "Heading7": "Contract Term",
+    "Heading6": "Cash Flow Margin",
+    "Heading5": "Cash Flow",
+    "Heading4": "Billing Frequency",
+    "Heading3": "Attrition",
+    "Heading2": "Annual Order Value",
+    "Heading19": "Unearned Revenue",
+    "Heading18": "Unbilled Unearned Revenue",
+    "Heading17": "Total Contract Value",
+    "Heading16": "cRPO",
+    "Heading15": "RPO",
+    "Text9": "the total cost to serve the lifetime revenue; calculated by adding delivery, R&D, support, and G&A as a percentage of revenue",
+    "Heading14": "Revenue",
+    "Heading13": "Program Architect (PA)",
+    "Heading12": "Payment Terms",
+    "Heading11": "Operating Margin",
+    "Heading10": "Future Dated Orders",
+    "Heading1": "Annual Contract Value (ACV)"
+}, {
+    "BellowContent": "The program will have two perspectives. We'll start by focusing on individual deal structure economics before looking at the impacts all deals have on company-wide metrics. For both perspectives, we'll spend some time getting you comfortable with all available levers and their impacts before providing an open-ended scenario for you to solve.",
+    "CenterText": "<ul><li>Recognize what constitutes a 'good deal' for both our customers and Salesforce</li><li>Leverage different deal levers that directly impact your KPIs</li><li>Balance short term decisions with long term impacts</li><li>Overcome the most common deal-structuring-related customer objections</li></ul>",
+    "CenterTextHeading": "The Objectives:",
+    "ID": "Introduction",
+    "PageType": "modal",
+    "AboveContent": "We are pleased to welcome you to the Salesforce Deal Structure Simulation. As you know, Salesforce is a rapidly expanding technology company that is poised for the next stage of growth. The company has exciting new products, a devoted and engaged customer base, and a growing team of passionate and bright employees.<br><br>You will be provided with a number of scenarios and will be responsible for working through each with the best solution for both Salesforce and our customer in mind. We will use a combination of assumption testing through a customized simulation planning tool and application questions. In addition, you will have an opportunity to answer quiz questions and compete against colleagues for the top simulation score."
+}, {
+    "ID": "Scenario1",
+    "narrative": "You are an AE and one of your new potential customers, Big Health, is a multinational conglomerate who sends an RFP requesting a 1-year deal with 100 users at $1,100 per user. Their asks include quarterly billing with net 30 day payment terms. After setting this deal up in the deal structure tool, you notice that your internal deal approval metric is far too low.<br><br>How do you affect deal structure levers to improve the deal from Salesforce's perspective?<br><br><b>Input the initial deal structure as follows:<br>1-year deal<br>100 users at $1,100 per user<br>Quarterly billing</b>",
+    "topics": "Scenario1_Topic1",
+    "PageType": "Details",
+    "calculator": "1"
+}, {
+    "totalQuestions": "Scenario1_App_Que_1,Scenario1_App_Que_2,Scenario1_App_Que_3,Scenario1_App_Que_4",
+    "ID": "Scenario1_App",
+    "heading": "Please answer the questions below based on the learning from this Topic.",
+    "feedbackId": "Scenario1_App_Fb"
+}, {
+    "heading": "Now see how your colleagues have answered!",
+    "totalQuestions": "Scenario1_App_Fb_2",
+    "ID": "Scenario1_App_Fb"
+}, {
+    "chartranges": "tlInputScen1App2A,tlInputScen1App2B,tlInputScen1App2C,tlInputScen1App2D",
+    "ID": "Scenario1_App_Fb_2",
+    "chartnumberformat": "0.0a",
+    "chartcategories": "Reduced Discounting,Extending Contract Length,Annual vs. Quarterly Billing,Shorter Payment Terms",
+    "chart": "stackcolumn",
+    "chartseries": "Ranked First:1, Ranked Second:2, Ranked Third:3, Ranked Fourth:4"
+}, {
+    "ID": "Scenario1_App_Que_1",
+    "narrative": "Based on what you have learned and/or in your experience, what are the levers or behaviors you can apply to customers that are seeking a shorter contract length or proof of concept?",
+    "name": "Brainstorm",
+    "question": "1.",
+    "Type": "Freetext"
+}, {
+    "question": "2.",
+    "ID": "Scenario1_App_Que_2",
+    "name": "Ranking",
+    "narrative": "Rank these in order of the greatest impact, one being the highest impact and four being the lowest, on Salesforce's financial health:",
+    "point1": "Discounting",
+    "point2": "Extending Contract Length",
+    "point3": "Annual vs. Quarterly Billing",
+    "Type": "DragNDrop",
+    "totalPoints": "4",
+    "point4": "Shorter Payment Terms"
+}, {
+    "ID": "Scenario1_App_Que_3",
+    "name": "Brainstorm",
+    "narrative": "In the space below, write your justification for your ranking decision above.",
+    "question": "3.",
+    "Type": "Freetext"
+}, {
+    "ID": "Scenario1_App_Que_4",
+    "name": "Brainstorm",
+    "narrative": "What actions or behaviors can you take to ensure you are increasing speed-to-approval on your deals?",
+    "Type": "Freetext",
+    "question": "4."
+}, {
+    "heading": "<b>Let the Competition Begin!</b><br>During this Knowledge Test, you will not have access to the Deal Structuring Tool you have been using so far to make decisions and see impacts.  The intent of these questions is to test your knowledge on key concepts that were brought up during each of the topics you experienced.  Please click submit after each question response below.  You will receive immediate feedback.  Each question is worth a maximum of 50 points.",
+    "ID": "Scenario1_Kt",
+    "totalQuestions": "Scenario1_Kt_Que_1,Scenario1_Kt_Que_2,Scenario1_Kt_Que_3,Scenario1_Kt_Que_4",
+    "completionText": "Congratulations! You have completed Scenario 1. Scenario 2 is now unlocked."
+}, {
+    "heading": "See how your answers compared to other past participants for the entire Knowledge Test!",
+    "ID": "Scenario1_Kt_Fb",
+    "totalQuestions": "Scenario1_Kt_Fb_1,Scenario1_Kt_Fb_2,Scenario1_Kt_Fb_3,Scenario1_Kt_Fb_4"
+}, {
+    "chart": "pie",
+    "chartcategories": "A,B,C,D",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen1KT1",
+    "ID": "Scenario1_Kt_Fb_1"
+}, {
+    "ID": "Scenario1_Kt_Fb_2",
+    "chartnumberformat": "0.0a",
+    "chartcategories": "Discount Offered,Additional Products Included,Out Clause Provided,Business Value Case Created,Implementation Support,Billing Frequency Adjusted,Reduced User Commitment,Payment Terms Extended,Shorter Contract Length,Premier Support Attached",
+    "chart": "bar",
+    "chartranges": "tlInputScen1KT2A,tlInputScen1KT2B",
+    "chartseries": "Peers"
+}, {
+    "chartranges": "tlInputScen1KT3",
+    "chartnumberformat": "0.0a",
+    "chartcategories": "A,B,C,D",
+    "chart": "pie",
+    "ID": "Scenario1_Kt_Fb_3"
+}, {
+    "chart": "pie",
+    "ID": "Scenario1_Kt_Fb_4",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen1KT4",
+    "chartcategories": "A,B,C,D"
+}, {
+    "question": "1.",
+    "point4Serial": "D",
+    "point4": "ACV increases and Unbilled Unearned Revenue increases in all quarters. In Years 2 & 3, Revenue, Cash Flow, and RPO all increase",
+    "point3Serial": "C",
+    "point3": "Total Contract Value increases and Unbilled Unearned Revenue increases in all quarters. In Years 2 & 3, Revenue and RPO increase, while Cash Flow is unchanged.",
+    "point2Serial": "B",
+    "point2": "Total Contract Value increases and Unbilled Unearned Revenue increases in all quarters. In Years 2 & 3 Revenue, Cash Flow, and RPO all increase.",
+    "point1Serial": "A",
+    "point1": "Total Contract Value increases and Unbilled Unearned Revenue increases in all quarters. In Years 1&2, Revenue, Cash Flow, and RPO all increase",
+    "narrative": "Select which of the statements is most accurate below.  Which of the key metrics change when moving from a 1 year to 3 year contract?",
+    "name": "Multi-Year Contracting",
+    "ID": "Scenario1_Kt_Que_1",
+    "answer4": "<b>You Chose Option D</b><br>Option B was the optimal choice.  ACV recognized will remain the same, as it is the annual order amount.  TCV will triple in size.",
+    "answer3": "<b>You Chose Option C</b><br>Option B was the optimal choice.  Cash Flow will still increase in Year 2 and 3 by moving to a 3-year contract.",
+    "answer2": "<b>You Chose Option B</b><br>This is the best option!  TCV increases to triple the initial amount in Year 1.  Revenue, Cash Flow and RPO will increase only in Year 2&3. <b>+50 Points</b>",
+    "answer1": "<b>You Chose Option A</b><br>Option B was the optimal choice.  Revenue, Cash Flow and RPO will increase only in Year 2&3",
+    "Type": "SingleSelect",
+    "totalPoints": "4"
+}, {
+    "Type": "MultiSelect",
+    "answer1": "A. High Discounting - While discounting may be necessary for deal acceptance, it generally slows down deal approval. ",
+    "answer2": "B. Additional Products Included - This is one of the two optimal choices!  Multiple product deals provide higher ACV and value to customers, this combined with longer contract length is the key thing deal desk will look for in approving deals quickly.   <b>+25 Points</b>",
+    "answer3": "C. Out Clause Provided- This is a &quot;no-go&quot; option at Salesforce and will not be approved.",
+    "answer4": "D. Business Value Case Created- This is important in driving deal acceptance by customers but not something we look directly at for approving deals.  ",
+    "answer5": "E. Implementation Support- This is important in driving deal acceptance by customers but not something we look directly at for approving deals.  ",
+    "answer6": "F. Billing Frequency Adjusted- This can be adjusted to get a deal accepted, but we will look for you to have a plan to get the customer to standard billing frequency on an annual basis",
+    "answer7": "G. Upfront User Commitment- We generally look for higher volumes and commitment upfront.  Many customers may want a reduced user commitment at first, which slows down deal approval  ",
+    "answer8": "H. Payment Terms Extended- This can be adjusted to get a deal accepted, especially during cash flow concerns, but we will look for you to have a plan to get the customer to standard payment terms.",
+    "answer9": "I. Multi-Year Contract Length- This is one of the two optimal choices!  This is critical to getting retirement of your multi-year quota and combined with multiple products will lead to accelerated deal approval. <b>+25 Points</b>",
+    "ID": "Scenario1_Kt_Que_2",
+    "maximumselection": "2",
+    "minimumselection": "2",
+    "name": "Internal Deal Approval",
+    "narrative": "Select 2 levers that will have the greatest positive impact on internal deal approval.",
+    "point1": "Discount Offered",
+    "point10": "Premier Support Attached",
+    "point10Serial": "J",
+    "point1Serial": "A",
+    "point2": "Additional Products Included",
+    "point2Serial": "B",
+    "point3": "Out Clause Provided",
+    "point3Serial": "C",
+    "point4": "Business Value Case Created",
+    "point4Serial": "D",
+    "point5": "Implementation Support",
+    "point5Serial": "E",
+    "point6": "Billing Frequency Adjusted",
+    "point6Serial": "F",
+    "point7": "Reduced User Commitment",
+    "point7Serial": "G",
+    "point8": "Payment Terms Extended",
+    "point8Serial": "H",
+    "point9": "Shorter Contract Length",
+    "point9Serial": "I",
+    "question": "2.",
+    "totalPoints": "10",
+    "answer10": "J. Ramp Deal Structure- While a ramped deal structure is a fallback option in negotiations that can aid customer deal approval, it is not an option that Salesforce prefers over a flat payment structure and would not speed up internal deal approval."
+}, {
+    "point2Serial": "B",
+    "answer1": "<b>You Chose Option A</b><br>Option B was the optimal choice.  Our shareholders expect us to deliver consistent cashflow, by moving to annual billing also decrease our risk of customers churning or not being able to pay.  This also simplifies our billing processes.",
+    "answer4": "<b>You Chose Option D</b><br>Option B was the optimal choice.  Our shareholders expect us to deliver consistent cashflow, by moving to annual billing also decrease our risk of customers churning or not being able to pay.  This also simplifies our billing processes.",
+    "ID": "Scenario1_Kt_Que_3",
+    "name": "Annual vs Quarterly Billing",
+    "narrative": "Which of the following items represents the primary reason we prefer annual over quarterly billing?",
+    "point1": "Simplifies the number of customer interactions we have that consume AE time. ",
+    "point1Serial": "A",
+    "point2": "Provide cash earlier allowing for reinvestment; increase unearned revenue resulting in increased confidence for investors; simplified processes.",
+    "answer3": "<b>You Chose Option C</b><br>Option B was the optimal choice.  Cash Flow will still increase in Year 2 and 3 by moving to a 3-year contract.",
+    "point3": "Allows us to sell additional products at a higher price point and exit price at renewal is important as it allows us to grow ACV/revenue over time.",
+    "point3Serial": "C",
+    "point4": "Unbilled Unearned Revenue decreases in Q2/Q3/Q4, which allows us to forecast outwardly to investors where future revenue will be coming from in subsequent quarters and years.",
+    "point4Serial": "D",
+    "question": "3.",
+    "totalPoints": "4",
+    "Type": "SingleSelect",
+    "answer2": "<b>You Chose Option B</b><br>This is the optimal choice!  Our shareholders expect us to deliver consistent cashflow, by moving to annual billing also decrease our risk of customers churning or not being able to pay.  This also simplifies our billing processes. <b>+50 Points</b>"
+}, {
+    "narrative": "Which of the following metrics is not impacted when we make a change in billing terms?",
+    "answer2": "<b>You Chose Option B</b><br>Option C was the optimal choice. Our shareholders expect us to deliver consistent cashflow, by moving to annual billing also decrease our risk of customers churning or not being able to pay.  This also simplifies our billing processes. ",
+    "answer3": "<b>You Chose Option C</b><br>This is the optimal choice!  Changing payment terms has no impact on Total Contract Value.  If we move from 30 to 90 day payment terms, ACV recognized decreases in Q1, increases in Q2, and remains consistent in Q3/Q4; Billed Unearned Revenue increases in Q2 and remains consistent in Q1/Q3/Q4; Revenue recognized in-quarter and Cash Flow decrease in Q1, increase in Q2, and then remain consistent in Q3/Q4. <b>+50 Points</b>",
+    "answer4": "<b>You Chose Option D</b><br>Option C was the optimal choice.  If we move from 30 to 90 day payment terms, ACV recognized decreases in Q1, increases in Q2, and remains consistent in Q3/Q4; Billed Unearned Revenue increases in Q2 and remains consistent in Q1/Q3/Q4; Revenue recognized in-quarter and Cash Flow decrease in Q1, increase in Q2, and then remain consistent in Q3/Q4.",
+    "ID": "Scenario1_Kt_Que_4",
+    "name": "Payment Terms",
+    "point1": "ACV",
+    "point1Serial": "A",
+    "point2": "Cash Flow",
+    "point2Serial": "B",
+    "point3": "TCV",
+    "point3Serial": "C",
+    "point4": "Unbilled Unearned Revenue",
+    "point4Serial": "D",
+    "question": "4.",
+    "totalPoints": "4",
+    "Type": "SingleSelect",
+    "answer1": "<b>You Chose Option A</b><br>Option C was the optimal choice.  If we move from 30 to 90 day payment terms, ACV recognized decreases in Q1, increases in Q2, and remains consistent in Q3/Q4; Billed Unearned Revenue increases in Q2 and remains consistent in Q1/Q3/Q4; Revenue recognized in-quarter and Cash Flow decrease in Q1, increase in Q2, and then remain consistent in Q3/Q4. "
+}, {
+    "row_3_col_3": "≥$990",
+    "row_3_col_2": "399",
+    "row_3_col_1": "200",
+    "row_2_col_5": "≤$900",
+    "row_2_col_4": "$901-1,099",
+    "row_2_col_3": "≥$1,100",
+    "row_2_col_2": "199",
+    "row_2_col_1": "100",
+    "row_1_col_5": "≤$1,060",
+    "row_1_col_4": "$1,061-1,299",
+    "row_1_col_3": "≥$1,300",
+    "row_1_col_2": "99",
+    "row_1_col_1": "50",
+    "ID": "Scenario1_Table1",
+    "heading": "# of Users (Pricing guidance for simulation purposes only)",
+    "totalRows": "3",
+    "totalCols": "5",
+    "tableHeadings": "Low,High,Good Pricing,Ok Pricing,Bad Pricing",
+    "row_3_col_5": "≤$830",
+    "row_3_col_4": "$831-989"
+}, {
+    "answersHeading": "Here are the suggested answers to the Topic!",
+    "totalQuestions": "Scenario1_Topic1_Que1,Scenario1_Topic1_Que2,Scenario1_Topic1_Que3,Scenario1_Topic1_Que4,Scenario1_Topic1_Que5",
+    "name": "Multi-Year Contracts and Discounting",
+    "ID": "Scenario1_Topic1",
+    "heading": "After discussing the potential customer's requests, your RVP suggests that a 3 year contract could be an option."
+}, {
+    "Type": "Freetext",
+    "question": "A.",
+    "answer": "We would expect Total Contract Value to increase as the length of the contract increases. In addition, RPO and cash will likely be the largest changes.",
+    "ID": "Scenario1_Topic1_Que1",
+    "narrative": "What would you expect to be the biggest change to Key Metrics?"
+}, {
+    "Type": "Freetext",
+    "narrative": "Which Key Metrics changed?",
+    "ID": "Scenario1_Topic1_Que2",
+    "answer": "Total Contract Value increases and RPO increases in all quarters. In Years 2 & 3, RPO, Revenue, Cash Flow, and cRPO all increase.",
+    "question": "B.",
+    "noteAbove": "<b>Change Contract Length from 1 year to 3 years. Change Price Per User in Y2 and Y3 to $1,100.</b>"
+}, {
+    "answer": "Salesforce Pro: can more accurately forecast revenue and cash flow for 3 years.<br><br>Salesforce Con: cannot raise price for three years.<br><br>Big Health Pros: can accurately forecast cost and ensures price protection for three years (i.e. not hit with renewal uplift).<br><br>Big Health Con: long term commitment without knowing how successful it will be.",
+    "ID": "Scenario1_Topic1_Que3",
+    "narrative": "What are the pros and cons of a 3 year contract for both Salesforce and Big Health?",
+    "question": "C.",
+    "Type": "Freetext"
+}, {
+    "narrative": "Using the pricing guidance below, in a give/get scenario, would you trade a 4% discount off of $1,100 per user (down to $1,056 per user) to extend the contract from 1 to 3 years?  Why? ",
+    "answer": "Yes, this is still within our 'OK pricing' range and we pick up two more years of commitment.",
+    "Type": "Freetext",
+    "question": "D.",
+    "ID": "Scenario1_Topic1_Que4"
+}, {
+    "Type": "Freetext",
+    "aboveTableId": "Scenario1_Table1",
+    "ID": "Scenario1_Topic1_Que5",
+    "narrative": "Would you trade a 30% discount off of $1,100 per user (down to $770 per user) to extend the contract from 1 to 3 years?  Why?",
+    "question": "E.",
+    "answer": "No. Going from green pricing ('good pricing') to red pricing ('bad pricing') to extend commitment by 2 years is not worth it. The long term revenue impact and damage to customer pricing would far outweigh the gain in term commitment."
+}, {
+    "calculator": "1",
+    "ID": "Scenario2",
+    "narrative": "The deal from Scenario 1 goes to the customer but it is rejected because it does not meet their asks. <br><br>You must now balance internal deal approval and customer deal acceptance.",
+    "PageType": "Details",
+    "topics": "Scenario2_Topic1,Scenario2_Topic2"
+}, {
+    "ID": "Scenario2_App",
+    "heading": "Please answer the questions below based on the learning from this Topic.",
+    "totalQuestions": "Scenario2_App_Que_1,Scenario2_App_Que_2,Scenario2_App_Que_3,Scenario2_App_Que_4",
+    "feedbackId": "Scenario2_App_Fb"
+}, {
+    "heading": "See how your answers compared to other past participants on Question 2!",
+    "ID": "Scenario2_App_Fb",
+    "totalQuestions": "Scenario2_App_Fb_2"
+}, {
+    "chartnumberformat": "0.0a",
+    "chartcategories": "Future-Dated Orders,Adding Additional Resources (such as a Program Architect),Providing a &quot;Product Swap&quot; Option,Provide Access to Licenses Upfront,Provide a pilot or proof of concept",
+    "chart": "stackcolumn",
+    "chartranges": "tlInputScen2App2A,tlInputScen2App2B,tlInputScen2App2C,tlInputScen2App2D,tlInputScen2App2E",
+    "chartseries": "Yes,No",
+    "ID": "Scenario2_App_Fb_2"
+}, {
+    "question": "1.",
+    "name": "Brainstorm",
+    "narrative": "Based on what you have learned and in your experience, what are the levers or behaviors you can apply to drive customer deal acceptance other than Discounting?",
+    "Type": "Freetext",
+    "ID": "Scenario2_App_Que_1"
+}, {
+    "point2": "Adding Additional Resources (such as a Program Architect)",
+    "Type": "Toggle",
+    "totalPoints": "5",
+    "question": "2.",
+    "point5": "Provide a Pilot or Proof of Concept",
+    "point4": "Provide Access to Licenses Upfront",
+    "point3": "Providing a &quot;Product Swap&quot; Option",
+    "ID": "Scenario2_App_Que_2",
+    "point1": "Future-Dated Orders",
+    "narrative": "Please state which actions you have applied often and which you have rarely tried:",
+    "name": "Rating"
+}, {
+    "ID": "Scenario2_App_Que_3",
+    "narrative": "All of the above options have been used by Salesforce AEs to help drive customer deal acceptance.  However, the best AEs do not give these away without getting something back from customers.  This is what we call &quot;Give/Get&quot;.  In the space below, select one action/behavior you chose above and describe what we should be asking for in return from our customers to provide this option.",
+    "question": "3.",
+    "Type": "Freetext",
+    "name": "Brainstorm"
+}, {
+    "narrative": "What give/get should we provide to move a customer to quarterly billing?  (and to help your quarterly quota)",
+    "name": "Brainstorm",
+    "ID": "Scenario2_App_Que_4",
+    "Type": "Freetext",
+    "question": "4."
+}, {
+    "completionText": "Congratulations! You have completed Scenario 2. Scenario 3 is now unlocked.",
+    "heading": "<b>Let the Competition Begin!</b> <br>During this Knowledge Test, you will not have access to the Deal Structuring Tool you have been using so far to make decisions and see impacts.  The intent of these questions is to test your knowledge on key concepts that were brought up during each of the topics you experienced.  Please click submit after each question response below.  You will receive immediate feedback.  Each question is worth a maximum of 50 points.",
+    "ID": "Scenario2_Kt",
+    "totalQuestions": "Scenario2_Kt_Que_1,Scenario2_Kt_Que_2,Scenario2_Kt_Que_3,Scenario2_Kt_Que_4"
+}, {
+    "totalQuestions": "Scenario2_Kt_Fb_1,Scenario2_Kt_Fb_2,Scenario2_Kt_Fb_3,Scenario2_Kt_Fb_4",
+    "ID": "Scenario2_Kt_Fb",
+    "heading": "See how your answers compared to other past participants for the entire Knowledge Test!"
+}, {
+    "chart": "pie",
+    "chartranges": "tlInputScen2KT1",
+    "ID": "Scenario2_Kt_Fb_1",
+    "chartcategories": "A,B,C,D",
+    "chartnumberformat": "0.0a"
+}, {
+    "chart": "bar",
+    "chartcategories": "Discount Offered,Additional Products Included,Out Clause Provided,Business Value Case Created,Implementation Support (Advisory Services),Billing Frequency Adjusted,Reduced User Commitment,Payment Terms Extended,Shorter Contract Length, Ramping Deal Structure",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen2KT2A,tlInputScen2KT2B",
+    "chartseries": "Peers",
+    "ID": "Scenario2_Kt_Fb_2"
+}, {
+    "chart": "pie",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen2KT3",
+    "chartcategories": "A,B,C,D",
+    "ID": "Scenario2_Kt_Fb_3"
+}, {
+    "ID": "Scenario2_Kt_Fb_4",
+    "chartranges": "tlInputScen2KT4",
+    "chartnumberformat": "0.0a",
+    "chartcategories": "A,B,C,D",
+    "chart": "pie"
+}, {
+    "answer2": "<b>You Chose Option B</b><br>Option C was the optimal choice. This statement can sometimes be true, but some customers will not purchase at all without some sort of trial phase. In order to secure the business of those customers, we will have to offer a proof of concept or risk losing the business altogether.",
+    "answer3": "<b>You Chose Option C</b><br>This is the optimal choice! Similarly to implementation in general, customers need to be educated on the products they are interested in purchasing and how they can be most effectively used. Without this additional knowledge, usage issues can lead a customer to believe the software and trial were failures. <b>+50 Points</b>",
+    "answer4": "<b>You Chose Option D</b><br>Option C was the optimal choice. An unsuccessful proof of concept can lead to a loss of business from a disgruntled potential customer, but there are safeguards to preventing that from happening. A deep understanding of a customer's needs and intended usage along with a well thought out proof of concept plan can help prevent this trial phase from being viewed as unsuccessful.",
+    "ID": "Scenario2_Kt_Que_1",
+    "narrative": "What is the primary reason we try to avoid offering a lengthy pilot or proof of concept?",
+    "point1": "It is expensive for us to implement",
+    "point1Serial": "A",
+    "point2": "Slows down the sales process",
+    "point2Serial": "B",
+    "point3": "Customers may believe the software failed, when really it was around their usage",
+    "point3Serial": "C",
+    "point4": "If they don't convert, we lose out completely",
+    "point4Serial": "D",
+    "question": "1.",
+    "totalPoints": "4",
+    "Type": "SingleSelect",
+    "answer1": "<b>You Chose Option A</b><br>Option C was the optimal choice. While there is a cost associated with a pilot or proof of concept, it is generally validated if a customer decides to sign a deal. With a solid implementation plan and thorough value proposition, a proof of concept should successfully transition to a sale. "
+}, {
+    "ID": "Scenario2_Kt_Que_2",
+    "Type": "MultiSelect",
+    "question": "2.",
+    "point9Serial": "I",
+    "point9": "Shorter Contract Length",
+    "answer1": "A. Discount Offered - This was one of the optimal choices! Often the top priority on many customers' minds is pricing. It is important to understand this but also to understand other deal levers and customer priorities that we can use to work through potential price sensitivity. <b>+25 Points</b>",
+    "point8": "Payment Terms Extended",
+    "point7Serial": "G",
+    "point7": "Reduced User Commitment",
+    "point6Serial": "F",
+    "point6": "Billing Frequency Adjusted",
+    "point5Serial": "E",
+    "point5": "Implementation Support (Advisory Services)",
+    "point4Serial": "D",
+    "point4": "Business Value Case Created",
+    "point3Serial": "C",
+    "point3": "Out Clause Provided",
+    "point2Serial": "B",
+    "point2": "Additional Products Included",
+    "point1Serial": "A",
+    "point10Serial": "J",
+    "point10": "Ramping Deal Structure",
+    "point1": "Discount Offered",
+    "narrative": "Select 2 levers that will have the greatest positive impact on customer deal acceptance.",
+    "name": "Customer Deal Acceptance",
+    "minimumselection": "2",
+    "maximumselection": "2",
+    "totalPoints": "10",
+    "answer9": "I. Shorter Contract Length - It is typically in the customer's best interest to lock in a price for as long as possible considering the strong possibility of fair market price increases over time.",
+    "answer8": "H. Payment Terms Extended - Similarly to Billing Frequency adjustments, customers with cash flow issues might ask for extended payment terms but this will typically not be a deal-breaking or -making point of negotiation.",
+    "answer7": "G. Reduced User Commitment - This can oftentimes be a customer's request to reduce the overall investment in a deal without directly asking for a discount. However, if objections are carefully handled and a deal crafted that benefits both Salesforce and the customer, user commitment can be preserved.",
+    "answer6": "F. Billing Frequency Adjusted - This can sometimes speed up the process for a customer to approve a deal but is often not the deciding factor and is usually necessitated by a specific customer situation regarding cash flow issues.",
+    "answer5": "E. Implementation Support (Advisory Services) - This was one of the optimal choices! Ensuring implementation and as quick as possible is key to maintaining good customer relationships and support during that period can lead to easier renewal conversations and increased trust in the partnership. <b>+25 Points</b>",
+    "answer4": "D. Business Value Case Created - A business value case is very important in justifying how a deal is structured and the pricing we present our customers. That being said, it may not always increase a customer's willingness to accept a deal by itself.",
+    "answer3": "C. Out Clause Provided - some clients will ask for out clauses in their deals but as a general rule, Salesforce does not approve out clauses.",
+    "answer2": "B. Additional Products Included - Some customers value additional products being added to deals, but it is very specific to certain situations and not as applicable generally.",
+    "answer10": "J. Ramping Deal Structure - A Ramped Deal Structure is a good option as a final point in negotiation. However, this type of deal structure often leaves customers conflicted about their deal's exit price and beginning position in future negotiation. This is exacerbated if the customer organization has seen turnover in positions that negotiate these deals. ",
+    "point8Serial": "H"
+}, {
+    "answer1": "<b>You Chose Option A</b><br>This is the optimal choice!  The biggest value to customers in our contract structure is giving them the ability to adjust user count at renewal, while at the same time reminding them that option on a shorter agreement does not allow them to lock in a low price for a long term, as our prices will go up each year. <b>+50 Points</b>",
+    "answer3": "<b>You Chose Option C</b><br>Option A was the optimal choice. The biggest value to customers in our contract structure is giving them the ability to adjust user count at renewal, while at the same time reminding them that option on a shorter agreement does not allow them to lock in a low price for a long term, as our prices will go up each year.  ",
+    "answer4": "<b>You Chose Option D</b><br>Option A was the optimal choice. The biggest value to customers in our contract structure is giving them the ability to adjust user count at renewal, while at the same time reminding them that option on a shorter agreement does not allow them to lock in a low price for a long term, as our prices will go up each year.  ",
+    "ID": "Scenario2_Kt_Que_3",
+    "narrative": "Iron Works, a global manufacturer with a large contract workforce has come to you with a question that is stalling their ability to purchase now.  CIO, Tony Stark mentioned, &quot;why don't you offer a model based on utilization? I should be allowed to dial up/down users based on my need.&quot;  <br><br>How should you respond?",
+    "point1": "At time of renewal, you have opportunity to adjust your user count.  Remind Tony that he will have a lower cost per user if they do a longer-term contract and will lock in a lower price for the longer term.",
+    "point1Serial": "A",
+    "point2": "Remind Tony that in a shorter-term agreement he may not be able to get the discount of a longer-term agreement.",
+    "answer2": "<b>You Chose Option B</b><br>Option A was the optimal choice. The biggest value to customers in our contract structure is giving them the ability to adjust user count at renewal, while at the same time reminding them that option on a shorter agreement does not allow them to lock in a low price for a long term, as our prices will go up each year.",
+    "point3": "Describe that value that customers like Tony receive in the ability to ramp up or down at each renewal, providing him and his team maximum flexibility.",
+    "point3Serial": "C",
+    "point4": "Describe the challenges in a utilization approach with data processes and systems that have to be implemented on their end that cause complications in adding or decreasing users and adding new products.  ",
+    "point4Serial": "D",
+    "question": "3.",
+    "totalPoints": "4",
+    "Type": "SingleSelect",
+    "point2Serial": "B"
+}, {
+    "point4": "When implementation is expected to take a long time for the customer.  We may have them buy all the licenses upfront and future date.",
+    "point3Serial": "C",
+    "point3": "This should only be used when there are real cash flow issues with a customer at the time of purchase.  Using a Future Dated Order option may be used as a final negotiation point.  ",
+    "point2Serial": "B",
+    "point2": "It is a situation where the deal will hit our fiscal year numbers and your annual target.  If you have something over $50K in an account for next year and you don't get the account next year, you only get 50% of that credit.",
+    "point1Serial": "A",
+    "point1": "To foster a good relationship with a potential client, in exchange for 1% price increase from current negotiated point, when negotiating a 5-year deal.",
+    "narrative": "What scenario below indicates a good time to offer a Future Dated Order?",
+    "ID": "Scenario2_Kt_Que_4",
+    "answer4": "<b>You Chose Option D</b><br>Option C was the optimal choice.  Future Dating Orders should be used as a final negotiation point when cash flow is an issue for the customer and they may say I don't need this upfront, I can't pay for it now or wouldn't use the licenses upfront because implementation takes several months",
+    "answer3": "<b>You Chose Option C</b><br>This is the optimal choice!  Future Dating Orders should be used as a final negotiation point when cash flow is an issue for the customer and they may say I don't need this upfront, I can't pay for it now or wouldn't use the licenses upfront because implementation takes several months. <b>+50 Points</b>",
+    "answer2": "<b>You Chose Option B</b><br>Option C was the optimal choice.  Future Dating Orders should be used as a final negotiation point when cash flow is an issue for the customer and they may say I don't need this upfront, I can't pay for it now or wouldn't use the licenses upfront because implementation takes several months",
+    "answer1": "<b>You Chose Option A</b><br>Option C was the optimal choice.  A Future Dating Orders impacts revenue recognition and cashflow for Salesforce.  A 1% increase would not justify us using this approach.  Future Dating should be used as a final negotiation point when cash flow is an issue for the customer and they may say I don't need this upfront, I can't pay for it now or wouldn't use the licenses upfront because implementation takes several months",
+    "Type": "SingleSelect",
+    "totalPoints": "4",
+    "question": "4.",
+    "point4Serial": "D"
+}, {
+    "totalQuestions": "Scenario2_Topic1_Que1,Scenario2_Topic1_Que2,Scenario2_Topic1_Que3,Scenario2_Topic1_Que4,Scenario2_Topic1_Que5,Scenario2_Topic1_Que6",
+    "name": "Billing Frequency & Payment Terms",
+    "ID": "Scenario2_Topic1",
+    "heading": "Your GBO business partner has suggested Big Health would be more willing to accept annual billing, rather than negotiating payment terms. Due to some recent unexpected expenses, Big Health is strapped for cash and has requested to make payment terms net 90 days. ",
+    "answersHeading": "Here are the suggested answers to the Topic!"
+}, {
+    "answer": "Annual Billing: Cash Flow in Quarter.<br>Net 90 Payment Terms: ACV Recognition.",
+    "ID": "Scenario2_Topic1_Que1",
+    "narrative": "Before changing to annual billing or to net 90 payment terms in the tool, enter what you expect to be the biggest change to the Key Metrics for both scenarios:",
+    "question": "A.",
+    "Type": "Freetext"
+}, {
+    "ID": "Scenario2_Topic1_Que2",
+    "answer": "Cash Flow in Quarter increases in Q1, and decreases in Q2/Q3/Q4. RPO decreases in Q1/Q2/Q3. cRPO increases in Q1 and decreases in Q2/Q3/Q4.",
+    "noteAbove": "<b> Set Billing Frequency to Annual. </b>",
+    "narrative": "Which Key Metrics changed?",
+    "question": "B.",
+    "Type": "Freetext"
+}, {
+    "answer": "Salesforce Pros: increased cash on hand and only one billing period.<br>Salesforce Cons: receives all cash up front so there is inconsistent cash flow over the course of the year.<br>Big Health Pro: pre-booked service.<br>Big Health Con: must make large payments up front, limiting cash on hand.",
+    "Type": "Freetext",
+    "question": "C.",
+    "narrative": "What are the pros and cons of annual billing for both Salesforce and BigHealth?",
+    "ID": "Scenario2_Topic1_Que3"
+}, {
+    "Type": "Freetext",
+    "ID": "Scenario2_Topic1_Que4",
+    "question": "D.",
+    "noteAbove": "<b>Change Payment Terms from Net 30 Days to Net 90 Days.</b>",
+    "narrative": "Which Key Metrics changed?",
+    "answer": "ACV recognized decreases in Q1, increases in Q2, and remains consistent in Q3/Q4. Revenue recognized in-quarter and Cash Flow decrease in Q1, increase in Q2, and then remain consistent in Q3/Q4."
+}, {
+    "narrative": "What are the pros and cons of net 90 day payment terms for both Salesforce and Big Health?",
+    "Type": "Freetext",
+    "ID": "Scenario2_Topic1_Que5",
+    "answer": "Salesforce Pro: increased revenue in Q2.<br>Salesforce Con: zero revenue in Q1 for all three years.<br>Big Health Pro: delayed payment until Q2.<br>Big Health Con: large lump sum due in Q2. ",
+    "question": "E."
+}, {
+    "question": "F.",
+    "Type": "Freetext",
+    "answer": "We don't approve 90 day terms and we currently have very few customers that are on 90 day payment terms - this example is to illustrate why we don't do that. Once we offer 90 days, collection gets behind when service has been delivered and we can't recognize the revenue until we receive the cash. As such, we would take quarterly billing with 30 day payment terms because it allows us to recognize revenue more consistently for shareholders and also keeps cash flow more consistent.",
+    "ID": "Scenario2_Topic1_Que6",
+    "narrative": "Given the choice, would you approve annual billing with 90 day payment terms or quarterly billing with 30 day payment terms? Why?"
+}, {
+    "totalQuestions": "Scenario2_Topic2_Que1,Scenario2_Topic2_Que2,Scenario2_Topic2_Que3",
+    "name": "Future Dated Orders",
+    "ID": "Scenario2_Topic2",
+    "heading": "Big Health has just called and they have decided they are hesitant to pay for licenses during their implementation period. They feel that they would rather pay for the licenses once everything is up and running. After meeting with your manager, they suggest looking at the possibility of a future-dated order.",
+    "answersHeading": "Here are the suggested answers to the Topic!"
+}, {
+    "narrative": "Before turning on the Future-Dating option in the tool, enter what you expect to be the biggest change to the Key Metrics (Hint: explore the glossary to learn more about what a future-dated order is):",
+    "question": "A.",
+    "Type": "Freetext",
+    "answer": "Decrease in most key metrics in Q1.",
+    "ID": "Scenario2_Topic2_Que1"
+}, {
+    "narrative": "Which Key Metrics changed? ",
+    "Type": "Freetext",
+    "question": "B.",
+    "noteAbove": "<b> Change Future Dating to 3 months </b>",
+    "ID": "Scenario2_Topic2_Que2",
+    "answer": "This preset future-dated order marks the contract as signed in Q1 and will execute in Q2. All key metrics in Q1 are reduced to 0 and the original deal metrics shift to Q2, when the contract is planned to be executed."
+}, {
+    "narrative": "Given the choice, would you create a deal that discounts the implementation period for the customer or a future-dated deal? Why?",
+    "ID": "Scenario2_Topic2_Que3",
+    "question": "C.",
+    "answer": "The future-dated deal since the price point would be guaranteed at signing and preserve any potential exit pricing for future negotiations. Future-dated deals should only be considered after pushback from a customer on budgeting/cash flow concerns or concern over payment during implementation and <b>after</b> discussing with your manager.",
+    "Type": "Freetext"
+}, {
+    "topics": "Scenario3_Topic1",
+    "PageType": "Details",
+    "narrative": "You are working with a potential new Enterprise customer that is less price conscious than many other customers you have worked with in the past. They have outlined their concerns on a recent phone call and mentioned they need to be addressed before any contract signature:<br><br><ul><li> &quot;We've heard you expect 7% price increases at renewal and I won't be able to sell a deal like that internally.&quot;</li><li>&quot;All of our vendors offer us net 90 day payment terms.&quot;</li><li>&quot;Our cash flow has been strained by our rapid growth and we need you to work with that and afford us quarterly billing.&quot;</li><li>&quot;Unless you can offer us amazing terms, we would prefer a shorter term contract: maybe a 1- or 2-year deal.&quot;</li></ul>",
+    "ID": "Scenario3",
+    "calculator": "1"
+}, {
+    "ID": "Scenario3_App",
+    "totalQuestions": "Scenario3_App_Que_1,Scenario3_App_Que_2,Scenario3_App_Que_3,Scenario3_App_Que_4",
+    "heading": "Please answer the questions below based on the learning from this Topic."
+}, {
+    "Type": "Freetext",
+    "question": "1.",
+    "narrative": "Based on what you have learned and/or in your experience, what would be an appropriate situation to explore a ramping deal structure with a customer?",
+    "ID": "Scenario3_App_Que_1",
+    "name": "Brainstorm"
+}, {
+    "question": "2.",
+    "narrative": "Why is it important to not offer a &quot;ramping down&quot; pricing structure over a deal lifetime?",
+    "name": "Brainstorm",
+    "Type": "Freetext",
+    "ID": "Scenario3_App_Que_2"
+}, {
+    "Type": "Freetext",
+    "name": "Brainstorm",
+    "narrative": "Why is it important for us to achieve a higher exit price?",
+    "ID": "Scenario3_App_Que_3",
+    "question": "3."
+}, {
+    "name": "Brainstorm",
+    "ID": "Scenario3_App_Que_4",
+    "Type": "Freetext",
+    "narrative": "What is one give/get you have applied or can apply in a real customer scenario to move a them to a higher exit price?  Describe below.  ",
+    "question": "4."
+}, {
+    "totalQuestions": "Scenario3_Kt_Que_1,Scenario3_Kt_Que_2,Scenario3_Kt_Que_3",
+    "ID": "Scenario3_Kt",
+    "heading": "<b>Let the Competition Begin!</b><br>During this Knowledge Test, you will not have access to the Deal Structuring Tool you have been using so far to make decisions and see impacts.  The intent of these questions is to test your knowledge on key concepts that were brought up during each of the topics you experienced.  Please click submit after each question response below.  You will receive immediate feedback.  Each question is worth a maximum of 50 points.",
+    "completionText": "Congratulations! You have completed Scenario 3. Scenario 4 is now unlocked."
+}, {
+    "totalQuestions": "Scenario3_Kt_Fb_1,Scenario3_Kt_Fb_2,Scenario3_Kt_Fb_3",
+    "heading": "See how your answers compared to other past participants for the entire Knowledge Test!",
+    "ID": "Scenario3_Kt_Fb"
+}, {
+    "chartnumberformat": "0.0a",
+    "ID": "Scenario3_Kt_Fb_1",
+    "chartranges": "tlInputScen3KT1",
+    "chartcategories": "A,B,C,D",
+    "chart": "pie"
+}, {
+    "ID": "Scenario3_Kt_Fb_2",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen3KT2",
+    "chartcategories": "A,B,C,D",
+    "chart": "pie"
+}, {
+    "chart": "pie",
+    "chartcategories": "A,B,C,D",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen3KT3",
+    "ID": "Scenario3_Kt_Fb_3"
+}, {
+    "answer2": "<b>Option A was the optimal choice.</b>",
+    "name": "Scenario",
+    "ID": "Scenario3_Kt_Que_1",
+    "narrative": "During negotiations, a customer pushes back on a 2-year deal scenario with 100 users at a preferred flat payment structure of $1,150 per user per year.  What would be the impacts to key metrics if we negotiated a ramping structure with a price of $1,100 per user in Year 1, ramping to a price of $1,200 per user in Year 2?",
+    "answer4": "<b>Option A was the optimal choice.</b>",
+    "point1Serial": "A",
+    "point2": "Total Contract Value increases; ACV Recognized decreases in Y1Q1, increases in Y2Q1, and remains consistent Q2/Q3/Q4; Opening Unearned Revenue and Revenue Recognized in Quarter decreases in all quarters in Y1 and Y2.",
+    "point2Serial": "B",
+    "point3": "Total Contract Value decreases; ACV Recognized decreases in Y1Q1, increases in Y2Q1, and remains consistent Q2/Q3/Q4; Opening Unearned Revenue and Revenue Recognized in Quarter decreases in all quarters in Y1 and increases in all quarters in Y2.",
+    "point3Serial": "C",
+    "point4": "Total Contract Value increases; ACV Recognized decreases in Y1Q1, increases in Y2Q1, and remains consistent Q2/Q3/Q4; Opening Unearned Revenue and Revenue Recognized in Quarter increases in all quarters in Y1 and Y2.",
+    "answer1": "<b>This is the optimal choice! +50 points</b>",
+    "point4Serial": "D",
+    "question": "1.",
+    "totalPoints": "4",
+    "Type": "SingleSelect",
+    "answer3": "<b>Option A was the optimal choice.</b>",
+    "point1": "Total Contract Value decreases; ACV Recognized decreases in Y1Q1, increases in Y2Q1, and remains consistent Q2/Q3/Q4; Opening Unearned Revenue and Revenue Recognized in Quarter decreases in all quarters in Y1 and Y2."
+}, {
+    "answer2": "<b>You Chose Option B</b><br>Option C was the optimal choice.  A higher per user exit price is key to providing higher ACV overall.  Keep in mind that change happens often on both the client and AE side.  Setting a ramp structure allows us to reduce the risk of being locked into a long-term price.  A lower upfront per user price also makes the deal more attractive to customers.",
+    "answer3": "<b>You Chose Option C</b><br>This is the optimal choice!  A higher per user exit price is key to providing higher ACV overall.  Keep in mind that change happens often on both the client and AE side.  Setting a ramp structure allows us to reduce the risk of being locked into a long-term price.  A lower upfront per user price also makes the deal more attractive to customers. <b>+50 Points</b>",
+    "answer4": "<b>You Chose Option D</b><br>Option C was the optimal choice.  A higher per user exit price is key to providing higher ACV overall.  Keep in mind that change happens often on both the client and AE side.  Setting a ramp structure allows us to reduce the risk of being locked into a long-term price.  A lower upfront per user price also makes the deal more attractive to customers.",
+    "ID": "Scenario3_Kt_Que_2",
+    "narrative": "From a Salesforce organizational level, what is the primary reason we prefer a ramp deal over a flat payment structure?",
+    "point1": "Accounts for changes in currency fluctuations.",
+    "point1Serial": "A",
+    "point2": "Provides for a higher net present value of deals.",
+    "point2Serial": "B",
+    "point3": "It offers a higher per user exit price increasing potential renewal value and higher ACV overall.",
+    "point3Serial": "C",
+    "point4": "Allows for easier revenue recognition over time.",
+    "point4Serial": "D",
+    "question": "2.",
+    "totalPoints": "4",
+    "Type": "SingleSelect",
+    "answer1": "<b>You Chose Option A</b><br>Option C was the optimal choice.  A higher per user exit price is key to providing higher ACV overall.  Keep in mind that change happens often on both the client and AE side.  Setting a ramp structure allows us to reduce the risk of being locked into a long-term price.  A lower upfront per user price also makes the deal more attractive to customers."
+}, {
+    "Type": "SingleSelect",
+    "answer2": "<b>You Chose Option B</b><br>This is the optimal choice! By articulating the longer-term value of a partnership with a market leader like Salesforce and illustrating the benefit that the customer could see in signing a longer contract length, you have moved the customer closer to understanding the justification for this pricing. Negotiations will continue after this discussion. <b>+50 Points</b>",
+    "question": "3.",
+    "point4Serial": "D",
+    "point4": "&quot;It will be difficult to get this deal approved without an agreement on a price increase at renewal or with aggressive billing frequency and payment terms. Would you be willing to accept the deal if we included some additional products with a similar overall discount across the lifetime of this deal?&quot;",
+    "point3Serial": "C",
+    "point3": "&quot;If we were to offer a contract without price increases on renewal, we would be doing ourselves a disservice in the future. The only thing we can offer you is a reduction of that increase to 6%. We will not be able to do any better.&quot;",
+    "point2Serial": "B",
+    "point2": "&quot;In the world of enterprise software, the vendors you've been working with today likely have a similar agreement. Based on inflation and our constant innovation (5 times faster than anyone else with three major releases a year), we provide more value. In addition, if you sign a longer-term agreement, it will allow you to defer the price increase. &quot;",
+    "point1Serial": "A",
+    "point1": "&quot;This deal is extremely important to Salesforce and we want to make sure we create a contract that's good for you and for us. We can offer you 90-day net payment terms and quarterly billing frequency to keep the price increase intact.&quot;",
+    "narrative": "You have been negotiating with a customer across the past few weeks and you receive an email from your contact during pricing negotiations that reads: <br><br>Hello,<br><br>After discussing internally, a 7% price increase at renewal is significantly more than we anticipated and doesn't seem reasonable. We will need to either see some major concessions in billing frequency and payment terms to justify that pricing increase or get that price increase removed from this contract. Please let me know if you have any questions.<br><br>Best,<br>Customer<br><br>How do you respond?",
+    "name": "Annual vs Quarterly Billing",
+    "ID": "Scenario3_Kt_Que_3",
+    "answer4": "<b>You Chose Option D</b><br>Option B was the optimal choice. This is good but not the best option. Additional products were not mentioned as a priority in the customer's email, but creative ideas to preserve revenue and still allow the customer to recognize additional value in a partnership with Salesforce are important.",
+    "answer3": "<b>You Chose Option C</b><br>Option B was the optimal choice. Without any additional concessions, the customer is unlikely to approve a deal they assertively pushed back on with only a 1% decrease. While this deal is appealing from a Salesforce perspective, it is unlikely the customer sees the same value.",
+    "answer1": "<b>You Chose Option A</b><br>Option B was the optimal choice. While we do want to make sure any deal we structure is good for both the customer and Salesforce, this option creates a deal that is unfavorable to Salesforce. ",
+    "totalPoints": "4"
+}, {
+    "answersHeading": "Here are the suggested answers to the Topic!",
+    "heading": "Big Bank has requested a flat payment structure, but your RVP has asked you to explore what a ramped deal would look like for this customer.<br>She has suggested $1,200 per user in Year 1, $1,284 per user in Year 2.",
+    "ID": "Scenario3_Topic1",
+    "totalQuestions": "Scenario3_Topic1_Que1,Scenario3_Topic1_Que2,Scenario3_Topic1_Que3,Scenario3_Topic1_Que4",
+    "name": " Ramps"
+}, {
+    "noteAbove": "<b>Click reset deal. Set contract length to 2 years. Set Price per User to $1,284 in Year 2.</b>",
+    "Type": "Freetext",
+    "narrative": "Which Key Metrics are affected? ",
+    "question": "A.",
+    "answer": "Total Contract Value decreases; ACV Recognized decreases in Y1Q1, increases in Y2Q1, and remains consistent Q2/Q3/Q4; Opening Unearned Revenue and Revenue Recognized in Quarter decreases in all quarters in Y1 and Y2; Cash Flow in Quarter decreases in Y1Q1 and Y2Q1 but remains consistent in all other quarters; Opening Unearned Revenue decreases in all quarters in Y1 and increases in Y2.",
+    "ID": "Scenario3_Topic1_Que1"
+}, {
+    "answer": "Between these two options, it would be the ramped deal. While the ramped pricing option offers 'bad pricing' in Year 1 ($1,025) and 'okay pricing' in Year 2 ($1,097), it offers a higher exit price increasing potential renewal value and higher ACV overall. Overall, the optimal deal would be to negotiate a consistent, higher price across all years of the deal before offering ramped pricing (i.e. trying to secure $1,097 across both years). Note: Salesforce typically only approves ramped or dynamic pricing on much higher volume or higher revenue deals.",
+    "question": "B.",
+    "narrative": "Given the choice, would you approve a deal with $1,025 Price per User in Year 1 and $1,097 Price per User in Year 2 or $1,061 for both years? Why? How does pricing guidance factor into your decision?",
+    "ID": "Scenario3_Topic1_Que2",
+    "Type": "Freetext"
+}, {
+    "narrative": "How would you structure the deal to maximize the value for Salesforce and the customer while increasing the probability of winning the deal? (Note: internal deal approval and customer deal acceptance must be 50% or higher.)",
+    "ID": "Scenario3_Topic1_Que3",
+    "answer": "It's not possible to meet all customer requests and hit the 50% internal deal approval. As such, given the number of deal levers, answers will vary here but one potential solution would be: $1,150 in Year 1; $1,230 in Year 2, Quarterly Billing, Net 30 Day Payment Terms.<br><br>Why don't we ramp pricing down over deal lifetimes?<br>When SFDC structures a multi-year deal with a price-per-seat that declines over time, revenue is recognized on the basis of a blended average price. Essentially, in each month (quarterly in the simulation), SFDC uses the following procedure:<br>Recognize in each month the TCV/contract length in terms of months (quarterly in the simulation).<br>True-up the opening yearly unearned revenue based on the gap between unearned revenue and revenue recognition in the previous year.<br>The revenue recognition challenge mentioned above and a lower exit price at renewal are the reasons we don't typically approve deals with an average declining price.",
+    "Type": "Freetext",
+    "noteAbove": "<b>Now that you know what a standard, ramped deal could look like you will have to utilize your RVP's advice and the customer requests to structure the best deal possible for both sides. </b>",
+    "question": "C."
+}, {
+    "answer": "Salesforce priorities include (but are not limited to):<br><br>Annual Billing- provides cash earlier allowing for reinvestment, increases unearned revenue resulting in increased confidence for investors, and simplifies processes.<br><br>Exit Price- especially at renewal, this is extremely important as it allows us to grow ACV/revenue over time.<br><br>No Out Clauses- we cannot recognize any revenue after an out clause option is given. If we have a general cancellation policy, we can only treat it as a one year deal but price is locked in for full three years.<br><br>Net 30 Day Payment Terms- allows us to recognize revenue earlier and provides cash earlier.",
+    "ID": "Scenario3_Topic1_Que4",
+    "narrative": "How would you communicate the tradeoffs, highlighting the metrics that are most important to Salesforce, to your team so that they can have better customer interactions? ",
+    "question": "D.",
+    "Type": "Freetext"
+}, {
+    "ID": "Scenario4",
+    "calculator": "2",
+    "narrative": "You are responsible for managing the company's revenue and cash flow projections and ensuring you hit your target at the end of each quarter. ",
+    "PageType": "Details",
+    "topics": "Scenario4_Topic1,Scenario4_Topic2"
+}, {
+    "heading": "Please answer the questions below based on the learning from this Topic.",
+    "ID": "Scenario4_App",
+    "totalQuestions": "Scenario4_App_Que_1,Scenario4_App_Que_2,Scenario4_App_Que_3,Scenario4_App_Que_4"
+}, {
+    "name": "Brainstorm",
+    "narrative": "As you saw in Scenario 4, research from Gartner Inc. says customers believe they will get the best price by waiting to close the deal as late in the quarter as possible.  In your experience do you find this to be true, and if yes, how can we drive customers to close deals with us faster?",
+    "question": "1.",
+    "Type": "Freetext",
+    "ID": "Scenario4_App_Que_1"
+}, {
+    "question": "2.",
+    "ID": "Scenario4_App_Que_2",
+    "name": "Brainstorm",
+    "Type": "Freetext",
+    "narrative": "Besides a delay in cash flow, what do you expect are other implications for Salesforce and salespeople of customers waiting until the end of the quarter to close deals?"
+}, {
+    "ID": "Scenario4_App_Que_3",
+    "name": "Brainstorm",
+    "narrative": "What are some of the metrics in the simulation that Wall Street and financial analysts evaluate when looking at an organization's overall financial health?",
+    "question": "3.",
+    "Type": "Freetext"
+}, {
+    "Type": "Freetext",
+    "ID": "Scenario4_App_Que_4",
+    "name": "Brainstorm",
+    "narrative": "What is one impact that has surprised you the most in playing through the simulated scenarios?  Describe below.",
+    "question": "4."
+}, {
+    "CenterTextHeading": "We started by looking at the levers available to us when crafting a single deal. Now, we are widening the aperture and looking at the total deals Salesforce closes over the course of one quarter. <br><br>At the top left, we have &quot;Average Payment Terms&quot; - for all deals Salesforce closed this quarter, on average, we offered our customers 43 days to pay their bills. Below that we have the split by month regarding when deals are closed. We currently close 22% of our deals in Month 1 and 53% in Month 3. In addition, of the total deals closed this quarter, 20% were offered quarterly payment terms and 80% were offered annual. One note on early payment discounts, while they are an option in the simulation, in real life, they must be approved prior to offering. On the bottom of the screen, we have our key metrics - ACV, Revenue, Expenses, Operating Margin, Cash Flow, and Unearned Revenue - for the first two quarters in Year 1 and the first quarter in Year 2. <br><br>Why  include the first quarter of Year 2? Some decisions will have long term impacts and we want to be sure we highlight those. Once again, if you can't remember a definition, check out the glossary or hover over the 'i' icon and a definition will be provided.<br><br>You'll notice metrics that increase turn green and metrics that decrease turn red. One quick example, if  I determine I'm able to close more deals in Month 1 (changing from 22% to 35%), you'll see my Revenue, Operating Margin and Cash Flow in Q1 all increased and my Unearned Revenue in Q1 and Cash Flow and Unearned Revenue in Q2 decreased.<br><br>In addition, you'll notice a 'reset' button - clicking this simply resets all decisions back to the decisions you start with when you open this page.",
+    "ID": "Scenario4_Intro"
+}, {
+    "completionText": "Congratulations on completing the Salesforce Deal Structure Simulation! Please download your virtual participant guide here and bring this to your next manager one-on-one. Don't forget to check the Leaderboard at the top of the screen to see how your colleagues scored!<br><br>Download your virtual participant guide by clicking &quot;Download Report&quot; at the top of your screen and printing the report as a pdf.",
+    "heading": "<b>Let the Competition Begin!</b> <br>During this Knowledge Test, you will not have access to the Deal Structuring Tool you have been using so far to make decisions and see impacts.  The intent of these questions is to test your knowledge on key concepts that were brought up during each of the topics you experienced.  Please click submit after each question response below.  You will receive immediate feedback.  Each question is worth a maximum of 50 points.",
+    "ID": "Scenario4_Kt",
+    "totalQuestions": "Scenario4_Kt_Que_1,Scenario4_Kt_Que_2,Scenario4_Kt_Que_3,Scenario4_Kt_Que_4"
+}, {
+    "totalQuestions": "Scenario4_Kt_Fb_1,Scenario4_Kt_Fb_2,Scenario4_Kt_Fb_3,Scenario4_Kt_Fb_4",
+    "heading": "See how your answers compared to other past participants for the entire Knowledge Test!",
+    "ID": "Scenario4_Kt_Fb"
+}, {
+    "chartcategories": "A,B,C,D",
+    "chartranges": "tlInputScen4KT1",
+    "chart": "pie",
+    "chartnumberformat": "0.0a",
+    "ID": "Scenario4_Kt_Fb_1"
+}, {
+    "chartseries": "Peers",
+    "chart": "bar",
+    "ID": "Scenario4_Kt_Fb_2",
+    "chartcategories": "Early Payment Discounts,Mutual Closing Plan,Concessions in Negotiations,Effectively Communicating Wall Street Expectations to Customers,Strong Understanding of the Customer's Deployment Timeline",
+    "chartnumberformat": "0.0a",
+    "chartranges": "tlInputScen4KT2A,tlInputScen4KT2B"
+}, {
+    "chart": "pie",
+    "chartcategories": "A,B,C,D",
+    "ID": "Scenario4_Kt_Fb_3",
+    "chartranges": "tlInputScen4KT3",
+    "chartnumberformat": "0.0a"
+}, {
+    "ID": "Scenario4_Kt_Fb_4",
+    "chartranges": "tlInputScen4KT4",
+    "chartnumberformat": "0.0a",
+    "chartcategories": "A,B,C,D",
+    "chart": "pie"
+}, {
+    "point4Serial": "D",
+    "point3Serial": "C",
+    "point3": "The earlier we close deals, the sooner they come up for renegotiation and the sooner we can apply price increases. Over time, this means revenue will grow more rapidly.",
+    "point2Serial": "B",
+    "point2": "Closing deals earlier in the quarter is only important to financial analysts and does not affect salespeople directly.",
+    "point1Serial": "A",
+    "point1": "Deals that close earlier in the quarter usually mean that the negotiation took less time and the terms are more favorable to Salesforce.",
+    "narrative": "Why is it important for us to close deals early in the quarter?",
+    "ID": "Scenario4_Kt_Que_1",
+    "point4": "It allows us to recognize more revenue in quarter, reduce our cash at risk and improve cash flow predictability, and increase productivity.",
+    "answer3": "<b>You Chose Option C</b><br>Option D was the optimal choice. While price increases can sometimes mean additional revenue in the future, increases in revenue due to renewal is not significantly generated by closing deals earlier in a quarter. This option also assumes little to no customer churn across those renewals.",
+    "answer2": "<b>You Chose Option B</b><br>Option D was the optimal choice. Salespeople are directly impacted by closing deals earlier in a quarter by seeing their compensation earlier, having more resources and time available at the end of the quarter, and playing their part in aiding the organization's overall financial health.",
+    "answer1": "<b>You Chose Option A</b><br>Option D was the optimal choice. It is a myth that deals that closed in a specific month of the quarter required more or less negotiation based on the close date alone.",
+    "Type": "SingleSelect",
+    "totalPoints": "4",
+    "question": "1.",
+    "answer4": "<b>You Chose Option D</b><br>This was the optimal choice! Even if we meet our ACV target but close deals late in the quarter, we can miss revenue, operating profit, and cash flow targets. This is also helpful in freeing up sales and sales support resourcing from being overwhelmed by a huge number of deals closing at the same time. <b>+50 Points</b>"
+}, {
+    "ID": "Scenario4_Kt_Que_2",
+    "maximumselection": "2",
+    "minimumselection": "2",
+    "narrative": "From Salesforce's perspective (both financially and in terms of resources available), select the two most effective options in getting customers to close deals earlier in the quarter:",
+    "point1": "Early Payment Discounts",
+    "point1Serial": "A",
+    "point2": "Mutual Closing Plan",
+    "point2Serial": "B",
+    "point3": "Concessions in Negotiations",
+    "point3Serial": "C",
+    "point4": "Effectively Communicating Wall Street Expectations to Customers",
+    "point4Serial": "D",
+    "point5": "Strong Understanding of the Customer's Deployment Timeline",
+    "point5Serial": "E",
+    "question": "2.",
+    "totalPoints": "5",
+    "Type": "MultiSelect",
+    "answer1": "A. Early Payment Discounts - This should be a last resort option for sellers to close deals earlier in the quarter. It can convince some customers but also comes with a cost to Salesforce in a reduction of revenue and cash flow.",
+    "answer2": "B. Mutual Closing Plan - This is one of the optimal choices! By creating a strong Mutual Closing Plan early on in negotiations with customers, you can ensure that the deal can be closed after meeting certain deal requirements over the course of discussions. <b>+25 Points</b>",
+    "answer3": "C. Concessions in Negotiations - This option can certainly speed up a customer's approval of a deal but, based on what the specific concessions are, could mean a bad deal for Salesforce.",
+    "answer4": "D. Effectively Communicating Wall Street Expectations to Customers - Customers already understand expectations of financial analysts; they often must work with them as well! This would not be effective in negotiating an earlier close date.",
+    "answer5": "E. Strong Understanding of the Customer's Deployment Timeline - This is one of the optimal choices! Understanding and helping the customer craft their deployment timeline as early on as possible can help you begin to plan those dates earlier on and, as a result, map out a timeline that allows for a close date earlier in a quarter. <b>+25 Points</b>"
+}, {
+    "point1Serial": "A",
+    "Type": "SingleSelect",
+    "answer2": "<b>You Chose Option B</b><br>Option C was the optimal choice. Revenue, operating margin, and cash flow all increase in Q1 because those deals would be active across all months in Q1. Unearned revenue increases in Q1 and Q2 and cash flow decreases in Q2 because the start date of more deals fall into Q1 than previously.",
+    "answer3": "<b>You Chose Option C</b><br>This was the optimal choice! Revenue, operating margin, and cash flow all increase in Q1 because those deals would be active across all months in Q1. Unearned revenue increases in Q1 and Q2 and cash flow decreases in Q2 because the start date of more deals fall into Q1 than previously. <b>+50 Points</b>",
+    "answer4": "<b>You Chose Option D</b><br>Option C was the optimal choice. Revenue, operating margin, and cash flow all increase in Q1 because those deals would be active across all months in Q1. Unearned revenue increases in Q1 and Q2 and cash flow decreases in Q2 because the start date of more deals fall into Q1 than previously.",
+    "ID": "Scenario4_Kt_Que_3",
+    "name": "Annual vs Quarterly Billing",
+    "narrative": "If Salesforce were to close 10% more deals in the first month of Q1 and 10% less in the third month of Q1, what metrics would change across Q1 and Q2? Note: Pay careful attention to the increase/decrease in metrics and which quarter they are applied to.",
+    "point1": "Revenue, operating margin, and cash flow all decrease in Q1; unearned revenue increases in Q1 and Q2 and cash flow increases in Q2.",
+    "answer1": "<b>You Chose Option A</b><br>Option C was the optimal choice. Revenue, operating margin, and cash flow all increase in Q1 because those deals would be active across all months in Q1. Unearned revenue increases in Q1 and Q2 and cash flow decreases in Q2 because the start date of more deals fall into Q1 than previously.",
+    "point2": "There will be no change to metrics overall.",
+    "point2Serial": "B",
+    "point3": "Revenue, operating margin, and cash flow all increase in Q1; unearned revenue decreases in Q1 and Q2 and cash flow decreases in Q2.",
+    "point3Serial": "C",
+    "point4": "Revenue, operating margin, and cash flow all increase in Q2; unearned revenue decreases in Q2 and cash flow decreases in Q1.",
+    "point4Serial": "D",
+    "question": "3.",
+    "totalPoints": "4"
+}, {
+    "point1": "Create a strong justification based on the customer's business needs and hard numbers that encourage an earlier close date. This could include the need to lock in resources for a successful and quick implementation period.",
+    "totalPoints": "4",
+    "question": "4.",
+    "point4Serial": "D",
+    "point4": "Inform the customer that the deal you have offered them is only available for the first month of the quarter and terms will change if it is not signed by then. The changes will no longer be negotiable after a certain date.",
+    "point3Serial": "C",
+    "point3": "Remind the customer that you have met their stated needs and feel the deal is good for both parties. In the same email, offer time to walk through any sticking points in the contract.",
+    "point2Serial": "B",
+    "point2": "Offer the customer a significant Early Payment Discount. The most important thing here is making sure the deal is signed and that the revenue is secured.",
+    "point1Serial": "A",
+    "answer2": "<b>You Chose Option B</b><br>Option A was the optimal choice. A significant Early Payment Discount would lead to reduced revenue and cash flow for Salesforce and could be an unnecessary concession.",
+    "narrative": "You have been diligently working with one of your customers, ManuCorp, through a positive contract negotiation. You've met all of their initial requirements, or worked to find satisfactory middle ground, and you know they are ready to close. When you approach your customer contact about a contract signature, they ask for additional time to consider certain deal terms. Since you are confident in the deal you have created and feel it meets all of the customer's asks, you feel this is an attempt to delay signature to a later date. What is the best approach to communicate to the customer that the deal should be closed sooner rather than later?",
+    "ID": "Scenario4_Kt_Que_4",
+    "answer4": "<b>You Chose Option D</b><br>Option A is the optimal choice. Time sensitive deal offers are not necessarily a poor option by themselves, but not allowing for any additional negotiation could prompt a customer to end discussions in favor of a less rigid competitor.",
+    "answer3": "<b>You Chose Option C</b><br>Option A was the optimal choice. Reminding the customer that you have met their needs and offering additional time could be helpful, but at this point in negotiations the customer is well aware that their deal requirements have been met and either need to work through complex approval processes or may be waiting to see if they can secure a better deal.",
+    "answer1": "<b>You Chose Option A</b><br>This is the optimal choice! Communicating business needs and hard numbers can be a very convincing tactic. Most customers are unaware of the available Salesforce resources at any point in time and making them aware of potential challenges to a deployment schedule can expedite deal signing. <b>+50 Points</b>",
+    "Type": "SingleSelect"
+}, {
+    "heading": "There has been an increasing trend of deals closing later in the quarter, even the final days. What would be the impact of reversing this trend?  Assuming ACV will remain unchanged and we will hit our $2,102M ACV target, what would be the impact of closing deals earlier?",
+    "ID": "Scenario4_Topic1",
+    "name": "Linearity",
+    "totalQuestions": "Scenario4_Topic1_Que1,Scenario4_Topic1_Que2,Scenario4_Topic1_Que3",
+    "answersHeading": "Here are the suggested answers to the Topic!"
+}, {
+    "answer": "Increase in revenue, operating margin, and cash flow in Q1; decrease in unearned revenue",
+    "ID": "Scenario4_Topic1_Que1",
+    "Type": "Freetext",
+    "question": "A.",
+    "narrative": "If we close more of our deals in Month 1 versus Month 3, discuss which Key Metrics you expect will change:"
+}, {
+    "narrative": "Which Key Metrics changed? Did this align with your initial expectations?",
+    "ID": "Scenario4_Topic1_Que2",
+    "answer": "Yes, revenue, operating margin, and cash flow all increased in Q1; unearned revenue decreases in Q1 and Q2 and cash flow decreases in Q2",
+    "Type": "Freetext",
+    "question": "B.",
+    "noteAbove": "<b>Change Deal Closing Month in Month 1 to 30% (from 22%).</b>"
+}, {
+    "answer": "According to research companies such as Gartner, our clients have the perception that if they wait until the end of the quarter, they will get a better deal. As sales leaders, this highlights the importance of a mutual closing plan as well as a strong understanding of the customer's deployment timeline. In most cases we are trying to accelerate a customer decision and they will use the end of a month or quarter to press for additional concessions.<br><br>In some cases we can counter this with a strong business justification supported by hard numbers that will encourage an early in month or quarter closure. For example, we can leverage the need to lock in resources for deployment. If there is no way to avoid the delay then we need to be internally clear about what incremental concessions can be made to get the deal done (what may have high value to the customer but not to us). In either case both parties need to agree that a deal will be signed by EOQ.",
+    "Type": "Freetext",
+    "question": "C.",
+    "narrative": "Why do we currently close so many deals in Month 3? What can we do both as a company, and as sales leaders, to change this practice?",
+    "ID": "Scenario4_Topic1_Que3"
+}, {
+    "answersHeading": "Here are the suggested answers to the Topic!",
+    "name": "Early Payment Discounts",
+    "totalQuestions": "Scenario4_Topic2_Que1,Scenario4_Topic2_Que2",
+    "ID": "Scenario4_Topic2",
+    "heading": "Imagine a similar scenario. We're backend loaded and anticipate closing the majority of our deals in the third month of the quarter. You believe we're going to hit our ACV target but miss on both your operating margin target (18%) and cash flow target ($540). As a result, you need to implement early payment discounts."
+}, {
+    "answer": "Revenue and Operating Margin decrease in Y1Q1; Cash Flow from Operations increases in Y1Q1; Cash Flow from Operations decreases in Y1Q2",
+    "narrative": "Which Key Metrics changed? ",
+    "noteAbove": "<b>Click Reset. Change Offer Early Payment Discount to Yes. (Do not change Average Payment Terms -Early Payment Discount offers customers a one-time deal.) </b>",
+    "question": "A.",
+    "Type": "Freetext",
+    "ID": "Scenario4_Topic2_Que1"
+}, {
+    "answer": "Early Payment Discount<br>Unintended Consequences: Reduced Cash Flow in FY1Q2<br>Additional Implications to the Company: Increasingly difficult to hit targets for FY1Q2",
+    "ID": "Scenario4_Topic2_Que2",
+    "narrative": "Are there any unintended consequences or implications for the company for early payment discounts?",
+    "noteAbove": "<b>Change Deal Closing Month in Month 1 to 30% (from 22%).</b>",
+    "question": "B.",
+    "Type": "Freetext"
+}
+]}
