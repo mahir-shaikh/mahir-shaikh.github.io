@@ -486,7 +486,7 @@ module.exports = "<div class=\"kpi-wropper\">\r\n  <div class=\"tabTitle main-he
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div>\r\n  <div class=\"tabTitle main-header\">\r\n    <ism-text-output key=\"header1\" sceneId=\"Intro_Tab3\" [asInnerHtml]=\"true\"></ism-text-output>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col-lg-6\">\r\n      <div id=\"marketForecastCarousel\" class=\"carousel slide row\" data-interval=false data-wrap=false>\r\n        <div class='carousel-body'>\r\n          <div class=\"carousel-inner\">\r\n            <div class=\"carousel-item\" *ngFor=\"let item of Scenarios; let i = index\" [attr.data-index]=\"i\" [ngClass]=\"{'active':i==0}\">\r\n                <ism-text-output [asInnerHtml]=\"true\" class=\"title\" [key]=\"item.text\"></ism-text-output>\r\n                <img class=\"carouselImage\" [src]=\"item.data\"/>\r\n              <!-- <ism-text-output [asInnerHtml]=\"true\" class=\"desc\" [key]=\"item.Description\"></ism-text-output> -->\r\n            </div>\r\n          </div>\r\n          <div class=\"content-control\">\r\n            <div class=\"content-control row\">\r\n              <a class=\"carousel-control-prev col\" [class.disabled]=\"activeIndex == 0\" (click)=\"updateActiveIndex('prev')\" href=\"#marketForecastCarousel\" role=\"button\" data-slide=\"prev\">\r\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Previous</span>\r\n              </a>\r\n              <span class=\"carousel-control-info\">\r\n                {{activeIndex + 1}} of {{Scenarios.length}}\r\n              </span>\r\n              <a class=\"carousel-control-next col\" [class.disabled]=\"activeIndex == (Scenarios.length -1)\" (click)=\"updateActiveIndex('next')\" href=\"#marketForecastCarousel\" role=\"button\" data-slide=\"next\">\r\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Next</span>\r\n              </a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-lg-6\">\r\n      <ism-text-output key=\"data2\" sceneId=\"Intro_Tab3\" [asInnerHtml]=\"true\"></ism-text-output>\r\n    </div>\r\n  </div>\r\n</div>"
+module.exports = "<div>\r\n  <div class=\"tabTitle main-header\">\r\n    <ism-text-output key=\"header1\" sceneId=\"Intro_Tab3\" [asInnerHtml]=\"true\"></ism-text-output>\r\n  </div>\r\n  <div class=\"row\">\r\n    <div class=\"col-lg-6\">\r\n      <div id=\"marketForecastCarousel\" class=\"carousel slide row\" data-interval=false data-wrap=false>\r\n        <div class='carousel-body'>\r\n          <div class=\"carousel-inner\">\r\n            <div class=\"carousel-item\" *ngFor=\"let item of Scenarios; let i = index\" [attr.data-index]=\"i\" [ngClass]=\"{'active':i==0}\">\r\n                <ism-text-output [asInnerHtml]=\"true\" class=\"title\" [key]=\"item.text\"></ism-text-output>\r\n                <img class=\"carouselImage\" [ngClass]=\"{'zoom-in': forecastData}\" [src]=\"item.data\" (click)=\"forecastData ? expandImage(item.data) : null\"/>\r\n                <!-- <ism-text-output [asInnerHtml]=\"true\" class=\"desc\" [key]=\"item.Description\"></ism-text-output> -->\r\n              <div class=\"overlay\" [class.active]=\"isActive\" (click)=\"collapseImage()\" #modal>\r\n                <img class=\"largeImage\" [src]=\"path\" #largeImage>\r\n              </div>\r\n            </div>\r\n          </div>\r\n          <div class=\"content-control\">\r\n            <div class=\"content-control row\">\r\n              <a class=\"carousel-control-prev col\" [class.disabled]=\"activeIndex == 0\" (click)=\"updateActiveIndex('prev')\" href=\"#marketForecastCarousel\" role=\"button\" data-slide=\"prev\">\r\n                <span class=\"carousel-control-prev-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Previous</span>\r\n              </a>\r\n              <span class=\"carousel-control-info\">\r\n                {{activeIndex + 1}} of {{Scenarios.length}}\r\n              </span>\r\n              <a class=\"carousel-control-next col\" [class.disabled]=\"activeIndex == (Scenarios.length -1)\" (click)=\"updateActiveIndex('next')\" href=\"#marketForecastCarousel\" role=\"button\" data-slide=\"next\">\r\n                <span class=\"carousel-control-next-icon\" aria-hidden=\"true\"></span>\r\n                <span class=\"sr-only\">Next</span>\r\n              </a>\r\n            </div>\r\n          </div>\r\n        </div>\r\n      </div>\r\n    </div>\r\n    <div class=\"col-lg-6\">\r\n      <ism-text-output key=\"data2\" sceneId=\"Intro_Tab3\" [asInnerHtml]=\"true\"></ism-text-output>\r\n    </div>\r\n  </div>\r\n</div>"
 
 /***/ }),
 
@@ -7379,7 +7379,7 @@ var IntroKpiComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".carousel-item .carouselImage {\n  width: 100%;\n  margin: auto;\n  display: block;\n}\n.carousel-item .col-lg-6 {\n  padding: 0;\n}\n/*# sourceMappingURL=src/app/intro/intro-market-forecast/intro-market-forecast.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW50cm8vaW50cm8tbWFya2V0LWZvcmVjYXN0L3NyYy9hcHAvaW50cm8vaW50cm8tbWFya2V0LWZvcmVjYXN0L2ludHJvLW1hcmtldC1mb3JlY2FzdC5jb21wb25lbnQuc3R5bCIsInNyYy9hcHAvaW50cm8vaW50cm8tbWFya2V0LWZvcmVjYXN0L2ludHJvLW1hcmtldC1mb3JlY2FzdC5jb21wb25lbnQuc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLSTtFQUNJLFdBQU07RUFDTixZQUFPO0VBQ1AsY0FBUTtBQ0poQjtBREtJO0VBQ0ksVUFBUztBQ0hqQjtBQUNBLGtHQUFrRyIsImZpbGUiOiJzcmMvYXBwL2ludHJvL2ludHJvLW1hcmtldC1mb3JlY2FzdC9pbnRyby1tYXJrZXQtZm9yZWNhc3QuY29tcG9uZW50LnN0eWwiLCJzb3VyY2VzQ29udGVudCI6WyIgLmNhcm91c2VsLWl0ZW1cclxuICAgIC8vIC50aXRsZVxyXG4gICAgLy8gICAgIGZvbnQtc2l6ZSAxMnB4XHJcbiAgICAvLyAgICAgZm9udC13ZWlnaHQgNjAwXHJcbiAgICAvLyAgICAgbWFyZ2luLWJvdHRvbSA1cHhcclxuICAgIC5jYXJvdXNlbEltYWdlXHJcbiAgICAgICAgd2lkdGggMTAwJVxyXG4gICAgICAgIG1hcmdpbiBhdXRvXHJcbiAgICAgICAgZGlzcGxheSBibG9ja1xyXG4gICAgLmNvbC1sZy02XHJcbiAgICAgICAgcGFkZGluZzogMCIsIi5jYXJvdXNlbC1pdGVtIC5jYXJvdXNlbEltYWdlIHtcbiAgd2lkdGg6IDEwMCU7XG4gIG1hcmdpbjogYXV0bztcbiAgZGlzcGxheTogYmxvY2s7XG59XG4uY2Fyb3VzZWwtaXRlbSAuY29sLWxnLTYge1xuICBwYWRkaW5nOiAwO1xufVxuLyojIHNvdXJjZU1hcHBpbmdVUkw9c3JjL2FwcC9pbnRyby9pbnRyby1tYXJrZXQtZm9yZWNhc3QvaW50cm8tbWFya2V0LWZvcmVjYXN0LmNvbXBvbmVudC5jc3MubWFwICovIl19 */"
+module.exports = ".carousel-item .carouselImage {\n  width: 100%;\n  margin: auto;\n  display: block;\n}\n.carousel-item .col-lg-6 {\n  padding: 0;\n}\n.smallImage {\n  border-radius: 5px;\n  cursor: pointer;\n  -webkit-transition: 0.3s;\n  transition: 0.3s;\n  display: block;\n  margin-left: auto;\n  margin-right: auto;\n  width: 100%;\n  cursor: -webkit-zoom-in;\n  cursor: zoom-in;\n}\n.smallImage:hover {\n  opacity: 0.7;\n}\n/* The Modal (background) */\n.overlay {\n  display: none; /* Hidden by default */\n  position: fixed; /* Stay in place */\n  z-index: 1050; /* Sit on top */\n  padding: 100px 0; /* Location of the box */\n  left: 0;\n  top: 0;\n  width: 100%; /* Full width */\n  height: 100%; /* Full height */\n  overflow: auto; /* Enable scroll if needed */\n  background-color: #000; /* Fallback color */\n  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */\n}\n.overlay.active {\n  display: block;\n}\n/* Modal Content (image) */\n.largeImage {\n  margin: auto;\n  display: block;\n  height: 100%;\n  max-width: calc(100% - 50px);\n  background: #fff;\n  cursor: -webkit-zoom-out;\n  cursor: zoom-out;\n}\n/* Add Animation */\n.largeImage {\n  -webkit-animation-name: zoom;\n  -webkit-animation-duration: 0.6s;\n  animation-name: zoom;\n  animation-duration: 0.6s;\n}\n.out {\n  -webkit-animation-name: zoom-out;\n          animation-name: zoom-out;\n  -webkit-animation-duration: 0.6s;\n          animation-duration: 0.6s;\n}\n@-webkit-keyframes zoom {\n  from {\n    -webkit-transform: scale(1);\n  }\n  to {\n    -webkit-transform: scale(2);\n  }\n}\n/* 100% Image Width on Smaller Screens */\n@media only screen and (max-width: 700px) {\n  .largeImage {\n    width: 100%;\n  }\n}\n.zoom-in {\n  cursor: -webkit-zoom-in;\n  cursor: zoom-in;\n}\n@-webkit-keyframes zoom {\n  from {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n  }\n  to {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n  }\n}\n@keyframes zoom {\n  from {\n    -webkit-transform: scale(0.4);\n            transform: scale(0.4);\n  }\n  to {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n  }\n}\n@-webkit-keyframes zoom-out {\n  from {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n  }\n  to {\n    -webkit-transform: scale(0);\n            transform: scale(0);\n  }\n}\n@keyframes zoom-out {\n  from {\n    -webkit-transform: scale(1);\n            transform: scale(1);\n  }\n  to {\n    -webkit-transform: scale(0);\n            transform: scale(0);\n  }\n}\n/*# sourceMappingURL=src/app/intro/intro-market-forecast/intro-market-forecast.component.css.map */\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvaW50cm8vaW50cm8tbWFya2V0LWZvcmVjYXN0L3NyYy9hcHAvaW50cm8vaW50cm8tbWFya2V0LWZvcmVjYXN0L2ludHJvLW1hcmtldC1mb3JlY2FzdC5jb21wb25lbnQuc3R5bCIsInNyYy9hcHAvaW50cm8vaW50cm8tbWFya2V0LWZvcmVjYXN0L2ludHJvLW1hcmtldC1mb3JlY2FzdC5jb21wb25lbnQuc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLSTtFQUNJLFdBQU07RUFDTixZQUFPO0VBQ1AsY0FBUTtBQ0poQjtBREtJO0VBQ0ksVUFBUztBQ0hqQjtBRE1BO0VBQ0ksa0JBQWU7RUFDZixlQUFRO0VBQ1Isd0JBQVk7RUFBWixnQkFBWTtFQUNaLGNBQVM7RUFDVCxpQkFBYTtFQUNiLGtCQUFjO0VBQ2QsV0FBTztFQUNQLHVCQUFRO0VBQVIsZUFBUTtBQ0paO0FETUk7RUFDSSxZQUFTO0FDSmpCO0FETUEsMkJBQUE7QUFDQTtFQUNJLGFBQVMsRUFBVCxzQkFBQTtFQUFlLGVBQUEsRUFBQSxrQkFBQTtFQUNmLGFBQVUsRUFBQSxlQUFWO0VBQWlCLGdCQUFBLEVBQUEsd0JBQUE7RUFDakIsT0FBQTtFQUFlLE1BQUE7RUFDZixXQUFTLEVBQUEsZUFBVDtFQUFrQixZQUFBLEVBQUEsZ0JBQUE7RUFDbEIsY0FBQSxFQUFBLDRCQUFBO0VBQ0Esc0JBQUEsRUFBQSxtQkFBQTtFQUNBLGlDQUFBLEVBQUEscUJBQUE7QUFBYTtBQ0NqQjtFREFrQixjQUFBO0FDRWxCO0FERG9CLDBCQUFBO0FDR3BCO0VERmtDLFlBQUE7RUFDOUIsY0FBQTtFQUFtQyxZQUFBO0VDS3JDLDRCQUE0QjtFREoxQixnQkFBQTtFQUNJLHdCQUFBO0VBQUEsZ0JBQUE7QUNNUjtBREpBLGtCQUFBO0FBQ0E7RUFDSSw0QkFBQTtFQUNBLGdDQUFBO0VBRUEsb0JBQUE7RUFDQSx3QkFBMEI7QUNLOUI7QUFDQTtFQUNFLGdDQUF3QjtVQUF4Qix3QkFBd0I7RURGMUIsZ0NBQUE7VUFBQSx3QkFBQTtBQUNBO0FDSUE7RURGSTtJQUNBLDJCQUFBO0VBQ0E7RUNJRjtJREZGLDJCQUFBO0VBQ0k7QUNJSjtBQUNBLHdDQUF3QztBREZyQjtFQUNmO0lBQU0sV0FBQTtFQ0tSO0FESkU7QUNNSjtFQUNFLHVCQUFlO0VBQWYsZUFBZTtBQUNqQjtBQVNBO0VEZmU7SUFDWCw2QkFBQTtZQUFBLHFCQUFBO0VDaUJGO0VBQ0E7SURqQkUsMkJBQUE7WUFBQSxtQkFBQTtFQ21CRjtBQUNGO0FBU0E7RUQvQmU7SUFDWCw2QkFBQTtZQUFBLHFCQUFBO0VDaUNGO0VBQ0E7SURqQ0UsMkJBQUE7WUFBQSxtQkFBQTtFQ21DRjtBQUNGO0FBU0E7RUQxQ21CO0lBQ2YsMkJBQUE7WUFBQSxtQkFBQTtFQzRDRjtFQUNBO0lENUNFLDJCQUFBO1lBQUEsbUJBQUE7RUM4Q0Y7QUFDRjtBQVNBO0VEMURtQjtJQUNmLDJCQUFBO1lBQUEsbUJBQUE7RUM0REY7RUFDQTtJRDVERSwyQkFBQTtZQUFBLG1CQUFBO0VDOERGO0FBQ0Y7QUFDQSxrR0FBa0ciLCJmaWxlIjoic3JjL2FwcC9pbnRyby9pbnRyby1tYXJrZXQtZm9yZWNhc3QvaW50cm8tbWFya2V0LWZvcmVjYXN0LmNvbXBvbmVudC5zdHlsIiwic291cmNlc0NvbnRlbnQiOlsiIC5jYXJvdXNlbC1pdGVtXHJcbiAgICAvLyAudGl0bGVcclxuICAgIC8vICAgICBmb250LXNpemUgMTJweFxyXG4gICAgLy8gICAgIGZvbnQtd2VpZ2h0IDYwMFxyXG4gICAgLy8gICAgIG1hcmdpbi1ib3R0b20gNXB4XHJcbiAgICAuY2Fyb3VzZWxJbWFnZVxyXG4gICAgICAgIHdpZHRoIDEwMCVcclxuICAgICAgICBtYXJnaW4gYXV0b1xyXG4gICAgICAgIGRpc3BsYXkgYmxvY2tcclxuICAgIC5jb2wtbGctNlxyXG4gICAgICAgIHBhZGRpbmc6IDBcclxuXHJcblxyXG4uc21hbGxJbWFnZVxyXG4gICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgY3Vyc29yOiBwb2ludGVyO1xyXG4gICAgdHJhbnNpdGlvbjogMC4zcztcclxuICAgIGRpc3BsYXk6IGJsb2NrO1xyXG4gICAgbWFyZ2luLWxlZnQ6IGF1dG87XHJcbiAgICBtYXJnaW4tcmlnaHQ6IGF1dG87XHJcbiAgICB3aWR0aDogMTAwJTtcclxuICAgIGN1cnNvcjogem9vbS1pbjtcclxuICAgIC8vIG1heC1oZWlnaHQgMjAwcHhcclxuICAgICY6aG92ZXJcclxuICAgICAgICBvcGFjaXR5OiAwLjc7XHJcblxyXG4vKiBUaGUgTW9kYWwgKGJhY2tncm91bmQpICovXHJcbi5vdmVybGF5XHJcbiAgICBkaXNwbGF5OiBub25lOyAvKiBIaWRkZW4gYnkgZGVmYXVsdCAqL1xyXG4gICAgcG9zaXRpb246IGZpeGVkOyAvKiBTdGF5IGluIHBsYWNlICovXHJcbiAgICB6LWluZGV4OiAxMDUwOyAvKiBTaXQgb24gdG9wICovXHJcbiAgICBwYWRkaW5nOiAxMDBweCAwOyAvKiBMb2NhdGlvbiBvZiB0aGUgYm94ICovXHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgdG9wOiAwO1xyXG4gICAgd2lkdGg6IDEwMCU7IC8qIEZ1bGwgd2lkdGggKi9cclxuICAgIGhlaWdodDogMTAwJTsgLyogRnVsbCBoZWlnaHQgKi9cclxuICAgIG92ZXJmbG93OiBhdXRvOyAvKiBFbmFibGUgc2Nyb2xsIGlmIG5lZWRlZCAqL1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogcmdiKDAsMCwwKTsgLyogRmFsbGJhY2sgY29sb3IgKi9cclxuICAgIGJhY2tncm91bmQtY29sb3I6IHJnYmEoMCwwLDAsMC45KTsgLyogQmxhY2sgdy8gb3BhY2l0eSAqL1xyXG4gICAgJi5hY3RpdmVcclxuICAgICAgICBkaXNwbGF5IGJsb2NrXHJcblxyXG4vKiBNb2RhbCBDb250ZW50IChpbWFnZSkgKi9cclxuLmxhcmdlSW1hZ2VcclxuICAgIG1hcmdpbiBhdXRvXHJcbiAgICBkaXNwbGF5IGJsb2NrXHJcbiAgICAvLyB3aWR0aDogNzUlO1xyXG4gICAgaGVpZ2h0IDEwMCVcclxuICAgIG1heC13aWR0aCBjYWxjKDEwMCUgLSA1MHB4KVxyXG4gICAgLy9tYXgtd2lkdGg6IDc1JTtcclxuICAgIGJhY2tncm91bmQ6ICNGRkZcclxuICAgIGN1cnNvcjogem9vbS1vdXQ7XHJcblxyXG4vKiBBZGQgQW5pbWF0aW9uICovXHJcbi5sYXJnZUltYWdlXHJcbiAgICAtd2Via2l0LWFuaW1hdGlvbi1uYW1lOiB6b29tO1xyXG4gICAgLXdlYmtpdC1hbmltYXRpb24tZHVyYXRpb246IDAuNnM7XHJcbiAgICBhbmltYXRpb24tbmFtZTogem9vbTtcclxuICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMC42cztcclxuXHJcbi5vdXRcclxuICAgIGFuaW1hdGlvbi1uYW1lOiB6b29tLW91dDtcclxuICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogMC42cztcclxuXHJcbkAtd2Via2l0LWtleWZyYW1lcyB6b29tXHJcbiAgICBmcm9tIHstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgxKX1cclxuICAgIHRvIHstd2Via2l0LXRyYW5zZm9ybTpzY2FsZSgyKX1cclxuXHJcbkBrZXlmcmFtZXMgem9vbSB7XHJcbiAgICBmcm9tIHt0cmFuc2Zvcm06c2NhbGUoMC40KX1cclxuICAgIHRvIHt0cmFuc2Zvcm06c2NhbGUoMSl9XHJcbn1cclxuXHJcbkBrZXlmcmFtZXMgem9vbS1vdXQge1xyXG4gICAgZnJvbSB7dHJhbnNmb3JtOnNjYWxlKDEpfVxyXG4gICAgdG8ge3RyYW5zZm9ybTpzY2FsZSgwKX1cclxufVxyXG5cclxuLy8gLyogVGhlIENsb3NlIEJ1dHRvbiAqL1xyXG4vLyAuY2xvc2Uge1xyXG4vLyAgICAgcG9zaXRpb246IGFic29sdXRlO1xyXG4vLyAgICAgdG9wOiAxNXB4O1xyXG4vLyAgICAgcmlnaHQ6IDM1cHg7XHJcbi8vICAgICBjb2xvcjogI2YxZjFmMTtcclxuLy8gICAgIGZvbnQtc2l6ZTogNDBweDtcclxuLy8gICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4vLyAgICAgdHJhbnNpdGlvbjogMC4zcztcclxuLy8gfVxyXG5cclxuLy8gLmNsb3NlOmhvdmVyLFxyXG4vLyAuY2xvc2U6Zm9jdXMge1xyXG4vLyAgICAgY29sb3I6ICNiYmI7XHJcbi8vICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbi8vICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbi8vIH1cclxuXHJcbi8qIDEwMCUgSW1hZ2UgV2lkdGggb24gU21hbGxlciBTY3JlZW5zICovXHJcbkBtZWRpYSBvbmx5IHNjcmVlbiBhbmQgKG1heC13aWR0aDogNzAwcHgpe1xyXG4gICAgLmxhcmdlSW1hZ2Uge1xyXG4gICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgfVxyXG59XHJcblxyXG4uem9vbS1pblxyXG4gICAgY3Vyc29yIHpvb20taW4iLCIuY2Fyb3VzZWwtaXRlbSAuY2Fyb3VzZWxJbWFnZSB7XG4gIHdpZHRoOiAxMDAlO1xuICBtYXJnaW46IGF1dG87XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxuLmNhcm91c2VsLWl0ZW0gLmNvbC1sZy02IHtcbiAgcGFkZGluZzogMDtcbn1cbi5zbWFsbEltYWdlIHtcbiAgYm9yZGVyLXJhZGl1czogNXB4O1xuICBjdXJzb3I6IHBvaW50ZXI7XG4gIHRyYW5zaXRpb246IDAuM3M7XG4gIGRpc3BsYXk6IGJsb2NrO1xuICBtYXJnaW4tbGVmdDogYXV0bztcbiAgbWFyZ2luLXJpZ2h0OiBhdXRvO1xuICB3aWR0aDogMTAwJTtcbiAgY3Vyc29yOiB6b29tLWluO1xufVxuLnNtYWxsSW1hZ2U6aG92ZXIge1xuICBvcGFjaXR5OiAwLjc7XG59XG4vKiBUaGUgTW9kYWwgKGJhY2tncm91bmQpICovXG4ub3ZlcmxheSB7XG4gIGRpc3BsYXk6IG5vbmU7IC8qIEhpZGRlbiBieSBkZWZhdWx0ICovXG4gIHBvc2l0aW9uOiBmaXhlZDsgLyogU3RheSBpbiBwbGFjZSAqL1xuICB6LWluZGV4OiAxMDUwOyAvKiBTaXQgb24gdG9wICovXG4gIHBhZGRpbmc6IDEwMHB4IDA7IC8qIExvY2F0aW9uIG9mIHRoZSBib3ggKi9cbiAgbGVmdDogMDtcbiAgdG9wOiAwO1xuICB3aWR0aDogMTAwJTsgLyogRnVsbCB3aWR0aCAqL1xuICBoZWlnaHQ6IDEwMCU7IC8qIEZ1bGwgaGVpZ2h0ICovXG4gIG92ZXJmbG93OiBhdXRvOyAvKiBFbmFibGUgc2Nyb2xsIGlmIG5lZWRlZCAqL1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDAwOyAvKiBGYWxsYmFjayBjb2xvciAqL1xuICBiYWNrZ3JvdW5kLWNvbG9yOiByZ2JhKDAsMCwwLDAuOSk7IC8qIEJsYWNrIHcvIG9wYWNpdHkgKi9cbn1cbi5vdmVybGF5LmFjdGl2ZSB7XG4gIGRpc3BsYXk6IGJsb2NrO1xufVxuLyogTW9kYWwgQ29udGVudCAoaW1hZ2UpICovXG4ubGFyZ2VJbWFnZSB7XG4gIG1hcmdpbjogYXV0bztcbiAgZGlzcGxheTogYmxvY2s7XG4gIGhlaWdodDogMTAwJTtcbiAgbWF4LXdpZHRoOiBjYWxjKDEwMCUgLSA1MHB4KTtcbiAgYmFja2dyb3VuZDogI2ZmZjtcbiAgY3Vyc29yOiB6b29tLW91dDtcbn1cbi8qIEFkZCBBbmltYXRpb24gKi9cbi5sYXJnZUltYWdlIHtcbiAgLXdlYmtpdC1hbmltYXRpb24tbmFtZTogem9vbTtcbiAgLXdlYmtpdC1hbmltYXRpb24tZHVyYXRpb246IDAuNnM7XG4gIGFuaW1hdGlvbi1uYW1lOiB6b29tO1xuICBhbmltYXRpb24tZHVyYXRpb246IDAuNnM7XG59XG4ub3V0IHtcbiAgYW5pbWF0aW9uLW5hbWU6IHpvb20tb3V0O1xuICBhbmltYXRpb24tZHVyYXRpb246IDAuNnM7XG59XG5ALXdlYmtpdC1rZXlmcmFtZXMgem9vbSB7XG4gIGZyb20ge1xuICAgIC13ZWJraXQtdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgfVxuICB0byB7XG4gICAgLXdlYmtpdC10cmFuc2Zvcm06IHNjYWxlKDIpO1xuICB9XG59XG4vKiAxMDAlIEltYWdlIFdpZHRoIG9uIFNtYWxsZXIgU2NyZWVucyAqL1xuQG1lZGlhIG9ubHkgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA3MDBweCkge1xuICAubGFyZ2VJbWFnZSB7XG4gICAgd2lkdGg6IDEwMCU7XG4gIH1cbn1cbi56b29tLWluIHtcbiAgY3Vyc29yOiB6b29tLWluO1xufVxuQC1tb3ota2V5ZnJhbWVzIHpvb20ge1xuICBmcm9tIHtcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDAuNCk7XG4gIH1cbiAgdG8ge1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMSk7XG4gIH1cbn1cbkAtd2Via2l0LWtleWZyYW1lcyB6b29tIHtcbiAgZnJvbSB7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgwLjQpO1xuICB9XG4gIHRvIHtcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEpO1xuICB9XG59XG5ALW8ta2V5ZnJhbWVzIHpvb20ge1xuICBmcm9tIHtcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDAuNCk7XG4gIH1cbiAgdG8ge1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMSk7XG4gIH1cbn1cbkBrZXlmcmFtZXMgem9vbSB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMC40KTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgfVxufVxuQC1tb3ota2V5ZnJhbWVzIHpvb20tb3V0IHtcbiAgZnJvbSB7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgwKTtcbiAgfVxufVxuQC13ZWJraXQta2V5ZnJhbWVzIHpvb20tb3V0IHtcbiAgZnJvbSB7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgxKTtcbiAgfVxuICB0byB7XG4gICAgdHJhbnNmb3JtOiBzY2FsZSgwKTtcbiAgfVxufVxuQC1vLWtleWZyYW1lcyB6b29tLW91dCB7XG4gIGZyb20ge1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMSk7XG4gIH1cbiAgdG8ge1xuICAgIHRyYW5zZm9ybTogc2NhbGUoMCk7XG4gIH1cbn1cbkBrZXlmcmFtZXMgem9vbS1vdXQge1xuICBmcm9tIHtcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDEpO1xuICB9XG4gIHRvIHtcbiAgICB0cmFuc2Zvcm06IHNjYWxlKDApO1xuICB9XG59XG4vKiMgc291cmNlTWFwcGluZ1VSTD1zcmMvYXBwL2ludHJvL2ludHJvLW1hcmtldC1mb3JlY2FzdC9pbnRyby1tYXJrZXQtZm9yZWNhc3QuY29tcG9uZW50LmNzcy5tYXAgKi8iXX0= */"
 
 /***/ }),
 
@@ -7405,45 +7405,48 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var IntroMarketForecastComponent = /** @class */ (function () {
-    function IntroMarketForecastComponent(elRef, route, router, communicator) {
+    function IntroMarketForecastComponent(elRef, route, router, communicator, cdRef) {
         this.elRef = elRef;
         this.route = route;
         this.router = router;
         this.communicator = communicator;
+        this.cdRef = cdRef;
         this.Scenarios = [];
         this.activeIndex = 0;
+        this.isActive = false;
     }
     IntroMarketForecastComponent.prototype.ngOnInit = function () {
         this.getcarouselData();
     };
-    IntroMarketForecastComponent.prototype.ngAfterContentInit = function () {
+    IntroMarketForecastComponent.prototype.ngAfterViewInit = function () {
         var _this = this;
         this.forecastSubscriber = this.communicator.getEmitter(src_app_app_constants__WEBPACK_IMPORTED_MODULE_4__["AppConstants"].MARKET_FORECAST).subscribe(function (data) {
             _this.forecastData = data;
             _this.getcarouselData();
+            _this.activeIndex = 0;
         });
     };
     IntroMarketForecastComponent.prototype.getcarouselData = function () {
         this.Scenarios = [
             {
                 text: 'Carousel1Label1',
-                data: this.forecastData == false ? '../../../assets/images/intro/market_forecast/forecast.jpg' : '../../../assets/images/intro/market_forecast/mf1.png'
+                data: this.forecastData == false ? 'assets/images/intro/market_forecast/forecast.jpg' : 'assets/images/intro/market_forecast/mf1.png'
             },
             {
                 text: 'Carousel1Label2',
-                data: '../../../assets/images/intro/market_forecast/mf2.png'
+                data: 'assets/images/intro/market_forecast/mf2.png'
             },
             {
                 text: 'Carousel1Label3',
-                data: '../../../assets/images/intro/market_forecast/mf3.png'
+                data: 'assets/images/intro/market_forecast/mf3.png'
             },
             {
                 text: 'Carousel1Label4',
-                data: '../../../assets/images/intro/market_forecast/mf4.png'
+                data: 'assets/images/intro/market_forecast/mf4.png'
             },
             {
                 text: 'Carousel1Label5',
-                data: '../../../assets/images/intro/market_forecast/mf5.png'
+                data: 'assets/images/intro/market_forecast/mf5.png'
             }
         ];
     };
@@ -7463,6 +7466,31 @@ var IntroMarketForecastComponent = /** @class */ (function () {
             this.activeIndex = prevIndex + 1;
         }
     };
+    IntroMarketForecastComponent.prototype.expandImage = function (imagePath) {
+        this.isActive = true;
+        this.path = imagePath;
+        var body = document.getElementsByTagName("body")[0];
+        this.modal = this.ModalRef;
+        if (this.modal) {
+            body.appendChild(this.modal.nativeElement);
+        }
+    };
+    IntroMarketForecastComponent.prototype.collapseImage = function () {
+        var self = this;
+        this.largeImageRef.nativeElement.className += " out";
+        setTimeout(function () {
+            self.isActive = false;
+            self.largeImageRef.nativeElement.className = "largeImage";
+            self.cdRef.detectChanges();
+            self.removeFromBody();
+        }, 400);
+    };
+    IntroMarketForecastComponent.prototype.removeFromBody = function () {
+        var body = document.getElementsByTagName("body")[0];
+        if (this.modal) {
+            body.removeChild(this.modal.nativeElement);
+        }
+    };
     IntroMarketForecastComponent.prototype.ngOnDestroy = function () {
         this.forecastSubscriber.unsubscribe();
     };
@@ -7470,8 +7498,15 @@ var IntroMarketForecastComponent = /** @class */ (function () {
         { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ElementRef"] },
         { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["ActivatedRoute"] },
         { type: _angular_router__WEBPACK_IMPORTED_MODULE_2__["Router"] },
-        { type: _btsdigital_ngx_isomer_core__WEBPACK_IMPORTED_MODULE_3__["CommunicatorService"] }
+        { type: _btsdigital_ngx_isomer_core__WEBPACK_IMPORTED_MODULE_3__["CommunicatorService"] },
+        { type: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ChangeDetectorRef"] }
     ]; };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('largeImage', { static: false })
+    ], IntroMarketForecastComponent.prototype, "largeImageRef", void 0);
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewChild"])('modal', { static: false })
+    ], IntroMarketForecastComponent.prototype, "ModalRef", void 0);
     IntroMarketForecastComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-intro-market-forecast',
@@ -7524,27 +7559,27 @@ var IntroProcessChecklistComponent = /** @class */ (function () {
         this.Scenarios = [
             {
                 text: 'Carousel2Label1',
-                data: '../../../assets/images/intro/process_checklist/pc1.png'
+                data: 'assets/images/intro/process_checklist/pc1.png'
             },
             {
                 text: 'Carousel2Label2',
-                data: '../../../assets/images/intro/process_checklist/pc2.png'
+                data: 'assets/images/intro/process_checklist/pc2.png'
             },
             {
                 text: 'Carousel2Label3',
-                data: '../../../assets/images/intro/process_checklist/pc3.png'
+                data: 'assets/images/intro/process_checklist/pc3.png'
             },
             {
                 text: 'Carousel2Label4',
-                data: '../../../assets/images/intro/process_checklist/pc4.png'
+                data: 'assets/images/intro/process_checklist/pc4.png'
             },
             {
                 text: 'Carousel2Label5',
-                data: '../../../assets/images/intro/process_checklist/pc5.png'
+                data: 'assets/images/intro/process_checklist/pc5.png'
             },
             {
                 text: 'Carousel2Label6',
-                data: '../../../assets/images/intro/process_checklist/pc6.png'
+                data: 'assets/images/intro/process_checklist/pc6.png'
             }
         ];
     };
@@ -13859,7 +13894,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
         this.materialData = [
             {
                 'ref': 'tlOutput_Mat1_Ending',
-                'image': '../../../../assets/images/materials/mat-raw-material.svg',
+                'image': 'assets/images/materials/mat-raw-material.svg',
                 'label': 'ExecutionLabel2',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat1',
@@ -13868,7 +13903,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat2_Ending',
-                'image': '../../../../assets/images/materials/mat-solvent.svg',
+                'image': 'assets/images/materials/mat-solvent.svg',
                 'label': 'ExecutionLabel1',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat2',
@@ -13877,7 +13912,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat3_Ending',
-                'image': '../../../../assets/images/materials/mat-packaging.svg',
+                'image': 'assets/images/materials/mat-packaging.svg',
                 'label': 'ExecutionLabel3',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat3',
@@ -13886,7 +13921,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat4_Ending',
-                'image': '../../../../assets/images/materials/mat-packaging.svg',
+                'image': 'assets/images/materials/mat-packaging.svg',
                 'label': 'ExecutionLabel4',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat4',
@@ -13895,7 +13930,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat5_Ending',
-                'image': '../../../../assets/images/materials/mat-active-ingredient.svg',
+                'image': 'assets/images/materials/mat-active-ingredient.svg',
                 'label': 'ExecutionLabel5',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat5',
@@ -13904,7 +13939,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat6_Ending',
-                'image': '../../../../assets/images/materials/mat-excipient.svg',
+                'image': 'assets/images/materials/mat-excipient.svg',
                 'label': 'ExecutionLabel6',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat6',
@@ -13913,7 +13948,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat7_Ending',
-                'image': '../../../../assets/images/materials/mat-cmo-betia.svg',
+                'image': 'assets/images/materials/mat-cmo-betia.svg',
                 'label': 'ExecutionLabel7',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat7',
@@ -13922,7 +13957,7 @@ var ExecutionMaterialsComponent = /** @class */ (function () {
             },
             {
                 'ref': 'tlOutput_Mat8_Ending',
-                'image': '../../../../assets/images/materials/mat-cmo-gb.svg',
+                'image': 'assets/images/materials/mat-cmo-gb.svg',
                 'label': 'ExecutionLabel8',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat8',
@@ -14030,10 +14065,10 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'yearRef': 'tlInputRound',
                 'label1': 'ExecutionLabel2',
                 'label2': 'ExecutionLabel1',
-                'image1': '../../../../assets/images/materials/mat-raw-material.svg',
-                'image2': '../../../../assets/images/materials/mat-solvent.svg',
-                'pin1': '../../../../assets/images/pins/pin-raw-material.svg',
-                'pin2': '../../../../assets/images/pins/pin-solvent.svg',
+                'image1': 'assets/images/materials/mat-raw-material.svg',
+                'image2': 'assets/images/materials/mat-solvent.svg',
+                'pin1': 'assets/images/pins/pin-raw-material.svg',
+                'pin2': 'assets/images/pins/pin-solvent.svg',
                 'periodRef': 'tlInput_Exec_Current_Period',
                 'infolabel1': 'ExecutionLabel25'
             },
@@ -14056,10 +14091,10 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'yearRef': 'tlInputRound',
                 'label1': 'ExecutionLabel3',
                 'label2': 'ExecutionLabel4',
-                'image1': '../../../../assets/images/materials/mat-packaging-betia.svg',
-                'image2': '../../../../assets/images/materials/mat-packaging.svg',
-                'pin1': '../../../../assets/images/pins/pin-gb.svg',
-                'pin2': '../../../../assets/images/pins/pin-gb.svg',
+                'image1': 'assets/images/materials/mat-packaging-betia.svg',
+                'image2': 'assets/images/materials/mat-packaging.svg',
+                'pin1': 'assets/images/pins/pin-gb.svg',
+                'pin2': 'assets/images/pins/pin-gb.svg',
                 'periodRef': 'tlInput_Exec_Current_Period',
                 'infolabel1': 'ExecutionLabel25'
             },
@@ -14082,10 +14117,10 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'yearRef': 'tlInputRound',
                 'label1': 'ExecutionLabel5',
                 'label2': 'ExecutionLabel6',
-                'image1': '../../../../assets/images/materials/mat-active-ingredient.svg',
-                'image2': '../../../../assets/images/materials/mat-excipient.svg',
-                'pin1': '../../../../assets/images/pins/pin-active-ingr.svg',
-                'pin2': '../../../../assets/images/pins/pin-active-ingr.svg',
+                'image1': 'assets/images/materials/mat-active-ingredient.svg',
+                'image2': 'assets/images/materials/mat-excipient.svg',
+                'pin1': 'assets/images/pins/pin-active-ingr.svg',
+                'pin2': 'assets/images/pins/pin-active-ingr.svg',
                 'periodRef': 'tlInput_Exec_Current_Period',
                 'infolabel1': 'ExecutionLabel25'
             },
@@ -14108,10 +14143,10 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'yearRef': 'tlInputRound',
                 'label1': 'ExecutionLabel7',
                 'label2': 'ExecutionLabel8',
-                'image1': '../../../../assets/images/materials/mat-cmo-betia.svg',
-                'image2': '../../../../assets/images/materials/mat-cmo-gb.svg',
-                'pin1': '../../../../assets/images/pins/pin-cmo-betia.svg',
-                'pin2': '../../../../assets/images/pins/pin-cmo-gb.svg',
+                'image1': 'assets/images/materials/mat-cmo-betia.svg',
+                'image2': 'assets/images/materials/mat-cmo-gb.svg',
+                'pin1': 'assets/images/pins/pin-cmo-betia.svg',
+                'pin2': 'assets/images/pins/pin-cmo-gb.svg',
                 'periodRef': 'tlInput_Exec_Current_Period',
                 'infolabel1': 'ExecutionLabel25'
             }
@@ -14131,7 +14166,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat1_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-raw-material.svg',
+                'image': 'assets/images/materials/mat-raw-material.svg',
                 'label': 'ExecutionLabel2',
                 'rushRef': 'tlInput_Exec_Rush_Mat1'
             },
@@ -14149,7 +14184,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat2_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-solvent.svg',
+                'image': 'assets/images/materials/mat-solvent.svg',
                 'label': 'ExecutionLabel1',
                 'rushRef': 'tlInput_Exec_Rush_Mat2'
             },
@@ -14167,7 +14202,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat3_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-packaging-betia.svg',
+                'image': 'assets/images/materials/mat-packaging-betia.svg',
                 'label': 'ExecutionLabel3',
                 'rushRef': 'tlInput_Exec_Rush_Mat3'
             },
@@ -14185,7 +14220,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat4_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-packaging.svg',
+                'image': 'assets/images/materials/mat-packaging.svg',
                 'label': 'ExecutionLabel4',
                 'rushRef': 'tlInput_Exec_Rush_Mat4'
             },
@@ -14203,7 +14238,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat5_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-active-ingredient.svg',
+                'image': 'assets/images/materials/mat-active-ingredient.svg',
                 'label': 'ExecutionLabel5',
                 'rushRef': 'tlInput_Exec_Rush_Mat5'
             },
@@ -14221,7 +14256,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat6_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-excipient.svg',
+                'image': 'assets/images/materials/mat-excipient.svg',
                 'label': 'ExecutionLabel6',
                 'rushRef': 'tlInput_Exec_Rush_Mat6'
             },
@@ -14239,7 +14274,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat7_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-cmo-betia.svg',
+                'image': 'assets/images/materials/mat-cmo-betia.svg',
                 'label': 'ExecutionLabel7',
                 'rushRef': 'tlInput_Exec_Rush_Mat7'
             },
@@ -14257,7 +14292,7 @@ var ExecutionOrdersComponent = /** @class */ (function () {
                 'outputTransitFormat': '0,0',
                 'refOutputOrder': 'tlOutput_Mat8_Ending',
                 'outputOrderFormat': '0,0',
-                'image': '../../../../assets/images/materials/mat-cmo-gb.svg',
+                'image': 'assets/images/materials/mat-cmo-gb.svg',
                 'label': 'ExecutionLabel8',
                 'rushRef': 'tlInput_Exec_Rush_Mat8'
             }
@@ -14658,7 +14693,7 @@ var RushOrderComponent = /** @class */ (function () {
     RushOrderComponent.prototype.getData = function () {
         this.rushData = [
             {
-                'image': '../../../../assets/images/materials/mat-raw-material.svg',
+                'image': 'assets/images/materials/mat-raw-material.svg',
                 'label': 'ExecutionLabel2',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat1',
@@ -14666,7 +14701,7 @@ var RushOrderComponent = /** @class */ (function () {
                 'format': '0,0'
             },
             {
-                'image': '../../../../assets/images/materials/mat-solvent.svg',
+                'image': 'assets/images/materials/mat-solvent.svg',
                 'label': 'ExecutionLabel1',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat2',
@@ -14674,7 +14709,7 @@ var RushOrderComponent = /** @class */ (function () {
                 'format': '0,0'
             },
             {
-                'image': '../../../../assets/images/materials/mat-packaging.svg',
+                'image': 'assets/images/materials/mat-packaging.svg',
                 'label': 'ExecutionLabel3',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat3',
@@ -14682,7 +14717,7 @@ var RushOrderComponent = /** @class */ (function () {
                 'format': '0,0'
             },
             {
-                'image': '../../../../assets/images/materials/mat-packaging.svg',
+                'image': 'assets/images/materials/mat-packaging.svg',
                 'label': 'ExecutionLabel4',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat4',
@@ -14690,7 +14725,7 @@ var RushOrderComponent = /** @class */ (function () {
                 'format': '0,0'
             },
             {
-                'image': '../../../../assets/images/materials/mat-active-ingredient.svg',
+                'image': 'assets/images/materials/mat-active-ingredient.svg',
                 'label': 'ExecutionLabel5',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat5',
@@ -14698,7 +14733,7 @@ var RushOrderComponent = /** @class */ (function () {
                 'format': '0,0'
             },
             {
-                'image': '../../../../assets/images/materials/mat-excipient.svg',
+                'image': 'assets/images/materials/mat-excipient.svg',
                 'label': 'ExecutionLabel6',
                 'yearRef': 'tlInputRound',
                 'rushRef': 'tlInput_Exec_Rush_Mat6',
@@ -16911,7 +16946,7 @@ var PlanningComponent = /** @class */ (function () {
     };
     PlanningComponent.prototype.showForecastGraphData = function () {
         this.foreCastGraphData.openModal();
-        this.communicator.trigger(src_app_app_constants__WEBPACK_IMPORTED_MODULE_5__["AppConstants"].MARKET_FORECAST, false);
+        this.communicator.trigger(src_app_app_constants__WEBPACK_IMPORTED_MODULE_5__["AppConstants"].MARKET_FORECAST, true);
     };
     PlanningComponent.prototype.hideForecastGraphData = function () {
         this.foreCastGraphData.closeModal();
