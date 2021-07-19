@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<workbook>
+<r n="nmSeg1" s="global" ts="&apos;C:\Users\Lenovo\AppData\Local\Microsoft\Windows\INetCache\Content.Outlook\NPSP9L1I\[MACHSkillUpT1R1_PKR AME_20170831.xlsm]Glossary&apos;" ta="$D$51"></r>
+<r n="xxGENxx.Activate" s="global" ts="tx_General" ta="$C$67"></r>
+<r n="xxGENxx.Cancel" s="global" ts="tx_General" ta="$C$37"></r>
+<r n="xxGENxx.Confirm" s="global" ts="tx_General" ta="$C$39"></r>
+<r n="xxGENxx.CopyrightText" s="global" ts="tx_General" ta="$C$5"></r>
+<r n="xxGENxx.CostOfRevenue" s="global" ts="tx_General" ta="$C$60"></r>
+<r n="xxGENxx.Cumulative" s="global" ts="tx_General" ta="$C$45"></r>
+<r n="xxGENxx.DashboardMetric1" s="global" ts="tx_General" ta="$C$14"></r>
+<r n="xxGENxx.DashboardMetric2" s="global" ts="tx_General" ta="$C$15"></r>
+<r n="xxGENxx.DashboardMetric3" s="global" ts="tx_General" ta="$C$16"></r>
+<r n="xxGENxx.DashboardMetric4" s="global" ts="tx_General" ta="$C$17"></r>
+<r n="xxGENxx.DashboardMetric5" s="global" ts="tx_General" ta="$C$18"></r>
+<r n="xxGENxx.DashboardMetric6" s="global" ts="tx_General" ta="$C$19"></r>
+<r n="xxGENxx.DashboardMetric7" s="global" ts="tx_General" ta="$C$20"></r>
+<r n="xxGENxx.DashboardMetric8" s="global" ts="tx_General" ta="$C$21"></r>
+<r n="xxGENxx.Decisions" s="global" ts="tx_General" ta="$C$30"></r>
+<r n="xxGENxx.DecisionsImportedText" s="global" ts="tx_General" ta="$C$55"></r>
+<r n="xxGENxx.EnterPassword" s="global" ts="tx_General" ta="$C$34"></r>
+<r n="xxGENxx.Error" s="global" ts="tx_General" ta="$C$36"></r>
+<r n="xxGENxx.ErrorCheck1Text" s="global" ts="tx_General" ta="$C$7"></r>
+<r n="xxGENxx.ErrorCheck2Text" s="global" ts="tx_General" ta="$C$8"></r>
+<r n="xxGENxx.ErrorCheck3Text" s="global" ts="tx_General" ta="$C$9"></r>
+<r n="xxGENxx.ErrorCheck4Text" s="global" ts="tx_General" ta="$C$10"></r>
+<r n="xxGENxx.ErrorCheck5Text" s="global" ts="tx_General" ta="$C$11"></r>
+<r n="xxGENxx.ErrorCheck6Text" s="global" ts="tx_General" ta="$C$12"></r>
+<r n="xxGENxx.ErrorCheck7Text" s="global" ts="tx_General" ta="$C$40"></r>
+<r n="xxGENxx.ErrorCheckSubmit" s="global" ts="tx_General" ta="$C$13"></r>
+<r n="xxGENxx.ExpectedImpact" s="global" ts="tx_General" ta="$C$65"></r>
+<r n="xxGENxx.ForecastedIncomeStatement" s="global" ts="tx_General" ta="$C$42"></r>
+<r n="xxGENxx.HoldScreenProceedText" s="global" ts="tx_General" ta="$C$71"></r>
+<r n="xxGENxx.holdScreenProcessingText" s="global" ts="tx_General" ta="$C$54"></r>
+<r n="xxGENxx.ID" s="global" ts="tx_General" ta="$C$2"></r>
+<r n="xxGENxx.IncorrectPasswordMsg" s="global" ts="tx_General" ta="$C$70"></r>
+<r n="xxGENxx.Introduction" s="global" ts="tx_General" ta="$C$29"></r>
+<r n="xxGENxx.Investment" s="global" ts="tx_General" ta="$C$64"></r>
+<r n="xxGENxx.MarketingPerByCloud" s="global" ts="tx_General" ta="$C$52"></r>
+<r n="xxGENxx.NavigationMainLink1" s="global" ts="tx_General" ta="$C$22"></r>
+<r n="xxGENxx.NavigationMainLink2" s="global" ts="tx_General" ta="$C$23"></r>
+<r n="xxGENxx.NavigationMainLink3" s="global" ts="tx_General" ta="$C$24"></r>
+<r n="xxGENxx.NavigationMainLink4" s="global" ts="tx_General" ta="$C$25"></r>
+<r n="xxGENxx.NavigationMainLink5" s="global" ts="tx_General" ta="$C$26"></r>
+<r n="xxGENxx.NavigationMainLink6" s="global" ts="tx_General" ta="$C$27"></r>
+<r n="xxGENxx.NavigationMainLink7" s="global" ts="tx_General" ta="$C$28"></r>
+<r n="xxGENxx.Ok" s="global" ts="tx_General" ta="$C$38"></r>
+<r n="xxGENxx.OperatingExpenses" s="global" ts="tx_General" ta="$C$61"></r>
+<r n="xxGENxx.OpMarginLY" s="global" ts="tx_General" ta="$C$47"></r>
+<r n="xxGENxx.OpMarginTY" s="global" ts="tx_General" ta="$C$46"></r>
+<r n="xxGENxx.OpProfit" s="global" ts="tx_General" ta="$C$44"></r>
+<r n="xxGENxx.ProjectedRevenue" s="global" ts="tx_General" ta="$C$48"></r>
+<r n="xxGENxx.Reports" s="global" ts="tx_General" ta="$C$31"></r>
+<r n="xxGENxx.ResetPassword" s="global" ts="tx_General" ta="$C$35"></r>
+<r n="xxGENxx.ResetSimulation" s="global" ts="tx_General" ta="$C$33"></r>
+<r n="xxGENxx.Revenue" s="global" ts="tx_General" ta="$C$59"></r>
+<r n="xxGENxx.RevenueBreakdown" s="global" ts="tx_General" ta="$C$50"></r>
+<r n="xxGENxx.RnDFteAllocation" s="global" ts="tx_General" ta="$C$62"></r>
+<r n="xxGENxx.Round" s="global" ts="tx_General" ta="$C$58"></r>
+<r n="xxGENxx.RoundChangePassword" s="global" ts="tx_General" ta="$C$69"></r>
+<r n="xxGENxx.SalesAndMarketing" s="global" ts="tx_General" ta="$C$53"></r>
+<r n="xxGENxx.SalesforcePerByCloud" s="global" ts="tx_General" ta="$C$51"></r>
+<r n="xxGENxx.SelectedOption" s="global" ts="tx_General" ta="$C$63"></r>
+<r n="xxGENxx.SubmitDecisionAlertText" s="global" ts="tx_General" ta="$C$6"></r>
+<r n="xxGENxx.SubmitDecisions" s="global" ts="tx_General" ta="$C$32"></r>
+<r n="xxGENxx.Subscribers" s="global" ts="tx_General" ta="$C$49"></r>
+<r n="xxGENxx.SubTitle" s="global" ts="tx_General" ta="$C$4"></r>
+<r n="xxGENxx.TeamName" s="global" ts="tx_General" ta="$C$56"></r>
+<r n="xxGENxx.TeamNumber" s="global" ts="tx_General" ta="$C$57"></r>
+<r n="xxGENxx.Title" s="global" ts="tx_General" ta="$C$3"></r>
+<r n="xxGENxx.ToolTipText" s="global" ts="tx_General" ta="$C$41"></r>
+<r n="xxGENxx.Wobbler" s="global" ts="tx_General" ta="$C$66"></r>
+<r n="xxGENxx.WobblerSelectionText" s="global" ts="tx_General" ta="$C$68"></r>
+<r n="xxGENxx.yoy" s="global" ts="tx_General" ta="$C$43"></r>
+<r n="xxInitiative10xx.Category" s="global" ts="tx_Initiatives" ta="$C$85"></r>
+<r n="xxInitiative10xx.Content" s="global" ts="tx_Initiatives" ta="$C$86"></r>
+<r n="xxInitiative10xx.ID" s="global" ts="tx_Initiatives" ta="$C$83"></r>
+<r n="xxInitiative10xx.impact" s="global" ts="tx_Initiatives" ta="$C$89"></r>
+<r n="xxInitiative10xx.investment" s="global" ts="tx_Initiatives" ta="$C$90"></r>
+<r n="xxInitiative10xx.name" s="global" ts="tx_Initiatives" ta="$C$87"></r>
+<r n="xxInitiative10xx.narrative" s="global" ts="tx_Initiatives" ta="$C$88"></r>
+<r n="xxInitiative10xx.PageType" s="global" ts="tx_Initiatives" ta="$C$84"></r>
+<r n="xxInitiative11xx.Category" s="global" ts="tx_Initiatives" ta="$C$94"></r>
+<r n="xxInitiative11xx.Content" s="global" ts="tx_Initiatives" ta="$C$95"></r>
+<r n="xxInitiative11xx.ID" s="global" ts="tx_Initiatives" ta="$C$92"></r>
+<r n="xxInitiative11xx.impact" s="global" ts="tx_Initiatives" ta="$C$98"></r>
+<r n="xxInitiative11xx.investment" s="global" ts="tx_Initiatives" ta="$C$99"></r>
+<r n="xxInitiative11xx.name" s="global" ts="tx_Initiatives" ta="$C$96"></r>
+<r n="xxInitiative11xx.narrative" s="global" ts="tx_Initiatives" ta="$C$97"></r>
+<r n="xxInitiative11xx.PageType" s="global" ts="tx_Initiatives" ta="$C$93"></r>
+<r n="xxInitiative12xx.Category" s="global" ts="tx_Initiatives" ta="$C$103"></r>
+<r n="xxInitiative12xx.Content" s="global" ts="tx_Initiatives" ta="$C$104"></r>
+<r n="xxInitiative12xx.ID" s="global" ts="tx_Initiatives" ta="$C$101"></r>
+<r n="xxInitiative12xx.impact" s="global" ts="tx_Initiatives" ta="$C$107"></r>
+<r n="xxInitiative12xx.investment" s="global" ts="tx_Initiatives" ta="$C$108"></r>
+<r n="xxInitiative12xx.name" s="global" ts="tx_Initiatives" ta="$C$105"></r>
+<r n="xxInitiative12xx.narrative" s="global" ts="tx_Initiatives" ta="$C$106"></r>
+<r n="xxInitiative12xx.PageType" s="global" ts="tx_Initiatives" ta="$C$102"></r>
+<r n="xxInitiative13xx.Category" s="global" ts="tx_Initiatives" ta="$C$112"></r>
+<r n="xxInitiative13xx.Content" s="global" ts="tx_Initiatives" ta="$C$113"></r>
+<r n="xxInitiative13xx.ID" s="global" ts="tx_Initiatives" ta="$C$110"></r>
+<r n="xxInitiative13xx.impact" s="global" ts="tx_Initiatives" ta="$C$116"></r>
+<r n="xxInitiative13xx.investment" s="global" ts="tx_Initiatives" ta="$C$117"></r>
+<r n="xxInitiative13xx.name" s="global" ts="tx_Initiatives" ta="$C$114"></r>
+<r n="xxInitiative13xx.narrative" s="global" ts="tx_Initiatives" ta="$C$115"></r>
+<r n="xxInitiative13xx.PageType" s="global" ts="tx_Initiatives" ta="$C$111"></r>
+<r n="xxInitiative14xx.Category" s="global" ts="tx_Initiatives" ta="$C$121"></r>
+<r n="xxInitiative14xx.Content" s="global" ts="tx_Initiatives" ta="$C$122"></r>
+<r n="xxInitiative14xx.ID" s="global" ts="tx_Initiatives" ta="$C$119"></r>
+<r n="xxInitiative14xx.impact" s="global" ts="tx_Initiatives" ta="$C$125"></r>
+<r n="xxInitiative14xx.investment" s="global" ts="tx_Initiatives" ta="$C$126"></r>
+<r n="xxInitiative14xx.name" s="global" ts="tx_Initiatives" ta="$C$123"></r>
+<r n="xxInitiative14xx.narrative" s="global" ts="tx_Initiatives" ta="$C$124"></r>
+<r n="xxInitiative14xx.PageType" s="global" ts="tx_Initiatives" ta="$C$120"></r>
+<r n="xxInitiative15xx.Category" s="global" ts="tx_Initiatives" ta="$C$130"></r>
+<r n="xxInitiative15xx.Content" s="global" ts="tx_Initiatives" ta="$C$131"></r>
+<r n="xxInitiative15xx.ID" s="global" ts="tx_Initiatives" ta="$C$128"></r>
+<r n="xxInitiative15xx.impact" s="global" ts="tx_Initiatives" ta="$C$134"></r>
+<r n="xxInitiative15xx.investment" s="global" ts="tx_Initiatives" ta="$C$135"></r>
+<r n="xxInitiative15xx.name" s="global" ts="tx_Initiatives" ta="$C$132"></r>
+<r n="xxInitiative15xx.narrative" s="global" ts="tx_Initiatives" ta="$C$133"></r>
+<r n="xxInitiative15xx.PageType" s="global" ts="tx_Initiatives" ta="$C$129"></r>
+<r n="xxInitiative16xx.Category" s="global" ts="tx_Initiatives" ta="$C$139"></r>
+<r n="xxInitiative16xx.Content" s="global" ts="tx_Initiatives" ta="$C$140"></r>
+<r n="xxInitiative16xx.ID" s="global" ts="tx_Initiatives" ta="$C$137"></r>
+<r n="xxInitiative16xx.impact" s="global" ts="tx_Initiatives" ta="$C$143"></r>
+<r n="xxInitiative16xx.investment" s="global" ts="tx_Initiatives" ta="$C$144"></r>
+<r n="xxInitiative16xx.name" s="global" ts="tx_Initiatives" ta="$C$141"></r>
+<r n="xxInitiative16xx.narrative" s="global" ts="tx_Initiatives" ta="$C$142"></r>
+<r n="xxInitiative16xx.PageType" s="global" ts="tx_Initiatives" ta="$C$138"></r>
+<r n="xxInitiative17xx.Category" s="global" ts="tx_Initiatives" ta="$C$148"></r>
+<r n="xxInitiative17xx.Content" s="global" ts="tx_Initiatives" ta="$C$149"></r>
+<r n="xxInitiative17xx.ID" s="global" ts="tx_Initiatives" ta="$C$146"></r>
+<r n="xxInitiative17xx.impact" s="global" ts="tx_Initiatives" ta="$C$152"></r>
+<r n="xxInitiative17xx.investment" s="global" ts="tx_Initiatives" ta="$C$153"></r>
+<r n="xxInitiative17xx.name" s="global" ts="tx_Initiatives" ta="$C$150"></r>
+<r n="xxInitiative17xx.narrative" s="global" ts="tx_Initiatives" ta="$C$151"></r>
+<r n="xxInitiative17xx.PageType" s="global" ts="tx_Initiatives" ta="$C$147"></r>
+<r n="xxInitiative18xx.Category" s="global" ts="tx_Initiatives" ta="$C$157"></r>
+<r n="xxInitiative18xx.Content" s="global" ts="tx_Initiatives" ta="$C$158"></r>
+<r n="xxInitiative18xx.ID" s="global" ts="tx_Initiatives" ta="$C$155"></r>
+<r n="xxInitiative18xx.impact" s="global" ts="tx_Initiatives" ta="$C$161"></r>
+<r n="xxInitiative18xx.investment" s="global" ts="tx_Initiatives" ta="$C$162"></r>
+<r n="xxInitiative18xx.name" s="global" ts="tx_Initiatives" ta="$C$159"></r>
+<r n="xxInitiative18xx.narrative" s="global" ts="tx_Initiatives" ta="$C$160"></r>
+<r n="xxInitiative18xx.PageType" s="global" ts="tx_Initiatives" ta="$C$156"></r>
+<r n="xxInitiative19xx.Category" s="global" ts="tx_Initiatives" ta="$C$166"></r>
+<r n="xxInitiative19xx.Content" s="global" ts="tx_Initiatives" ta="$C$167"></r>
+<r n="xxInitiative19xx.ID" s="global" ts="tx_Initiatives" ta="$C$164"></r>
+<r n="xxInitiative19xx.impact" s="global" ts="tx_Initiatives" ta="$C$170"></r>
+<r n="xxInitiative19xx.investment" s="global" ts="tx_Initiatives" ta="$C$171"></r>
+<r n="xxInitiative19xx.name" s="global" ts="tx_Initiatives" ta="$C$168"></r>
+<r n="xxInitiative19xx.narrative" s="global" ts="tx_Initiatives" ta="$C$169"></r>
+<r n="xxInitiative19xx.PageType" s="global" ts="tx_Initiatives" ta="$C$165"></r>
+<r n="xxInitiative1xx.Category" s="global" ts="tx_Initiatives" ta="$C$4"></r>
+<r n="xxInitiative1xx.Content" s="global" ts="tx_Initiatives" ta="$C$5"></r>
+<r n="xxInitiative1xx.ID" s="global" ts="tx_Initiatives" ta="$C$2"></r>
+<r n="xxInitiative1xx.impact" s="global" ts="tx_Initiatives" ta="$C$8"></r>
+<r n="xxInitiative1xx.investment" s="global" ts="tx_Initiatives" ta="$C$9"></r>
+<r n="xxInitiative1xx.name" s="global" ts="tx_Initiatives" ta="$C$6"></r>
+<r n="xxInitiative1xx.narrative" s="global" ts="tx_Initiatives" ta="$C$7"></r>
+<r n="xxInitiative1xx.PageType" s="global" ts="tx_Initiatives" ta="$C$3"></r>
+<r n="xxInitiative20xx.Category" s="global" ts="tx_Initiatives" ta="$C$175"></r>
+<r n="xxInitiative20xx.Content" s="global" ts="tx_Initiatives" ta="$C$176"></r>
+<r n="xxInitiative20xx.ID" s="global" ts="tx_Initiatives" ta="$C$173"></r>
+<r n="xxInitiative20xx.impact" s="global" ts="tx_Initiatives" ta="$C$179"></r>
+<r n="xxInitiative20xx.investment" s="global" ts="tx_Initiatives" ta="$C$180"></r>
+<r n="xxInitiative20xx.name" s="global" ts="tx_Initiatives" ta="$C$177"></r>
+<r n="xxInitiative20xx.narrative" s="global" ts="tx_Initiatives" ta="$C$178"></r>
+<r n="xxInitiative20xx.PageType" s="global" ts="tx_Initiatives" ta="$C$174"></r>
+<r n="xxInitiative21xx.Category" s="global" ts="tx_Initiatives" ta="$C$184"></r>
+<r n="xxInitiative21xx.Content" s="global" ts="tx_Initiatives" ta="$C$185"></r>
+<r n="xxInitiative21xx.ID" s="global" ts="tx_Initiatives" ta="$C$182"></r>
+<r n="xxInitiative21xx.impact" s="global" ts="tx_Initiatives" ta="$C$188"></r>
+<r n="xxInitiative21xx.investment" s="global" ts="tx_Initiatives" ta="$C$189"></r>
+<r n="xxInitiative21xx.name" s="global" ts="tx_Initiatives" ta="$C$186"></r>
+<r n="xxInitiative21xx.narrative" s="global" ts="tx_Initiatives" ta="$C$187"></r>
+<r n="xxInitiative21xx.PageType" s="global" ts="tx_Initiatives" ta="$C$183"></r>
+<r n="xxInitiative22xx.Category" s="global" ts="tx_Initiatives" ta="$C$193"></r>
+<r n="xxInitiative22xx.Content" s="global" ts="tx_Initiatives" ta="$C$194"></r>
+<r n="xxInitiative22xx.ID" s="global" ts="tx_Initiatives" ta="$C$191"></r>
+<r n="xxInitiative22xx.impact" s="global" ts="tx_Initiatives" ta="$C$197"></r>
+<r n="xxInitiative22xx.investment" s="global" ts="tx_Initiatives" ta="$C$198"></r>
+<r n="xxInitiative22xx.name" s="global" ts="tx_Initiatives" ta="$C$195"></r>
+<r n="xxInitiative22xx.narrative" s="global" ts="tx_Initiatives" ta="$C$196"></r>
+<r n="xxInitiative22xx.PageType" s="global" ts="tx_Initiatives" ta="$C$192"></r>
+<r n="xxInitiative23xx.Category" s="global" ts="tx_Initiatives" ta="$C$202"></r>
+<r n="xxInitiative23xx.Content" s="global" ts="tx_Initiatives" ta="$C$203"></r>
+<r n="xxInitiative23xx.ID" s="global" ts="tx_Initiatives" ta="$C$200"></r>
+<r n="xxInitiative23xx.impact" s="global" ts="tx_Initiatives" ta="$C$206"></r>
+<r n="xxInitiative23xx.investment" s="global" ts="tx_Initiatives" ta="$C$207"></r>
+<r n="xxInitiative23xx.name" s="global" ts="tx_Initiatives" ta="$C$204"></r>
+<r n="xxInitiative23xx.narrative" s="global" ts="tx_Initiatives" ta="$C$205"></r>
+<r n="xxInitiative23xx.PageType" s="global" ts="tx_Initiatives" ta="$C$201"></r>
+<r n="xxInitiative24xx.Category" s="global" ts="tx_Initiatives" ta="$C$211"></r>
+<r n="xxInitiative24xx.Content" s="global" ts="tx_Initiatives" ta="$C$212"></r>
+<r n="xxInitiative24xx.ID" s="global" ts="tx_Initiatives" ta="$C$209"></r>
+<r n="xxInitiative24xx.impact" s="global" ts="tx_Initiatives" ta="$C$215"></r>
+<r n="xxInitiative24xx.investment" s="global" ts="tx_Initiatives" ta="$C$216"></r>
+<r n="xxInitiative24xx.name" s="global" ts="tx_Initiatives" ta="$C$213"></r>
+<r n="xxInitiative24xx.narrative" s="global" ts="tx_Initiatives" ta="$C$214"></r>
+<r n="xxInitiative24xx.PageType" s="global" ts="tx_Initiatives" ta="$C$210"></r>
+<r n="xxInitiative25xx.Category" s="global" ts="tx_Initiatives" ta="$C$220"></r>
+<r n="xxInitiative25xx.Content" s="global" ts="tx_Initiatives" ta="$C$221"></r>
+<r n="xxInitiative25xx.ID" s="global" ts="tx_Initiatives" ta="$C$218"></r>
+<r n="xxInitiative25xx.impact" s="global" ts="tx_Initiatives" ta="$C$224"></r>
+<r n="xxInitiative25xx.investment" s="global" ts="tx_Initiatives" ta="$C$225"></r>
+<r n="xxInitiative25xx.name" s="global" ts="tx_Initiatives" ta="$C$222"></r>
+<r n="xxInitiative25xx.narrative" s="global" ts="tx_Initiatives" ta="$C$223"></r>
+<r n="xxInitiative25xx.PageType" s="global" ts="tx_Initiatives" ta="$C$219"></r>
+<r n="xxInitiative26xx.Category" s="global" ts="tx_Initiatives" ta="$C$229"></r>
+<r n="xxInitiative26xx.Content" s="global" ts="tx_Initiatives" ta="$C$230"></r>
+<r n="xxInitiative26xx.ID" s="global" ts="tx_Initiatives" ta="$C$227"></r>
+<r n="xxInitiative26xx.impact" s="global" ts="tx_Initiatives" ta="$C$233"></r>
+<r n="xxInitiative26xx.investment" s="global" ts="tx_Initiatives" ta="$C$234"></r>
+<r n="xxInitiative26xx.name" s="global" ts="tx_Initiatives" ta="$C$231"></r>
+<r n="xxInitiative26xx.narrative" s="global" ts="tx_Initiatives" ta="$C$232"></r>
+<r n="xxInitiative26xx.PageType" s="global" ts="tx_Initiatives" ta="$C$228"></r>
+<r n="xxInitiative27xx.Category" s="global" ts="tx_Initiatives" ta="$C$238"></r>
+<r n="xxInitiative27xx.Content" s="global" ts="tx_Initiatives" ta="$C$239"></r>
+<r n="xxInitiative27xx.ID" s="global" ts="tx_Initiatives" ta="$C$236"></r>
+<r n="xxInitiative27xx.impact" s="global" ts="tx_Initiatives" ta="$C$242"></r>
+<r n="xxInitiative27xx.investment" s="global" ts="tx_Initiatives" ta="$C$243"></r>
+<r n="xxInitiative27xx.name" s="global" ts="tx_Initiatives" ta="$C$240"></r>
+<r n="xxInitiative27xx.narrative" s="global" ts="tx_Initiatives" ta="$C$241"></r>
+<r n="xxInitiative27xx.PageType" s="global" ts="tx_Initiatives" ta="$C$237"></r>
+<r n="xxInitiative28xx.Category" s="global" ts="tx_Initiatives" ta="$C$247"></r>
+<r n="xxInitiative28xx.Content" s="global" ts="tx_Initiatives" ta="$C$248"></r>
+<r n="xxInitiative28xx.ID" s="global" ts="tx_Initiatives" ta="$C$245"></r>
+<r n="xxInitiative28xx.impact" s="global" ts="tx_Initiatives" ta="$C$251"></r>
+<r n="xxInitiative28xx.investment" s="global" ts="tx_Initiatives" ta="$C$252"></r>
+<r n="xxInitiative28xx.name" s="global" ts="tx_Initiatives" ta="$C$249"></r>
+<r n="xxInitiative28xx.narrative" s="global" ts="tx_Initiatives" ta="$C$250"></r>
+<r n="xxInitiative28xx.PageType" s="global" ts="tx_Initiatives" ta="$C$246"></r>
+<r n="xxInitiative29xx.Category" s="global" ts="tx_Initiatives" ta="$C$256"></r>
+<r n="xxInitiative29xx.Content" s="global" ts="tx_Initiatives" ta="$C$257"></r>
+<r n="xxInitiative29xx.ID" s="global" ts="tx_Initiatives" ta="$C$254"></r>
+<r n="xxInitiative29xx.impact" s="global" ts="tx_Initiatives" ta="$C$260"></r>
+<r n="xxInitiative29xx.investment" s="global" ts="tx_Initiatives" ta="$C$261"></r>
+<r n="xxInitiative29xx.name" s="global" ts="tx_Initiatives" ta="$C$258"></r>
+<r n="xxInitiative29xx.narrative" s="global" ts="tx_Initiatives" ta="$C$259"></r>
+<r n="xxInitiative29xx.PageType" s="global" ts="tx_Initiatives" ta="$C$255"></r>
+<r n="xxInitiative2xx.Category" s="global" ts="tx_Initiatives" ta="$C$13"></r>
+<r n="xxInitiative2xx.Content" s="global" ts="tx_Initiatives" ta="$C$14"></r>
+<r n="xxInitiative2xx.ID" s="global" ts="tx_Initiatives" ta="$C$11"></r>
+<r n="xxInitiative2xx.impact" s="global" ts="tx_Initiatives" ta="$C$17"></r>
+<r n="xxInitiative2xx.investment" s="global" ts="tx_Initiatives" ta="$C$18"></r>
+<r n="xxInitiative2xx.name" s="global" ts="tx_Initiatives" ta="$C$15"></r>
+<r n="xxInitiative2xx.narrative" s="global" ts="tx_Initiatives" ta="$C$16"></r>
+<r n="xxInitiative2xx.PageType" s="global" ts="tx_Initiatives" ta="$C$12"></r>
+<r n="xxInitiative30xx.Category" s="global" ts="tx_Initiatives" ta="$C$265"></r>
+<r n="xxInitiative30xx.Content" s="global" ts="tx_Initiatives" ta="$C$266"></r>
+<r n="xxInitiative30xx.ID" s="global" ts="tx_Initiatives" ta="$C$263"></r>
+<r n="xxInitiative30xx.impact" s="global" ts="tx_Initiatives" ta="$C$269"></r>
+<r n="xxInitiative30xx.investment" s="global" ts="tx_Initiatives" ta="$C$270"></r>
+<r n="xxInitiative30xx.name" s="global" ts="tx_Initiatives" ta="$C$267"></r>
+<r n="xxInitiative30xx.narrative" s="global" ts="tx_Initiatives" ta="$C$268"></r>
+<r n="xxInitiative30xx.PageType" s="global" ts="tx_Initiatives" ta="$C$264"></r>
+<r n="xxInitiative31xx.Category" s="global" ts="tx_Initiatives" ta="$C$274"></r>
+<r n="xxInitiative31xx.Content" s="global" ts="tx_Initiatives" ta="$C$275"></r>
+<r n="xxInitiative31xx.ID" s="global" ts="tx_Initiatives" ta="$C$272"></r>
+<r n="xxInitiative31xx.impact" s="global" ts="tx_Initiatives" ta="$C$278"></r>
+<r n="xxInitiative31xx.investment" s="global" ts="tx_Initiatives" ta="$C$279"></r>
+<r n="xxInitiative31xx.name" s="global" ts="tx_Initiatives" ta="$C$276"></r>
+<r n="xxInitiative31xx.narrative" s="global" ts="tx_Initiatives" ta="$C$277"></r>
+<r n="xxInitiative31xx.PageType" s="global" ts="tx_Initiatives" ta="$C$273"></r>
+<r n="xxInitiative32xx.Category" s="global" ts="tx_Initiatives" ta="$C$283"></r>
+<r n="xxInitiative32xx.Content" s="global" ts="tx_Initiatives" ta="$C$284"></r>
+<r n="xxInitiative32xx.ID" s="global" ts="tx_Initiatives" ta="$C$281"></r>
+<r n="xxInitiative32xx.impact" s="global" ts="tx_Initiatives" ta="$C$287"></r>
+<r n="xxInitiative32xx.investment" s="global" ts="tx_Initiatives" ta="$C$288"></r>
+<r n="xxInitiative32xx.name" s="global" ts="tx_Initiatives" ta="$C$285"></r>
+<r n="xxInitiative32xx.narrative" s="global" ts="tx_Initiatives" ta="$C$286"></r>
+<r n="xxInitiative32xx.PageType" s="global" ts="tx_Initiatives" ta="$C$282"></r>
+<r n="xxInitiative3xx.Category" s="global" ts="tx_Initiatives" ta="$C$22"></r>
+<r n="xxInitiative3xx.Content" s="global" ts="tx_Initiatives" ta="$C$23"></r>
+<r n="xxInitiative3xx.ID" s="global" ts="tx_Initiatives" ta="$C$20"></r>
+<r n="xxInitiative3xx.impact" s="global" ts="tx_Initiatives" ta="$C$26"></r>
+<r n="xxInitiative3xx.investment" s="global" ts="tx_Initiatives" ta="$C$27"></r>
+<r n="xxInitiative3xx.name" s="global" ts="tx_Initiatives" ta="$C$24"></r>
+<r n="xxInitiative3xx.narrative" s="global" ts="tx_Initiatives" ta="$C$25"></r>
+<r n="xxInitiative3xx.PageType" s="global" ts="tx_Initiatives" ta="$C$21"></r>
+<r n="xxInitiative4xx.Category" s="global" ts="tx_Initiatives" ta="$C$31"></r>
+<r n="xxInitiative4xx.Content" s="global" ts="tx_Initiatives" ta="$C$32"></r>
+<r n="xxInitiative4xx.ID" s="global" ts="tx_Initiatives" ta="$C$29"></r>
+<r n="xxInitiative4xx.impact" s="global" ts="tx_Initiatives" ta="$C$35"></r>
+<r n="xxInitiative4xx.investment" s="global" ts="tx_Initiatives" ta="$C$36"></r>
+<r n="xxInitiative4xx.name" s="global" ts="tx_Initiatives" ta="$C$33"></r>
+<r n="xxInitiative4xx.narrative" s="global" ts="tx_Initiatives" ta="$C$34"></r>
+<r n="xxInitiative4xx.PageType" s="global" ts="tx_Initiatives" ta="$C$30"></r>
+<r n="xxInitiative5xx.Category" s="global" ts="tx_Initiatives" ta="$C$40"></r>
+<r n="xxInitiative5xx.Content" s="global" ts="tx_Initiatives" ta="$C$41"></r>
+<r n="xxInitiative5xx.ID" s="global" ts="tx_Initiatives" ta="$C$38"></r>
+<r n="xxInitiative5xx.impact" s="global" ts="tx_Initiatives" ta="$C$44"></r>
+<r n="xxInitiative5xx.investment" s="global" ts="tx_Initiatives" ta="$C$45"></r>
+<r n="xxInitiative5xx.name" s="global" ts="tx_Initiatives" ta="$C$42"></r>
+<r n="xxInitiative5xx.narrative" s="global" ts="tx_Initiatives" ta="$C$43"></r>
+<r n="xxInitiative5xx.PageType" s="global" ts="tx_Initiatives" ta="$C$39"></r>
+<r n="xxInitiative6xx.Category" s="global" ts="tx_Initiatives" ta="$C$49"></r>
+<r n="xxInitiative6xx.Content" s="global" ts="tx_Initiatives" ta="$C$50"></r>
+<r n="xxInitiative6xx.ID" s="global" ts="tx_Initiatives" ta="$C$47"></r>
+<r n="xxInitiative6xx.impact" s="global" ts="tx_Initiatives" ta="$C$53"></r>
+<r n="xxInitiative6xx.investment" s="global" ts="tx_Initiatives" ta="$C$54"></r>
+<r n="xxInitiative6xx.name" s="global" ts="tx_Initiatives" ta="$C$51"></r>
+<r n="xxInitiative6xx.narrative" s="global" ts="tx_Initiatives" ta="$C$52"></r>
+<r n="xxInitiative6xx.PageType" s="global" ts="tx_Initiatives" ta="$C$48"></r>
+<r n="xxInitiative7xx.Category" s="global" ts="tx_Initiatives" ta="$C$58"></r>
+<r n="xxInitiative7xx.Content" s="global" ts="tx_Initiatives" ta="$C$59"></r>
+<r n="xxInitiative7xx.ID" s="global" ts="tx_Initiatives" ta="$C$56"></r>
+<r n="xxInitiative7xx.impact" s="global" ts="tx_Initiatives" ta="$C$62"></r>
+<r n="xxInitiative7xx.investment" s="global" ts="tx_Initiatives" ta="$C$63"></r>
+<r n="xxInitiative7xx.name" s="global" ts="tx_Initiatives" ta="$C$60"></r>
+<r n="xxInitiative7xx.narrative" s="global" ts="tx_Initiatives" ta="$C$61"></r>
+<r n="xxInitiative7xx.PageType" s="global" ts="tx_Initiatives" ta="$C$57"></r>
+<r n="xxInitiative8xx.Category" s="global" ts="tx_Initiatives" ta="$C$67"></r>
+<r n="xxInitiative8xx.Content" s="global" ts="tx_Initiatives" ta="$C$68"></r>
+<r n="xxInitiative8xx.ID" s="global" ts="tx_Initiatives" ta="$C$65"></r>
+<r n="xxInitiative8xx.impact" s="global" ts="tx_Initiatives" ta="$C$71"></r>
+<r n="xxInitiative8xx.investment" s="global" ts="tx_Initiatives" ta="$C$72"></r>
+<r n="xxInitiative8xx.name" s="global" ts="tx_Initiatives" ta="$C$69"></r>
+<r n="xxInitiative8xx.narrative" s="global" ts="tx_Initiatives" ta="$C$70"></r>
+<r n="xxInitiative8xx.PageType" s="global" ts="tx_Initiatives" ta="$C$66"></r>
+<r n="xxInitiative9xx.Category" s="global" ts="tx_Initiatives" ta="$C$76"></r>
+<r n="xxInitiative9xx.Content" s="global" ts="tx_Initiatives" ta="$C$77"></r>
+<r n="xxInitiative9xx.ID" s="global" ts="tx_Initiatives" ta="$C$74"></r>
+<r n="xxInitiative9xx.impact" s="global" ts="tx_Initiatives" ta="$C$80"></r>
+<r n="xxInitiative9xx.investment" s="global" ts="tx_Initiatives" ta="$C$81"></r>
+<r n="xxInitiative9xx.name" s="global" ts="tx_Initiatives" ta="$C$78"></r>
+<r n="xxInitiative9xx.narrative" s="global" ts="tx_Initiatives" ta="$C$79"></r>
+<r n="xxInitiative9xx.PageType" s="global" ts="tx_Initiatives" ta="$C$75"></r>
+<r n="xxSim0Tool1" s="global" ts="Control" ta="$C$2"></r>
+<r n="xxW301xx.alt1" s="global" ts="tx_Wobblers" ta="$C$45"></r>
+<r n="xxW301xx.alt1_feedback" s="global" ts="tx_Wobblers" ta="$C$53"></r>
+<r n="xxW301xx.alt1_name" s="global" ts="tx_Wobblers" ta="$C$47"></r>
+<r n="xxW301xx.alt1_narrative" s="global" ts="tx_Wobblers" ta="$C$51"></r>
+<r n="xxW301xx.alt1_value" s="global" ts="tx_Wobblers" ta="$C$49"></r>
+<r n="xxW301xx.alt2" s="global" ts="tx_Wobblers" ta="$C$46"></r>
+<r n="xxW301xx.alt2_feedback" s="global" ts="tx_Wobblers" ta="$C$54"></r>
+<r n="xxW301xx.alt2_name" s="global" ts="tx_Wobblers" ta="$C$48"></r>
+<r n="xxW301xx.alt2_narrative" s="global" ts="tx_Wobblers" ta="$C$52"></r>
+<r n="xxW301xx.alt2_value" s="global" ts="tx_Wobblers" ta="$C$50"></r>
+<r n="xxW301xx.Content" s="global" ts="tx_Wobblers" ta="$C$36"></r>
+<r n="xxW301xx.fb_generic" s="global" ts="tx_Wobblers" ta="$C$56"></r>
+<r n="xxW301xx.feedbackimage" s="global" ts="tx_Wobblers" ta="$C$55"></r>
+<r n="xxW301xx.icon" s="global" ts="tx_Wobblers" ta="$C$42"></r>
+<r n="xxW301xx.ID" s="global" ts="tx_Wobblers" ta="$C$34"></r>
+<r n="xxW301xx.image" s="global" ts="tx_Wobblers" ta="$C$43"></r>
+<r n="xxW301xx.name" s="global" ts="tx_Wobblers" ta="$C$38"></r>
+<r n="xxW301xx.narrative" s="global" ts="tx_Wobblers" ta="$C$44"></r>
+<r n="xxW301xx.number" s="global" ts="tx_Wobblers" ta="$C$37"></r>
+<r n="xxW301xx.PageType" s="global" ts="tx_Wobblers" ta="$C$35"></r>
+<r n="xxW301xx.rangename" s="global" ts="tx_Wobblers" ta="$C$40"></r>
+<r n="xxW301xx.round" s="global" ts="tx_Wobblers" ta="$C$39"></r>
+<r n="xxW301xx.time" s="global" ts="tx_Wobblers" ta="$C$41"></r>
+<r n="xxW302xx.alt1_feedback" s="global" ts="tx_Wobblers" ta="$C$77"></r>
+<r n="xxW302xx.alt1_name" s="global" ts="tx_Wobblers" ta="$C$71"></r>
+<r n="xxW302xx.alt1_narrative" s="global" ts="tx_Wobblers" ta="$C$75"></r>
+<r n="xxW302xx.alt1_value" s="global" ts="tx_Wobblers" ta="$C$73"></r>
+<r n="xxW302xx.alt2_feedback" s="global" ts="tx_Wobblers" ta="$C$78"></r>
+<r n="xxW302xx.alt2_name" s="global" ts="tx_Wobblers" ta="$C$72"></r>
+<r n="xxW302xx.alt2_narrative" s="global" ts="tx_Wobblers" ta="$C$76"></r>
+<r n="xxW302xx.alt2_value" s="global" ts="tx_Wobblers" ta="$C$74"></r>
+<r n="xxW302xx.condition1rangename" s="global" ts="tx_Wobblers" ta="$C$69"></r>
+<r n="xxW302xx.condition2rangename" s="global" ts="tx_Wobblers" ta="$C$70"></r>
+<r n="xxW302xx.Content" s="global" ts="tx_Wobblers" ta="$C$60"></r>
+<r n="xxW302xx.fb_generic" s="global" ts="tx_Wobblers" ta="$C$80"></r>
+<r n="xxW302xx.feedbackimage" s="global" ts="tx_Wobblers" ta="$C$79"></r>
+<r n="xxW302xx.icon" s="global" ts="tx_Wobblers" ta="$C$66"></r>
+<r n="xxW302xx.ID" s="global" ts="tx_Wobblers" ta="$C$58"></r>
+<r n="xxW302xx.image" s="global" ts="tx_Wobblers" ta="$C$67"></r>
+<r n="xxW302xx.name" s="global" ts="tx_Wobblers" ta="$C$62"></r>
+<r n="xxW302xx.narrative" s="global" ts="tx_Wobblers" ta="$C$68"></r>
+<r n="xxW302xx.number" s="global" ts="tx_Wobblers" ta="$C$61"></r>
+<r n="xxW302xx.PageType" s="global" ts="tx_Wobblers" ta="$C$59"></r>
+<r n="xxW302xx.rangename" s="global" ts="tx_Wobblers" ta="$C$64"></r>
+<r n="xxW302xx.round" s="global" ts="tx_Wobblers" ta="$C$63"></r>
+<r n="xxW302xx.time" s="global" ts="tx_Wobblers" ta="$C$65"></r>
+<c f="Activate" a="$C$67" r="67" c="3" w="tx_General" v="Activate" fmt="General">
+</c>
+<c f="Cancel" a="$C$37" r="37" c="3" w="tx_General" v="Cancel" fmt="General">
+</c>
+<c f="Confirm" a="$C$39" r="39" c="3" w="tx_General" v="Confirm" fmt="General">
+</c>
+<c f="2018 BTS. All rights reserved" a="$C$5" r="5" c="3" w="tx_General" v="2018 BTS. All rights reserved" fmt="General">
+</c>
+<c f="Cost Of Revenue" a="$C$60" r="60" c="3" w="tx_General" v="Cost Of Revenue" fmt="General">
+</c>
+<c f="Cumulative" a="$C$45" r="45" c="3" w="tx_General" v="Cumulative" fmt="General">
+</c>
+<c f="Revenue" a="$C$14" r="14" c="3" w="tx_General" v="Revenue" fmt="General">
+</c>
+<c f="New Bookings" a="$C$15" r="15" c="3" w="tx_General" v="New Bookings" fmt="General">
+</c>
+<c f="Cumulative OP" a="$C$16" r="16" c="3" w="tx_General" v="Cumulative OP" fmt="General">
+</c>
+<c f="Trust" a="$C$17" r="17" c="3" w="tx_General" v="Trust" fmt="General">
+</c>
+<c f="Customer Success" a="$C$18" r="18" c="3" w="tx_General" v="Customer Success" fmt="General">
+</c>
+<c f="Employee Success" a="$C$19" r="19" c="3" w="tx_General" v="Employee Success" fmt="General">
+</c>
+<c f="FTEs Remaining" a="$C$20" r="20" c="3" w="tx_General" v="FTEs Remaining" fmt="General">
+</c>
+<c f="Client NPS" a="$C$21" r="21" c="3" w="tx_General" v="Client NPS" fmt="General">
+</c>
+<c f="Decisions" a="$C$30" r="30" c="3" w="tx_General" v="Decisions" fmt="General">
+</c>
+<c f="Decisions were successfully imported. Please click below to move to the next round." a="$C$55" r="55" c="3" w="tx_General" v="Decisions were successfully imported. Please click below to move to the next round." fmt="General">
+</c>
+<c f="Enter Password" a="$C$34" r="34" c="3" w="tx_General" v="Enter Password" fmt="General">
+</c>
+<c f="Error" a="$C$36" r="36" c="3" w="tx_General" v="Error" fmt="General">
+</c>
+<c f="Your Offshore are overallocated in Consulting." a="$C$7" r="7" c="3" w="tx_General" v="Your Offshore are overallocated in Consulting." fmt="General">
+</c>
+<c f="Your Technical consultants are overallocated in Consulting," a="$C$8" r="8" c="3" w="tx_General" v="Your Technical consultants are overallocated in Consulting," fmt="General">
+</c>
+<c f="Your PMs/Analysts are overallocated in Consulting." a="$C$9" r="9" c="3" w="tx_General" v="Your PMs/Analysts are overallocated in Consulting." fmt="General">
+</c>
+<c f="Your directors/EMs are overallocated in Consulting." a="$C$10" r="10" c="3" w="tx_General" v="Your directors/EMs are overallocated in Consulting." fmt="General">
+</c>
+<c f="Your Sales Force are overutilized." a="$C$11" r="11" c="3" w="tx_General" v="Your Sales Force are overutilized." fmt="General">
+</c>
+<c f="You have not responded to all challenges." a="$C$12" r="12" c="3" w="tx_General" v="You have not responded to all challenges." fmt="General">
+</c>
+<c f="You have overutilized your FTEs." a="$C$40" r="40" c="3" w="tx_General" v="You have overutilized your FTEs." fmt="General">
+</c>
+<c f="You will not be able to Submit decisions until you clear the above." a="$C$13" r="13" c="3" w="tx_General" v="You will not be able to Submit decisions until you clear the above." fmt="General">
+</c>
+<c f="Expected Impact" a="$C$65" r="65" c="3" w="tx_General" v="Expected Impact" fmt="General">
+</c>
+<c f="Forecasted Income Statement" a="$C$42" r="42" c="3" w="tx_General" v="Forecasted Income Statement" fmt="General">
+</c>
+<c f="Round is submitted. Please type in the password to enable import." a="$C$71" r="71" c="3" w="tx_General" v="Round is submitted. Please type in the password to enable import." fmt="General">
+</c>
+<c f="Please wait facilitator is processing your decisions" a="$C$54" r="54" c="3" w="tx_General" v="Please wait facilitator is processing your decisions" fmt="General">
+</c>
+<c f="GEN" a="$C$2" r="2" c="3" w="tx_General" v="GEN" fmt="General">
+</c>
+<c f="Incorrect Password.Please try again." a="$C$70" r="70" c="3" w="tx_General" v="Incorrect Password.Please try again." fmt="General">
+</c>
+<c f="Introduction" a="$C$29" r="29" c="3" w="tx_General" v="Introduction" fmt="General">
+</c>
+<c f="Investment" a="$C$64" r="64" c="3" w="tx_General" v="Investment" fmt="General">
+</c>
+<c f="Marketing % By Cloud" a="$C$52" r="52" c="3" w="tx_General" v="Marketing % By Cloud" fmt="General">
+</c>
+<c f="Forecasting" a="$C$22" r="22" c="3" w="tx_General" v="Forecasting" fmt="General">
+</c>
+<c f="Product Development" a="$C$23" r="23" c="3" w="tx_General" v="Product Development" fmt="General">
+</c>
+<c f="Go To Market" a="$C$24" r="24" c="3" w="tx_General" v="Go To Market" fmt="General">
+</c>
+<c f="Service, People &amp; Process" a="$C$25" r="25" c="3" w="tx_General" v="Service, People &amp; Process" fmt="General">
+</c>
+<c f="Initiatives" a="$C$26" r="26" c="3" w="tx_General" v="Initiatives" fmt="General">
+</c>
+<c f="Decision Summary" a="$C$27" r="27" c="3" w="tx_General" v="Decision Summary" fmt="General">
+</c>
+<c f="Income Statement" a="$C$28" r="28" c="3" w="tx_General" v="Income Statement" fmt="General">
+</c>
+<c f="Ok" a="$C$38" r="38" c="3" w="tx_General" v="Ok" fmt="General">
+</c>
+<c f="Operating Expenses" a="$C$61" r="61" c="3" w="tx_General" v="Operating Expenses" fmt="General">
+</c>
+<c f="Op. Margin Last Year" a="$C$47" r="47" c="3" w="tx_General" v="Op. Margin Last Year" fmt="General">
+</c>
+<c f="Op. Margin This Year" a="$C$46" r="46" c="3" w="tx_General" v="Op. Margin This Year" fmt="General">
+</c>
+<c f="Op. Profit" a="$C$44" r="44" c="3" w="tx_General" v="Op. Profit" fmt="General">
+</c>
+<c f="Projected Revenue" a="$C$48" r="48" c="3" w="tx_General" v="Projected Revenue" fmt="General">
+</c>
+<c f="Reports" a="$C$31" r="31" c="3" w="tx_General" v="Reports" fmt="General">
+</c>
+<c f="password" a="$C$35" r="35" c="3" w="tx_General" v="password" fmt="General">
+</c>
+<c f="Reset Simulation" a="$C$33" r="33" c="3" w="tx_General" v="Reset Simulation" fmt="General">
+</c>
+<c f="Revenue" a="$C$59" r="59" c="3" w="tx_General" v="Revenue" fmt="General">
+</c>
+<c f="Revenue Breakdown" a="$C$50" r="50" c="3" w="tx_General" v="Revenue Breakdown" fmt="General">
+</c>
+<c f="R&amp;D FTE Allocation" a="$C$62" r="62" c="3" w="tx_General" v="R&amp;D FTE Allocation" fmt="General">
+</c>
+<c f="Round" a="$C$58" r="58" c="3" w="tx_General" v="Round" fmt="General">
+</c>
+<c f="bts287" a="$C$69" r="69" c="3" w="tx_General" v="bts287" fmt="General">
+</c>
+<c f="Sales and Marekting" a="$C$53" r="53" c="3" w="tx_General" v="Sales and Marekting" fmt="General">
+</c>
+<c f="Sales Force % By Cloud" a="$C$51" r="51" c="3" w="tx_General" v="Sales Force % By Cloud" fmt="General">
+</c>
+<c f="Selected Option" a="$C$63" r="63" c="3" w="tx_General" v="Selected Option" fmt="General">
+</c>
+<c f="This will commit your inputs for current round." a="$C$6" r="6" c="3" w="tx_General" v="This will commit your inputs for current round." fmt="General">
+</c>
+<c f="Submit Decisions" a="$C$32" r="32" c="3" w="tx_General" v="Submit Decisions" fmt="General">
+</c>
+<c f="Subscribers" a="$C$49" r="49" c="3" w="tx_General" v="Subscribers" fmt="General">
+</c>
+<c f="Leadership in Action" a="$C$4" r="4" c="3" w="tx_General" v="Leadership in Action" fmt="General">
+</c>
+<c f="Team Name" a="$C$56" r="56" c="3" w="tx_General" v="Team Name" fmt="General">
+</c>
+<c f="Team Number" a="$C$57" r="57" c="3" w="tx_General" v="Team Number" fmt="General">
+</c>
+<c f="Avenade" a="$C$3" r="3" c="3" w="tx_General" v="Avenade" fmt="General">
+</c>
+<c f="Stronger capabilities improve your ability to win RFPs and to execute on work you win. To develop one level will take 3 MTUs, two levels will cost 7 MTUs and three levels will cost 12 MTUs." a="$C$41" r="41" c="3" w="tx_General" v="Stronger capabilities improve your ability to win RFPs and to execute on work you win. To develop one level will take 3 MTUs, two levels will cost 7 MTUs and three levels will cost 12 MTUs." fmt="General">
+</c>
+<c f="Wobbler" a="$C$66" r="66" c="3" w="tx_General" v="Wobbler" fmt="General">
+</c>
+<c f="Select the wobbler you want to trigger" a="$C$68" r="68" c="3" w="tx_General" v="Select the wobbler you want to trigger" fmt="General">
+</c>
+<c f="YoY" a="$C$43" r="43" c="3" w="tx_General" v="YoY" fmt="General">
+</c>
+<c f="1" a="$C$85" r="85" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative10" a="$C$83" r="83" c="3" w="tx_Initiatives" v="Initiative10" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds &lt;/li&gt;&lt;/ul&gt;" a="$C$89" r="89" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds &lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$90" r="90" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Executive Account Sponsorship" a="$C$87" r="87" c="3" w="tx_Initiatives" v="Executive Account Sponsorship" fmt="General">
+</c>
+<c f="In order to accelerate Hellocloud&apos;s positioning as the customer company, executives are assigned sponsorship roles for key accounts. They will work with the account team to think strategically and plan compelling implementation of Hellocloud&apos;s full Customer Company vision. It&apos;s a significant investment in time, but the hope is that it will deepen the relationship with the customer." a="$C$88" r="88" c="3" w="tx_Initiatives" v="In order to accelerate Hellocloud&apos;s positioning as the customer company, executives are assigned sponsorship roles for key accounts. They will work with the account team to think strategically and plan compelling implementation of Hellocloud&apos;s full Customer Company vision. It&apos;s a significant investment in time, but the hope is that it will deepen the relationship with the customer." fmt="General">
+</c>
+<c f="Initiative" a="$C$84" r="84" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$94" r="94" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative11" a="$C$92" r="92" c="3" w="tx_Initiatives" v="Initiative11" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds &lt;/li&gt;&lt;/ul&gt;" a="$C$98" r="98" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds &lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$99" r="99" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="New Cloud Specialists" a="$C$96" r="96" c="3" w="tx_Initiatives" v="New Cloud Specialists" fmt="General">
+</c>
+<c f="Hellocloud has recently acquired a portfolio of new clouds and offerings. However, the sales force is much more familiar with selling the sales cloud as opposed to the new clouds. Hellocloud invests toward building a team of cloud specialists that can have both strategic and technical conversations with customers relating to new offerings in service, data, platform, social media monitoring, etc. " a="$C$97" r="97" c="3" w="tx_Initiatives" v="Hellocloud has recently acquired a portfolio of new clouds and offerings. However, the sales force is much more familiar with selling the sales cloud as opposed to the new clouds. Hellocloud invests toward building a team of cloud specialists that can have both strategic and technical conversations with customers relating to new offerings in service, data, platform, social media monitoring, etc. " fmt="General">
+</c>
+<c f="Initiative" a="$C$93" r="93" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$103" r="103" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative12" a="$C$101" r="101" c="3" w="tx_Initiatives" v="Initiative12" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Renewal rate improvement&lt;/li&gt;&lt;li&gt;Increased Customer Success&lt;/li&gt;&lt;li&gt;Increased sales in all clouds&lt;/li&gt;&lt;/ul&gt;" a="$C$107" r="107" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Renewal rate improvement&lt;/li&gt;&lt;li&gt;Increased Customer Success&lt;/li&gt;&lt;li&gt;Increased sales in all clouds&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;7 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$108" r="108" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;7 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Selling the Platform" a="$C$105" r="105" c="3" w="tx_Initiatives" v="Selling the Platform" fmt="General">
+</c>
+<c f="The benefits of using the cloud computing model go beyond cost savings alone. The cloud offers flexibility, customization, and a reduced IT investment that traditional software models cannot offer. An initiative is introduced to better articulate the power of the Platform early in the sales process, to help customers think broadly on how Hellocloud can help transform the way their business is run." a="$C$106" r="106" c="3" w="tx_Initiatives" v="The benefits of using the cloud computing model go beyond cost savings alone. The cloud offers flexibility, customization, and a reduced IT investment that traditional software models cannot offer. An initiative is introduced to better articulate the power of the Platform early in the sales process, to help customers think broadly on how Hellocloud can help transform the way their business is run." fmt="General">
+</c>
+<c f="Initiative" a="$C$102" r="102" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$112" r="112" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative13" a="$C$110" r="110" c="3" w="tx_Initiatives" v="Initiative13" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds &lt;/li&gt;&lt;/ul&gt;" a="$C$116" r="116" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds &lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$3M&lt;/li&gt;&lt;li&gt;3 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$117" r="117" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$3M&lt;/li&gt;&lt;li&gt;3 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Territory Optimization" a="$C$114" r="114" c="3" w="tx_Initiatives" v="Territory Optimization" fmt="General">
+</c>
+<c f="Hellocloud has grown significantly over the past years with a much larger cloud portfolio and customer base. The company analyzes and redraws territories to better optimize sales resources with the most attractive opportunities. The new territories will take into account customer size and growth, AE&apos;s industry expertise and product experience, and geographic location. " a="$C$115" r="115" c="3" w="tx_Initiatives" v="Hellocloud has grown significantly over the past years with a much larger cloud portfolio and customer base. The company analyzes and redraws territories to better optimize sales resources with the most attractive opportunities. The new territories will take into account customer size and growth, AE&apos;s industry expertise and product experience, and geographic location. " fmt="General">
+</c>
+<c f="Initiative" a="$C$111" r="111" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="2" a="$C$121" r="121" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="Initiative14" a="$C$119" r="119" c="3" w="tx_Initiatives" v="Initiative14" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased product improvement level of all clouds&lt;/li&gt;&lt;/ul&gt;" a="$C$125" r="125" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased product improvement level of all clouds&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$126" r="126" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Customer Business Focus" a="$C$123" r="123" c="3" w="tx_Initiatives" v="Customer Business Focus" fmt="General">
+</c>
+<c f="Hellocloud was founded on the principle that users should be able to intuitively know how to use its products as easily as using the popular shopping website Nile.com or the immensely popular social networking website, Mugbook. Hellocloud engineers talk with end users to determine which features add the most value and how the products could be improved. " a="$C$124" r="124" c="3" w="tx_Initiatives" v="Hellocloud was founded on the principle that users should be able to intuitively know how to use its products as easily as using the popular shopping website Nile.com or the immensely popular social networking website, Mugbook. Hellocloud engineers talk with end users to determine which features add the most value and how the products could be improved. " fmt="General">
+</c>
+<c f="Initiative" a="$C$120" r="120" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="2" a="$C$130" r="130" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="Initiative15" a="$C$128" r="128" c="3" w="tx_Initiatives" v="Initiative15" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased product improvement level for core technology &amp; integration&lt;/li&gt;&lt;/ul&gt;" a="$C$134" r="134" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased product improvement level for core technology &amp; integration&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$135" r="135" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Design for Interoperability" a="$C$132" r="132" c="3" w="tx_Initiatives" v="Design for Interoperability" fmt="General">
+</c>
+<c f="Hellocloud puts an increased focus on improving interoperability between the core technology, applications, and development tools. This focus helps products perform better together." a="$C$133" r="133" c="3" w="tx_Initiatives" v="Hellocloud puts an increased focus on improving interoperability between the core technology, applications, and development tools. This focus helps products perform better together." fmt="General">
+</c>
+<c f="Initiative" a="$C$129" r="129" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="2" a="$C$139" r="139" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="Initiative16" a="$C$137" r="137" c="3" w="tx_Initiatives" v="Initiative16" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased partner level&lt;/li&gt;&lt;li&gt;Increased sales of the Platform&lt;/li&gt;&lt;/ul&gt;" a="$C$143" r="143" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased partner level&lt;/li&gt;&lt;li&gt;Increased sales of the Platform&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$144" r="144" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Back to School" a="$C$141" r="141" c="3" w="tx_Initiatives" v="Back to School" fmt="General">
+</c>
+<c f="To move Hellocloud beyond its status as the premier CRM provider, the company will need to develop an ecosystem of developers and influencers so the Hellocloud Platform is the platform of choice for new cloud applications. In order to recruit the next generation of developers, Hellocloud travels to campuses to introduce prospective developers to Hellocloud and the developer toolkit. " a="$C$142" r="142" c="3" w="tx_Initiatives" v="To move Hellocloud beyond its status as the premier CRM provider, the company will need to develop an ecosystem of developers and influencers so the Hellocloud Platform is the platform of choice for new cloud applications. In order to recruit the next generation of developers, Hellocloud travels to campuses to introduce prospective developers to Hellocloud and the developer toolkit. " fmt="General">
+</c>
+<c f="Initiative" a="$C$138" r="138" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="2" a="$C$148" r="148" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="Initiative17" a="$C$146" r="146" c="3" w="tx_Initiatives" v="Initiative17" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Customer Success &lt;/li&gt;&lt;/ul&gt;" a="$C$152" r="152" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Customer Success &lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$153" r="153" c="3" w="tx_Initiatives" v="&lt;ul&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Bug Exterminator" a="$C$150" r="150" c="3" w="tx_Initiatives" v="Bug Exterminator" fmt="General">
+</c>
+<c f="Making feature enhancements or cloud releases introduces opportunities for bugs and errors to erode customer trust. Through the bug extermination program, Hellocloud will implement stricter development and test procedures targeted at reducing the number of bugs in each product." a="$C$151" r="151" c="3" w="tx_Initiatives" v="Making feature enhancements or cloud releases introduces opportunities for bugs and errors to erode customer trust. Through the bug extermination program, Hellocloud will implement stricter development and test procedures targeted at reducing the number of bugs in each product." fmt="General">
+</c>
+<c f="Initiative" a="$C$147" r="147" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="2" a="$C$157" r="157" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="Initiative18" a="$C$155" r="155" c="3" w="tx_Initiatives" v="Initiative18" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$161" r="161" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$162" r="162" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="No Peanut Butter!" a="$C$159" r="159" c="3" w="tx_Initiatives" v="No Peanut Butter!" fmt="General">
+</c>
+<c f="Engineers never seem to have enough time to focus exclusively on product improvements. As a result, there is a tendency to spread engineers across several initiatives instead of keeping them focused on what&apos;s most important. By setting a clear roadmap and aligning engineers to the company&apos;s strategic priorities, Hellocloud will be able to execute quicker and at a higher quality." a="$C$160" r="160" c="3" w="tx_Initiatives" v="Engineers never seem to have enough time to focus exclusively on product improvements. As a result, there is a tendency to spread engineers across several initiatives instead of keeping them focused on what&apos;s most important. By setting a clear roadmap and aligning engineers to the company&apos;s strategic priorities, Hellocloud will be able to execute quicker and at a higher quality." fmt="General">
+</c>
+<c f="Initiative" a="$C$156" r="156" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="2" a="$C$166" r="166" c="3" w="tx_Initiatives" v="2" fmt="General">
+</c>
+<c f="Initiative19" a="$C$164" r="164" c="3" w="tx_Initiatives" v="Initiative19" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Customer Success &lt;/li&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$170" r="170" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Customer Success &lt;/li&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$6M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$171" r="171" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$6M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Automating Testing Protocols" a="$C$168" r="168" c="3" w="tx_Initiatives" v="Automating Testing Protocols" fmt="General">
+</c>
+<c f="With each new release, there is the chance service could be disrupted. In an effort to prevent any significant service disruption, Hellocloud conducts thousands of tests, which requires many engineering FTE hours. By automating testing protocols, Hellocloud can free up engineers to be more innovative and improve the quality and rigor in the testing process." a="$C$169" r="169" c="3" w="tx_Initiatives" v="With each new release, there is the chance service could be disrupted. In an effort to prevent any significant service disruption, Hellocloud conducts thousands of tests, which requires many engineering FTE hours. By automating testing protocols, Hellocloud can free up engineers to be more innovative and improve the quality and rigor in the testing process." fmt="General">
+</c>
+<c f="Initiative" a="$C$165" r="165" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$4" r="4" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative1" a="$C$2" r="2" c="3" w="tx_Initiatives" v="Initiative1" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Expertise level&lt;/li&gt;&lt;/ul&gt;" a="$C$8" r="8" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Expertise level&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$9" r="9" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Pre-Sales Team" a="$C$6" r="6" c="3" w="tx_Initiatives" v="Pre-Sales Team" fmt="General">
+</c>
+<c f="Hellocloud invests in creating a pre-sales team. The pre-sales team will work with account executives (AEs) to research the customer, understand their roadmap and design a solution. Pre-sales can then aid AEs in submitting proposals and closing deals." a="$C$7" r="7" c="3" w="tx_Initiatives" v="Hellocloud invests in creating a pre-sales team. The pre-sales team will work with account executives (AEs) to research the customer, understand their roadmap and design a solution. Pre-sales can then aid AEs in submitting proposals and closing deals." fmt="General">
+</c>
+<c f="Initiative" a="$C$3" r="3" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="3" a="$C$175" r="175" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="Initiative20" a="$C$173" r="173" c="3" w="tx_Initiatives" v="Initiative20" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Customer Success  &lt;/li&gt;&lt;/ul&gt;" a="$C$179" r="179" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Customer Success  &lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$6M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$180" r="180" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$6M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Unify Customer Experience" a="$C$177" r="177" c="3" w="tx_Initiatives" v="Unify Customer Experience" fmt="General">
+</c>
+<c f="Hellocloud is always looking for ways to improve customer success and make it easier for customers to interact with Hellocloud. One step Hellocloud is taking is to unify the customer experience and make sure that all access points are easy to use and have a similar look and feel. The goals of this initiative would include having one face for customers, first-time problem resolution, and additional website functionality, including chat and FAQs." a="$C$178" r="178" c="3" w="tx_Initiatives" v="Hellocloud is always looking for ways to improve customer success and make it easier for customers to interact with Hellocloud. One step Hellocloud is taking is to unify the customer experience and make sure that all access points are easy to use and have a similar look and feel. The goals of this initiative would include having one face for customers, first-time problem resolution, and additional website functionality, including chat and FAQs." fmt="General">
+</c>
+<c f="Initiative" a="$C$174" r="174" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="3" a="$C$184" r="184" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="Initiative21" a="$C$182" r="182" c="3" w="tx_Initiatives" v="Initiative21" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Customer Success &lt;/li&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$188" r="188" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Customer Success &lt;/li&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$189" r="189" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Innovation Culture Push" a="$C$186" r="186" c="3" w="tx_Initiatives" v="Innovation Culture Push" fmt="General">
+</c>
+<c f="To induce a stronger innovation culture, Hellocloud makes innovation every employee&apos;s responsibility. R&amp;D is no longer the only group at Hellocloud to innovate. Innovation can also include features, functionality, and new clouds. The company can also innovate in other areas of the business, such as how we go to market, how we execute on internal processes, and how we will become the cloud computing company." a="$C$187" r="187" c="3" w="tx_Initiatives" v="To induce a stronger innovation culture, Hellocloud makes innovation every employee&apos;s responsibility. R&amp;D is no longer the only group at Hellocloud to innovate. Innovation can also include features, functionality, and new clouds. The company can also innovate in other areas of the business, such as how we go to market, how we execute on internal processes, and how we will become the cloud computing company." fmt="General">
+</c>
+<c f="Initiative" a="$C$183" r="183" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="3" a="$C$193" r="193" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="Initiative22" a="$C$191" r="191" c="3" w="tx_Initiatives" v="Initiative22" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Customer Success&lt;/li&gt;&lt;li&gt;Reduced general and administrative expenses&lt;/li&gt;&lt;/ul&gt;" a="$C$197" r="197" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Customer Success&lt;/li&gt;&lt;li&gt;Reduced general and administrative expenses&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$198" r="198" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Automating Support Processes" a="$C$195" r="195" c="3" w="tx_Initiatives" v="Automating Support Processes" fmt="General">
+</c>
+<c f="Since its inception, Hellocloud has enjoyed phenomenal success, which has resulted in extraordinary growth rates. Yet, Hellocloud has not previously scaled its support function proportionately. By automating some of the manual back office processes, Hellocloud will be able to reduce support costs and improve the productivity of its employees." a="$C$196" r="196" c="3" w="tx_Initiatives" v="Since its inception, Hellocloud has enjoyed phenomenal success, which has resulted in extraordinary growth rates. Yet, Hellocloud has not previously scaled its support function proportionately. By automating some of the manual back office processes, Hellocloud will be able to reduce support costs and improve the productivity of its employees." fmt="General">
+</c>
+<c f="Initiative" a="$C$192" r="192" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="3" a="$C$202" r="202" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="Initiative23" a="$C$200" r="200" c="3" w="tx_Initiatives" v="Initiative23" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased trust&lt;/li&gt;&lt;/ul&gt;" a="$C$206" r="206" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased trust&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$207" r="207" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Always Up, Always Running" a="$C$204" r="204" c="3" w="tx_Initiatives" v="Always Up, Always Running" fmt="General">
+</c>
+<c f="Making sure Hellocloud services are up and running is critical to the success of Hellocloud and its customers. Hellocloud invests in capacity planning models to ensure that excess capacity is available to handle user volume. As part of this initiative, Hellocloud will also upgrade its pod architecture and make improvements to ensure that no single subsystem failure can bring down an entire data center or service. Furthermore, to prevent problems from escalating, Hellocloud invests in tools and processes to not only identify problems quickly, but also to provide increased insight into preventing potential issues. As a result, Hellocloud will have increased availability and performance, which will lead to increased trust." a="$C$205" r="205" c="3" w="tx_Initiatives" v="Making sure Hellocloud services are up and running is critical to the success of Hellocloud and its customers. Hellocloud invests in capacity planning models to ensure that excess capacity is available to handle user volume. As part of this initiative, Hellocloud will also upgrade its pod architecture and make improvements to ensure that no single subsystem failure can bring down an entire data center or service. Furthermore, to prevent problems from escalating, Hellocloud invests in tools and processes to not only identify problems quickly, but also to provide increased insight into preventing potential issues. As a result, Hellocloud will have increased availability and performance, which will lead to increased trust." fmt="General">
+</c>
+<c f="Initiative" a="$C$201" r="201" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="3" a="$C$211" r="211" c="3" w="tx_Initiatives" v="3" fmt="General">
+</c>
+<c f="Initiative24" a="$C$209" r="209" c="3" w="tx_Initiatives" v="Initiative24" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased trust&lt;/li&gt;&lt;/ul&gt;" a="$C$215" r="215" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased trust&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$216" r="216" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Manage Security Threats" a="$C$213" r="213" c="3" w="tx_Initiatives" v="Manage Security Threats" fmt="General">
+</c>
+<c f="Hellocloud has always focused on delivering a high quality and secure product to its customers by creating the necessary infrastructure, processes, and systems. Recently however, the world-renowned search company, Goggle, was the victim of a hacker attack. It was believed that the hacker was targeting Goggle&apos;s intellectual property (IP). Hellocloud focuses on improving the security of internal systems and environments that help to protect its IP. " a="$C$214" r="214" c="3" w="tx_Initiatives" v="Hellocloud has always focused on delivering a high quality and secure product to its customers by creating the necessary infrastructure, processes, and systems. Recently however, the world-renowned search company, Goggle, was the victim of a hacker attack. It was believed that the hacker was targeting Goggle&apos;s intellectual property (IP). Hellocloud focuses on improving the security of internal systems and environments that help to protect its IP. " fmt="General">
+</c>
+<c f="Initiative" a="$C$210" r="210" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$220" r="220" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative25" a="$C$218" r="218" c="3" w="tx_Initiatives" v="Initiative25" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$224" r="224" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$225" r="225" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Cross-Functional Coordination" a="$C$222" r="222" c="3" w="tx_Initiatives" v="Cross-Functional Coordination" fmt="General">
+</c>
+<c f="As Hellocloud continues to grow and evolve, all employees must retain cross-functional awareness. For example, it is critical that engineering, sales, and support all coordinate efforts to present one front to the customer. Selecting this initiative develops a small team focused on corporate cross-functional coordination. This includes identifying and fixing broken cross-functional processes and educating the entire organization how each function fits together." a="$C$223" r="223" c="3" w="tx_Initiatives" v="As Hellocloud continues to grow and evolve, all employees must retain cross-functional awareness. For example, it is critical that engineering, sales, and support all coordinate efforts to present one front to the customer. Selecting this initiative develops a small team focused on corporate cross-functional coordination. This includes identifying and fixing broken cross-functional processes and educating the entire organization how each function fits together." fmt="General">
+</c>
+<c f="Initiative" a="$C$219" r="219" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$229" r="229" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative26" a="$C$227" r="227" c="3" w="tx_Initiatives" v="Initiative26" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$233" r="233" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$234" r="234" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;2 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Workforce Planning" a="$C$231" r="231" c="3" w="tx_Initiatives" v="Workforce Planning" fmt="General">
+</c>
+<c f="As Hellocloud evolves, the skill sets required to execute change as well. A major workforce planning initiative is launched to retain the people who are well-suited to the changes ahead and determine if new skills and capabilities need to be brought in from the outside. The initiative involves taking an inventory of the skills that you currently have within the organization and the skills you need. Staffing ratios and plans are also evaluated to determine how they can best align with the business strategy." a="$C$232" r="232" c="3" w="tx_Initiatives" v="As Hellocloud evolves, the skill sets required to execute change as well. A major workforce planning initiative is launched to retain the people who are well-suited to the changes ahead and determine if new skills and capabilities need to be brought in from the outside. The initiative involves taking an inventory of the skills that you currently have within the organization and the skills you need. Staffing ratios and plans are also evaluated to determine how they can best align with the business strategy." fmt="General">
+</c>
+<c f="Initiative" a="$C$228" r="228" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$238" r="238" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative27" a="$C$236" r="236" c="3" w="tx_Initiatives" v="Initiative27" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$242" r="242" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$1.5M&lt;/li&gt;&lt;/ul&gt;" a="$C$243" r="243" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$1.5M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Strategic Alignment" a="$C$240" r="240" c="3" w="tx_Initiatives" v="Strategic Alignment" fmt="General">
+</c>
+<c f="Employees are more motivated, committed, and productive when they understand the vision, strategy, and operating goals of the company. By aligning the employees with the company&apos;s overall strategy, employees better understand their role and can begin to execute against it. Hellocloud creates an experiential learning program through which employees get to live out the Hellocloud strategy and understand how all the different functions interact." a="$C$241" r="241" c="3" w="tx_Initiatives" v="Employees are more motivated, committed, and productive when they understand the vision, strategy, and operating goals of the company. By aligning the employees with the company&apos;s overall strategy, employees better understand their role and can begin to execute against it. Hellocloud creates an experiential learning program through which employees get to live out the Hellocloud strategy and understand how all the different functions interact." fmt="General">
+</c>
+<c f="Initiative" a="$C$237" r="237" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$247" r="247" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative28" a="$C$245" r="245" c="3" w="tx_Initiatives" v="Initiative28" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$251" r="251" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;/ul&gt;" a="$C$252" r="252" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Best Place to Work" a="$C$249" r="249" c="3" w="tx_Initiatives" v="Best Place to Work" fmt="General">
+</c>
+<c f="Every year Wealth magazine creates its list of the 100 Best Places to Work. Companies on this list are recognized for having higher levels of employee engagement and commitment. They are also known for creating an environment in which employees contribute at their fullest and thrive. As a result, companies on this list experience lower turnover costs and are able to more easily attract top talent. Hellocloud takes steps to join the list." a="$C$250" r="250" c="3" w="tx_Initiatives" v="Every year Wealth magazine creates its list of the 100 Best Places to Work. Companies on this list are recognized for having higher levels of employee engagement and commitment. They are also known for creating an environment in which employees contribute at their fullest and thrive. As a result, companies on this list experience lower turnover costs and are able to more easily attract top talent. Hellocloud takes steps to join the list." fmt="General">
+</c>
+<c f="Initiative" a="$C$246" r="246" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$256" r="256" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative29" a="$C$254" r="254" c="3" w="tx_Initiatives" v="Initiative29" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$260" r="260" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$6M&lt;/li&gt;&lt;/ul&gt;" a="$C$261" r="261" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$6M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Total Rewards Management" a="$C$258" r="258" c="3" w="tx_Initiatives" v="Total Rewards Management" fmt="General">
+</c>
+<c f="As Hellocloud has grown, it has been able to retain its talent through fairly standard measures of raises and promotions. As the company becomes larger and more diverse, employees are continually looking for additional types of rewards that exist outside of the standard monetary awards. Employees are increasingly looking for a combination of intrinsic and extrinsic motivators. " a="$C$259" r="259" c="3" w="tx_Initiatives" v="As Hellocloud has grown, it has been able to retain its talent through fairly standard measures of raises and promotions. As the company becomes larger and more diverse, employees are continually looking for additional types of rewards that exist outside of the standard monetary awards. Employees are increasingly looking for a combination of intrinsic and extrinsic motivators. " fmt="General">
+</c>
+<c f="Initiative" a="$C$255" r="255" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$13" r="13" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative2" a="$C$11" r="11" c="3" w="tx_Initiatives" v="Initiative2" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds to small business &lt;/li&gt;&lt;li&gt;Reduced selling cost&lt;/li&gt;&lt;/ul&gt;" a="$C$17" r="17" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased sales of all clouds to small business &lt;/li&gt;&lt;li&gt;Reduced selling cost&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$18" r="18" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Automating Small Business Sales" a="$C$15" r="15" c="3" w="tx_Initiatives" v="Automating Small Business Sales" fmt="General">
+</c>
+<c f="Since its inception, small and medium size businesses have been avid supporters of Hellocloud. However, because of low employee counts and the amount of hand-holding involved, profitability in this segment has been low. Therefore, Hellocloud invests in automating the customer order/service/renewal processes to provide low-cost, web-based self-service." a="$C$16" r="16" c="3" w="tx_Initiatives" v="Since its inception, small and medium size businesses have been avid supporters of Hellocloud. However, because of low employee counts and the amount of hand-holding involved, profitability in this segment has been low. Therefore, Hellocloud invests in automating the customer order/service/renewal processes to provide low-cost, web-based self-service." fmt="General">
+</c>
+<c f="Initiative" a="$C$12" r="12" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$265" r="265" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative30" a="$C$263" r="263" c="3" w="tx_Initiatives" v="Initiative30" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$269" r="269" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;/ul&gt;" a="$C$270" r="270" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Leadership Development " a="$C$267" r="267" c="3" w="tx_Initiatives" v="Leadership Development " fmt="General">
+</c>
+<c f="This program is aimed at directors and above and concentrates on developing Hellocloud&apos;s future leaders. The focus is on three main components:&lt;ul&gt;&lt;li&gt;Increasing self-awareness through 360 feedback and personal coaching&lt;/li&gt;&lt;li&gt;Creating a &quot;Multipliers&quot; culture to fully utilize all the intelligence in the organization&lt;/li&gt;&lt;li&gt;Increasing cross-functional, global influence and alignment&lt;/li&gt;&lt;/ul&gt;" a="$C$268" r="268" c="3" w="tx_Initiatives" v="This program is aimed at directors and above and concentrates on developing Hellocloud&apos;s future leaders. The focus is on three main components:&lt;ul&gt;&lt;li&gt;Increasing self-awareness through 360 feedback and personal coaching&lt;/li&gt;&lt;li&gt;Creating a &quot;Multipliers&quot; culture to fully utilize all the intelligence in the organization&lt;/li&gt;&lt;li&gt;Increasing cross-functional, global influence and alignment&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Initiative" a="$C$264" r="264" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$274" r="274" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative31" a="$C$272" r="272" c="3" w="tx_Initiatives" v="Initiative31" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$278" r="278" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;/ul&gt;" a="$C$279" r="279" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Talent Planning" a="$C$276" r="276" c="3" w="tx_Initiatives" v="Talent Planning" fmt="General">
+</c>
+<c f="Hellocloud must plan for the future of the company by establishing a clear and actionable plan to identify and grow successors for executive roles. This will help create the next generation of leaders within the company. Top talent employees are identified and calibrated against leadership characteristics, prior experience, and strengths. To reduce gaps and increase readiness, gaps are identified and next job movements are determined. Another benefit of this program is that a common language will be established that enables movement across functions and businesses. " a="$C$277" r="277" c="3" w="tx_Initiatives" v="Hellocloud must plan for the future of the company by establishing a clear and actionable plan to identify and grow successors for executive roles. This will help create the next generation of leaders within the company. Top talent employees are identified and calibrated against leadership characteristics, prior experience, and strengths. To reduce gaps and increase readiness, gaps are identified and next job movements are determined. Another benefit of this program is that a common language will be established that enables movement across functions and businesses. " fmt="General">
+</c>
+<c f="Initiative" a="$C$273" r="273" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="4" a="$C$283" r="283" c="3" w="tx_Initiatives" v="4" fmt="General">
+</c>
+<c f="Initiative32" a="$C$281" r="281" c="3" w="tx_Initiatives" v="Initiative32" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" a="$C$287" r="287" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Employee Success&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;/ul&gt;" a="$C$288" r="288" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$4M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Focus on Experienced Hires" a="$C$285" r="285" c="3" w="tx_Initiatives" v="Focus on Experienced Hires" fmt="General">
+</c>
+<c f="Hellocloud changes its focus in recruiting from hiring only young and energetic sales people to starting to pay extra for more experienced sales people. These more knowledgeable and experienced hires will bring the experience necessary to close deals with larger enterprise clients. These hires are more expensive but should bring in more big deals as well as provide guidance for Hellocloud&apos;s less experienced sales staff. " a="$C$286" r="286" c="3" w="tx_Initiatives" v="Hellocloud changes its focus in recruiting from hiring only young and energetic sales people to starting to pay extra for more experienced sales people. These more knowledgeable and experienced hires will bring the experience necessary to close deals with larger enterprise clients. These hires are more expensive but should bring in more big deals as well as provide guidance for Hellocloud&apos;s less experienced sales staff. " fmt="General">
+</c>
+<c f="Initiative" a="$C$282" r="282" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$22" r="22" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative3" a="$C$20" r="20" c="3" w="tx_Initiatives" v="Initiative3" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Expertise level&lt;/li&gt;&lt;/ul&gt;" a="$C$26" r="26" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Expertise level&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;3 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$27" r="27" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$1M&lt;/li&gt;&lt;li&gt;3 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Sales Academy" a="$C$24" r="24" c="3" w="tx_Initiatives" v="Sales Academy" fmt="General">
+</c>
+<c f="In order to develop its next generation of sales leaders and continue to grow revenue quickly, Hellocloud decides to invest in a Sales Academy. Salespeople will learn about the various new products that have been added to the portfolio, how to articulate Hellocloud&apos;s vision of a Customer Company and conduct more strategic, long-term conversations with customers." a="$C$25" r="25" c="3" w="tx_Initiatives" v="In order to develop its next generation of sales leaders and continue to grow revenue quickly, Hellocloud decides to invest in a Sales Academy. Salespeople will learn about the various new products that have been added to the portfolio, how to articulate Hellocloud&apos;s vision of a Customer Company and conduct more strategic, long-term conversations with customers." fmt="General">
+</c>
+<c f="Initiative" a="$C$21" r="21" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$31" r="31" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative4" a="$C$29" r="29" c="3" w="tx_Initiatives" v="Initiative4" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased average deal size&lt;/li&gt;&lt;li&gt;Increased sales of all clouds&lt;/li&gt;&lt;/ul&gt;" a="$C$35" r="35" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased average deal size&lt;/li&gt;&lt;li&gt;Increased sales of all clouds&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;6 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$36" r="36" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$5M&lt;/li&gt;&lt;li&gt;6 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Increase Sales Engineers Ratio" a="$C$33" r="33" c="3" w="tx_Initiatives" v="Increase Sales Engineers Ratio" fmt="General">
+</c>
+<c f="Hellocloud Sales Engineers are instrumental in the sales cycle since they can provide the technical and implementation expertise that Account Executives may not be able to provide. As a result, they are often stretched thin and are in constant high demand. Hellocloud invests in increasing the ratio of SEs to AEs. " a="$C$34" r="34" c="3" w="tx_Initiatives" v="Hellocloud Sales Engineers are instrumental in the sales cycle since they can provide the technical and implementation expertise that Account Executives may not be able to provide. As a result, they are often stretched thin and are in constant high demand. Hellocloud invests in increasing the ratio of SEs to AEs. " fmt="General">
+</c>
+<c f="Initiative" a="$C$30" r="30" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$40" r="40" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative5" a="$C$38" r="38" c="3" w="tx_Initiatives" v="Initiative5" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased CSG level&lt;/li&gt;&lt;/ul&gt;" a="$C$44" r="44" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased CSG level&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$45" r="45" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Customers for Life" a="$C$42" r="42" c="3" w="tx_Initiatives" v="Customers for Life" fmt="General">
+</c>
+<c f="By reviewing customer usage history, Hellocloud can better predict which customers are more likely not to renew their subscriptions due to low adoption. Hellocloud invests in additional business algorithms that aid in the analysis of customer behavior, which helps to reduce the attrition rate and determine the functionality that users value. In addition, whenever Hellocloud finds customers who are deemed &quot;high risk&quot; to not renew, Hellocloud sends a customer service manager to work with them." a="$C$43" r="43" c="3" w="tx_Initiatives" v="By reviewing customer usage history, Hellocloud can better predict which customers are more likely not to renew their subscriptions due to low adoption. Hellocloud invests in additional business algorithms that aid in the analysis of customer behavior, which helps to reduce the attrition rate and determine the functionality that users value. In addition, whenever Hellocloud finds customers who are deemed &quot;high risk&quot; to not renew, Hellocloud sends a customer service manager to work with them." fmt="General">
+</c>
+<c f="Initiative" a="$C$39" r="39" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$49" r="49" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative6" a="$C$47" r="47" c="3" w="tx_Initiatives" v="Initiative6" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Partner level&lt;/li&gt;&lt;/ul&gt;" a="$C$53" r="53" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Partner level&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$54" r="54" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;li&gt;4 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Training Service Partners" a="$C$51" r="51" c="3" w="tx_Initiatives" v="Training Service Partners" fmt="General">
+</c>
+<c f="As Hellocloud grows, it will rely more on partners to market, sell and implement Hellocloud solutions. Therefore, it invests the time and money to offer training and certification, build up online resources, and run co-marketing campaigns. This will create a bigger network of partners to step in when Hellocloud lacks the resources or expertise to serve certain market segments." a="$C$52" r="52" c="3" w="tx_Initiatives" v="As Hellocloud grows, it will rely more on partners to market, sell and implement Hellocloud solutions. Therefore, it invests the time and money to offer training and certification, build up online resources, and run co-marketing campaigns. This will create a bigger network of partners to step in when Hellocloud lacks the resources or expertise to serve certain market segments." fmt="General">
+</c>
+<c f="Initiative" a="$C$48" r="48" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$58" r="58" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative7" a="$C$56" r="56" c="3" w="tx_Initiatives" v="Initiative7" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased Global Expansion capability&lt;/li&gt;&lt;/ul&gt;" a="$C$62" r="62" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased Global Expansion capability&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$8M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$63" r="63" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$8M&lt;/li&gt;&lt;li&gt;5 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Targeted Expansion" a="$C$60" r="60" c="3" w="tx_Initiatives" v="Targeted Expansion" fmt="General">
+</c>
+<c f="As Hellocloud aims to increase its presence in new markets, it analyzes potential countries and regions to determine which areas it should target first. Following this strategic and targeted approach will ensure that Hellocloud AEs are not spread too thin and allow resources to be more efficient." a="$C$61" r="61" c="3" w="tx_Initiatives" v="As Hellocloud aims to increase its presence in new markets, it analyzes potential countries and regions to determine which areas it should target first. Following this strategic and targeted approach will ensure that Hellocloud AEs are not spread too thin and allow resources to be more efficient." fmt="General">
+</c>
+<c f="Initiative" a="$C$57" r="57" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$67" r="67" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative8" a="$C$65" r="65" c="3" w="tx_Initiatives" v="Initiative8" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased sales of the Platform&lt;/li&gt;&lt;li&gt;Increased Partner level&lt;/li&gt;&lt;/ul&gt;" a="$C$71" r="71" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased sales of the Platform&lt;/li&gt;&lt;li&gt;Increased Partner level&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$10M&lt;/li&gt;&lt;li&gt;3 FTEs&lt;/li&gt;&lt;/ul&gt;" a="$C$72" r="72" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$10M&lt;/li&gt;&lt;li&gt;3 FTEs&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Worldwide Developer Conference and Contest" a="$C$69" r="69" c="3" w="tx_Initiatives" v="Worldwide Developer Conference and Contest" fmt="General">
+</c>
+<c f="Just like other leading high-tech and software companies, Hellocloud hosts a worldwide developer conference. Here, Hellocloud shares its latest product improvements and technological roadmaps and trains developers on the latest features of the Hellocloud Platform. A new feature at the conference is a developer contest in which developers will submit their best application that has been built on the Hellocloud Platform. The best application will be selected by a panel of Hellocloud employees, customers, and other developers and will be prominently featured on the Hellocloud AppMarket. The developer of the app will receive a cash prize." a="$C$70" r="70" c="3" w="tx_Initiatives" v="Just like other leading high-tech and software companies, Hellocloud hosts a worldwide developer conference. Here, Hellocloud shares its latest product improvements and technological roadmaps and trains developers on the latest features of the Hellocloud Platform. A new feature at the conference is a developer contest in which developers will submit their best application that has been built on the Hellocloud Platform. The best application will be selected by a panel of Hellocloud employees, customers, and other developers and will be prominently featured on the Hellocloud AppMarket. The developer of the app will receive a cash prize." fmt="General">
+</c>
+<c f="Initiative" a="$C$66" r="66" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$76" r="76" c="3" w="tx_Initiatives" v="1" fmt="General">
+</c>
+<c f="Initiative9" a="$C$74" r="74" c="3" w="tx_Initiatives" v="Initiative9" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;Increased sales of the Platform&lt;/li&gt;&lt;li&gt;Increased Partner level&lt;/li&gt;&lt;/ul&gt;" a="$C$80" r="80" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;Increased sales of the Platform&lt;/li&gt;&lt;li&gt;Increased Partner level&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;/ul&gt;" a="$C$81" r="81" c="3" w="tx_Initiatives" v="&lt;ul&gt;&lt;li&gt;$2M&lt;/li&gt;&lt;/ul&gt;" fmt="General">
+</c>
+<c f="Discounted Licenses for Independent Software Vendors" a="$C$78" r="78" c="3" w="tx_Initiatives" v="Discounted Licenses for Independent Software Vendors" fmt="General">
+</c>
+<c f="Independent software vendors (ISVs) play a strategic role in Hellocloud&apos;s path to become the customer company. In an effort to get more ISVs developing applications on their Platform, Hellocloud offers ISVs discounted licenses for a limited time." a="$C$79" r="79" c="3" w="tx_Initiatives" v="Independent software vendors (ISVs) play a strategic role in Hellocloud&apos;s path to become the customer company. In an effort to get more ISVs developing applications on their Platform, Hellocloud offers ISVs discounted licenses for a limited time." fmt="General">
+</c>
+<c f="Initiative" a="$C$75" r="75" c="3" w="tx_Initiatives" v="Initiative" fmt="General">
+</c>
+<c f="1" a="$C$2" r="2" c="3" w="Control" v="1" fmt="General">
+</c>
+<c f="A" a="$C$45" r="45" c="3" w="tx_Wobblers" v="A" fmt="General">
+</c>
+<c f="This choice generated additional revenue." a="$C$53" r="53" c="3" w="tx_Wobblers" v="This choice generated additional revenue." fmt="General">
+</c>
+<c f="Proceed with deal" a="$C$47" r="47" c="3" w="tx_Wobblers" v="Proceed with deal" fmt="General">
+</c>
+<c f="W2A" a="$C$49" r="49" c="3" w="tx_Wobblers" v="W2A" fmt="General">
+</c>
+<c f="B" a="$C$46" r="46" c="3" w="tx_Wobblers" v="B" fmt="General">
+</c>
+<c f="This choice did not have any cost associated." a="$C$54" r="54" c="3" w="tx_Wobblers" v="This choice did not have any cost associated." fmt="General">
+</c>
+<c f="Pass on deal" a="$C$48" r="48" c="3" w="tx_Wobblers" v="Pass on deal" fmt="General">
+</c>
+<c f="W2B" a="$C$50" r="50" c="3" w="tx_Wobblers" v="W2B" fmt="General">
+</c>
+<c f="W301" a="$C$34" r="34" c="3" w="tx_Wobblers" v="W301" fmt="General">
+</c>
+<c f="Subject: New logo acquisition" a="$C$38" r="38" c="3" w="tx_Wobblers" v="Subject: New logo acquisition" fmt="General">
+</c>
+<c f="Dear HelloCloud Leadership team,&lt;br&gt;&lt;br&gt;Not sure if you&apos;ve heard about what&apos;s going on in with the AMER Sales organization, so want to bring you up to speed.&lt;br&gt;&lt;br&gt;One of our top AEs has been chasing a huge cross-cloud opportunity with a new logo for us. The logo is SEEN, one of the world&apos;s top artificial intelligence and biometrics (e.g. facial recognition) companies. They have been behind some of the big advancements in AI for different social media platforms and their facial recognition technologies are considered to be some of the best in the world. &lt;br&gt;&lt;br&gt;While SEEN is growing quickly due to their extensive work with Fortune 500 companies, they have been facing increasing pressure to work with governmental agencies, who would likely leverage their technology to track citizens. Thus far, SEEN has not officially entered the government space, but it&apos;s clear this sector represents a large growth opportunity.  There is an internal debate within HelloCloud about using our technology to potentially spread intrusive data collection should SEEN decide to enter the government space upon becoming a customer of ours.&lt;br&gt;&lt;br&gt;We&apos;ve asked the AE to slow down a bit until we can surface the conversation with you. This deal is estimated to bring in $100M in revenue and will close if we proceed. However, we&apos;re not the only company who&apos;s been talking to the SEEN team, so if we pass on this deal, it will likely go directly into the hands of our competitors." a="$C$44" r="44" c="3" w="tx_Wobblers" v="Dear HelloCloud Leadership team,&lt;br&gt;&lt;br&gt;Not sure if you&apos;ve heard about what&apos;s going on in with the AMER Sales organization, so want to bring you up to speed.&lt;br&gt;&lt;br&gt;One of our top AEs has been chasing a huge cross-cloud opportunity with a new logo for us. The logo is SEEN, one of the world&apos;s top artificial intelligence and biometrics (e.g. facial recognition) companies. They have been behind some of the big advancements in AI for different social media platforms and their facial recognition technologies are considered to be some of the best in the world. &lt;br&gt;&lt;br&gt;While SEEN is growing quickly due to their extensive work with Fortune 500 companies, they have been facing increasing pressure to work with governmental agencies, who would likely leverage their technology to track citizens. Thus far, SEEN has not officially entered the government space, but it&apos;s clear this sector represents a large growth opportunity.  There is an internal debate within HelloCloud about using our technology to potentially spread intrusive data collection should SEEN decide to enter the government space upon becoming a customer of ours.&lt;br&gt;&lt;br&gt;We&apos;ve asked the AE to slow down a bit until we can surface the conversation with you. This deal is estimated to bring in $100M in revenue and will close if we proceed. However, we&apos;re not the only company who&apos;s been talking to the SEEN team, so if we pass on this deal, it will likely go directly into the hands of our competitors." fmt="General">
+</c>
+<c f="1" a="$C$37" r="37" c="3" w="tx_Wobblers" v="1" fmt="General">
+</c>
+<c f="SingleSelect" a="$C$35" r="35" c="3" w="tx_Wobblers" v="SingleSelect" fmt="General">
+</c>
+<c f="tlInputWobbler1" a="$C$40" r="40" c="3" w="tx_Wobblers" v="tlInputWobbler1" fmt="General">
+</c>
+<c f="3" a="$C$39" r="39" c="3" w="tx_Wobblers" v="3" fmt="General">
+</c>
+<c f="3000" a="$C$41" r="41" c="3" w="tx_Wobblers" v="3000" fmt="General">
+</c>
+<c f="W302" a="$C$58" r="58" c="3" w="tx_Wobblers" v="W302" fmt="General">
+</c>
+<c f="Security breach" a="$C$62" r="62" c="3" w="tx_Wobblers" v="Security breach" fmt="General">
+</c>
+<c f="There have been numerous attempts recently to illegally access Hellocloud systems to obtain sensitive customer information and company IP. Hellocloud employees are frantically trying to determine if the hack attempts were successful and to what extent its systems were compromised. In your world, if your team was in one of the top 2 positions in Trust at the end of Round 2 OR you invested in Initiative 24 (Manage Security Threats)...&lt;br&gt;&lt;br&gt;Hellocloud successfully defended itself. The story has been well received as a testament to Hellocloud&apos;s security standards.  Your partners and customers are impressed with the way you handled the attack and managed to keep Hellocloud&apos;s systems secure.&lt;br&gt;Impact: Increase Trust by 0.5 point &lt;br&gt;&lt;br&gt;If your team wasn&apos;t in one of the top 2 positions in Trust at the end of Round 2 AND you didn&apos;t invest in Initiative 24 (Manage Security Threats)...&lt;br&gt;&lt;br&gt;The hackers were successful in accessing Hellocloud&apos;s systems and were able to collect a small amount of customer data and Hellocloud IP. You allocated resources to make immediate security updates and communicate the updates to current and potential customers. Although only a limited amount of customer data was breached, customers are now even more skeptical about cloud security.&lt;br&gt;Impact: Decrease Trust by 2 points" a="$C$68" r="68" c="3" w="tx_Wobblers" v="There have been numerous attempts recently to illegally access Hellocloud systems to obtain sensitive customer information and company IP. Hellocloud employees are frantically trying to determine if the hack attempts were successful and to what extent its systems were compromised. In your world, if your team was in one of the top 2 positions in Trust at the end of Round 2 OR you invested in Initiative 24 (Manage Security Threats)...&lt;br&gt;&lt;br&gt;Hellocloud successfully defended itself. The story has been well received as a testament to Hellocloud&apos;s security standards.  Your partners and customers are impressed with the way you handled the attack and managed to keep Hellocloud&apos;s systems secure.&lt;br&gt;Impact: Increase Trust by 0.5 point &lt;br&gt;&lt;br&gt;If your team wasn&apos;t in one of the top 2 positions in Trust at the end of Round 2 AND you didn&apos;t invest in Initiative 24 (Manage Security Threats)...&lt;br&gt;&lt;br&gt;The hackers were successful in accessing Hellocloud&apos;s systems and were able to collect a small amount of customer data and Hellocloud IP. You allocated resources to make immediate security updates and communicate the updates to current and potential customers. Although only a limited amount of customer data was breached, customers are now even more skeptical about cloud security.&lt;br&gt;Impact: Decrease Trust by 2 points" fmt="General">
+</c>
+<c f="2" a="$C$61" r="61" c="3" w="tx_Wobblers" v="2" fmt="General">
+</c>
+<c f="InfoUpdate" a="$C$59" r="59" c="3" w="tx_Wobblers" v="InfoUpdate" fmt="General">
+</c>
+<c f="0" a="$C$64" r="64" c="3" w="tx_Wobblers" v="0" fmt="General">
+</c>
+<c f="3" a="$C$63" r="63" c="3" w="tx_Wobblers" v="3" fmt="General">
+</c>
+<c f="900" a="$C$65" r="65" c="3" w="tx_Wobblers" v="900" fmt="General">
+</c>
+</workbook>
