@@ -1,0 +1,356 @@
+@import './colors.styl';
+
+$font-family = 'Open Sans'
+$font-weight = 400
+
+$title-font-color = $grey
+$title-font-size = 14px  
+
+$data-label-color = $grey70
+$data-label-font-size = 14px
+
+$axis-labels-color = $grey70
+$axis-labels-font-size = 12px
+
+$legend-font-color = $grey70
+$legend-font-size = 12px
+
+.highcharts-column-series rect.highcharts-point
+.highcharts-pie-series .highcharts-point
+  stroke $white
+  stroke-width 0
+  @media screen and (-ms-high-contrast: active)
+    stroke $black
+  @media screen and (-ms-high-contrast: white-on-black)
+    stroke $white
+
+// .highcharts-color-0
+//   fill #00b5c3
+//   stroke #00b5c3
+//   margin -10px 0 0 0px
+//   stroke-width 2px !important
+//   @media screen and (-ms-high-contrast: active)  
+//     fill url(#diamond)
+
+.highcharts-yaxis .highcharts-axis-line
+  stroke-width: 1px;
+
+.highcharts-color-1
+  fill   #16b2ab
+  stroke #16b2ab
+  @media screen and (-ms-high-contrast: active)
+    fill url(#down-left)
+
+.highcharts-color-2
+  fill $infographic-3
+  stroke $infographic-3
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#checker)
+
+.highcharts-color-3
+  fill #9966ff
+  stroke #9966ff
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#rows)
+
+.highcharts-color-4
+  fill $infographic-5
+  stroke $infographic-5
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#dots)
+
+.highcharts-color-5
+  fill $infographic-6
+  stroke $infographic-6
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#zebra)
+
+.highcharts-color-6
+  fill $infographic-7
+  stroke $infographic-7
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#waves)
+
+.highcharts-color-7
+  fill $infographic-8
+  stroke $infographic-8
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#down-right)
+
+.highcharts-color-8
+  fill $chart-color8
+  stroke $chart-color8
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#columns)
+
+.highcharts-color-9
+  fill $chart-color9
+  stroke $chart-color9
+  @media screen and (-ms-high-contrast: active) 
+    fill url(#disc)
+
+.highcharts-container
+    font-family $font-family
+    font-size 12px
+    text-align center
+    width 100%
+    svg 
+      // width 100%
+
+.highcharts-background
+	fill transparent
+	stroke none
+
+.highcharts-title
+    fill $title-font-color
+    font-size $title-font-size
+    font-weight $font-weight
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.highcharts-data-label
+    font-size $data-label-font-size
+    font-weight $font-weight
+    @media (max-width: 1024px)
+      font-size 0.9em
+
+.highcharts-data-label text, text.highcharts-data-label
+    fill $data-label-color
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.highcharts-axis-labels
+    fill $axis-labels-color
+    font-size $axis-labels-font-size
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.highcharts-legend-item text
+    fill $legend-font-color
+    font-weight $font-weight
+    font-size 10px
+    @media screen and (-ms-high-contrast: active)
+      fill $black
+    @media screen and (-ms-high-contrast: white-on-black)
+      fill $white
+
+.darkBgChart
+  .highcharts-background
+    fill transparent
+    stroke transparent
+  .highcharts-axis-labels
+    fill $white
+  .highcharts-legend-item text
+    fill $white
+  .highcharts-data-label text
+    fill $white
+
+.heatMapChart
+  .highcharts-data-label
+    font-size 1.5em
+  .highcharts-data-label text
+    fill $gray4
+  .highcharts-color-0
+    fill #B0CDEA
+    stroke #B0CDEA
+  .highcharts-color-1
+    fill #D9E7F5
+    stroke #D9E7F5
+
+.analysisChart
+  .highcharts-background
+    fill transparent
+    stroke transparent
+
+.highcharts-grid-line
+    stroke transparent
+
+
+.highcharts-data-labels
+  span
+    // left 21px !important
+    font-weight bold
+    color $mediumgrey
+  
+
+planning-layout-two
+planning-production
+planning-material
+  .highcharts-color-0
+    fill #b8741a
+    stroke #b8741a
+  .highcharts-color-1
+    fill  #9966ff
+    stroke  #9966ff
+  .highcharts-color-2
+    fill rgba(232, 205, 65, 1)
+    stroke rgba(232, 205, 65, 1)
+  .highcharts-color-3
+    fill #16b2ab
+    stroke #16b2ab
+  .highcharts-grid-line
+    stroke-width 1
+    stroke #cccccc
+
+.highcharts-plot-band, .highcharts-pane
+  stroke-width 0
+  fill: #CFD1D0
+  fill-opacity: 1
+
+summary-layout-one
+  .highcharts-color-0
+    fill #b8741a
+    stroke #b8741a
+  .highcharts-color-1
+    fill  #9966ff
+    stroke  #9966ff
+  .highcharts-color-2
+    fill rgba(232, 205, 65, 1)
+    stroke rgba(232, 205, 65, 1)
+  .highcharts-color-3
+    fill #16b2ab
+    stroke #16b2ab
+  .highcharts-color-4
+    fill $infographic-5
+    stroke $infographic-5
+  .highcharts-color-5
+    fill $infographic-6
+    stroke $infographic-6
+  .highcharts-grid-line
+    stroke-width 1
+    stroke #cccccc
+  .highcharts-root text
+    fill #000
+
+
+planning-layout-one
+  .highcharts-grid-line
+    stroke-width 1
+    stroke #cccccc
+  .highcharts-color-0
+    fill $green
+    stroke $green
+  .highcharts-data-label text, 
+  text.highcharts-data-label
+    font-size: 10px
+
+app-customer-order
+  .highcharts-grid-line
+    stroke-width 1
+    stroke #cccccc
+
+// my-dashboard
+//   .highcharts-color-0
+//     fill #00b5c3
+//     stroke #00b5c3
+//     margin -10px 0 0 0px
+//     stroke-width 2px !important
+//     stroke-linecap: round;
+//     @media screen and (-ms-high-contrast: active)  
+//       fill url(#diamond)
+
+dashboard-metrics
+  .highcharts-data-label-box
+    display: none
+  .highcharts-axis-labels
+    display: none
+  .highcharts-minor-grid-line
+    stroke-width: 0;
+  .highcharts-gauge-series 
+    .highcharts-dial, .highcharts-pivot
+      fill: $mediumgrey;
+  .highcharts-plot-band
+    &.low
+      fill url(#guage-low)//$red
+    &.medium
+      fill url(#guage-medium)// $yellow
+    &.high
+      fill url(#guage-high)// $green
+    &.low-reverse
+      fill url(#guage-low-reverse)//$red
+    &.medium-reverse
+      fill url(#guage-medium-reverse)// $yellow
+    &.high-reverse
+      fill url(#guage-high-reverse)// $green
+
+
+// dashboard-metrics
+//   background-color: red
+//   .highcharts-container
+//         background-color: red
+//         width: 6rem
+
+planning-material, planning-production, summary-layout-one
+  .highcharts-root text
+    fill #000
+    font-size 12px
+
+summary-layout-three
+  .highcharts-color-0
+    fill #b8741a
+    stroke #b8741a
+  .highcharts-color-1
+    fill  #9966ff
+    stroke  #9966ff
+  .highcharts-color-2
+    fill rgba(232, 205, 65, 1)
+    stroke rgba(232, 205, 65, 1)
+  .highcharts-color-3
+    fill #16b2ab
+    stroke #16b2ab
+  .highcharts-color-4
+    fill $infographic-5
+    stroke $infographic-5
+  .highcharts-color-5
+    fill $infographic-6
+    stroke $infographic-6
+  .highcharts-color-7
+    fill $infographic-8
+    stroke $infographic-8
+  .highcharts-color-8
+    fill $chart-color8
+    stroke $chart-color8
+  .highcharts-color-9
+    fill $chart-color9
+    stroke $chart-color9
+  .highcharts-color-10
+    fill #b8741a
+    stroke #b8741a
+  .highcharts-color-11
+    fill  #9966ff
+    stroke  #9966ff
+  .highcharts-color-12
+    fill rgba(232, 205, 65, 1)
+    stroke rgba(232, 205, 65, 1)
+  .highcharts-grid-line
+    stroke-width 1
+    stroke #cccccc
+  .highcharts-root text
+    fill #000
+    font-size 12px
+
+app-graph-orders, execution-production, execution-shipment
+  .highcharts-color-0
+    fill $color-primary-Dark
+    stroke $color-primary-Dark
+  .highcharts-color-1
+    fill $green
+    stroke $green
+  .highcharts-legend-item text
+    font-size 12px
+  .highcharts-xaxis-grid .highcharts-grid-line
+    stroke-width: 1px
+    stroke: #e6e6e6;
+
+execution-shipment
+  isma-chart
+    .highcharts-data-label
+      font-size 12px
+      opacity 1
+      visibility visible
